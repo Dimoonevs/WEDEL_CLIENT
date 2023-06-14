@@ -1,0 +1,169 @@
+
+<form [formGroup]="specificationsForm">
+    <div class="top_params top_params_spec" *ngFor="let topParams of boxes; let i = index">
+        <div class="top_params_left">
+            <div class="all_top_block sender_botom_block">
+                <label for="Height{{i}}" class="all_top_block_text text">Height in cm<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+                <input [ngClass]="{'input_error': getControl(i, 'Height').invalid && (getControl(i, 'Height').touched || getControl(i, 'Height').dirty)}" [(ngModel)]="height[i]" type="text" placeholder="Place text here" name="Height{{i}}" class="all_top_block_inp Height text" formControlName="Height{{i}}">
+                <div *ngIf="getControl(i, 'Height').invalid && (getControl(i, 'Height').touched || getControl(i, 'Height').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Height').errors?.['required']">
+                      This field is required.
+                    </div>
+                </div>
+                <div *ngIf="getControl(i, 'Height').invalid && (getControl(i, 'Height').touched || getControl(i, 'Height').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Height').errors?.['onlyNumbers']">
+                        Data is invalid.
+                    </div>
+                </div>
+            </div>
+            <div class="all_top_block">
+                <label for="Width{{i}}" class="all_top_block_text text">Width in cm<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+                <input [ngClass]="{'input_error': getControl(i, 'Width').invalid && (getControl(i, 'Width').touched || getControl(i, 'Width').dirty)}" [(ngModel)]="width[i]" type="text" placeholder="Place text here" name="Width{{i}}" class="all_top_block_inp Width text" formControlName="Width{{i}}">
+                <div *ngIf="getControl(i, 'Width').invalid && (getControl(i, 'Width').touched || getControl(i, 'Width').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Width').errors?.['required']">
+                      This field is required.
+                    </div>
+                </div>
+                <div *ngIf="getControl(i, 'Width').invalid && (getControl(i, 'Width').touched || getControl(i, 'Width').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Width').errors?.['onlyNumbers']">
+                        Data is invalid.
+                    </div>
+                </div>
+            </div>
+            <div class="all_top_block">
+                <label for="Length{{i}}" class="all_top_block_text text">Length in cm<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+                <input [ngClass]="{'input_error': getControl(i, 'Length').invalid && (getControl(i, 'Length').touched || getControl(i, 'Length').dirty)}" [(ngModel)]="length[i]"  type="text" placeholder="Place text here" name="Length{{i}}" class="all_top_block_inp Length text" formControlName="Length{{i}}">
+                <div *ngIf="getControl(i, 'Length').invalid && (getControl(i, 'Length').touched || getControl(i, 'Length').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Length').errors?.['required']">
+                      This field is required.
+                    </div>
+                </div>
+                <div *ngIf="getControl(i, 'Length').invalid && (getControl(i, 'Length').touched || getControl(i, 'Length').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Length').errors?.['onlyNumbers']">
+                        Data is invalid.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="top_params_right">
+            <div class="all_top_block">
+                <label for="Quantity{{i}}" class="all_top_block_text text">Quantity<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+                <input [ngClass]="{'input_error': getControl(i, 'Quantity').invalid && (getControl(i, 'Quantity').touched || getControl(i, 'Quantity').dirty)}" [(ngModel)]="quantity[i]" type="text" placeholder="Place text here" name="Quantity{{i}}" class="all_top_block_inp Width text" formControlName="Quantity{{i}}">
+                <div *ngIf="getControl(i, 'Quantity').invalid && (getControl(i, 'Quantity').touched || getControl(i, 'Quantity').dirty)">
+                    <div class="text_error text" *ngIf="getControl(i, 'Quantity').errors?.['required']">
+                      This field is required.
+                    </div>
+                    <div class="text_error text" *ngIf="getControl(i, 'Quantity').errors?.['onlyNumbers']">
+                        Data is invalid.
+                    </div>
+                </div>
+            </div>
+            <div class="top_params_right_buttons">
+                <button type="button" class="params_add params_actions text" *ngIf="i == boxes.length-1 " (click)="addTopParams()">Add</button>
+                <button type="button"  class="params_remove params_actions text" *ngIf="i < boxes.length-1 "  (click)="removeTopParams(i)">Remove</button>
+            </div>
+        </div>
+    </div>
+    <div class="all_top spec_bottom">
+        <div class="all_top_block">
+            <label for="TotalQuantity" class="all_top_block_text text">Total quantity<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+            <input [ngClass]="{'input_error': getControlOther('TotalQuantity').invalid && (getControlOther('TotalQuantity').touched || getControlOther('TotalQuantity').dirty)}" [(ngModel)]="totalQuantity" type="text" placeholder="Place text here" name="TotalQuantity" class="all_top_block_inp text" formControlName="TotalQuantity">
+            <div *ngIf="getControlOther('TotalQuantity').invalid && (getControlOther('TotalQuantity').touched || getControlOther('TotalQuantity').dirty)">
+                <div class="text_error text" *ngIf="getControlOther('TotalQuantity').errors?.['required']">
+                  This field is required.
+                </div>
+            </div>
+            <div *ngIf="getControlOther('TotalQuantity').invalid && (getControlOther('TotalQuantity').touched || getControlOther('TotalQuantity').dirty)">
+                <div class="text_error text" *ngIf="getControlOther('TotalQuantity').errors?.['pattern']">
+                    Data is invalid.
+                </div>
+            </div>
+        </div>
+        <div class="all_top_block">
+            <label for="TotalWeight" class="all_top_block_text text">Total weigh in kg<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+            <input [ngClass]="{'input_error': getControlOther('TotalWeight').invalid && (getControlOther('TotalWeight').touched || getControlOther('TotalWeight').dirty)}" type="text" [(ngModel)]="totalWeight" placeholder="Place text here" name="TotalWeight" class="all_top_block_inp text" formControlName="TotalWeight">
+            <div *ngIf="getControlOther('TotalWeight').invalid && (getControlOther('TotalWeight').touched || getControlOther('TotalWeight').dirty)">
+                <div class="text_error text" *ngIf="getControlOther('TotalWeight').errors?.['required']">
+                  This field is required.
+                </div>
+            </div>
+            <div *ngIf="getControlOther('TotalWeight').invalid && (getControlOther('TotalWeight').touched || getControlOther('TotalWeight').dirty)">
+                <div class="text_error text" *ngIf="getControlOther('TotalWeight').errors?.['pattern']">
+                    Data is invalid.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="variables_top">
+        <div class="variables_top_variable">
+            <span class="text all_top_block_text">Goods type</span>
+            <div class="all_select" >
+                <div class="all_select_text" [ngClass]="{'all_select_text_active': isActive}" (click)="onToggleActive()">
+                    <span class="text" [ngClass]="{'span_get': isActive}">General cargo</span>
+                </div>
+                <div class="all_select_text" [ngClass]="{'all_select_text_active': !isActive}" (click)="onToggleActive()">
+                    <span class="text" [ngClass]="{'span_get': !isActive}">Dangerous goods</span>
+                </div>
+            </div>
+        </div>
+        <div class="variables_top_variable">
+            <span class="text all_top_block_text">My shipment is stackable</span>
+            <div class="all_select">
+                <div class="all_select_text" [ngClass]="{'all_select_text_active': isActiveStackable}" (click)="onToggleActiveStackable()">
+                    <span class="text">Yes</span>
+                </div>
+                <div class="all_select_text" [ngClass]="{'all_select_text_active': !isActiveStackable}" (click)="onToggleActiveStackable()">
+                    <span class="text">NO</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all_botom bottom_spec">
+        <div class="variable">
+            <span class="text all_top_block_text">Shipment priority</span>
+            <div class="all_select">
+                <div class="all_select_text" [ngClass]="{'all_select_text_active': isActiveShipment}" (click)="onToggleActiveShipment()">
+                    <span class="text">Transit time</span>
+                </div>
+                <div class="all_select_text" [ngClass]="{'all_select_text_active': !isActiveShipment}" (click)="onToggleActiveShipment()">
+                    <span class="text">Price</span>
+                </div>
+            </div>
+        </div>
+        <div class="all_top_block sender_botom_block">
+            <label for="Value" class="all_top_block_text text">Total value<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+            <div class="all_botom_block_select">
+                <input [ngClass]="{'input_error': getControlOther('Value').invalid && (getControlOther('Value').touched || getControlOther('Value').dirty)}" [(ngModel)]="totalValue" type="text" placeholder="Place text here" name="Value" class="all_top_block_inp text" formControlName="Value">
+                <div class="all_botom_select">
+                    <div class="all_botom_select_selected text" (click)="toogleActiveForSlectOption()">{{valueBuget}}</div>
+                    <div class="all_img_selected" (click)="toogleActiveForSlectOption()">
+                        <img src="assets/img/input_simvol.svg" alt="">
+                    </div>
+                    <div class="all_botom_select_options">
+                        <div class="option text"(click)="selectValueBudget('CZK')" [ngClass]="{'option--selected' : valueBuget === 'CZK' }">CZK</div>
+                        <div class="option text" (click)="selectValueBudget('USD')"[ngClass]="{'option--selected' : valueBuget === 'USD' }">USD</div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="getControlOther('Value').invalid && (getControlOther('Value').touched || getControlOther('Value').dirty)">
+                <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControlOther('Value').errors?.['required']">
+                  This field is required.
+                </div>
+            </div>
+            <div *ngIf="getControlOther('Value').invalid && (getControlOther('Value').touched || getControlOther('Value').dirty)">
+                <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControlOther('Value').errors?.['pattern']">
+                    Data is invalid.
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <label for="Goods" class="all_top_block_text specifications_top_block_text_textarea text">Goods description<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
+    <textarea [ngClass]="{'input_error': getControlOther('Goods').invalid && (getControlOther('Goods').touched || getControlOther('Goods').dirty)}" [(ngModel)]="descriptionGoods" name="Goods" id=""  class="all_top_block_inp text specifications_top_block_textarea" placeholder="Place text here" formControlName="Goods"></textarea>
+    <div *ngIf="getControlOther('Goods').invalid && (getControlOther('Goods').touched || getControlOther('Goods').dirty)">
+        <div class="text_error text" *ngIf="getControlOther('Goods').errors?.['required']">
+          This field is required.
+        </div>
+    </div>
+    <div class="button_submit_next_step"><button class="previous_step text"(click)="previousToSender()">Previous step</button><button class="next_step text" (click)="submitSender()" [disabled]="specificationsForm.invalid || specificationsForm.disabled">Next step</button></div>
+</form>

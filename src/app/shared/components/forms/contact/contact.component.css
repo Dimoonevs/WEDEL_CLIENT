@@ -1,0 +1,27 @@
+.form_contact{
+    max-width: 503px;
+    padding: 24px;
+    background: #FBFBFB;
+    border-radius: 12px;    
+}
+.form_contact_title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.form_contact_text{
+    margin-bottom: 40px;
+}
+.form_contact_all_input{
+    width: 100%;
+    margin-bottom: 16px;
+}
+.form_contact_textarea_input{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 103px;
+    max-height: 163px;
+}
+.contact_form_button{
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,90 @@
+@media(min-width: 1653px){
+    .wrapper{
+        max-width: 1373px;
+    }
+    .wrapper-header{
+        max-width: 1373px;
+    }
+    .wrapper_arrage{
+        max-width: 1185px;
+    }
+    .services_cards_card:nth-child(1){
+        background: url('src/assets/img/services_bg_fs.svg');
+    }
+    .services_cards_card:nth-child(2){
+        background: url('src/assets/img/services_bg_sc.svg');
+    }
+    .services_cards_card:nth-child(3){
+        background: url('src/assets/img/services_bg_th.svg');
+    }
+    .arrage_cards_card{
+        min-height: 564px;
+    }
+    .arrage_cards_card_fs{
+        background: url('src/assets/img/new_bg_card_fs_nbs.svg') 0 0/100% 100%no-repeat;
+    }
+    .arrage_cards_card_sc{
+        background: url('src/assets/img/new_bg_card_sc_nbs.svg') 0 0/100% 100%no-repeat;
+    }
+    .arrage_cards_card_th{
+        background: url('src/assets/img/new_bg_card_th_nbs.svg') 0 0/100% 100%no-repeat;
+    }
+    .custom_button{
+        top:280px;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text_title{
+        font-size: 38px;
+        line-height: 44px
+    }
+    .tailored_img .img svg{
+        width: 1100px;
+    }
+}
+@media(min-width: 2086px){
+    .wrapper{
+        max-width: 1557px;
+    }
+    .wrapper-header{
+        max-width: 1557px;
+    }
+    .wrapper_arrage{
+        max-width: 1369px;
+    }
+    .arrage_cards_card{
+        min-height: 660px;
+    }
+    .custom_button{
+        top:325px;
+    }
+    .text{
+        font-size: 23px !important;
+        line-height: 28px !important;
+    }
+    .text_title{
+        font-size: 63px;
+        line-height: 71px;
+    }
+    .tailored_img .img svg{
+        width: 1292px;
+        height: 685px;
+    }
+    .arrage{
+        margin-top: 336px;
+    }
+    .quotation_block_progress_curcle_text{
+        font-size: 31px;
+    }
+    .tailored_content{
+        max-width: 636px;
+    }
+    .arrage_cards_card_text{
+        max-width: 800px;
+    }
+    .quotation_block_progress_curcle_text{
+        font-size: 31px;
+    }
+}

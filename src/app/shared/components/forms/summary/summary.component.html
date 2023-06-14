@@ -1,0 +1,251 @@
+<div class="summary_sender summary_blocks-all">
+    <div class="summary_sender_title summary_title-all text">
+        Sender
+    </div>
+    <div class="summary_sender_info">
+        <div class="summary_sender_info_top summary_info-all">
+            <div class="summary_sender_info_top_input summary_info_input-all">
+                <div class="all_block_text summary_sender_info_top_input_text text">
+                    Company name
+                </div>
+                <div class=" summary_sender_info_top_input_value summary_info_input_value-all text">
+                    {{senderCompany}}
+                </div>
+            </div>
+            <div class="summary_sender_info_top_input summary_info_input-all">
+                <div class="all_block_text summary_sender_info_top_input_text text">
+                    Country
+                </div>
+                <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
+                    {{senderCountry}}
+                </div>
+            </div>
+            <div class="summary_sender_info_top_input summary_info_input-all">
+                <div class="all_block_text summary_sender_info_top_input_text text">
+                    City
+                </div>
+                <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
+                    {{senderCity}}
+                </div>
+            </div>
+            <div class="summary_sender_info_top_input summary_info_input-all">
+                <div class="all_block_text summary_sender_info_top_input_text text">
+                    Postal code
+                </div>
+                <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
+                    {{senderPostal}}
+                </div>
+            </div>
+        </div>
+        <div class="all_block_text summary_sender_info_input_text summary_sender_info_input_text_street text" >
+            Street
+        </div>
+        <div class=" summary_info_input_value-all text">
+            {{senderStreet}}
+        </div>
+        <div class="summary_sender_info-all summary_info-all">
+            <div class="summary_sender_info_top_input summary_info_input-all">
+                <div class="all_block_text summary_sender_info_top_input_text text">
+                    Phone number
+                </div>
+                <div class=" summary_sender_info_top_input_value  summary_info_input_value-all text">
+                    {{senderPhoneCode}}{{senderPhone}}
+                </div>
+            </div>
+            <div class="summary_sender_info_top_input summary_info_input-all">
+                <div class="all_block_text summary_sender_info_top_input_text text">
+                    Budget
+                </div>
+                <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
+                    <div class="text" *ngIf="senderBudget !== undefined">{{senderBudget}} {{senderCurrency}}</div>
+                    <div class="text" *ngIf="senderBudget === undefined || senderBudget === ''">N/A</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="summary_specification summary_blocks-all">
+    <div class="summary_specification_title summary_title-all text">
+        Specifications
+    </div>
+    <div class="summary_specification_params">
+        <div class="summary_specification_params_block summary_info-all" *ngFor="let box of specificationQuantity; let i = index">
+            <div class="summary_specification_params_block_quatity summary_info_input-all">
+                <div class="all_block_text summary_specification_params_block_quatity_text  text">
+                    Quantity
+                </div>
+                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                    {{specificationQuantity[i]}}
+                </div>
+            </div>
+            <div class="summary_specification_params_block_quatity summary_info_input-all">
+                <div class="all_block_text summary_specification_params_block_quatity_text  text">
+                    Lenght in cm
+                </div>
+                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                    {{specificationLenght[i]}}
+                </div>
+            </div>
+            <div class="summary_specification_params_block_quatity summary_info_input-all">
+                <div class="all_block_text summary_specification_params_block_quatity_text  text">
+                    Width in cm
+                </div>
+                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                    {{specificationWidth[i]}}
+                </div>
+            </div>
+            <div class="summary_specification_params_block_quatity summary_info_input-all">
+                <div class="all_block_text summary_specification_params_block_quatity_text  text">
+                    Height in cm
+                </div>
+                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                    {{specificationHeight[i]}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="summary_specification_info-all summary_info-all">
+        <div class=" summary_info_input-all">
+            <div class="all_block_text  text">
+                Total quantity
+            </div>
+            <div class=" summary_info_input_value-all text">
+                {{specificationTotalQuantity}}
+            </div>
+        </div>
+        <div class=" summary_info_input-all">
+            <div class="all_block_text  text">
+                Total weigh in kg
+            </div>
+            <div class="summary_info_input_value-all text">
+                {{specificationTotalWeigh}}
+            </div>
+        </div>
+    </div>
+    <div class="summary_specification_params_block summary_info-all">
+        <div class="summary_specification_params_block_quatity summary_info_input-all">
+            <div class="all_block_text text">
+                Goods type
+            </div>
+            <div class=" summary_info_input_value-all text">
+                {{specificationGoodsType}}
+            </div>
+        </div>
+        <div class="summary_specification_params_block_quatity summary_info_input-all">
+            <div class="all_block_text  text">
+                My shipment is stackable
+            </div>
+            <div class=" summary_info_input_value-all text">
+                {{specificationShipmentStackable}}
+            </div>
+        </div>
+        <div class="summary_specification_params_block_quatity summary_info_input-all">
+            <div class="all_block_text   text">
+                Shipment priority
+            </div>
+            <div class=" summary_info_input_value-all text">
+                {{specificationShipmentPriority}}
+            </div>
+        </div>
+        <div class="summary_specification_params_block_quatity summary_info_input-all">
+            <div class="all_block_text  text">
+                Total value
+            </div>
+            <div class=" summary_info_input_value-all text">
+                {{specificationTotalValue}} {{specificationCurrency}}
+            </div>
+        </div>
+    </div>
+    <div class="all_block_text text" >
+        Street
+    </div>
+    <div class=" summary_info_input_value-all text">
+        {{specificationGoodsDescription}}
+    </div>
+</div>
+<div class="summary_date summary_blocks-all">
+    <div class="summary_title-all text">
+        Due date
+    </div>
+    <div class="all_block_text text" >
+        Date of realization
+    </div>
+    <div class=" summary_info_input_value-all text">
+        {{dateRealization}}
+    </div>
+    <div class="all_block_text text" >
+        Note
+    </div>
+    <div class=" summary_info_input_value-all text">
+        <div class="text" *ngIf="dateNote !== undefined">{{dateNote}}</div>
+        <div class="text" *ngIf="dateNote === undefined || dateNote === ''">N/A</div>
+    </div>
+</div>   
+<div class=" summary_blocks-all">
+    <div class="summary_title-all text">
+        Receiver
+    </div>
+    <div class="">
+        <div class="summary_info-all">
+            <div class=" summary_info_input-all">
+                <div class="all_block_text  text">
+                    Company name
+                </div>
+                <div class="summary_info_input_value-all text">
+                    {{receiverCompany}}
+                </div>
+            </div>
+            <div class="summary_info_input-all">
+                <div class="all_block_text text">
+                    Country
+                </div>
+                <div class="summary_info_input_value-all text">
+                    {{receiverCountry}}
+                </div>
+            </div>
+            <div class="summary_info_input-all">
+                <div class="all_block_text text">
+                    City
+                </div>
+                <div class="summary_info_input_value-all text">
+                    {{receiverCity}}
+                </div>
+            </div>
+            <div class="summary_info_input-all">
+                <div class="all_block_text text">
+                    Postal code
+                </div>
+                <div class="summary_info_input_value-all text">
+                    {{receiverPostal}}
+                </div>
+            </div>
+        </div>
+        <div class="all_block_text text" >
+            Street
+        </div>
+        <div class=" summary_info_input_value-all text">
+            {{receiverStreet}}
+        </div>
+        <div class="summary_info-all">
+            <div class="summary_info_input-all">
+                <div class="all_block_text text">
+                    Phone number
+                </div>
+                <div class="summary_info_input_value-all text">
+                    
+                    <div class="text" *ngIf="receiverPhone !== undefined">{{receiverPhoneCode}}{{receiverPhone}}</div>
+                    <div class="text" *ngIf="receiverPhone === undefined">N/A</div>
+                </div>
+            </div>
+            <div class="summary_info_input-all">
+                <div class="all_block_text text">
+                    Email address
+                </div>
+                <div class="summary_info_input_value-all text">
+                    {{receiverEmailAdress}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()">Previous step</button><button (click)="submitSender()" class="next_step text" type="submit">Finidsh</button></div>

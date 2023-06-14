@@ -1,0 +1,140 @@
+<!-- i18n -->
+<header>
+    <div class="wrapper-header">
+        <div class="logo">
+            <svg width="179" height="36" viewBox="0 0 179 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32.5037 20.115H32.1657L28.0352 0H19.2484L15.0728 20.115H14.7348L12.0462 0H0L5.66261 36H20.6903L23.2813 22.755H23.9572L26.5933 36H41.6735L47.2836 0H35.2374L32.5037 20.115Z" fill="#456080"/>
+                <path d="M63.3408 22.4175H74.8688V14.0625H63.3408V9.2175H75.7325L77.1669 0H51.8203V36H77.4598V26.7825H63.3408V22.4175Z" fill="#456080"/>
+                <path d="M117.344 4.125C116.03 2.685 114.288 1.6425 112.11 1.005C109.932 0.33 107.228 0 103.999 0H87.8672V36H103.999C107.228 36 109.939 35.6625 112.11 34.995C114.28 34.3275 116.03 33.27 117.344 31.83C118.659 30.39 119.582 28.5375 120.131 26.265C120.709 23.9625 120.994 21.195 120.994 17.9625C120.994 14.73 120.709 11.9775 120.131 9.705C119.59 7.4325 118.659 5.58 117.344 4.14V4.125ZM108.655 23.7075C108.655 25.02 108.302 25.8675 107.596 26.25C106.92 26.6025 105.786 26.775 104.187 26.775H99.3877V9.2175H104.187C105.786 9.2175 106.92 9.4125 107.596 9.795C108.302 10.1475 108.655 10.98 108.655 12.2925V23.7075Z" fill="#566B5F"/>
+                <path d="M136.938 22.4175H148.459V14.0625H136.938V9.2175H149.323L150.765 0H125.418V36H151.05V26.7825H136.938V22.4175Z" fill="#566B5F"/>
+                <path d="M166.981 26.7825V0H155.461V36H178.502V26.7825H166.981Z" fill="#566B5F"/>
+                <path d="M81.8594 0L81.8594 36L83.3614 36L83.3614 -6.55672e-08L81.8594 0Z" fill="#6A6D70"/>
+            </svg>
+        </div>
+          <div class="content_nav">
+              <ul>
+                  <li class="text"><a (click)="scrollTo('arrage')">We do</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('services')">Services</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('quotation')">Quote</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('tracking')">Tracking</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('story')">Our story</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('help')">FAQ</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('contact')">Contact</a> <div class="border_bottom_of_hover"></div></li>
+              </ul>
+          </div>
+          <div class="content_rightnav">
+              <div class="sleceted_header" >
+                <div class="all_select">
+                    <div class="all_select_text" *ngFor="let localetion of items">
+                        <span class="text span_get" [ngClass]="{'all_select_text_active': lenguege === localetion.leng}">
+                           <a href="/{{localetion.code}}/">{{localetion.locale}}</a>
+                        </span>
+                    </div>
+                </div>
+                
+              </div>
+              <div class="all_select select_image_all">
+                <div class="all_select_text  light_select_text" [ngClass]="{'all_select_text_active': !isDark}">
+                    <span class="text span_get_img" (click)="isLightFunc()">
+                        <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25438 15.7483C9.61682 15.7483 9.91063 16.0421 9.91063 16.4045V18.5356C9.91063 18.8981 9.61682 19.1919 9.25438 19.1919C8.89194 19.1919 8.59813 18.8981 8.59813 18.5356V16.4045C8.59813 16.0421 8.89194 15.7483 9.25438 15.7483Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25438 0.808105C9.61682 0.808105 9.91063 1.10192 9.91063 1.46436V3.59546C9.91063 3.9579 9.61682 4.25171 9.25438 4.25171C8.89194 4.25171 8.59813 3.9579 8.59813 3.59546V1.46436C8.59813 1.10192 8.89194 0.808105 9.25438 0.808105Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5061 9.99998C3.5061 10.3624 3.21229 10.6562 2.84985 10.6562H0.71875C0.356313 10.6562 0.0625 10.3624 0.0625 9.99998C0.0625 9.63755 0.356313 9.34373 0.71875 9.34373H2.84985C3.21229 9.34373 3.5061 9.63755 3.5061 9.99998Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4463 9.99998C18.4463 10.3624 18.1524 10.6562 17.79 10.6562H15.6589C15.2965 10.6562 15.0027 10.3624 15.0027 9.99998C15.0027 9.63755 15.2965 9.34373 15.6589 9.34373H17.79C18.1524 9.34373 18.4463 9.63755 18.4463 9.99998Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3185 14.0634C13.5748 13.8071 13.9903 13.8071 14.2466 14.0634L15.7535 15.5703C16.0098 15.8266 16.0098 16.2421 15.7535 16.4984C15.4972 16.7547 15.0817 16.7547 14.8254 16.4984L13.3185 14.9915C13.0622 14.7352 13.0622 14.3197 13.3185 14.0634Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75424 3.49914C3.01052 3.24285 3.42603 3.24285 3.68232 3.49914L5.18923 5.00605C5.44552 5.26234 5.44552 5.67785 5.18923 5.93413C4.93295 6.19041 4.51744 6.19041 4.26116 5.93413L2.75424 4.42721C2.49796 4.17093 2.49796 3.75542 2.75424 3.49914Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.18848 14.064C5.44476 14.3203 5.44476 14.7358 5.18848 14.9921L3.68156 16.499C3.42528 16.7553 3.00976 16.7553 2.75348 16.499C2.4972 16.2427 2.4972 15.8272 2.75348 15.5709L4.2604 14.064C4.51668 13.8077 4.9322 13.8077 5.18848 14.064Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7528 3.49974C16.009 3.75602 16.009 4.17154 15.7528 4.42782L14.2458 5.93474C13.9896 6.19102 13.574 6.19102 13.3178 5.93474C13.0615 5.67845 13.0615 5.26294 13.3178 5.00666L14.8247 3.49974C15.081 3.24346 15.4965 3.24346 15.7528 3.49974Z" fill="#344860"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25427 13.226C11.036 13.226 12.4803 11.7817 12.4803 9.99998C12.4803 8.2183 11.036 6.77396 9.25427 6.77396C7.47259 6.77396 6.02824 8.2183 6.02824 9.99998C6.02824 11.7817 7.47259 13.226 9.25427 13.226ZM9.25427 14.5385C11.7608 14.5385 13.7928 12.5065 13.7928 9.99998C13.7928 7.49342 11.7608 5.46146 9.25427 5.46146C6.74771 5.46146 4.71574 7.49342 4.71574 9.99998C4.71574 12.5065 6.74771 14.5385 9.25427 14.5385Z" fill="#344860"/>
+                            </svg>
+                    </span>
+                </div>
+                <div class="all_select_text dark_select_text" [ngClass]="{'all_select_text_active': isDark}">
+                    <span class="text span_get_img span_get_dark" (click)="isDarkFunc()">
+                        <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.24406 17.4993C4.52781 17.4993 0.695312 13.6668 0.695312 8.95928C0.695312 4.75053 3.82781 1.11928 7.99281 0.506784C8.21156 0.471784 8.42156 0.585534 8.52656 0.778034C8.63156 0.970534 8.60531 1.20678 8.46531 1.37303C7.39781 2.59803 6.83781 4.07678 6.83781 5.64303C6.83781 9.97428 11.2128 13.4393 16.1566 12.3018C16.3578 12.258 16.5678 12.328 16.6903 12.4943C16.8128 12.6605 16.8303 12.8793 16.7341 13.063C15.2291 15.8018 12.3591 17.4993 9.24406 17.4993ZM6.82031 1.87178C3.84531 2.89553 1.74531 5.73053 1.74531 8.95928C1.74531 13.0893 5.10531 16.458 9.24406 16.458C11.5891 16.458 13.7766 15.3555 15.1853 13.5268C10.0841 14.0255 5.78781 10.2718 5.78781 5.64303C5.78781 4.30428 6.13781 3.02678 6.82031 1.87178Z" fill="#090C10"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+          </div>
+          <div class="burger" (click)="clickBurger()" [ngClass]="{'open': isOpenBurger}">
+            <span></span>
+            <span></span>
+        </div>
+        </div>
+    <div class="mobile"[ngClass]="{'active_mobile': isOpenBurger}">
+        <div class="mobile_content_nav">
+            <ul>
+                <li class="text"><a (click)="scrollTo('arrage')">We do</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('services')">Services</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('quotation')">Quote</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('tracking')">Tracking</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('story')">Our story</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('help')">Help</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('contact')">Contact</a> <div class="border_bottom_of_hover"></div></li>
+            </ul>
+            <div class="content_rightnav content_rightnav_mobile">
+                <div class="sleceted_header" >
+                  <div class="all_select">
+                      <div class="all_select_text" *ngFor="let localetion of items">
+                          <span class="text span_get" [ngClass]="{'all_select_text_active': lenguege === localetion.leng}">
+                             <a href="/{{localetion.code}}/">{{localetion.locale}}</a>
+                          </span>
+                      </div>
+                  </div>
+                  
+                </div>
+                <div class="all_select select_image_all">
+                  <div class="all_select_text light_select_text"[ngClass]="{'all_select_text_active': !isDark}">
+                      <span class="text span_get_img" (click)="isLightFunc()">
+                          <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25438 15.7483C9.61682 15.7483 9.91063 16.0421 9.91063 16.4045V18.5356C9.91063 18.8981 9.61682 19.1919 9.25438 19.1919C8.89194 19.1919 8.59813 18.8981 8.59813 18.5356V16.4045C8.59813 16.0421 8.89194 15.7483 9.25438 15.7483Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25438 0.808105C9.61682 0.808105 9.91063 1.10192 9.91063 1.46436V3.59546C9.91063 3.9579 9.61682 4.25171 9.25438 4.25171C8.89194 4.25171 8.59813 3.9579 8.59813 3.59546V1.46436C8.59813 1.10192 8.89194 0.808105 9.25438 0.808105Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5061 9.99998C3.5061 10.3624 3.21229 10.6562 2.84985 10.6562H0.71875C0.356313 10.6562 0.0625 10.3624 0.0625 9.99998C0.0625 9.63755 0.356313 9.34373 0.71875 9.34373H2.84985C3.21229 9.34373 3.5061 9.63755 3.5061 9.99998Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M18.4463 9.99998C18.4463 10.3624 18.1524 10.6562 17.79 10.6562H15.6589C15.2965 10.6562 15.0027 10.3624 15.0027 9.99998C15.0027 9.63755 15.2965 9.34373 15.6589 9.34373H17.79C18.1524 9.34373 18.4463 9.63755 18.4463 9.99998Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3185 14.0634C13.5748 13.8071 13.9903 13.8071 14.2466 14.0634L15.7535 15.5703C16.0098 15.8266 16.0098 16.2421 15.7535 16.4984C15.4972 16.7547 15.0817 16.7547 14.8254 16.4984L13.3185 14.9915C13.0622 14.7352 13.0622 14.3197 13.3185 14.0634Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M2.75424 3.49914C3.01052 3.24285 3.42603 3.24285 3.68232 3.49914L5.18923 5.00605C5.44552 5.26234 5.44552 5.67785 5.18923 5.93413C4.93295 6.19041 4.51744 6.19041 4.26116 5.93413L2.75424 4.42721C2.49796 4.17093 2.49796 3.75542 2.75424 3.49914Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.18848 14.064C5.44476 14.3203 5.44476 14.7358 5.18848 14.9921L3.68156 16.499C3.42528 16.7553 3.00976 16.7553 2.75348 16.499C2.4972 16.2427 2.4972 15.8272 2.75348 15.5709L4.2604 14.064C4.51668 13.8077 4.9322 13.8077 5.18848 14.064Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7528 3.49974C16.009 3.75602 16.009 4.17154 15.7528 4.42782L14.2458 5.93474C13.9896 6.19102 13.574 6.19102 13.3178 5.93474C13.0615 5.67845 13.0615 5.26294 13.3178 5.00666L14.8247 3.49974C15.081 3.24346 15.4965 3.24346 15.7528 3.49974Z" fill="#344860"/>
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M9.25427 13.226C11.036 13.226 12.4803 11.7817 12.4803 9.99998C12.4803 8.2183 11.036 6.77396 9.25427 6.77396C7.47259 6.77396 6.02824 8.2183 6.02824 9.99998C6.02824 11.7817 7.47259 13.226 9.25427 13.226ZM9.25427 14.5385C11.7608 14.5385 13.7928 12.5065 13.7928 9.99998C13.7928 7.49342 11.7608 5.46146 9.25427 5.46146C6.74771 5.46146 4.71574 7.49342 4.71574 9.99998C4.71574 12.5065 6.74771 14.5385 9.25427 14.5385Z" fill="#344860"/>
+                              </svg>
+                      </span>
+                  </div>
+                  <div class="all_select_text dark_select_text" [ngClass]="{'all_select_text_active': isDark}">
+                      <span class="text span_get_img" (click)="isDarkFunc()">
+                          <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M9.24406 17.4993C4.52781 17.4993 0.695312 13.6668 0.695312 8.95928C0.695312 4.75053 3.82781 1.11928 7.99281 0.506784C8.21156 0.471784 8.42156 0.585534 8.52656 0.778034C8.63156 0.970534 8.60531 1.20678 8.46531 1.37303C7.39781 2.59803 6.83781 4.07678 6.83781 5.64303C6.83781 9.97428 11.2128 13.4393 16.1566 12.3018C16.3578 12.258 16.5678 12.328 16.6903 12.4943C16.8128 12.6605 16.8303 12.8793 16.7341 13.063C15.2291 15.8018 12.3591 17.4993 9.24406 17.4993ZM6.82031 1.87178C3.84531 2.89553 1.74531 5.73053 1.74531 8.95928C1.74531 13.0893 5.10531 16.458 9.24406 16.458C11.5891 16.458 13.7766 15.3555 15.1853 13.5268C10.0841 14.0255 5.78781 10.2718 5.78781 5.64303C5.78781 4.30428 6.13781 3.02678 6.82031 1.87178Z" fill="#090C10"/>
+                              </svg>
+                      </span>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container" (mousemove)="onMouseMove($event)" (mouseout)="outMouseMove()">
+  <div id="particles-js" [ngClass]="{'active': isActiveBg}" ></div>
+</div>
+<router-outlet></router-outlet>
+
+<footer>
+    <div class="wrapper">
+        <div class="footer_top">
+            <ul>
+                <li><a href="" class="text footer-text">© 2023 WE-DEL</a></li>
+                <li><a href="" class="text footer-text">Terms of Conditions</a></li>
+                <li><a href="" class="text footer-text">Website Terms of Use</a></li>
+                <li><a href="" class="text footer-text">Privacy Notice</a></li>
+                <li><a href="" class="text footer-text  footer-text_last">Cookie Settings</a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_bottom_text text">For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</div>
+            <app-request-acall></app-request-acall>
+        </div>
+    </div>
+</footer>
+
+<app-toast></app-toast>
+

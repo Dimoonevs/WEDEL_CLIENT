@@ -1,0 +1,80 @@
+.specifications_top_block_textarea{
+    width: 100%;
+    height: 103px;
+    max-width: 100%;
+
+}
+.specifications_top_block_text_textarea{
+    margin-top: 16px;
+}
+.params_actions{
+    font-weight: 400;
+}
+.top_params{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 24px;
+}
+.spec_bottom{
+    padding-top: 24px;
+    border-top: 1px solid #D9DADC;
+}
+.top_params_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 49%;
+}
+.top_params_right{
+    display: flex;
+    align-items: flex-end;
+    width: 49%;
+}
+.top_params_left .all_top_block{
+    width: calc(92% / 3);
+}
+.top_params_right_buttons{
+    margin: 8px 0;
+    width: 49%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.top_params_right .all_top_block{
+    width: 54%;
+}
+.params_add{
+    background-color: rgba(21, 123, 59, 0.08);
+    color: #157B3B;
+    width: 100%;
+    margin: 0 10px;
+}
+.params_remove:first-child{
+    /* display: none; */
+    width: 90%;
+}
+.params_remove{
+    background-color: rgba(177, 15, 15, 0.08);
+    color: #B10F0F;
+}
+.bottom_spec{
+    align-items: center;
+}
+.variable{
+    width: 49%;
+}
+.variables_top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.variables_top_variable{
+    width: 49%;
+}
+.top_params_spec .text_error{
+    margin-bottom: -20px;
+}
+.all_select_text{
+    padding: 4px 0;
+}

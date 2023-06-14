@@ -1,0 +1,31 @@
+.receiver_top_block_inp_street{
+    width: 100%;
+}
+.receiver_select_phone_code{
+    position: static;
+}
+.receiver_block_rel_for_phone_code{
+    position: relative;
+}
+.all_botom_select_options_codes{
+    width: 100%;
+    padding: 8px;
+    overflow-y: scroll;
+    max-height: 218px;
+}
+.phone_botom_select_options_codes .option:hover{
+    background: #ECECED;
+}
+.phone_botom_select_options_codes .option{
+    display: flex;
+    justify-content: space-between;
+    padding: 11px 8px;
+    border-radius: 3.2px;  
+    cursor: default;
+}
+.phone_botom_select_options_codes .option--active{
+    background: #E6EBF1;
+}
+.all_botom_block_select input{
+    margin-right: 0;
+}

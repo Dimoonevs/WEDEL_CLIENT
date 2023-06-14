@@ -1,0 +1,38 @@
+<form [formGroup]='helpForm' (submit)="helpSubmit()">
+    <div class="help_form_wrapp">
+        <div class="help_form_wrapp_block">
+            <label for="name" class="text all_top_block_text">Name/Company name</label>
+            <input type="text" name="name" class="all_top_block_inp help_form_all_input text" formControlName="Name">
+        </div>
+        <div class="help_form_wrapp_block">
+            <label for="email" class="all_top_block_text text">Email address<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
+            <input [ngClass]="{'input_error': getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)}" type="text" name="email" class="all_top_block_inp help_form_all_input text" formControlName="Email">
+            <div *ngIf="getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)">
+                <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControl('Email').errors?.['required']">
+                  This field is required.
+                </div>
+            </div>
+            <div *ngIf="getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)">
+                <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControl('Email').errors?.['email']">
+                    Data is invalid.
+                </div>
+            </div>
+        </div>
+    </div>
+    <label for="subject" class="all_top_block_text text">Subject<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
+    <input [ngClass]="{'input_error': getControl('Subject').invalid && (getControl('Subject').touched || getControl('Subject').dirty)}" type="text" name="subject" class="all_top_block_inp  help_form_all_input text" formControlName="Subject">
+    <div *ngIf="getControl('Subject').invalid && (getControl('Subject').touched || getControl('Subject').dirty)">
+        <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControl('Subject').errors?.['required']">
+          This field is required.
+        </div>
+    </div>
+    <label for="message" class="all_top_block_text help_form_input_mt text">Message<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
+    <textarea [ngClass]="{'input_error': getControl('Message').invalid && (getControl('Message').touched || getControl('Message').dirty)}" type="text" name="message" class="all_top_block_inp help_form_all_input help_form_textarea text" formControlName="Message"></textarea>
+    <div *ngIf="getControl('Message').invalid && (getControl('Message').touched || getControl('Message').dirty)">
+        <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControl('Message').errors?.['required']">
+          This field is required.
+        </div>
+    </div>
+
+    <div class="help_form_button"><button class="next_step text"  [disabled]="helpForm.invalid || helpForm.disabled">Send</button></div>
+</form>

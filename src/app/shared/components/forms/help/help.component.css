@@ -1,0 +1,25 @@
+.help_form_all_input{
+    width: 100%;
+}
+.help_form_wrapp{
+    display: flex;
+    justify-content: space-between;
+}
+.help_form_wrapp_block{
+    width: 49%;
+    margin-bottom: 24px;
+}
+.help_form_input_mt{
+    margin-top: 24px;
+}
+.help_form_textarea{
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 103px;
+    max-height: 200px;
+}
+.help_form_button{
+    margin-top: 48px;
+    display: flex;
+    justify-content: end;
+}

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "wedel-8505d": {
+      "hosting": {
+        "Wedel-client": [
+          "wedel"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "wedel-8505d"
+  }
+}

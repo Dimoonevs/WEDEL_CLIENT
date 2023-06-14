@@ -1,0 +1,50 @@
+
+<div class="calendar_content">
+    <div class="calendar">
+        <div class="calendar_top">
+            <div class="calendar_top_provision calendar_top_img" (click)="lessNowMinth()"><img src="assets/img/date_symbol.svg" alt=""></div>
+            <caption class="text calendar_top_date" (click)="changeCalendarChoise()">{{currentMonth | date:'MMMM' | titlecase}} {{currentMonth | date:'y'}}</caption>
+            <div class="calendar_top_next calendar_top_img" (click)="nextNowMinth()"><img src="assets/img/date_symbol.svg" alt=""></div>
+        </div>
+        <div class="calendar_table">
+            <table id="myTable">
+                <thead class="border_bottom">
+                    <tr class="custom-tr">
+                        <th class="text" *ngFor="let day of weekDays">{{ day }}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let week of calendar">
+                        <td class="text text_day" *ngFor="let day of week" [ngClass]="{ 'current-day': day.isCurrentDay, 'selected-day': day.date === selectedDate && day.date != null, 'none-active': day.date == null}" (click)="selectDate(day.date)">
+                          <div>{{ day.day }} </div>
+                        </td>
+                      </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="calendar_choice_month" [ngClass]="{'calendar_choice_month--none': calendarChoise}">
+            <div class="calendar_choice_month_top calendar_choice_month_all">
+                <div class="calendar_choice_month_top_years calendar_choice_month_all_years text ">
+                    2023
+                </div>
+                <div class="calendar_choice_month_top_months calendar_choice_month_all_months">
+                    <div class="calendar_choice_month_top_months_month calendar_choice_month_all_months_month text" (click)="choiseMonth(i, 2023)" *ngFor="let month of monthForChoise; let i = index">{{month}}</div>
+                </div>
+            </div>
+            <div class="calendar_choice_month_bottom calendar_choice_month_all">
+                <div class="calendar_choice_month_bottom_years calendar_choice_month_all_years text ">
+                    2023
+                </div>
+                <div class="calendar_choice_month_bottom_months calendar_choice_month_all_months">
+                    <div class="calendar_choice_month_bottom_months_month calendar_choice_month_all_months_month text" (click)="choiseMonth(i, 2024)" *ngFor="let month of monthForChoise; let i = index">{{month}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<label for="Goods" class="all_top_block_text date_top_block_text_textarea text">Note</label>
+<textarea [(ngModel)]="description" name="Goods" id="" [value]="description" class="all_top_block_inp text date_top_block_textarea data_text_ara" placeholder="Place text here" ></textarea>
+
+<div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()">Previous step</button><button class="next_step text" type="submit" (click)="nextStep()">Next step</button></div>
+<!-- </div> -->

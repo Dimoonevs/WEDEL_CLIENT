@@ -1,0 +1,11 @@
+.form_request_a_call_all_input{
+    margin-right: 8px;
+    width: 208px;
+}
+form{
+    display: flex; 
+    justify-content: center;
+}
+.form_request_a_call_button{
+    border: 1px solid #FBFBFB;
+}

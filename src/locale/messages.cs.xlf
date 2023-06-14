@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="2728418101171101544" datatype="html">
+        <source>We arrange</source>
+        <target>Zařídíme</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1103299628984958400" datatype="html">
+        <source>Quote</source>
+        <target>Citát</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="569247706444129182" datatype="html">
+        <source>Track</source>
+        <target>Dráha</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1777825514101374333" datatype="html">
+        <source>Our story</source>
+        <target>Náš příběh</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7922989125096435449" datatype="html">
+        <source>Contact</source>
+        <target>Kontakt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3395305643364339849" datatype="html">
+        <source>Request a call</source>
+        <target>Požádejte o zavolání</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3725311355011623678" datatype="html">
+        <source> Tailored solution for your freight success </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8158463066326500474" datatype="html">
+        <source> We offer price accessible and reliable shipping services to small and medium companies. Our biggest asset is our employees providing unmatchable level of customer experience. With our help your company will get the right implust to international growth. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7697609720327060959" datatype="html">
+        <source>Request for quotation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2046236211725909995" datatype="html">
+        <source>We do</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">957</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2820548357683290519" datatype="html">
+        <source>Air Transportation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">961</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="670571745172077717" datatype="html">
+        <source>Do you need Express solution for your time critical shipment or you need to find solution with optimal costs? Do you need to arrange delivery just to airport? We got solution for your needs!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">962</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2827984212740060090" datatype="html">
+        <source>Read more</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">963</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">983</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9015378451672226241" datatype="html">
+        <source>Ground Transportation</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">971</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1689979573054450122" datatype="html">
+        <source>Do you need direct truck to deliver critical parts to your customer? Do you need to ship economically within the Europe? Or do you need cost efficient rail freight solution from China? Reach us for more information.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">972</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3330819268951670031" datatype="html">
+        <source>Additional Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">981</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8530303978427885637" datatype="html">
+        <source>We offer packing services and dangerous goods preparation in accordance with international regulations (IATA, ADR, IMO). Do you need consultation for your shipping request? Don´t hesitate and reach us! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">982</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

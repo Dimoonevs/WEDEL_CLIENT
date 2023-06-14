@@ -1,0 +1,37 @@
+.summary_title-all{
+    font-weight: 500;
+    font-size: 18px;
+}
+.summary_info_input_value-all{
+    padding: 8px 8px;
+    background: #ECECED;
+    border-radius: 3.6px;
+    width: 100%;
+}
+.summary_sender_info{
+    width: 820px;
+}
+.all_block_text{
+    margin-top: 18px;
+}
+.summary_info_input-all{
+    width: 49%;
+    height: 25%;
+}
+.summary_info-all{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.summary_blocks-all{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #D9DADC;
+    margin-top: 40px;
+}
+.summary_specification_params_block_quatity{
+    width: 24%;
+}
+.summary_sender{
+    margin-top: 0;
+}

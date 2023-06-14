@@ -1,0 +1,14 @@
+
+.tracking_block_conteiner{
+    display: flex;
+    width: 100%;
+}
+.tracking_block_conteiner input{
+    width: 100%;
+}
+.tracking_block_conteiner button{
+    margin-left: 16px;
+}
+.tracking_block_conteiner_input{
+    width: 100%;
+}
