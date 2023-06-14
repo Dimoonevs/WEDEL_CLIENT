@@ -1,4 +1,4 @@
-import { Component, ElementRef,OnInit, ViewChild} from '@angular/core';
+import { Component, ElementRef,HostListener,OnInit, Renderer2, ViewChild} from '@angular/core';
 import { fromEvent} from 'rxjs';
 import { FormService } from '../../service/form.service';
 import { OwlCarousel } from 'ngx-owl-carousel';
@@ -27,11 +27,12 @@ export class HomeComponent implements OnInit {
   progressTextSender: NodeListOf<any> | any;
   progressTextData: NodeListOf<any> | any;
   progressTextReceiver: NodeListOf<any> | any;
-  constructor(private animationService: AnimationService, private elRef: ElementRef, private formService: FormService, private componentMain: AppComponent) { 
+  constructor(private animationService: AnimationService, private elRef: ElementRef,  private formService: FormService, private componentMain: AppComponent) { 
     fromEvent(window, 'resize').subscribe(() => {
       this.pathMethod()
     });
   }
+
 
   carouselOptions = {
     loop: true,

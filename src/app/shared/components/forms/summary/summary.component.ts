@@ -100,7 +100,9 @@ export class SummaryComponent {
     this.controller.submitQuotation(quotationRequest).subscribe(response => {
       
     })
-    location.reload()
+
+    this.formService.clearAll()
+    this.homeComponent.setCurrencyForm('sender')
   }
   previousStep(){
     this.homeComponent.setCurrencyForm('receiver')

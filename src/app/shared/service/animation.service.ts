@@ -59,7 +59,6 @@ export class AnimationService {
   }
 
   blinkDarkPaths(paths: NodeListOf<Element>, currentIndexLight: number) {
-    console.log(paths[currentIndexLight])
     const path = paths[currentIndexLight];
     path.classList.add('dark_pulse');
     setTimeout(() => {
@@ -87,7 +86,6 @@ export class AnimationService {
   }
   
   blinkMobileDarkPaths(paths: NodeListOf<Element>, currentIndexLight: number) {
-    console.log(paths[currentIndexLight])
     const path = paths[currentIndexLight];
     path.classList.add('dark_pulse');
     setTimeout(() => {
