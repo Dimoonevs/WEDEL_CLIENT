@@ -1,6 +1,9 @@
 .dark{
     background: linear-gradient(270deg, #344860 0%, #2E3134 93.69%) !important;
 }
+.dark .burger span{
+    background-color: #ECECED !important;
+}
 .dark .text_title{
     color: #ECECED !important;
 }

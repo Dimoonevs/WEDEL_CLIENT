@@ -36,7 +36,7 @@ import { ToastComponent } from './shared/module/toast/toast.component';
     TrackingComponent,
     ContactComponent,
     RequestACallComponent,
-    ToastComponent
+    ToastComponent,
   ],
   imports: [
     BrowserModule,

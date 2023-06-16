@@ -491,6 +491,9 @@
         width: 100%;
         display: flex;
     }
+    .story_card_manifesto_card{
+        height: auto;
+    }
     .story_card_manifesto_card_contaniner svg:nth-child(2){
         display: block;
         height: 878px;
@@ -516,6 +519,7 @@
         position:inherit;
         margin-bottom: 60px;
         text-align: start;
+        opacity: 1;
         /* width: 100%; */
     }
 }

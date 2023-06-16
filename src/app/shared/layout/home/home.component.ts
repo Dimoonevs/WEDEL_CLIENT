@@ -19,6 +19,9 @@ export class HomeComponent implements OnInit {
   showDots = true; 
   showNav = true; 
   IsShowText = false;
+  isVisible: boolean = false;
+  isReadyVisible = false;
+  intersectionObserver!: IntersectionObserver;
   private mutationObserver!: MutationObserver;
 
 
@@ -32,7 +35,58 @@ export class HomeComponent implements OnInit {
       this.pathMethod()
     });
   }
+  @HostListener('window:scroll', [])
+    onWindowScroll() {
+      const element = document.getElementById('your_element_id');
+      
+      if (element) {
+        const elementPosition = element.offsetTop + 5168;
+        const scrollPosition = window.pageYOffset + window.innerHeight;
+    
+        if (scrollPosition > elementPosition && !this.isVisible) {
+          this.isVisible = true
+        }
+        if (this.isVisible) {
+          if(scrollPosition < 7385 && !this.isReadyVisible){
+            const height = scrollPosition - elementPosition;
+            element.style.setProperty('height', height + 'px');
+            console.log(height)
+            const allPointer = document.querySelectorAll(".story_card_manifesto_card_contaniner_block") 
+            if(height >= 45 ){
+              allPointer[0].classList.add("story_card_manifesto_card_contanier_wrapper_block_fs--active")
+            }
+            if(height >= 127 ){
+              allPointer[1].classList.add("story_card_manifesto_card_contanier_wrapper_block_sc--active")
+            }
+            if(height >= 220 ){
+              allPointer[2].classList.add("story_card_manifesto_card_contanier_wrapper_block_th--active")
+            }
+            if(height >= 310 ){
+              allPointer[3].classList.add("story_card_manifesto_card_contanier_wrapper_block_fr--active")
+            }
+            if(height >= 404 ){
+              allPointer[4].classList.add("story_card_manifesto_card_contanier_wrapper_block_fv--active")
+            }
+            if(height >= 494 ){
+              allPointer[5].classList.add("story_card_manifesto_card_contanier_wrapper_block_sx--active")
+            }
+            if(height >= 573 ){
+              allPointer[6].classList.add("story_card_manifesto_card_contanier_wrapper_block_sv--active")
+            }
+            if(height >= 650 ){
+              allPointer[7].classList.add("story_card_manifesto_card_contanier_wrapper_block_eg--active")
+            }
+          }else{
+            this.isReadyVisible = true
+            element.style.removeProperty('height')
+            element.classList.remove('fade-in')
+          }
+        }
+      }
+    }
 
+
+    
 
   carouselOptions = {
     loop: true,
