@@ -1,11 +1,11 @@
 <div class="summary_sender summary_blocks-all">
-    <div class="summary_sender_title summary_title-all text">
+    <div class="summary_sender_title summary_title-all text" i18n>
         Sender
     </div>
     <div class="summary_sender_info">
         <div class="summary_sender_info_top summary_info-all">
             <div class="summary_sender_info_top_input summary_info_input-all">
-                <div class="all_block_text summary_sender_info_top_input_text text">
+                <div class="all_block_text summary_sender_info_top_input_text text" i18n>
                     Company name
                 </div>
                 <div class=" summary_sender_info_top_input_value summary_info_input_value-all text">
@@ -13,7 +13,7 @@
                 </div>
             </div>
             <div class="summary_sender_info_top_input summary_info_input-all">
-                <div class="all_block_text summary_sender_info_top_input_text text">
+                <div class="all_block_text summary_sender_info_top_input_text text" i18n>
                     Country
                 </div>
                 <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="summary_sender_info_top_input summary_info_input-all">
-                <div class="all_block_text summary_sender_info_top_input_text text">
+                <div class="all_block_text summary_sender_info_top_input_text text" i18n>
                     City
                 </div>
                 <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
@@ -29,7 +29,7 @@
                 </div>
             </div>
             <div class="summary_sender_info_top_input summary_info_input-all">
-                <div class="all_block_text summary_sender_info_top_input_text text">
+                <div class="all_block_text summary_sender_info_top_input_text text" i18n>
                     Postal code
                 </div>
                 <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
@@ -37,7 +37,7 @@
                 </div>
             </div>
         </div>
-        <div class="all_block_text summary_sender_info_input_text summary_sender_info_input_text_street text" >
+        <div class="all_block_text summary_sender_info_input_text summary_sender_info_input_text_street text" i18n>
             Street
         </div>
         <div class=" summary_info_input_value-all text">
@@ -45,7 +45,7 @@
         </div>
         <div class="summary_sender_info-all summary_info-all">
             <div class="summary_sender_info_top_input summary_info_input-all">
-                <div class="all_block_text summary_sender_info_top_input_text text">
+                <div class="all_block_text summary_sender_info_top_input_text text" i18n>
                     Phone number
                 </div>
                 <div class=" summary_sender_info_top_input_value  summary_info_input_value-all text">
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="summary_sender_info_top_input summary_info_input-all">
-                <div class="all_block_text summary_sender_info_top_input_text text">
+                <div class="all_block_text summary_sender_info_top_input_text text" i18n>
                     Budget
                 </div>
                 <div class="summary_sender_info_top_input_value summary_info_input_value-all text">
@@ -65,38 +65,38 @@
     </div>
 </div>
 <div class="summary_specification summary_blocks-all">
-    <div class="summary_specification_title summary_title-all text">
+    <div class="summary_specification_title summary_title-all text" i18n>
         Specifications
     </div>
     <div class="summary_specification_params">
         <div class="summary_specification_params_block summary_info-all" *ngFor="let box of specificationQuantity; let i = index">
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text">
-                    Quantity
+                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                    Quantity (pcs)
                 </div>
                 <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
                     {{specificationQuantity[i]}}
                 </div>
             </div>
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text">
-                    Lenght in cm
+                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                    Length (cm)
                 </div>
                 <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
                     {{specificationLenght[i]}}
                 </div>
             </div>
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text">
-                    Width in cm
+                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                    Width (cm)
                 </div>
                 <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
                     {{specificationWidth[i]}}
                 </div>
             </div>
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text">
-                    Height in cm
+                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                    Height (cm)
                 </div>
                 <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
                     {{specificationHeight[i]}}
@@ -106,16 +106,16 @@
     </div>
     <div class="summary_specification_info-all summary_info-all">
         <div class=" summary_info_input-all">
-            <div class="all_block_text  text">
-                Total quantity
+            <div class="all_block_text  text" i18n>
+                Total quantity (pcs)
             </div>
             <div class=" summary_info_input_value-all text">
                 {{specificationTotalQuantity}}
             </div>
         </div>
         <div class=" summary_info_input-all">
-            <div class="all_block_text  text">
-                Total weigh in kg
+            <div class="all_block_text  text" i18n>
+                Total weigh (kg)
             </div>
             <div class="summary_info_input_value-all text">
                 {{specificationTotalWeigh}}
@@ -124,7 +124,7 @@
     </div>
     <div class="summary_specification_params_block summary_info-all">
         <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text text">
+            <div class="all_block_text text" i18n>
                 Goods type
             </div>
             <div class=" summary_info_input_value-all text">
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text  text">
+            <div class="all_block_text  text" i18n>
                 My shipment is stackable
             </div>
             <div class=" summary_info_input_value-all text">
@@ -140,7 +140,7 @@
             </div>
         </div>
         <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text   text">
+            <div class="all_block_text   text" i18n>
                 Shipment priority
             </div>
             <div class=" summary_info_input_value-all text">
@@ -148,7 +148,7 @@
             </div>
         </div>
         <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text  text">
+            <div class="all_block_text  text" i18n>
                 Total value
             </div>
             <div class=" summary_info_input_value-all text">
@@ -156,7 +156,7 @@
             </div>
         </div>
     </div>
-    <div class="all_block_text text" >
+    <div class="all_block_text text" i18n>
         Street
     </div>
     <div class=" summary_info_input_value-all text">
@@ -164,16 +164,16 @@
     </div>
 </div>
 <div class="summary_date summary_blocks-all">
-    <div class="summary_title-all text">
+    <div class="summary_title-all text" i18n>
         Due date
     </div>
-    <div class="all_block_text text" >
+    <div class="all_block_text text" i18n>
         Date of realization
     </div>
     <div class=" summary_info_input_value-all text">
         {{dateRealization}}
     </div>
-    <div class="all_block_text text" >
+    <div class="all_block_text text" i18n>
         Note
     </div>
     <div class=" summary_info_input_value-all text">
@@ -182,13 +182,13 @@
     </div>
 </div>   
 <div class=" summary_blocks-all">
-    <div class="summary_title-all text">
+    <div class="summary_title-all text" i18n>
         Receiver
     </div>
     <div class="">
         <div class="summary_info-all">
             <div class=" summary_info_input-all">
-                <div class="all_block_text  text">
+                <div class="all_block_text  text" i18n>
                     Company name
                 </div>
                 <div class="summary_info_input_value-all text">
@@ -196,7 +196,7 @@
                 </div>
             </div>
             <div class="summary_info_input-all">
-                <div class="all_block_text text">
+                <div class="all_block_text text" i18n>
                     Country
                 </div>
                 <div class="summary_info_input_value-all text">
@@ -204,7 +204,7 @@
                 </div>
             </div>
             <div class="summary_info_input-all">
-                <div class="all_block_text text">
+                <div class="all_block_text text" i18n>
                     City
                 </div>
                 <div class="summary_info_input_value-all text">
@@ -212,7 +212,7 @@
                 </div>
             </div>
             <div class="summary_info_input-all">
-                <div class="all_block_text text">
+                <div class="all_block_text text" i18n>
                     Postal code
                 </div>
                 <div class="summary_info_input_value-all text">
@@ -220,7 +220,7 @@
                 </div>
             </div>
         </div>
-        <div class="all_block_text text" >
+        <div class="all_block_text text" i18n>
             Street
         </div>
         <div class=" summary_info_input_value-all text">
@@ -228,7 +228,7 @@
         </div>
         <div class="summary_info-all">
             <div class="summary_info_input-all">
-                <div class="all_block_text text">
+                <div class="all_block_text text" i18n>
                     Phone number
                 </div>
                 <div class="summary_info_input_value-all text">
@@ -238,7 +238,7 @@
                 </div>
             </div>
             <div class="summary_info_input-all">
-                <div class="all_block_text text">
+                <div class="all_block_text text" i18n>
                     Email address
                 </div>
                 <div class="summary_info_input_value-all text">
@@ -248,4 +248,4 @@
         </div>
     </div>
 </div>
-<div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()">Previous step</button><button (click)="submitSender()" class="next_step text" type="submit">Finidsh</button></div>
+<div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()" i18n>Previous step</button><button (click)="submitSender()" class="next_step text" type="submit" i18n>Finidsh</button></div>

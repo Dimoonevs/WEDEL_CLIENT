@@ -1,4 +1,4 @@
-
+<div class="calendar_text text">Please, select preferred date of realization in the calendar below.</div>
 <div class="calendar_content">
     <div class="calendar">
         <div class="calendar_top">
@@ -43,8 +43,8 @@
     </div>
 </div>
 
-<label for="Goods" class="all_top_block_text date_top_block_text_textarea text">Note</label>
+<label for="Goods" class="all_top_block_text date_top_block_text_textarea text" i18n>Note</label>
 <textarea [(ngModel)]="description" name="Goods" id="" [value]="description" class="all_top_block_inp text date_top_block_textarea data_text_ara" placeholder="Place text here" ></textarea>
 
-<div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()">Previous step</button><button class="next_step text" type="submit" (click)="nextStep()">Next step</button></div>
+<div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()" i18n>Previous step</button><button class="next_step text" type="submit" (click)="nextStep()" i18n>Next step</button></div>
 <!-- </div> -->

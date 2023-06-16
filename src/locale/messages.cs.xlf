@@ -2,28 +2,52 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="2728418101171101544" datatype="html">
-        <source>We arrange</source>
-        <target>Zařídíme</target>
+      <trans-unit id="2046236211725909995" datatype="html">
+        <source>We do</source>
+        <target>We do</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7143579180750436311" datatype="html">
+        <source>Services</source>
+        <target>Servisy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1103299628984958400" datatype="html">
         <source>Quote</source>
-        <target>Citát</target>
+        <target>Poptávka</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">10</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="569247706444129182" datatype="html">
-        <source>Track</source>
-        <target>Dráha</target>
+      <trans-unit id="5606832344122511557" datatype="html">
+        <source>Tracking</source>
+        <target>Tracking</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1777825514101374333" datatype="html">
@@ -31,7 +55,23 @@
         <target>Náš příběh</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2806917038528218276" datatype="html">
+        <source>FAQ</source>
+        <target>FAQ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
@@ -39,96 +79,1563 @@
         <target>Kontakt</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">13</context>
+          <context context-type="linenumber">22</context>
         </context-group>
-      </trans-unit>
-      <trans-unit id="3395305643364339849" datatype="html">
-        <source>Request a call</source>
-        <target>Požádejte o zavolání</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="173101900787004043" datatype="html">
+        <source>Terms of Conditions</source>
+        <target>Obchodní podmínky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9092327817991002837" datatype="html">
+        <source>Website Terms of Use</source>
+        <target>Website Terms of Use</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4424350571476641431" datatype="html">
+        <source>Privacy Notice</source>
+        <target>Ochrana osobních údajů</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4360052762376477578" datatype="html">
+        <source>Cookie Settings</source>
+        <target>Cookie Settings</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6447983112718925436" datatype="html">
+        <source>For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</source>
+        <target>Pro jakékoliv poznámky či podměty prosíme o vyplnění čísla níže a pojďme Váš se spojit.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9210334928224726492" datatype="html">
+        <source> Let`s get in Touch! </source>
+        <target>Spojte se s námi!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7416185334584191302" datatype="html">
+        <source> For any questions or inquiries, please email us using the form below. We always ready to assist you promptly. </source>
+        <target>V případě jakýchkoliv dotazů či podmětů se s námi nebváhejte spojit skrze formulář níže.Jsme vždy připraveni Vám co nejdříve odpovědět.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5764668911316503383" datatype="html">
+        <source>Name<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot; &gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text two&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Jméno<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6410945776428459192" datatype="html">
+        <source> This field is required. </source>
+        <target>Toto pole je povinné.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">56,58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">9,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">63,65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">77,79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">91,93</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">116,118</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">24,25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">38,39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">54,55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">87,88</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">150,151</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/tracking/tracking.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8121141462865337916" datatype="html">
+        <source>Phone number</source>
+        <target>Telefonní číslo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3880995733449643115" datatype="html">
+        <source>Email<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot; &gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text two&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Email<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3725311355011623678" datatype="html">
-        <source> Tailored solution for your freight success </source>
+      <trans-unit id="7712607578825450732" datatype="html">
+        <source>Message<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot; &gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text two&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Zprávna<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">4,6</context>
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">29</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8158463066326500474" datatype="html">
-        <source> We offer price accessible and reliable shipping services to small and medium companies. Our biggest asset is our employees providing unmatchable level of customer experience. With our help your company will get the right implust to international growth. </source>
+      <trans-unit id="6490688569532630280" datatype="html">
+        <source>Send</source>
+        <target>Odeslat</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">7,9</context>
+          <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4388879716045736175" datatype="html">
+        <source>Note</source>
+        <target>Poznámka</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4786560771895410792" datatype="html">
+        <source>Previous step</source>
+        <target>Předchozí krok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="168761137939271501" datatype="html">
+        <source>Next step</source>
+        <target>Následující krok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8349763432924710200" datatype="html">
+        <source>Su</source>
+        <target>Ne</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4197236438302165051" datatype="html">
+        <source>Mo</source>
+        <target>Po</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6034455877220674404" datatype="html">
+        <source>Tu</source>
+        <target>Út</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3221670730445125135" datatype="html">
+        <source>We</source>
+        <target>St</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="772466829681972216" datatype="html">
+        <source>Th</source>
+        <target>Čt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8598262708800132669" datatype="html">
+        <source>Fr</source>
+        <target>Pá</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="569007902695332072" datatype="html">
+        <source>Sa</source>
+        <target>So</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7595747576974676670" datatype="html">
+        <source>Jan</source>
+        <target>Led</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4916040996255005712" datatype="html">
+        <source>Feb</source>
+        <target>Úno</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6438827956918137617" datatype="html">
+        <source>Mar</source>
+        <target>Bře</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5507326650332881991" datatype="html">
+        <source>Apr</source>
+        <target>Deb</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8469692700277617405" datatype="html">
+        <source>May</source>
+        <target>Kvě</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2113470244260512015" datatype="html">
+        <source>Jun</source>
+        <target>Čer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="53176888553719239" datatype="html">
+        <source>Jul</source>
+        <target>Čerc</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5648574669404659458" datatype="html">
+        <source>Aug</source>
+        <target>Srp</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8008220216521768133" datatype="html">
+        <source>Sept</source>
+        <target>Zář</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6207754626941051341" datatype="html">
+        <source>Oct</source>
+        <target>Říj</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8269261039058575292" datatype="html">
+        <source>Nov</source>
+        <target>Lis</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7777579586760423636" datatype="html">
+        <source>Dec</source>
+        <target>Pro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="479402440720134924" datatype="html">
+        <source>Company name<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Příjemce<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2837173675112388128" datatype="html">
+        <source>Country<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot; &gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text two&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Stát<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1152696518864830519" datatype="html">
+        <source>City<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Město<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5471941518357146105" datatype="html">
+        <source>Postal code<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>PSČ<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6297500517822371102" datatype="html">
+        <source>Street<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Adresa<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="846378314224453021" datatype="html">
+        <source>Email address <x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Email<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
+          <context context-type="linenumber">100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8064600913232758009" datatype="html">
+        <source>Please provide the necessary information in five steps for an optimal quotation proposal tailored to your transportation needs. </source>
+        <target>Prosím poskytněte nám nutné informace v pěti jedonuduchých krocích, abychom Vám byli schopni podat vhodnou nabídku, která bude přesně šitá pro vaše přepravní potřeby.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4791055567444874819" datatype="html">
+        <source>Phone number<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text six&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Telefonní číslo<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6885844978916799621" datatype="html">
+        <source>Budget</source>
+        <target>Rozpočet</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2136484458544397346" datatype="html">
+        <source>Height (cm)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot; &gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Výška (cm)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3306456049547671169" datatype="html">
+        <source>Width (cm)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Šířka (cm)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1560670924903952971" datatype="html">
+        <source>Length (cm)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Délka (cm)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8483025609187814458" datatype="html">
+        <source>Quantity (pcs)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Počet (pcs):<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">50,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3249513483374643425" datatype="html">
+        <source>Add</source>
+        <target>Přidat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4814285799071780083" datatype="html">
+        <source>Remove</source>
+        <target>Odstranit</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6453509433701037067" datatype="html">
+        <source>Total quantity (pcs)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Celkem kusů (pcs)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">69,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1349739006264164933" datatype="html">
+        <source>Total weigh (kg)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Celková váha (kg)<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">83,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5208931816983038458" datatype="html">
+        <source>Goods type</source>
+        <target>Typ zboží</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7947107566418462768" datatype="html">
+        <source>General cargo</source>
+        <target>Bezpečné zboží</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3851267391547144207" datatype="html">
+        <source>Dangerous goods</source>
+        <target>Nebezpečné zboží</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2629488993740779718" datatype="html">
+        <source>My shipment is stackable</source>
+        <target>Moje zboží je stohovatelné</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2807800733729323332" datatype="html">
+        <source>Yes</source>
+        <target>Ano</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6466969409681865142" datatype="html">
+        <source>NO</source>
+        <target>Ne</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2854107249073074512" datatype="html">
+        <source>Shipment priority</source>
+        <target>Priorita</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1502597108667718336" datatype="html">
+        <source>Transit time</source>
+        <target>Transitní čas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8894377483833272091" datatype="html">
+        <source>Price</source>
+        <target>Transitní čas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8202032851118232755" datatype="html">
+        <source>Total value<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Hodnota zásilky<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">134,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2018417022380774403" datatype="html">
+        <source>Goods description<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/label&gt;"/></source>
+        <target>Popis zboží<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
+          <context context-type="linenumber">161,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2630865067176779866" datatype="html">
+        <source> Sender </source>
+        <target> Odesilatel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4909703648456681720" datatype="html">
+        <source> Company name </source>
+        <target> Odesilatel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">191,193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8514765519764380399" datatype="html">
+        <source> Country </source>
+        <target> Odesilatel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">16,18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">199,201</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2225846327777442642" datatype="html">
+        <source> City </source>
+        <target> Odesilatel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">207,209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1627834057340841726" datatype="html">
+        <source> Postal code </source>
+        <target> Odesilatel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">215,217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7780388064508644633" datatype="html">
+        <source> Street </source>
+        <target> Odesilatel </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">159,161</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">223,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3754412982620179986" datatype="html">
+        <source> Phone number </source>
+        <target> Telefonní číslo </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">48,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">231,233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3423420597317106513" datatype="html">
+        <source> Budget </source>
+        <target> Rozpočet </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">56,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2373408145535004492" datatype="html">
+        <source> Specifications </source>
+        <target> Specifikace </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">68,70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4384104323285795049" datatype="html">
+        <source> Quantity (pcs) </source>
+        <target> Počet (pcs): </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">74,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9032189405007281632" datatype="html">
+        <source> Length (cm) </source>
+        <target> Délka (cm) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">82,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4781031398040647878" datatype="html">
+        <source> Width (cm) </source>
+        <target> Šířka (cm) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">90,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9209290818937673095" datatype="html">
+        <source> Height (cm) </source>
+        <target> Výška (cm) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">98,100</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="954925924726771543" datatype="html">
+        <source> Total quantity (pcs) </source>
+        <target> Celkem kusů (pcs) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">109,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5377222235985041634" datatype="html">
+        <source> Total weigh (kg) </source>
+        <target> Celková váha (kg) </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">117,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5335206281288306913" datatype="html">
+        <source> Goods type </source>
+        <target> Typ zboží </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">127,129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7925030094729129411" datatype="html">
+        <source> My shipment is stackable </source>
+        <target> Moje zboží je stohovatelné </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">135,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3737831023619446375" datatype="html">
+        <source> Shipment priority </source>
+        <target> Shipment priority </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">143,145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4804091938049845648" datatype="html">
+        <source> Total value </source>
+        <target> Hodnota zásilky </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">151,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8483169873038215121" datatype="html">
+        <source> Due date </source>
+        <target> Termín </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">167,169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2801021184137797159" datatype="html">
+        <source> Date of realization </source>
+        <target> Datum realizace </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">170,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6321693796037615659" datatype="html">
+        <source> Note </source>
+        <target> Poznámka </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">176,178</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4375067718805238210" datatype="html">
+        <source> Receiver </source>
+        <target> Příjemce </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">185,187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6235392592614223053" datatype="html">
+        <source> Email address </source>
+        <target> Email </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">241,243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2602990819240694008" datatype="html">
+        <source>Finidsh</source>
+        <target>Odeslat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">251</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6051194839731750587" datatype="html">
+        <source>Shipment ID<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text fiive&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target>Sledovací číslo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/tracking/tracking.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7697609720327060959" datatype="html">
         <source>Request for quotation</source>
+        <target>Poptat cenu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2046236211725909995" datatype="html">
-        <source>We do</source>
+      <trans-unit id="1069372698608154423" datatype="html">
+        <source>Air Import &amp; Export</source>
+        <target>Letecký Import &amp; Export</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">957</context>
+          <context context-type="linenumber">5421</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2820548357683290519" datatype="html">
-        <source>Air Transportation</source>
+      <trans-unit id="7574928322989891940" datatype="html">
+        <source>Our specialization is air and ground transportation, and our services are adapted to these modes of transportation. If you order an import service, we will arrange the entire transport for you through our network of proven local expert partners who are members of the WCA (the largest global alliance of independent carriers) or JcTrans forwarders alliances. We handle export shipments from our Prague office through direct contact with airlines or their local representatives. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
+        <target>Naší hlavní specializací je letecká přeprava. Přepravu importních zásilek zařídíme skrze prověřenou síť místního experních partnerů, kteří jsou všichni členové WCA (největší aliance nezávislých zasilatelů), či JcTrans. Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště skrze přímý styk s aerolinkami, či jejich lokálními prodejními kanály. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">961</context>
+          <context context-type="linenumber">5422,5424</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="670571745172077717" datatype="html">
-        <source>Do you need Express solution for your time critical shipment or you need to find solution with optimal costs? Do you need to arrange delivery just to airport? We got solution for your needs!</source>
+      <trans-unit id="6454560856380138406" datatype="html">
+        <source>Door to door,</source>
+        <target>Door to door,</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">962</context>
+          <context context-type="linenumber">5427</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2827984212740060090" datatype="html">
-        <source>Read more</source>
+      <trans-unit id="1909107267500687180" datatype="html">
+        <source>Door to airport,</source>
+        <target>Door to airport,</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">963</context>
+          <context context-type="linenumber">5428</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="5140972365770832232" datatype="html">
+        <source>Airport to airport,</source>
+        <target>Airport to airport,</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">983</context>
+          <context context-type="linenumber">5429</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7351541089414611652" datatype="html">
+        <source>Airport to door,</source>
+        <target>Airport to door,</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5432</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5220634338201677682" datatype="html">
+        <source>Air charter (OnTime),</source>
+        <target>Air charter (OnTime),</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6135909724941688462" datatype="html">
+        <source>On Board Courier (OnTime)</source>
+        <target>On Board Courier (OnTime)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5434</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9015378451672226241" datatype="html">
         <source>Ground Transportation</source>
+        <target>Pozemní přeprava</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">971</context>
+          <context context-type="linenumber">5446</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1689979573054450122" datatype="html">
-        <source>Do you need direct truck to deliver critical parts to your customer? Do you need to ship economically within the Europe? Or do you need cost efficient rail freight solution from China? Reach us for more information.</source>
+      <trans-unit id="7796263308665447907" datatype="html">
+        <source>Land transport goes hand in hand with air transport. We can offer both a dedicated vehicle for time-sensitive shipments, as well as cost-optimal loading that saves costs and the environment.</source>
+        <target>Pozemní přeprava jde ruku v ruce s leteckou přepravou. Dovedeme nabídnout jak vlastní dedikovaná vozidla pro časově senzitivní zásilky, tak i cenově optimální dokládky šetřící životní prostřední.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">972</context>
+          <context context-type="linenumber">5447</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3330819268951670031" datatype="html">
-        <source>Additional Services</source>
+      <trans-unit id="83276406636262346" datatype="html">
+        <source> We carry out ground transportation exclusively through verified partners with sufficient insurance coverage.</source>
+        <target>Všechna pozemní přeprava je provozována s prověřenými partnery disponující zvýšeným pojistným rámcem.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">981</context>
+          <context context-type="linenumber">5448</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8530303978427885637" datatype="html">
-        <source>We offer packing services and dangerous goods preparation in accordance with international regulations (IATA, ADR, IMO). Do you need consultation for your shipping request? Don´t hesitate and reach us! </source>
+      <trans-unit id="1639757920475010187" datatype="html">
+        <source>Dangerous Goods</source>
+        <target>Nebezpečné zboží</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">982</context>
+          <context context-type="linenumber">5457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="828079322309817362" datatype="html">
+        <source>At WE-DEL we are certified dangerous goods experts certified by the International Aviation Association IATA. </source>
+        <target>Ve WE-DEL jsme zasilatelem nebezpečného zboží, který je certifikován mezinárodní leteckou asociací IATA.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5458</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1610695009466153865" datatype="html">
+        <source>We will be happy to arrange for you preparation of shipment according to the IATA Dangerous goods regulation and then transport it via air to your desired location.</source>
+        <target>Rádi pro Vás zajistíme přípravu zásilke dle regulí IATA Dangerous goods a poté zásilku doručíme letecky či po zemi do Vámi požadované destinace.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5459</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4196971271772547892" datatype="html">
+        <source>Give us the time frame by which you need your shipment to arrive and leave the worries to us.</source>
+        <target>Dejte nám časový rámec do kdy zásilku potřebujete a starosti nechte na nás.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5493</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6609486527251769897" datatype="html">
+        <source>Is the linestopper hanging in the air at the car factory? Do you have an excellent business opportunity where timing to market is the key? Then there is a priority air/ground cargo service for you, especially suitable if you are very concerned about the delivery time. We see a story in every shipment, even on a non-financial level. We believe that the shipping business is about personal relationships and failure to meet deadlines can have unfathomable financial and non-financial consequences.</source>
+        <target>Visí ve vzduchu linestopper v automobilce? Máte vynikající obchodní příležitost, kde je načasování vstupu na trh klíčové? Pak je zde pro Vás prioritní servis leteckého carga, vhodný zejména pokud Vám velmi záleží na času doručení. V každé zásilce vidíme příběh, a to i v nefinanční rovině. Věříme, že přepravní odvětví je o osobních vztazích a nedodržení termínů může mít nedozírné finanční i nefinanční následky.  OnTime šetří Váš čas a nervy.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5494</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2092935502955853696" datatype="html">
+        <source>Request for quatation</source>
+        <target>Poptat cenuv</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5497</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5554</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5569</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5717557116933302515" datatype="html">
+        <source> SMART air service offers the optimal ratio between transit time and price for imports from China. </source>
+        <target>Letecký servis Smart nabízí optimální poměr mezi transitní časem a cempi pro importy z Číny.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5507,5509</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4854608890639392528" datatype="html">
+        <source>Our signature import service currently available on the route China – Czech Republic offering excellent value for money on a consolidated route from China 2* per week. The specific schedule can be found in the table below:</source>
+        <target>Náš servis Smart, fungující aktuálně pro letecké importy na trase Čína - Česká Republika, nabízí exceletní poměr cena:hodnota  na konsolidované lince z Číny s odletem ve středu a v neděli . Specifické časování servisu můžete vidět na tabulce níže:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5510</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5496474715763673489" datatype="html">
+        <source>This timing is valid for all of China, but we can handle consolidation later from some parts of China.</source>
+        <target>Časování je platné pro celou Čínu, z nějakých provincií však zvládneme zásilku dostat včas na let i v případě pozdější objednávky / vyzvednutí.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5549</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3725421059694410545" datatype="html">
+        <source>This service bypasses the economic service bottlenecks of dual airport warehouse handling and the airline-organized truck, which often awaits until enough shipments have accumulated to make the airport pick-up organization profitable.</source>
+        <target>Tento servis obchází úzká místa ekonomického servisu v podobě dvojitého letištního odbavení a kamionu organizovaného přímo aerolinkou. Ten často čeká na nakumolování dostatku zásilek, aby bylo vypravení kamionu pro aerolinku rentabilní.  Servis bude v brzké době plánován i pro importy z USA a Indie.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5550</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8687164914143157632" datatype="html">
+        <source>Guarantee! If, for any reason within WE-DEL&apos;s control, the transit time is not met, you will be invoiced for the price of the Budget service instead of the price of the Smart service.</source>
+        <target>Cenová garance - pokud nebude z důvodů na straně společnosti WE-DEL zásilka doručená ve slíbeném termínu, bude Vám výsledně účtována pouze cena za servis Eco.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5551</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6629119098796367465" datatype="html">
+        <source>Give us your budget for transportation, we will try to find a solution through ground or air partial loading.</source>
+        <target>Dejte nám Váš rozpočet pro přepravu a my se vynasnažíme najít cenově optimální řešení skrze leteckou či pozemní dokládku.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5564</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3825710776849964714" datatype="html">
+        <source>Budget is an economic service where the lowest possible price is a priority, in the case of air transport, the transit time is within 14 days from dispatch. In the case of land transport, we will try to find capacity nearby, thereby saving costs and the environment in order to maximize the utilization of the given means of transport.</source>
+        <target>Eco je ekonomický servis, kde je co nejnižší cena to, oč tu běží. V případě leteckého transportu se transitní čas pohybuje do 14 dní od odeslání zásilky. V případě pozemní přepravy se vynasnažíme najít volnou kapacitu na nákladních vozech poblíž Vámi požadované destinace. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5565</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2274143764873340059" datatype="html">
+        <source>We will be very happy if you turn to us with confidence with your request for transport services.</source>
+        <target>To povede k maximální utilizaci nákladního vozu a jako neméně příjemný bonus i k co nejmenšímu zatížení životního prostředí.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5566</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="910656806257300801" datatype="html">
+        <source>Sender</source>
+        <target>Odesilatel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5588</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5643</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6154338858131704843" datatype="html">
+        <source>Specifications</source>
+        <target>Specifikace</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5600</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5647</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2413171611497962745" datatype="html">
+        <source>Due date</source>
+        <target>Termín</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5612</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5651</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1639610296500577415" datatype="html">
+        <source>Receiver</source>
+        <target>Příjemce</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5624</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5655</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4739818603756173797" datatype="html">
+        <source>Summary</source>
+        <target>Shrnutí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5636</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5659</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8548296631068847608" datatype="html">
+        <source> Tracking ID always starts from “WD” and it has four numbers after eg. <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text_exampl text&quot;&gt;"/>WD0001<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target> Sledovací číslo vždy začíná na “WD” a poté následují 4 číslice, např. <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text_exampl text&quot;&gt;"/>WD0001<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5698,5699</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5817767006293697780" datatype="html">
+        <source>Tailored Solution for Your Freight Success</source>
+        <target>Řešení na míru pro úspěch vaší zásilky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5712</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5819173161100100666" datatype="html">
+        <source> We don&apos;t want a world full of corporations where we become just passive recipients of the decision which international corporation to choose despite all of them has the same services wrapped in a different marketing package. Big corporations are usually doing services for another big corporations and small and medium enterprises are not getting service with the same quality and price. With this vision, we decided to found WE-DEL. Small and medium-sized enterprises are the healthy backbone of our economy, yet their share of GDP in the Czech Republic is below the level of the EU28. To a certain extent, this is also due to the fact that the mentioned enterprises encounter barriers from the large players from various sectors in the market. We want to change that! </source>
+        <target>Naší vizí je pomoci zejména malým a středním firmám skrze nabídku komplexních přepravních služeb, které pomohou mým obchodním partnerům šetřit náklady, čas a nervy. Malé a střední podniky jsou zdravou páteří naší ekonomiky, přesto jejich podíl na HDP v ČR se nachází pod úrovní EU28. Z určité části je to také tím, že zmíněné podniky narážejí na bariéry ze strany velkých hráčů z rozličných odvětví na trhu. Ti nabízí malým a středním firmám služby, které nemají stejnou úroveň kvality a ceny jako pro velké podniky, ač jsou zabaleny do pohledného marketingového pozlátka. Chceme to změnit!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5714,5716</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3208990487356209663" datatype="html">
+        <source> Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
+        <target>Naší vizí je pomoci zejména malým a středním podnikům skrze komplexní nabídku přepravních služeb, které pomohou našim obchodním partnerům šetřit peníze, čas a nervy.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5717,5719</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4993469915381526082" datatype="html">
+        <source> Our Values </source>
+        <target>Naše hodnoty</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5721,5723</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1638310449346210124" datatype="html">
+        <source>Customer first</source>
+        <target>Zákazník především</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5726</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6698423114223673121" datatype="html">
+        <source>The satisfaction of our customers is at the core of our efforts.</source>
+        <target>Zákazník a jeho uspokojení je pro nás centrem našeho snažení.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5727</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2450951288627752134" datatype="html">
+        <source>Agility</source>
+        <target>Agilita</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5731</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1926877736704264772" datatype="html">
+        <source>We possess the ability to swiftly adapt to change, recognizing its constant presence.</source>
+        <target>Schopnost rychle odpovědět na změnu, neboť změna je neustálá.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5732</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3729314247756863462" datatype="html">
+        <source>Focus on innovation</source>
+        <target>Důraz na inovace</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5736</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1743799074497010259" datatype="html">
+        <source>We consistently strive to innovate our processes to deliver an exceptional customer experience.</source>
+        <target>Stále inovujeme, aby pro Vás byl proces přepravy co nejpříjemnější.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5737</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="209549737316100942" datatype="html">
+        <source>Cooperation</source>
+        <target>Spolupráce</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5741</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7185419358875493383" datatype="html">
+        <source>Feedback and cooperation are the driving forces behind our service.</source>
+        <target>Kooperace  a zpětná vazba jsou motorem naší služby.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5742</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4398595295611140843" datatype="html">
+        <source>Growth mindset</source>
+        <target>Růstový mindset</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5746</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="228425244117050094" datatype="html">
+        <source>We consistently explore new approaches to service in order to foster our growth.</source>
+        <target>Neustále objevujeme nové způsoby a cesty pro služby.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5747</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2483358638836463475" datatype="html">
+        <source>Ownership</source>
+        <target>Ownership</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5758</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7158005508929745261" datatype="html">
+        <source>We proactively assume initiative and complete responsibility for our shipments.</source>
+        <target>Bereme iniciativu a odpovědnost do našich rukou.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5759</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2736085482265996476" datatype="html">
+        <source> Our manifesto </source>
+        <target> Náš manifest </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5765,5767</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="312745038600451045" datatype="html">
+        <source>Individual care instead of</source>
+        <target>Individuální péče namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5796</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="979503642896303544" datatype="html">
+        <source>an individual price list</source>
+        <target>individuálního ceníku</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5797</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2805458397817519196" datatype="html">
+        <source>Consulting with the aim of</source>
+        <target>Poradenství s cílem ušetřit náklady namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5800</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1699857260982294474" datatype="html">
+        <source>saving costs instead of simply solving the request</source>
+        <target>prostého řešení požadavku</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5801</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5508591364768375953" datatype="html">
+        <source>An entrepreneurial approach instead of </source>
+        <target>Podnikatelský přístup namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5804</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4909031884951128554" datatype="html">
+        <source>an employee approach</source>
+        <target>přístupu zaměstnance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5805</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5369623719796446392" datatype="html">
+        <source>Business partnership instead of</source>
+        <target>Obchodní partnerství namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5808</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="556431882086009302" datatype="html">
+        <source>a customer-supplier relationship</source>
+        <target>vztahu zákazník-dodavatel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5809</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4084689416360723520" datatype="html">
+        <source>Single point of contact instead of</source>
+        <target>Jednotný kontakt namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5812</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5119173928427097502" datatype="html">
+        <source>communication with several departments</source>
+        <target>komunikace s několika odděleními</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5813</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6804387723796490295" datatype="html">
+        <source>Transparent fixed price instead of</source>
+        <target>Transparentní neměnná cena namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5816</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1126770656462548583" datatype="html">
+        <source>non-transparent surcharges</source>
+        <target>netransparentních příplatků</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5817</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6600648507806246664" datatype="html">
+        <source>Agile approach instead of</source>
+        <target>Agilní přístup, kde bude třeba namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5820</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5097333256229789840" datatype="html">
+        <source>blindly following the given process</source>
+        <target>následování předem daného procesu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5821</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2021666287748716229" datatype="html">
+        <source>Individual service instead of</source>
+        <target>Individuální služba namísto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5824</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2899416372327536515" datatype="html">
+        <source>depersonalizing and transferring part of the process to the customer</source>
+        <target>odosobnění a přenesení části procesu na zákazníka</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5825</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2556347949191696149" datatype="html">
+        <source> What is your prefered mean of communication? </source>
+        <target> Jaký je preferovaný způsob komunikace?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5848,5850</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="239610956699179194" datatype="html">
+        <source>At first there are three means of communication – online chat, email and call. For order/quote related communication e-mail is essential, while phone call is the fastest mean of communication. In case you dislike anything, do not hesitate to give us a call so we can find a address your feedback. As foretold – feedback is mother of partnership and mutually beneficient cooperation.</source>
+        <target>Nejprve bychom rádi řekli, že jsou zde tři možnosti komunikace - online chat, email a telefonní hovor. Pro komunikaci ohledně nabídky/poptávky je e-mail nutný z legislativních důvodů. Telefon slouží zejména pro urgentní komunikaci. Pokud se Vám cokoliv nelíbí, neváhejte nám zavolat, abychom se mohli Vaší zpětné vazbě věnovat.. Jak již bylo řečeno - zpětná vazba je motorem každé dobré služby a vzájemně prospěšného partnerství.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5857</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1703430386402927272" datatype="html">
+        <source> Can I ship all around the world with WE-DEL? </source>
+        <target>Mohu skrze WE-DEL odesílat po celém světe?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5863,5865</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1683857576001037335" datatype="html">
+        <source> Well, almost yes! Of course there are some exceptions. We can’t offer shipment to: Cuba, North Korea, Iran, Syria, Belarus, Sudan, South Sudan, Yemen, Somalia, Burma (Maymar) and of course to Russia. At WE-DEL we believe that the firm spine is more important then profit. Additional check-ups may apply to the shipment that raise a suspicion that might be transfered to Russia through various transit countries. </source>
+        <target>No, skoro ano. Ale jsou zde samozřejmě nějaké vyjímky. Nedokázeme nabídnout přepravu na Kubu, do Severní Korei, Iránu, Sýrie, Běloruska, Súdánu, Jižního Súdánu, Jemenu, Spomálska, Barmy (Maymar) a samozřejmě do Ruska.  Ve WE-DEL věříme, že rovná páteř je důležitější, než jakýkoliv možný zisk., Další kontroly mohou nastat do zemí, které vzbuzují podezření přeposlání zásilky z dané země do Ruska. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5871,5873</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="348857353651701259" datatype="html">
+        <source> Which shipments is WE-DEL able to transfer? </source>
+        <target>Které zásilky WE-DEL přepravuje?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5878,5880</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7635068768945363396" datatype="html">
+        <source> WE-DEL is able to transfer everything via Air/ground transport. Our service is mostly designed for time-critical shipments and cost-effective shipments above 70 kg. But no worries – we can also provide you transport or smaller parcels via our courier partners for competitive prices. </source>
+        <target>WE-DEL je schopno přepravit prakticky cokoliv skrze leteckou či pozemní přepravu. Náš servis je však nejvíce navržen pro časově senzitivní zásilky a pro zásilky s důrazem na co nejnižší cenu s váhou nad 70 kg. Ale nebojte se - můžeme také nabídnout přepravu malých balíků skrze naše partnerské kurýrní společnosti za ceny, kterých většina malých a středních podniků bohužel nedosáhne. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5886,5888</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7833386026075091386" datatype="html">
+        <source> Are you working during holidays/weekends? </source>
+        <target>Jste k dispozici i počas svátků a víkendů?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5893,5895</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5370766545194594329" datatype="html">
+        <source> At WE-DEL ve value your time a lot. Therefore you can approach as anytime via phone call. At our regular work hours, which is from Monday to Friday 08-17 CET we will try our utmost best tol reply you within one hour from sending of mail infromation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> For OnTime service you can give us a call 24/7/365. </source>
+        <target>Ve WE-DEL nám velmi záleží na vašem času.  Z tohoto důvodu nás můžete kdykoliv kontaktovat skrze telefonní hovor. V naše pracovní dny, tedy od pondělí do pátku 08-17 CET, uděláme maximum, abychom Vám odpověděli na Vaše e-maily do hodiny od obdržení mailu. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Pro servis On-Time jsme Vám k dispozici 24/7/365.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5901,5904</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3228426313828509562" datatype="html">
+        <source> Is my shipment insured against any damage/losage of cargo? </source>
+        <target>Je moje zásilka pojištěna proti ztrátě či poškození v průběhu přepravy?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5909,5911</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8330006065226941886" datatype="html">
+        <source> As a freight forwarding company the cargo you are shipping with us is governed by insurance of our carrier. With that said it is by Montreal &amp; Warszaw agreement in the case of air transport and by CMR in case of ground transport. On top of it WE-DEL has insurance with limit 3 000 000 CZK for freight-forwarding related mistakes. If your shipment exceeds this amouth, do not hesitate to write us for additional insurance. </source>
+        <target>Jako zasilatelská společnost musíme zdůraznit, že odesílaní zásilky s námi je upravováno pojištěním dopravce s kterým zásilku odeslímáme. To znamná Montrealskou & Varšavskou úmluvu v případě letecké přepravy a skrze CMR v případě pozemní přepravy. Nad rámec toho má WE-DEL pojistný limit 3 000 000 Kč na pojištění odpovědnosti zasilatele. Pokud Vaše zásilka překračuje tento rámec, neváhejte nám napsat pro kalkulaci připojištění zásilky.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5917,5919</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7232202323158909102" datatype="html">
+        <source> How can I track my shipment? </source>
+        <target>Kde mohu sledovat pohyb své zásilky?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5924,5926</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3549428494719411673" datatype="html">
+        <source> We are having tracking option on the page. If for any reason the tracking is not giving updated informations we are always awailable to check the shipment progress via phone/mail/online chat. As for our premium service OnTime we are offering 24/7 tracking. </source>
+        <target>Na stránkách WE-DEL máme  máme záložku sledování zásilek. Pokud z rozličných důvodů možnost sledování na našich webových stránkách není aktualizovaná, jsme vždy otevřeni a připraveni sledovat pohyby zásilky skrze telefon/mail/online chat. Pro prémiový servis OnTime nabízíme sledování zásilky 24/7/365. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5932,5934</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7761915372121338165" datatype="html">
+        <source>Aviatická 1092/8, Praha 6, 161 00, CZ</source>
+        <target>Aviatická 1092/8, Praha 6, 161 00, CZ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5973</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8470042154316912898" datatype="html">
+        <source>Connect via Linkedin</source>
+        <target>Spojení skrze LinkedIn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5977</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8526267784939186101" datatype="html">
+        <source>Thank you for your email!</source>
+        <target>Děkujeme za Váš email!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2980226900994676313" datatype="html">
+        <source>We understand the importance of your request and are committed to providing you with a prompt response. However, if your request requires immediate attention and cannot wait for a response via email, we kindly request that you reach out to us directly via phone call. Our dedicated contact number is +420 727 893 073.</source>
+        <target>Rozumíme důležitosti vašeho požadavku a vždy je naši prioritou Vám odpovědět co nejdříve. Pokud však vaše poptávka vyžaduje okamžitou pozornost a nemůže čekat na odpověď skrze mail, prosíme Vás o přímé telefonické spojení. Pohotovostním kontaktem je +420 727 893 073.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6700732310668574063" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
+        <target>Naší vizí je pomoci zejména malým a středním firmám skrze nabídku komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit náklady, čas a nervy.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
     </body>

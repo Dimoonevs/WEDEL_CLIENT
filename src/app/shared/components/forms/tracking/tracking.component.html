@@ -1,10 +1,10 @@
 <form [formGroup]='trackingForm'>
-    <label for="number" class="all_top_block_text text">Shipment ID<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text fiive">This field is required</div></div></label>
+    <label for="number" class="all_top_block_text text" i18n>Shipment ID<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text fiive">This field is required</div></div></label>
     <div class="tracking_block_conteiner">
         <div class="tracking_block_conteiner_input">
             <input [ngClass]="{'input_error': getControl('Tracking').invalid && (getControl('Tracking').touched || getControl('Tracking').dirty)}" type="text"  placeholder="Place text here" name="number" class="all_top_block_inp text" [(ngModel)]="inputValue" (input)="addPrefix()" pattern="^WD\d*$" formControlName="Tracking">
             <div *ngIf="getControl('Tracking').invalid && (getControl('Tracking').touched || getControl('Tracking').dirty)">
-                <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControl('Tracking').errors?.['required']">
+                <div class="text_error text" style="margin-bottom: -20px;" *ngIf="getControl('Tracking').errors?.['required']" i18n>
                     This field is required.
                 </div>
             </div>
@@ -13,7 +13,6 @@
                     Data invalid.
                 </div>
             </div>
-            <!-- <div *ngIf="!isValidInput()">Пожалуйста, введите правильный формат (например, WD123).</div> -->
         </div>
         <button type="submit" [disabled]="trackingForm.invalid || trackingForm.disabled" class="text">Track</button>
     </div>

@@ -1,12 +1,12 @@
 <form [formGroup]='senderForm' (ngSubmit)="submitSender()" novalidate>
-    <div class="sender_text_top"> <div class="text">Please provide the necessary information in five steps for an optimal quotation proposal tailored to your transportation needs. </div></div>
+    <div class="sender_text_top"> <div class="text" i18n>Please provide the necessary information in five steps for an optimal quotation proposal tailored to your transportation needs. </div></div>
 
     <div class="all_top">
         <div class="all_top_block">
-            <label for="Company" class="all_top_block_text text">Company name<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div> </label>
+            <label for="Company" class="all_top_block_text text" i18n>Company name<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div> </label>
             <input type="text" [ngClass]="{'input_error': _company.invalid && (_company.touched || _company.dirty)}" [(ngModel)]="company" placeholder="Place text here" id="Company" name="Company" class="all_top_block_inp text" formControlName="Company">
             <div *ngIf="_company.invalid && (_company.touched || _company.dirty)">
-                <div class="text_error text" *ngIf="_company.errors?.required">
+                <div class="text_error text" *ngIf="_company.errors?.required" i18n>
                     This field is required. 
                 </div>
             </div>
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="all_top_block counrty_block">
-            <label for="Country" class="all_top_block_text text">Country<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
+            <label for="Country" class="all_top_block_text text" i18n>Country<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
             <div class="img_inpu_country"><img src="assets/img/input_simvol.svg" alt=""></div>
             <input type="text" (click)="addFocuse()"  [(ngModel)]="valueCountry" autocomplete="off" placeholder="Place text here" name="Country" class="all_top_block_inp all_top_block_inp_country text" (keyup)="onKeay(valueCountry)"  formControlName="Country">
             <div id="country" class="country">
@@ -57,10 +57,10 @@
             </div>
         </div>
         <div class="all_top_block">
-            <label for="City" class="all_top_block_text text">City<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text three">This field is required</div></div> </label>
+            <label for="City" class="all_top_block_text text" i18n>City<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text three" >This field is required</div></div> </label>
             <input type="text" [ngClass]="{'input_error': _city.invalid && (_city.touched || _city.dirty)}" [(ngModel)]="city" placeholder="Place text here" name="City" class="all_top_block_inp text" formControlName="City">
             <div *ngIf="_city.invalid && (_city.touched || _city.dirty)">
-                <div class="text_error text" *ngIf="_city.errors?.required">
+                <div class="text_error text" *ngIf="_city.errors?.required" i18n>
                     This field is required.
                 </div>
             </div>
@@ -71,10 +71,10 @@
             </div>
         </div>
         <div class="all_top_block">
-            <label for="Postal" class="all_top_block_text text">Postal code<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text four">This field is required</div></div> </label>
+            <label for="Postal" class="all_top_block_text text" i18n>Postal code<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text four">This field is required</div></div> </label>
             <input type="text" [ngClass]="{'input_error': _postal.invalid && (_postal.touched || _postal.dirty)}" [(ngModel)]="postal" placeholder="Place text here" name="Postal" class="all_top_block_inp text" formControlName="Postal">
             <div *ngIf="_postal.invalid && (_postal.touched || _postal.dirty)">
-                <div class="text_error text" *ngIf="_postal.errors?.required">
+                <div class="text_error text" *ngIf="_postal.errors?.required" i18n>
                     This field is required.
                 </div>
             </div>
@@ -85,10 +85,10 @@
             </div>
         </div>
     </div>
-    <label for="Street" class="all_top_block_text text">Street<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text fiive">This field is required</div></div> </label>
+    <label for="Street" class="all_top_block_text text"i18n>Street<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text fiive">This field is required</div></div> </label>
     <input type="text" [ngClass]="{'input_error': _street.invalid && (_street.touched || _street.dirty)}" [(ngModel)]="street" placeholder="Place text here" name="Street" class="all_top_block_inp sender_top_block_inp_street text" formControlName="Street">
     <div *ngIf="_street.invalid && (_street.touched || _street.dirty)">
-        <div class="text_error text" *ngIf="_street.errors?.required">
+        <div class="text_error text" *ngIf="_street.errors?.required" i18n>
             This field is required.
         </div>
     </div>
@@ -99,7 +99,7 @@
     </div>
     <div class="all_botom">
         <div class="all_top_block sender_botom_block">
-            <label for="Contact" class="all_top_block_text text">Phone number<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text six">This field is required</div> </div></label>
+            <label for="Contact" class="all_top_block_text text" i18n>Phone number<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text six">This field is required</div> </div></label>
             <div class="phone all_top_block_phone sender_block_rel_for_phone_code">
                 <div [ngClass]="{'input_error_for_phone_code': _contact.invalid && (_contact.touched || _contact.dirty)}" class="all_botom_select sender_select_phone_code all_top_block_phone_code">
                     <div class="all_botom_select_selected text"(click)="toogleActiveForSlectOptionPhone()" >{{phoneCode}}</div>
@@ -113,7 +113,7 @@
                 <input [ngClass]="{'input_error': _contact.invalid && (_contact.touched || _contact.dirty)}" (focus)="onFocusNumber()" (blur)="onFocusNumber()" type="phone" [(ngModel)]="contacts" placeholder="Place text here" name="Contact" class="all_top_block_inp all_top_block_inp_phone text" formControlName="Contact" [mask]="phoneMask">
             </div>
             <div *ngIf="_contact.invalid && (_contact.touched || _contact.dirty)">
-                <div class="text_error text" *ngIf="_contact.errors?.required">
+                <div class="text_error text" *ngIf="_contact.errors?.required" i18n>
                     This field is required.
                 </div>
             </div>
@@ -124,7 +124,7 @@
             </div>
         </div>
         <div class="all_top_block sender_botom_block">
-            <label for="Budget" class="all_top_block_text text">Budget</label>
+            <label for="Budget" class="all_top_block_text text" i18n>Budget</label>
             <div class="all_botom_block_select">
                 <input type="text" [(ngModel)]="buget" placeholder="Place text here" name="Budget" class="all_top_block_inp text" formControlName="Budget">
                 <div class="all_botom_select">
@@ -146,5 +146,5 @@
             
         </div>
     </div>
-    <div class="button_submit_next_step"><button class="next_step text" type="submit" [disabled]="senderForm.invalid || senderForm.disabled">Next step</button></div>
+    <div class="button_submit_next_step"><button class="next_step text" type="submit" [disabled]="senderForm.invalid || senderForm.disabled" i18n>Next step</button></div>
 </form>

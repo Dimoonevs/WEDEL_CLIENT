@@ -10,6 +10,9 @@
 }
 .form_contact_text{
     margin-bottom: 40px;
+    padding: 24px;
+    background: rgba(230, 235, 241, 0.5);
+    border-radius: 4px;
 }
 .form_contact_all_input{
     width: 100%;

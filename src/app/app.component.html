@@ -13,13 +13,13 @@
         </div>
           <div class="content_nav">
               <ul>
-                  <li class="text"><a (click)="scrollTo('arrage')">We do</a> <div class="border_bottom_of_hover"></div></li>
-                  <li class="text"><a (click)="scrollTo('services')">Services</a> <div class="border_bottom_of_hover"></div></li>
-                  <li class="text"><a (click)="scrollTo('quotation')">Quote</a> <div class="border_bottom_of_hover"></div></li>
-                  <li class="text"><a (click)="scrollTo('tracking')">Tracking</a> <div class="border_bottom_of_hover"></div></li>
-                  <li class="text"><a (click)="scrollTo('story')">Our story</a> <div class="border_bottom_of_hover"></div></li>
-                  <li class="text"><a (click)="scrollTo('help')">FAQ</a> <div class="border_bottom_of_hover"></div></li>
-                  <li class="text"><a (click)="scrollTo('contact')">Contact</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('arrage')" i18n>We do</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('services')" i18n>Services</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('quotation')" i18n>Quote</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('tracking')" i18n>Tracking</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('story')" i18n>Our story</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('help')" i18n>FAQ</a> <div class="border_bottom_of_hover"></div></li>
+                  <li class="text"><a (click)="scrollTo('contact')" i18n>Contact</a> <div class="border_bottom_of_hover"></div></li>
               </ul>
           </div>
           <div class="content_rightnav">
@@ -66,13 +66,13 @@
     <div class="mobile"[ngClass]="{'active_mobile': isOpenBurger}">
         <div class="mobile_content_nav">
             <ul>
-                <li class="text"><a (click)="scrollTo('arrage')">We do</a> <div class="border_bottom_of_hover"></div></li>
-                <li class="text"><a (click)="scrollTo('services')">Services</a> <div class="border_bottom_of_hover"></div></li>
-                <li class="text"><a (click)="scrollTo('quotation')">Quote</a> <div class="border_bottom_of_hover"></div></li>
-                <li class="text"><a (click)="scrollTo('tracking')">Tracking</a> <div class="border_bottom_of_hover"></div></li>
-                <li class="text"><a (click)="scrollTo('story')">Our story</a> <div class="border_bottom_of_hover"></div></li>
-                <li class="text"><a (click)="scrollTo('help')">Help</a> <div class="border_bottom_of_hover"></div></li>
-                <li class="text"><a (click)="scrollTo('contact')">Contact</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('arrage')" i18n>We do</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('services')" i18n>Services</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('quotation')" i18n>Quote</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('tracking')" i18n>Tracking</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('story')" i18n>Our story</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('help')" i18n>FAQ</a> <div class="border_bottom_of_hover"></div></li>
+                <li class="text"><a (click)="scrollTo('contact')" i18n>Contact</a> <div class="border_bottom_of_hover"></div></li>
             </ul>
             <div class="content_rightnav content_rightnav_mobile">
                 <div class="sleceted_header" >
@@ -123,14 +123,14 @@
         <div class="footer_top">
             <ul>
                 <li><a href="" class="text footer-text">© 2023 WE-DEL</a></li>
-                <li><a href="" class="text footer-text">Terms of Conditions</a></li>
-                <li><a href="" class="text footer-text">Website Terms of Use</a></li>
-                <li><a href="" class="text footer-text">Privacy Notice</a></li>
-                <li><a href="" class="text footer-text  footer-text_last">Cookie Settings</a></li>
+                <li><a href="" class="text footer-text" i18n>Terms of Conditions</a></li>
+                <li><a href="" class="text footer-text" i18n>Website Terms of Use</a></li>
+                <li><a href="" class="text footer-text" i18n>Privacy Notice</a></li>
+                <li><a href="" class="text footer-text  footer-text_last" i18n>Cookie Settings</a></li>
             </ul>
         </div>
         <div class="footer_bottom">
-            <div class="footer_bottom_text text">For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</div>
+            <div class="footer_bottom_text text" i18n>For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</div>
             <app-request-acall></app-request-acall>
         </div>
     </div>

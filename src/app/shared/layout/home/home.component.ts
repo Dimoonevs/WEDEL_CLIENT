@@ -1,8 +1,6 @@
-import { Component, ElementRef,HostListener,OnInit, Renderer2, ViewChild} from '@angular/core';
+import { Component, ElementRef,HostListener,OnInit, ViewChild} from '@angular/core';
 import { fromEvent} from 'rxjs';
-import { FormService } from '../../service/form.service';
 import { OwlCarousel } from 'ngx-owl-carousel';
-import { AppComponent } from 'src/app/app.component';
 import { AnimationService } from '../../service/animation.service';
 
 @Component({
@@ -22,7 +20,6 @@ export class HomeComponent implements OnInit {
   isVisible: boolean = false;
   isReadyVisible = false;
   intersectionObserver!: IntersectionObserver;
-  private mutationObserver!: MutationObserver;
 
 
   progress: NodeListOf<any> | any;
@@ -30,7 +27,7 @@ export class HomeComponent implements OnInit {
   progressTextSender: NodeListOf<any> | any;
   progressTextData: NodeListOf<any> | any;
   progressTextReceiver: NodeListOf<any> | any;
-  constructor(private animationService: AnimationService, private elRef: ElementRef,  private formService: FormService, private componentMain: AppComponent) { 
+  constructor(private animationService: AnimationService, private elRef: ElementRef) { 
     fromEvent(window, 'resize').subscribe(() => {
       this.pathMethod()
     });
@@ -50,7 +47,6 @@ export class HomeComponent implements OnInit {
           if(scrollPosition < 7385 && !this.isReadyVisible){
             const height = scrollPosition - elementPosition;
             element.style.setProperty('height', height + 'px');
-            console.log(height)
             const allPointer = document.querySelectorAll(".story_card_manifesto_card_contaniner_block") 
             if(height >= 45 ){
               allPointer[0].classList.add("story_card_manifesto_card_contanier_wrapper_block_fs--active")

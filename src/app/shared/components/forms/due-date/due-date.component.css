@@ -5,6 +5,12 @@
 .calendar{
     position: relative;
 }
+.calendar_text{
+    padding: 24px;
+    background: rgba(230, 235, 241, 0.5);
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
 .date_top_block_textarea{
     width: 818px;
     max-width: 100%;

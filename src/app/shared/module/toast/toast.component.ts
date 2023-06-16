@@ -7,9 +7,6 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./toast.component.css']
 })
 export class ToastComponent {
-
-  title = "Thank you for your email!";
-  text= "Lorem ipsum dolor sit amet consectetur. At etiam lacus velit facilisi mi diam imperdiet adipiscing pretium. ";
   isActive = false;
 
   constructor(private router: Router,  private route: ActivatedRoute) { }
@@ -17,9 +14,7 @@ export class ToastComponent {
   ngOnInit() {
     
   }
-  showToast(title:string, text:string){
-    this.title = title
-    this.text = text
+  showToast(){
     const toast = document.querySelector('.toast_container')
     this.isActive = true;
     toast?.classList.add('toast_active')

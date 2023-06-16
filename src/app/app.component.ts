@@ -27,7 +27,7 @@ export class AppComponent {
   width = 100;
   item = "assets/img/GB.svg"
   items=[
-    {id:1, locale: 'EN', code: "en-US", leng: 'en'},
+    {id:1, locale: 'EN', code: "en-US", leng: 'en-US'},
     {id:2, locale:'CZ', code: "cs", leng: 'cs'}
   ]
   
@@ -42,7 +42,7 @@ export class AppComponent {
     this.lenguege = lang;
     this.activeRoute.queryParams.subscribe((params: Params) => {
       if(params['contact']){
-        this.toast.showToast('Contact','Toast');
+        this.toast.showToast();
       }
     })
     if(!this.isDark){

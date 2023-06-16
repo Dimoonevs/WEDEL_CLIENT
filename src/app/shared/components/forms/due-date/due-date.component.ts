@@ -11,10 +11,10 @@ export class DueDateComponent {
   selected= this.formService.getDateSelected();
   description = this.formService.getDateDescription()
   currentMonth: Date;
-  weekDays: string[] = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+  weekDays: string[] = [$localize`Su`, $localize`Mo`, $localize`Tu`, $localize`We`, $localize`Th`, $localize`Fr`, $localize`Sa`];
   calendar: { day: number | null, isCurrentDay: boolean, date: Date | null}[][] = [];
   selectedDate: Date | null = this.formService.getDateSelected(); ;
-  monthForChoise: string[] =['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
+  monthForChoise: string[] =[$localize`Jan`, $localize`Feb`, $localize`Mar`, $localize`Apr`, $localize`May`, $localize`Jun`, $localize`Jul`, $localize`Aug`, $localize`Sept`, $localize`Oct`, $localize`Nov`, $localize`Dec`]
   calendarChoise = false;
 
   ngOnInit(): void {

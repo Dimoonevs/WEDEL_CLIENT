@@ -1,23 +1,23 @@
 <form class="form_contact" [formGroup]='contactForm' (ngSubmit)="submitCallRequest()">
-    <div class="form_contact_title text_title">
+    <div class="form_contact_title text_title" i18n>
         Let`s get in Touch!
     </div>
-    <div class="form_contact_text text">
+    <div class="form_contact_text text" i18n>
         For any questions or inquiries, please email us using the form below. We always ready to assist you promptly.
     </div>  
-    <label for="name" class="all_top_block_text  text">Name<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div></label>
+    <label for="name" class="all_top_block_text  text" i18n>Name<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div></label>
     <input [ngClass]="{'input_error': getControl('Name').invalid && (getControl('Name').touched || getControl('Name').dirty)}" type="text" name="name" class="all_top_block_inp form_contact_all_input  text" formControlName="Name">
     <div *ngIf="getControl('Name').invalid && (getControl('Name').touched || getControl('Name').dirty)">
-        <div class="text_error text" style="margin-top: -10px;" *ngIf="getControl('Name').errors?.['required']">
+        <div class="text_error text" style="margin-top: -10px;" *ngIf="getControl('Name').errors?.['required']" i18n>
           This field is required.
         </div>
     </div>
-    <label for="phone" class="all_top_block_text  text">Phone number</label>
+    <label for="phone" class="all_top_block_text  text" i18n>Phone number</label>
     <input type="phone" name="phone" class="all_top_block_inp form_contact_all_input  text" formControlName="Phone">
-    <label for="email" class="all_top_block_text  text">Email<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div></label>
+    <label for="email" class="all_top_block_text  text" i18n>Email<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div></label>
     <input [ngClass]="{'input_error': getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)}" type="text" name="email" class="all_top_block_inp form_contact_all_input  text" formControlName="Email">
     <div *ngIf="getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)">
-        <div class="text_error text" style="margin-top: -10px;" *ngIf="getControl('Email').errors?.['required']">
+        <div class="text_error text" style="margin-top: -10px;" *ngIf="getControl('Email').errors?.['required']" i18n>
           This field is required.
         </div>
     </div>
@@ -26,12 +26,12 @@
             Data is invalid.
         </div>
     </div>
-    <label for="message" class="all_top_block_text  text">Message<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div></label>
+    <label for="message" class="all_top_block_text  text" i18n>Message<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div></label>
     <textarea [ngClass]="{'input_error': getControl('Message').invalid && (getControl('Message').touched || getControl('Message').dirty)}" type="text" name="message" class="all_top_block_inp form_contact_all_input form_contact_textarea_input text" formControlName="Message"></textarea>
     <div *ngIf="getControl('Message').invalid && (getControl('Message').touched || getControl('Message').dirty)">
-        <div class="text_error text" style="margin-top: -10px;" *ngIf="getControl('Message').errors?.['required']">
+        <div class="text_error text" style="margin-top: -10px;" *ngIf="getControl('Message').errors?.['required']" i18n>
           This field is required.
         </div>
     </div>
-    <div class="contact_form_button"><button class="next_step text" type="submit" [disabled]="contactForm.invalid || contactForm.disabled">Send</button></div>
+    <div class="contact_form_button"><button class="next_step text" type="submit" [disabled]="contactForm.invalid || contactForm.disabled" i18n>Send</button></div>
 </form>
