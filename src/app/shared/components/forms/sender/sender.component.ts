@@ -62,23 +62,19 @@ export class SenderComponent {
     this.senderForm = this.fb.group({
       Company:['', [
         Validators.required,
-        Validators.pattern('^[a-zA-Z 0-9]+$')
       ]],
       Country:['', [
         Validators.required,
-        Validators.pattern('^[a-zA-Z ]+$')
+        Validators.pattern('^[A-Za-z ]+$')
       ]],
       City:['', [
         Validators.required,
-        Validators.pattern('^[a-zA-Z ]+$')
       ]],
       Postal:['', [
         Validators.required,
-        Validators.pattern('^[0-9]+$')
       ]],
       Street:['', [
         Validators.required,
-        Validators.pattern('^[a-zA-Z 0-9-_]+$')
       ]],
       
       Budget:['', [

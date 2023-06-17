@@ -1,7 +1,6 @@
 import { Component, ElementRef } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
-import { HomeComponent } from './shared/layout/home/home.component';
 
 declare var particlesJS: any;
 
@@ -11,11 +10,12 @@ declare var particlesJS: any;
   styleUrls: ['./app.component.css','./media/app.media-mobile.css', './media/app.media-4K.css']
 })
 
+
 export class AppComponent {
   isActiveBg = false;
   isActive =true;
   isOpenBurger = false;
-  lenguege!: string
+  lenguege!: string;
   isDark = false;
 
   isDarkTrue():boolean{
@@ -31,7 +31,10 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cs", leng: 'cs'}
   ]
   
-  constructor(private router:Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){}
+  constructor(private router:Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
+    const storedIsDark = localStorage.getItem('isDark');
+    this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
+  }
   ngOnInit(): void {
     particlesJS.load('particles-js', 'assets/particles.json', function() {
 
@@ -87,6 +90,7 @@ export class AppComponent {
   isDarkFunc(){
     if(!this.isDark){
       this.isDark = !this.isDark
+      localStorage.setItem('isDark', JSON.stringify(this.isDark));
       const bodyElement = document.querySelector('body') 
       bodyElement?.classList.add('dark')
     }
@@ -94,6 +98,7 @@ export class AppComponent {
   isLightFunc(){
     if(this.isDark){
       this.isDark = !this.isDark
+      localStorage.setItem('isDark', JSON.stringify(this.isDark));
       const bodyElement = document.querySelector('body') 
       bodyElement?.classList.remove('dark')
     }

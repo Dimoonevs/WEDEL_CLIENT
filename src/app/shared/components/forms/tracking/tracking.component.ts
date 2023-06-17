@@ -32,8 +32,4 @@ export class TrackingComponent {
       this.inputValue = 'WD' + this.inputValue;
     }
   }
-
-  // isValidInput() {
-  //   return /^WD\d*$/.test(this.inputValue);
-  // }
 }
