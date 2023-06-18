@@ -69,7 +69,7 @@ export class HomeComponent implements OnInit {
             if(height >= 573 ){
               allPointer[6].classList.add("story_card_manifesto_card_contanier_wrapper_block_sv--active")
             }
-            if(height >= 650 ){
+            if(height >= 620 ){
               allPointer[7].classList.add("story_card_manifesto_card_contanier_wrapper_block_eg--active")
             }
           }else{
