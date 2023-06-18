@@ -13,6 +13,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">69</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5415</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7143579180750436311" datatype="html">
         <source>Services</source>
@@ -24,6 +28,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5485</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1103299628984958400" datatype="html">
@@ -37,6 +45,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">71</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5580</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5606832344122511557" datatype="html">
         <source>Tracking</source>
@@ -48,6 +60,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5693</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1777825514101374333" datatype="html">
@@ -61,6 +77,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5708</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="2806917038528218276" datatype="html">
         <source>FAQ</source>
@@ -73,6 +93,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">74</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5839</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
         <source>Contact</source>
@@ -84,6 +108,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8478716983552743608" datatype="html">
+        <source> Contact </source>
+        <target>Kontakt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5945,5947</context>
         </context-group>
       </trans-unit>
       <trans-unit id="173101900787004043" datatype="html">
@@ -972,7 +1004,7 @@
       </trans-unit>
       <trans-unit id="7574928322989891940" datatype="html">
         <source>Our specialization is air and ground transportation, and our services are adapted to these modes of transportation. If you order an import service, we will arrange the entire transport for you through our network of proven local expert partners who are members of the WCA (the largest global alliance of independent carriers) or JcTrans forwarders alliances. We handle export shipments from our Prague office through direct contact with airlines or their local representatives. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
-        <target>Naší hlavní specializací je letecká přeprava. Přepravu importních zásilek zařídíme skrze prověřenou síť místního experních partnerů, kteří jsou všichni členové WCA (největší aliance nezávislých zasilatelů), či JcTrans. Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště skrze přímý styk s aerolinkami, či jejich lokálními prodejními kanály. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
+        <target>Naší hlavní specializací je letecká přeprava. Přepravu importních zásilek zařídíme skrze prověřenou síť místního experních partnerů, kteří jsou všichni členové WCA (největší aliance nezávislých zasilatelů), či JcTrans. Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště skrze přímý styk s aerolinkami, či jejich lokálními prodejními kanály. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5422,5424</context>
@@ -1084,7 +1116,7 @@
       </trans-unit>
       <trans-unit id="6609486527251769897" datatype="html">
         <source>Is the linestopper hanging in the air at the car factory? Do you have an excellent business opportunity where timing to market is the key? Then there is a priority air/ground cargo service for you, especially suitable if you are very concerned about the delivery time. We see a story in every shipment, even on a non-financial level. We believe that the shipping business is about personal relationships and failure to meet deadlines can have unfathomable financial and non-financial consequences.</source>
-        <target>Visí ve vzduchu linestopper v automobilce? Máte vynikající obchodní příležitost, kde je načasování vstupu na trh klíčové? Pak je zde pro Vás prioritní servis leteckého carga, vhodný zejména pokud Vám velmi záleží na času doručení. V každé zásilce vidíme příběh, a to i v nefinanční rovině. Věříme, že přepravní odvětví je o osobních vztazích a nedodržení termínů může mít nedozírné finanční i nefinanční následky.  OnTime šetří Váš čas a nervy.</target>
+        <target>Visí ve vzduchu linestopper v automobilce? Máte vynikající obchodní příležitost, kde je načasování vstupu na trh klíčové? Pak je zde pro Vás prioritní servis leteckého carga, vhodný zejména pokud Vám velmi záleží na času doručení. V každé zásilce vidíme příběh, a to i v nefinanční rovině. Věříme, že přepravní odvětví je o osobních vztazích a nedodržení termínů může mít nedozírné finanční i nefinanční následky. OnTime šetří Váš čas a nervy.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5494</context>
@@ -1528,7 +1560,7 @@
       </trans-unit>
       <trans-unit id="1683857576001037335" datatype="html">
         <source> Well, almost yes! Of course there are some exceptions. We can’t offer shipment to: Cuba, North Korea, Iran, Syria, Belarus, Sudan, South Sudan, Yemen, Somalia, Burma (Maymar) and of course to Russia. At WE-DEL we believe that the firm spine is more important then profit. Additional check-ups may apply to the shipment that raise a suspicion that might be transfered to Russia through various transit countries. </source>
-        <target>No, skoro ano. Ale jsou zde samozřejmě nějaké vyjímky. Nedokázeme nabídnout přepravu na Kubu, do Severní Korei, Iránu, Sýrie, Běloruska, Súdánu, Jižního Súdánu, Jemenu, Spomálska, Barmy (Maymar) a samozřejmě do Ruska.  Ve WE-DEL věříme, že rovná páteř je důležitější, než jakýkoliv možný zisk., Další kontroly mohou nastat do zemí, které vzbuzují podezření přeposlání zásilky z dané země do Ruska. </target>
+        <target>No, skoro ano. Ale jsou zde samozřejmě nějaké vyjímky. Nedokázeme nabídnout přepravu na Kubu, do Severní Korei, Iránu, Sýrie, Běloruska, Súdánu, Jižního Súdánu, Jemenu, Spomálska, Barmy (Maymar) a samozřejmě do Ruska. Ve WE-DEL věříme, že rovná páteř je důležitější, než jakýkoliv možný zisk., Další kontroly mohou nastat do zemí, které vzbuzují podezření přeposlání zásilky z dané země do Ruska. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5871,5873</context>

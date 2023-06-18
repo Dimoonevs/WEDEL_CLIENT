@@ -585,7 +585,7 @@
     backdrop-filter: blur(20px);
     border-radius: 0px 4px 4px 0px;
     max-width: 503px;
-    padding: 60px 71px 60px 160px;
+    padding: 60px 51px 60px 140px;
 }
 .contact_card_links_block{
     display: flex;

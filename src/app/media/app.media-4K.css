@@ -37,7 +37,7 @@
         line-height: 22px;
     }
     .text_title{
-        font-size: 38px;
+        font-size: 31px;
         line-height: 44px
     }
     .tailored_img .img svg{
@@ -54,6 +54,9 @@
     .wrapper_arrage{
         max-width: 1369px;
     }
+    .content_wrepper{
+        max-width: 1161px;
+    }
     .arrage_cards_card{
         min-height: 660px;
     }
@@ -62,7 +65,7 @@
     }
     .text{
         font-size: 23px !important;
-        line-height: 28px !important;
+        line-height: 35px !important;
     }
     .text_title{
         font-size: 63px;
@@ -82,9 +85,35 @@
         max-width: 636px;
     }
     .arrage_cards_card_text{
-        max-width: 800px;
+        max-width: 910px;
     }
     .quotation_block_progress_curcle_text{
         font-size: 31px;
+    }
+    .story_card_manifesto_card_contaniner_block{
+        width: 351px;
+    }
+    .contact_card_links{
+        width: 100%;
+        max-width: 720px;
+    }
+    .contact_card_links_block{
+        max-width: none;
+    }
+    .form_contact{
+        max-width: 687px;
+    }
+    .contact_card{
+        padding-right: 50px;
+    }
+    .text_big{
+        font-size: 63px;
+    }
+    .title_all_block{
+        padding-bottom: 33px;
+        border-bottom: 3px solid #3C5470;
+    }
+    .quotation_block_progress{
+        justify-content: center;
     }
 }

@@ -21,22 +21,22 @@
         }
       },
       "opacity": {
-        "value": 0.5,
+        "value": 1,
         "random": false,
         "anim": {
           "enable": true,
           "speed": 0.5,
-          "opacity_min": 0.1,
+          "opacity_min": 1,
           "sync": false
         }
       },
       "size": {
-        "value": 7,
+        "value": "",
         "random": true,
         "anim": {
           "enable": false,
           "speed": 5,
-          "size_min": 2,
+          "size_min": "",
           "sync": false
         }
       },

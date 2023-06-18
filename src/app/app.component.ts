@@ -1,6 +1,7 @@
-import { Component, ElementRef } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
+import { HttpClient } from '@angular/common/http';
 
 declare var particlesJS: any;
 
@@ -17,6 +18,11 @@ export class AppComponent {
   isOpenBurger = false;
   lenguege!: string;
   isDark = false;
+  sizeWindow = window.innerWidth;
+  sizeMax= 7;
+  sizeMin = 2;
+  colorValue = "#ECECED";
+  shapeColor = "#ECECED";
 
   isDarkTrue():boolean{
     return this.isDark;
@@ -31,14 +37,42 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cs", leng: 'cs'}
   ]
   
-  constructor(private router:Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
+  constructor(private http: HttpClient, private router:Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
   }
-  ngOnInit(): void {
-    particlesJS.load('particles-js', 'assets/particles.json', function() {
+  @HostListener('window:resize')
+  onResize() {
+      this.loadParticales()
+  }
+  loadParticales():void{
+    if(window.innerWidth >= 1653){
+      this.sizeMax = 10;
+      this.sizeMin = 4;
+    }else if(window.innerWidth < 1653){
+      this.sizeMax = 7;
+      this.sizeMin = 2
+    }
+    if(this.isDark){
+      this.colorValue = "#6A6D70"; 
+      this.shapeColor = "#6A6D70";
+    }else if(!this.isDark){
+      this.colorValue = "#ECECED";
+      this.shapeColor = "#ECECED";
+    }
+    this.http.get('assets/particles.json').subscribe((particlesSettings: any) => {
+      particlesSettings.particles.size.value = this.sizeMax;
+      particlesSettings.particles.size.anim.size_min = this.sizeMin;
+      particlesSettings.particles.color.value = this.colorValue;
+      particlesSettings.particles.line_linked.color = this.shapeColor;
 
+      particlesJS('particles-js', particlesSettings, () => {
+        
+      });
     });
+  }
+  ngOnInit(): void {
+    this.loadParticales()
 
     const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
     const lang = htmlElement.getAttribute('lang');
@@ -91,8 +125,9 @@ export class AppComponent {
     if(!this.isDark){
       this.isDark = !this.isDark
       localStorage.setItem('isDark', JSON.stringify(this.isDark));
-      const bodyElement = document.querySelector('body') 
-      bodyElement?.classList.add('dark')
+      const bodyElement = document.querySelector('body');
+      bodyElement?.classList.add('dark');
+      this.loadParticales()
     }
   }
   isLightFunc(){
@@ -101,6 +136,9 @@ export class AppComponent {
       localStorage.setItem('isDark', JSON.stringify(this.isDark));
       const bodyElement = document.querySelector('body') 
       bodyElement?.classList.remove('dark')
+      this.loadParticales()
     }
   }
 }
+
+

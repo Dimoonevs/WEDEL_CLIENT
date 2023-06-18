@@ -12,6 +12,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">69</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5415</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="7143579180750436311" datatype="html">
         <source>Services</source>
@@ -22,6 +26,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5485</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1103299628984958400" datatype="html">
@@ -34,6 +42,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">71</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5580</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="5606832344122511557" datatype="html">
         <source>Tracking</source>
@@ -44,6 +56,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5693</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1777825514101374333" datatype="html">
@@ -56,6 +72,10 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">73</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5708</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="2806917038528218276" datatype="html">
         <source>FAQ</source>
@@ -66,6 +86,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5839</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
@@ -1430,6 +1454,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5932,5934</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8478716983552743608" datatype="html">
+        <source> Contact </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5945,5947</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7761915372121338165" datatype="html">
