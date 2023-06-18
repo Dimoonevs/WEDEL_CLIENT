@@ -9,6 +9,7 @@
 
 .fade-in_visible {
     opacity: 1; 
+    overflow: inherit;
 }
 .content_wrepper {
     max-width: 820px; 
@@ -748,7 +749,7 @@
     text-align: center;
     opacity: 0;
 }
-.story_card_manifesto_card_contanier_wrapper_block_fs--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(1){
     left: 24px;
     opacity: 1;
 }
@@ -758,14 +759,14 @@
     right: -224px;
     opacity: 0;
 }
-.story_card_manifesto_card_contanier_wrapper_block_sc--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(2){
     opacity: 1;
     right: 24px;
 }
 .story_card_manifesto_card_contanier_wrapper_block_th{
     top: 174px;
 }
-.story_card_manifesto_card_contanier_wrapper_block_th--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(3){
     left: 24px;
     opacity: 1;
 }
@@ -775,14 +776,14 @@
     right: -224px;
     opacity: 0;
 }
-.story_card_manifesto_card_contanier_wrapper_block_fr--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(4){
     opacity: 1;
     right: 24px;
 }
 .story_card_manifesto_card_contanier_wrapper_block_fv{
     top: 355px;
 }
-.story_card_manifesto_card_contanier_wrapper_block_fv--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(5){
     left: 24px;
     opacity: 1;
 }
@@ -791,14 +792,14 @@
     left: auto;
     right: -224px;
 }
-.story_card_manifesto_card_contanier_wrapper_block_sx--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(6){
     opacity: 1;
     right: 24px;
 }
 .story_card_manifesto_card_contanier_wrapper_block_sv{
     top: 538px;
 }
-.story_card_manifesto_card_contanier_wrapper_block_sv--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(7){
     left: 24px;
     opacity: 1;
 }
@@ -807,7 +808,7 @@
     left: auto;
     right: -224px;
 }
-.story_card_manifesto_card_contanier_wrapper_block_eg--active{
+.story_card_manifesto_card_contanier_wrapper_block--active:nth-child(8){
     opacity: 1;
     right: 24px;
 }

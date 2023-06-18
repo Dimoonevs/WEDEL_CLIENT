@@ -42,6 +42,7 @@ export class HomeComponent implements OnInit {
     
         if (scrollPosition > elementPosition && !this.isVisible) {
           this.isVisible = true
+          
         }
         if (this.isVisible) {
           if(scrollPosition < 7385 && !this.isReadyVisible){
@@ -49,33 +50,36 @@ export class HomeComponent implements OnInit {
             element.style.setProperty('height', height + 'px');
             const allPointer = document.querySelectorAll(".story_card_manifesto_card_contaniner_block") 
             if(height >= 45 ){
-              allPointer[0].classList.add("story_card_manifesto_card_contanier_wrapper_block_fs--active")
+              allPointer[0].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 127 ){
-              allPointer[1].classList.add("story_card_manifesto_card_contanier_wrapper_block_sc--active")
+              allPointer[1].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 220 ){
-              allPointer[2].classList.add("story_card_manifesto_card_contanier_wrapper_block_th--active")
+              allPointer[2].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 310 ){
-              allPointer[3].classList.add("story_card_manifesto_card_contanier_wrapper_block_fr--active")
+              allPointer[3].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 404 ){
-              allPointer[4].classList.add("story_card_manifesto_card_contanier_wrapper_block_fv--active")
+              allPointer[4].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 494 ){
-              allPointer[5].classList.add("story_card_manifesto_card_contanier_wrapper_block_sx--active")
+              allPointer[5].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 573 ){
-              allPointer[6].classList.add("story_card_manifesto_card_contanier_wrapper_block_sv--active")
+              allPointer[6].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
             if(height >= 620 ){
-              allPointer[7].classList.add("story_card_manifesto_card_contanier_wrapper_block_eg--active")
+              allPointer[7].classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
             }
-          }else{
+          }else {
             this.isReadyVisible = true
             element.style.removeProperty('height')
-            element.classList.remove('fade-in')
+            const allPointer = document.querySelectorAll(".story_card_manifesto_card_contaniner_block") 
+            allPointer.forEach(element => {
+              element.classList.add("story_card_manifesto_card_contanier_wrapper_block--active")
+            })
           }
         }
       }
