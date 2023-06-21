@@ -37,7 +37,7 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cs", leng: 'cs'}
   ]
   
-  constructor(private http: HttpClient, private router:Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
+  constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
   }
@@ -128,6 +128,7 @@ export class AppComponent {
       const bodyElement = document.querySelector('body');
       bodyElement?.classList.add('dark');
       this.loadParticales()
+      location.reload()
     }
   }
   isLightFunc(){
@@ -137,7 +138,18 @@ export class AppComponent {
       const bodyElement = document.querySelector('body') 
       bodyElement?.classList.remove('dark')
       this.loadParticales()
+      location.reload()
     }
+  }
+  closeCookies(){
+    const cookies = this.elRef.nativeElement.querySelector('.cookies')
+    cookies.style.setProperty('display', 'none')
+  }
+  routeToCookies(){
+    this.router.navigate(['cookies'])
+    // const navAll = this.elRef.nativeElement.querySelector('.nav_all')
+    // navAll.style.setProperty('dispaly', 'none')
+    this.closeCookies()
   }
 }
 

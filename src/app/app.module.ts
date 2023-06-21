@@ -22,6 +22,7 @@ import { TrackingComponent } from './shared/components/forms/tracking/tracking.c
 import { ContactComponent } from './shared/components/forms/contact/contact.component';
 import { RequestACallComponent } from './shared/components/forms/request-acall/request-acall.component';
 import { ToastComponent } from './shared/module/toast/toast.component';
+import { CookiesComponent } from './shared/layout/cookies/cookies.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { ToastComponent } from './shared/module/toast/toast.component';
     ContactComponent,
     RequestACallComponent,
     ToastComponent,
+    CookiesComponent,
   ],
   imports: [
     BrowserModule,

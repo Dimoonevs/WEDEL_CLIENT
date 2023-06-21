@@ -110,32 +110,11 @@
           <context context-type="linenumber">126</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9092327817991002837" datatype="html">
-        <source>Website Terms of Use</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">127</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4424350571476641431" datatype="html">
-        <source>Privacy Notice</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">128</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4360052762376477578" datatype="html">
-        <source>Cookie Settings</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">129</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6447983112718925436" datatype="html">
         <source>For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">133</context>
+          <context context-type="linenumber">131</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9210334928224726492" datatype="html">

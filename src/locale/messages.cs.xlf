@@ -142,14 +142,6 @@
           <context context-type="linenumber">128</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4360052762376477578" datatype="html">
-        <source>Cookie Settings</source>
-        <target>Cookie Settings</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">129</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6447983112718925436" datatype="html">
         <source>For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</source>
         <target>Pro jakékoliv poznámky či podměty prosíme o vyplnění čísla níže a pojďme Váš se spojit.</target>
