@@ -482,7 +482,13 @@
         flex-direction: column;
         align-items: center;
     }
-
+    .cookies{
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-width: none;
+        border-radius: 12px 12px 0px 0px;
+    }
 }
 @media(max-width: 562px){
     .quotation_block_progress_curcle_text{
