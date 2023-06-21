@@ -316,6 +316,16 @@
 
 /* Footer */
 
+/* Cookies */
+
+.dark .cookies_info_img_dark{
+    display: block !important;
+}
+.dark .cookies_info_img{
+    display: none !important;
+}
+
+/* Cookies */
 
 
 

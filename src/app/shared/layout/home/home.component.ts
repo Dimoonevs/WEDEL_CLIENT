@@ -10,7 +10,7 @@ import { AnimationService } from '../../service/animation.service';
 })
 
 export class HomeComponent implements OnInit {
-  @ViewChild(OwlCarousel) carousel!: OwlCarousel;
+  @ViewChild(OwlCarousel)carousel!: OwlCarousel;
   currentForm = 'sender';
   slides = [0, 1, 2];
   activeSlide = 0;

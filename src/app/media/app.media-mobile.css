@@ -31,7 +31,7 @@
         font-size: 28px;
     }
     .arrage .text{
-        font-size: 13px;
+        /* font-size: 13px; */
         line-height: 17px;
     }
     .arrage_cards_card{
@@ -65,6 +65,12 @@
 @media (max-width: 1000px){
     .story_card{
         padding: 80px 80px;
+    }
+    .cookies_info_texts_odd{
+        margin-right: 86px;
+    }
+    .cookies_info_texts_even{
+        margin-left: 86px;
     }
 }
 @media (max-width: 939px) {
@@ -306,6 +312,22 @@
     .mobile{
         display: block;
     }
+    .cookies_info{
+        flex-direction: column;
+    }
+    .cookies_info_even{
+        flex-direction: column-reverse;
+    }
+    .cookies_info_img_all{
+        align-self: flex-end;
+        margin-top: 36px;
+    }
+    .cookies_info img{
+        width: 145px;
+    }
+    .cookies_info_texts{
+        margin: 0;
+    }
 }
 @media (max-width: 751px){
     .top_params{
@@ -520,16 +542,12 @@
         margin-bottom: 60px;
         text-align: start;
         opacity: 1;
-        /* width: 100%; */
     }
 }
 @media (max-width: 507px){
     button{
         margin-right: 6px;
         padding: 11px 11px;
-    }
-    .text{
-        font-size: 12px;
     }
     .sleceted{
         padding: 7px 10px;
@@ -553,9 +571,6 @@
     }
     .wrapper-header{
         padding: 8px 8px;
-    }
-    .text{
-        font-size: 11px;
     }
     button{
         padding: 9px 6px;

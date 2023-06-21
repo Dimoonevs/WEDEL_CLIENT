@@ -147,8 +147,6 @@ export class AppComponent {
   }
   routeToCookies(){
     this.router.navigate(['cookies'])
-    // const navAll = this.elRef.nativeElement.querySelector('.nav_all')
-    // navAll.style.setProperty('dispaly', 'none')
     this.closeCookies()
   }
 }
