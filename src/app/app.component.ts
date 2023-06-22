@@ -23,9 +23,16 @@ export class AppComponent {
   sizeMin = 2;
   colorValue = "#ECECED";
   shapeColor = "#ECECED";
+  showCookiesSettings = false;
 
   isDarkTrue():boolean{
     return this.isDark;
+  }
+  backToHome(){
+    this.router.navigate([''])
+    setTimeout(() =>{
+      location.reload()
+    },800)
   }
   
 
@@ -40,6 +47,8 @@ export class AppComponent {
   constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
+    const showCookiesSettings = localStorage.getItem('showCookiesSettings');
+    this.showCookiesSettings = showCookiesSettings ? JSON.parse(showCookiesSettings) : false;
   }
   @HostListener('window:resize')
   onResize() {
@@ -73,6 +82,7 @@ export class AppComponent {
   }
   ngOnInit(): void {
     this.loadParticales()
+    console.log(this.showCookiesSettings)
 
     const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
     const lang = htmlElement.getAttribute('lang');
@@ -142,12 +152,19 @@ export class AppComponent {
     }
   }
   closeCookies(){
+    this.showCookiesSettings = true
     const cookies = this.elRef.nativeElement.querySelector('.cookies')
     cookies.style.setProperty('display', 'none')
+    localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
   }
   routeToCookies(){
+    this.showCookiesSettings = true
+    localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
     this.router.navigate(['cookies'])
     this.closeCookies()
+  }
+  routeToPrivacy(){
+    this.router.navigate(['privacy'])
   }
 }
 

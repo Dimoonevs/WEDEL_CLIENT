@@ -1662,6 +1662,150 @@
           <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1805549528633330541" datatype="html">
+        <source> GDPR Personal data privacy </source>
+        <target> Ochrana osobních údajů</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2593362592920351490" datatype="html">
+        <source> The Orderer agrees that the Sender in the sense of Regulation of the European Parliament and of the Council (EU) 2016/679 of 27.04.2016 on the protection of natural persons in connection with the processing of personal data and on the free movement of such data and on the repeal of Directive 95/46/EC (general regulation on the protection of personal data) (hereinafter referred to as the GDPR) processed, collected and stored the personal data of the Order specified by the Orderer in the Form, in the Communication, in the Shipping Agreement, as well as in any communication between the Orderer and the Sender, as well as other personal data necessary for the purposes of providing of Transport services by the Sender to the Orderer. These personal data will be processed by the Sender and stored in the Sender&apos;s client register exclusively for the purposes of fulfilling Sender&apos;s obligations from the Social Security Act and/or for the purposes of protecting Sender&apos;s rights. </source>
+        <target> Příkazce souhlasí s tím, aby Zasílatel ve smyslu Nařízení Evropského parlamentua Rady (EU) 2016/679 ze dne 27.04.2016, o ochraně fyzických osob v souvislostise zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušenísměrnice 95/46/ES (obecné nařízení o ochraně osobních údajů) (dále jen,,GDPR“) zpracovával, shromažďoval a uchovával osobní údaje Příkazce uvedenéPříkazcem ve Formuláři, v Komunikaci, v Zasílatelské smlouvě, jakož i v rámcijakékoliv komunikace mezi Příkazcem a Zasílatelem, jakož i další osobní údajenezbytné pro účely poskytnutí služeb Přepravy Zasílatelem Příkazci. Tyto osobníúdaje budou Zasílatelem zpracovávány a uchovávány v klientském registruZasílatele výlučně pro účely plnění závazků Zasílatele ze ZS a/ nebo pro účelyochrany práv Zasílatele.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1867589206009885523" datatype="html">
+        <source> If the Orderer is a person whose personal data is protected by the GDPR, and if the Orderer asks the Sender for information about the processing of his personal data, it is WE-DEL s.r.o., ID: 192 03 462, with registered office at Aviatická 1092/8, Ruzyně, 161 00 Prague 6, entered in the commercial register maintained at the Municipal Court in Prague under no. stamp C 383004 Page 9 The Sender is obliged in accordance with the GDPR to forward such information to the Orderer without undue delay. In the event that such an Orderer discovers inaccuracies in the data processed by the Sender, he is entitled to request that the Sender make a correction. </source>
+        <target> Je-li Příkazce osobou, jejíž osobní údaje jsou prostřednictvím GDPR chráněny, apožádá-li Příkazce Zasílatele o informaci o zpracování svých osobních údajů, jeWE-DEL s.r.o., IČO: 192 03 462, se sídlem Aviatická 1092/8, Ruzyně, 161 00 Praha 6,zapsaná v obchodním rejstříku vedená u Městského soudu v Praze pod sp. zn. C 383004 Strana 9 Zasílatel povinen v souladu s GDPR Příkazci takovou informaci bez zbytečnéhoodkladu předat. V případě, že takový Příkazce zjistí nepřesnosti v údajíchzpracovávaných Zasílatelem, je oprávněn žádat, aby Zasílatel provedl opravu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">11,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5000101091401688426" datatype="html">
+        <source> The Orderer grants consent in accordance with this article of these GTC for the duration of the contractual relationship established between the Sender and the Orderer and established by the TC. </source>
+        <target>Příkazce uděluje souhlas dle tohoto článku těchto VZP na dobu trvání smluvníhovztahu vzniklého mezi Zasílatelem a Příkazcem a založeného ZS.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">24,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4074329325743356494" datatype="html">
+        <source> The Orderer undertakes to ensure the consent of the recipient of the Shipment to the processing of the personal data of such recipient by the Sender and the Transporter in the sense of the GDPR, to the extent that the Sender can properly fulfill the obligations arising from the General Terms and Conditions. </source>
+        <target> Příkazce se zavazuje zajistit souhlas příjemce Zásilky se zpracováním osobníchúdajů takového příjemce Zasílatelem a Přepravcem ve smyslu GDPR, a to vtakovém rozsahu, aby mohl Zasílatel řádně plnit povinnosti vyplývající ze ZS.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">17,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2468752903525878383" datatype="html">
+        <source> The Sender undertakes to handle the data of data subjects that it receives from the Orderer for the purpose of carrying out transport or related services, and which are of the nature of personal data, in accordance with the applicable legislation of the Czech Republic and the EU, and will not use them for any purpose other than the fulfillment of the Order in favor of the data subject.9.5 The Sender undertakes to handle the data of data subjects that it receives from the Orderer for the purpose of carrying out transport or related services, and which are of the nature of personal data, in accordance with the applicable legislation of the Czech Republic and the EU, and will not use them for any purpose other than the fulfillment of the Order in favor of the data subject. </source>
+        <target> Zasílatel se zavazuje, že s údaji subjektů údajů, které přijme od Příkazce zaúčelem vykonání přepravních či souvisejících služeb, a které mají charakterosobních údajů, bude zacházet v souladu s platnou legislativou ČR a EU anebude je využívat k žádnému jinému účelu, než k plnění ZS ve prospěchsubjektu údajů.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5000378662550140305" datatype="html">
+        <source> The contracting parties of the TC have agreed that the Orderer (or a person linked to him within these GTC or TC) may be contacted by the Sender, possibly by a person authorized by him, in the event of a marketing or advertising event, an offer of business cooperation, competitions, announcements or inquiries regarding the simultaneous cooperation of whose announcement or business communication in person, by telephone, in writing or electronically, or in another form of contact, and the Orderer agrees to the use of his contact details for the Sender&apos;s marketing purposes. </source>
+        <target> Smluvní strany ZS se dohodly, že Příkazce (nebo osoba s ním propojená v rámcitěchto VZP, resp. ZS) může být Zasílatelem, eventuálně jím pověřenou osobou,kontaktován v případě marketingové či reklamní akce, nabídky obchodníspolupráce, soutěží, oznámení či dotazu týkajícího se současné spolupráce čijiného oznámení nebo obchodního sdělení a to formou osobní, telefonickou,písemnou či elektronickou, nebo jinou formou kontaktu a Příkazce souhlasí spoužitím svých kontaktních údajů k marketingovým účelům Zasílatele.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4624680235971402089" datatype="html">
+        <source> What cookies do? </source>
+        <target> Co jsou cookies?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7026422590085432070" datatype="html">
+        <source> Cookies refer to small data files that are downloaded onto your device when you visit a website. When you revisit the same website, these cookies ensure that your device is recognized. Through the use of cookies and similar technologies like pixel tags/beacons and scripts, websites can store information about visits and their visitors. This information may include your IP address, the type of device you use, and your browsing behavior, such as specific web pages visited and website navigation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We employ two types of cookies: session cookies, which are deleted when you close your browser, and persistent cookies, which remain on your device for a predetermined period. Some cookies are placed by us, while others are placed by third parties. Third-party cookies may collect data beyond our own website. </source>
+        <target> Cookies označují malé datové soubory, které se stahují do vašeho zařízení při návštěvě webové stránky. Když znovu navštívíte stejnou webovou stránku, tyto soubory cookie zajistí rozpoznání vašeho zařízení. Pomocí souborů cookie a podobných technologií, jako jsou pixelové značky/beacons a skripty, mohou webové stránky ukládat informace o návštěvách a jejich návštěvnících. Tyto informace mohou zahrnovat vaši IP adresu, typ zařízení, které používáte, a vaše chování při procházení, jako jsou konkrétní navštívené webové stránky a navigace na webu. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Využíváme dva typy souborů cookie: soubory cookie relace, které se vymažou, když zavřete prohlížeč, a trvalé soubory cookies, které zůstávají na vašem zařízení po předem stanovenou dobu. Některé soubory cookie ukládáme my, zatímco jiné ukládají třetí strany. Soubory cookie třetích stran mohou shromažďovat údaje mimo naše vlastní webové stránky.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">8,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3992774831265302816" datatype="html">
+        <source> What categories of cookies are utilized on this website? </source>
+        <target> Jaké kategorie souborů cookies se používají na tomto webu?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">20,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7255201269192292781" datatype="html">
+        <source> This website exclusively employs functional and analytical cookies, which are essential for the proper functioning of the website. These cookies do not necessitate your explicit consent and are automatically placed on your browser when you use this website. </source>
+        <target> Tento web používá výhradně funkční a analytické soubory cookies, které jsou nezbytné pro správné fungování webu. Tyto soubory cookie nevyžadují váš výslovný souhlas a jsou automaticky umístěny do vašeho prohlížeče, když používáte tyto webové stránky.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="741039652631536802" datatype="html">
+        <source> Functional Cookies </source>
+        <target> Funkční cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">30,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9038108784075633481" datatype="html">
+        <source> Functional cookies are essential for ensuring proper functionality and usability of our website. These cookies enable you to view and navigate our website seamlessly. They are also utilized to remember your language preferences and cookie settings. Additionally, functional cookies facilitate A/B testing, allowing us to experiment with new features, various versions, and designs of our website. It&apos;s important to note that the information gathered through these cookies is not used for marketing purposes. These cookies are vital for the optimal use of our website. If you choose to block this type of cookie in your browser, it may adversely affect the functionality of our website, and certain features may become unavailable. </source>
+        <target> Funkční cookies jsou nezbytné pro zajištění správné funkčnosti a použitelnosti našich webových stránek. Tyto soubory cookie vám umožňují bezproblémové prohlížení a procházení našich webových stránek. Používají se také k zapamatování vašich jazykových preferencí a nastavení souborů cookie. Funkční soubory cookie navíc usnadňují A/B testování, což nám umožňuje experimentovat s novými funkcemi, různými verzemi a návrhy našich webových stránek. Je důležité si uvědomit, že informace shromážděné prostřednictvím těchto souborů cookie se nepoužívají pro marketingové účely. Tyto soubory cookie jsou nezbytné pro optimální používání našich webových stránek. Pokud se rozhodnete ve svém prohlížeči zablokovat tento typ souborů cookie, může to nepříznivě ovlivnit funkčnost našich webových stránek a některé funkce mohou být nedostupné.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3917560399050081246" datatype="html">
+        <source> Analytical Cookies </source>
+        <target> Analytické cookies</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8590062955479820980" datatype="html">
+        <source> Analytical cookies collect aggregated information about how visitors utilize our website. This includes data on the most frequently visited pages, duration of visits, and any encountered errors. Furthermore, these cookies are employed for conducting user surveys and gathering feedback from visitors regarding our website as a whole or specific elements of it. The information derived from these cookies aids us in comprehending which sections of our website attract the most interest from our visitors and enables us to enhance the overall quality of our website. </source>
+        <target> Analytické soubory cookies shromažďují souhrnné informace o tom, jak návštěvníci využívají naše webové stránky. To zahrnuje údaje o nejčastěji navštěvovaných stránkách, délce návštěv a případných chybách. Kromě toho se tyto soubory cookie používají k provádění uživatelských průzkumů a shromažďování zpětné vazby od návštěvníků ohledně naší webové stránky jako celku nebo jejích konkrétních prvků. Informace odvozené z těchto souborů cookie nám pomáhají porozumět tomu, které části našich webových stránek přitahují největší zájem našich návštěvníků, a umožňují nám zlepšit celkovou kvalitu našich webových stránek.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">47,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2827984212740060090" datatype="html">
+        <source>Read more</source>
+        <target>Přečist více</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8797830656463947414" datatype="html">
+        <source> This website exclusively utilizes essential functional and analytical cookies while abstaining from the usage of marketing trackers. </source>
+        <target> Tato webová stránka výhradně využívá nezbytné funkční a analytické soubory cookie a zdržuje se používání sledovacích souborů pro marketingové účely.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">152,154</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

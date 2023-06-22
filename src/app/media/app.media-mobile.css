@@ -72,6 +72,12 @@
     .cookies_info_texts_even{
         margin-left: 86px;
     }
+    .privacy_text_block_text--desctop{
+        display: none;
+    }
+    .privacy_text_block_text--mobile{
+        display: block;
+    }
 }
 @media (max-width: 939px) {
     .summary_sender_info{
@@ -327,6 +333,15 @@
     }
     .cookies_info_texts{
         margin: 0;
+    }
+    .privacy_text_block_top{
+        flex-direction: column-reverse;
+    }
+    .privacy_img{
+        align-self: center;
+        max-width: 184px;
+        max-height: 271px;
+        margin-bottom: 36px;
     }
 }
 @media (max-width: 751px){

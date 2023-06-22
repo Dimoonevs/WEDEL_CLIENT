@@ -137,6 +137,12 @@
 .dark .tracking_content{
     background: #3A3C3F !important;
 }
+.dark .text_exampl{
+    color: #6687AD !important;
+}
+.dark .tracking_content_text{
+    background-color: #6687AD26 !important;
+}
 
 
 /* Tracking */
@@ -326,6 +332,17 @@
 }
 
 /* Cookies */
+
+/* Privacy */
+
+.dark .privacy_img_dark{
+    display: block !important;
+}
+.dark .privacy_img_light{
+    display: none !important;
+}
+
+/* Privacy */
 
 
 

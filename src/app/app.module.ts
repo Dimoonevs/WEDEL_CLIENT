@@ -23,6 +23,7 @@ import { ContactComponent } from './shared/components/forms/contact/contact.comp
 import { RequestACallComponent } from './shared/components/forms/request-acall/request-acall.component';
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { CookiesComponent } from './shared/layout/cookies/cookies.component';
+import { PrivacyComponent } from './shared/layout/privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { CookiesComponent } from './shared/layout/cookies/cookies.component';
     RequestACallComponent,
     ToastComponent,
     CookiesComponent,
+    PrivacyComponent,
   ],
   imports: [
     BrowserModule,

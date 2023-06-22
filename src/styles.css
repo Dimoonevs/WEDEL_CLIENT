@@ -55,6 +55,9 @@
     padding: 0;
     border: 0;
   }
+  a{
+    cursor: pointer;
+  }
   
   a, a:visited {
     text-decoration: none;
@@ -82,7 +85,7 @@
 .text{
     font-family: 'Rubik',  sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     transition: .5s;
 }
@@ -206,7 +209,7 @@ button:disabled{
   position: absolute;
   left: 17px;
   top: -16px;
-  width: 154px;
+  width: 174px;
   background: #FFFFFF;
   border-radius: 2.3px;
   padding: 8px;

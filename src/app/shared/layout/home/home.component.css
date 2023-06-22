@@ -546,19 +546,9 @@
 .tracking_content_text{
     margin-top: 32px;
     position: relative;
-    padding-left: 8px;
-}
-.tracking_content_text::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top:8px;
-    margin: auto 0;
-    width: 4px;
-    height: 4px;
-    background-color: #456080; 
-    border-radius: 50%;
-    shape-outside: circle();
+    padding: 24px;
+    background-color: #E6EBF180;
+    border-radius: 4px;
 }
 
 /* Tracking */
