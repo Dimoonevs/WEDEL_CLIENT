@@ -312,6 +312,16 @@ button:disabled{
   padding: 4px;
   display: flex;
 }
+.quotation .all_select{
+  width: 100%;
+}
+.specification_custom_block--as{
+  width: 116px;
+  margin: auto 12px;
+}
+.specification_custom_block--as:nth-last-child(1){
+  width: 227px;
+}
 .all_select_text{
   width: 50%;
   display: flex;

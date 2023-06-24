@@ -168,6 +168,30 @@
     .story_card{
         padding: 80px 0;
     }
+    .top_params_left{
+        flex-wrap: wrap;
+        
+    }
+    .specification_custom_block--as{
+        width: calc(100%/2 - 12px) !important;
+        margin: 12px 0;
+    }
+    .top_params{
+        flex-direction: column;
+    }
+    .spec{
+        width: 100%;
+    }
+    .top_params_right{
+        width: 100%;
+    }
+    .top_params_right_buttons{
+        width: 100%;
+    }
+    .top_params_right_buttons button{
+        max-width: none;
+        margin: 0;
+    }
 
 }
 @media (max-width: 839px) {
@@ -297,10 +321,6 @@
     .footer_top ul a{
         padding: 0 6px;
     }
-
-    .all_select{
-        width: 175px;
-    }
     .all_select .span_get{
         width: 100%;
         display: flex;
@@ -348,16 +368,6 @@
     .top_params{
         flex-direction: column;
     }
-    .top_params_left{
-        flex-direction: column;
-        width: 100%;
-    }
-    .top_params_right{
-        width: 100%;
-    }
-    .top_params_left .all_top_block{
-        width: 100%;
-    }
     .services_cards_card{
         padding: 48px 0;
     }
@@ -398,13 +408,6 @@
     .variables_top_variable{
         width: 100%;
     }
-    .top_params_left{
-        flex-direction: column;
-        width: 100%;
-    }
-    .top_params_right{
-        width: 100%;
-    }
     .container{
         display: none;
     }
@@ -428,9 +431,6 @@
     }
     .footer_top ul li{
         margin: 12px 0;
-    }
-    .all_select{
-        width: 122px;
     }
     .story_card_manifesto_card_contaniner_block{
         width: 237px;
@@ -594,7 +594,7 @@
         padding: 8px 8px;
     }
     button{
-        padding: 9px 6px;
+        padding: 14px 6px;
     }
     .sleceted{
         padding: 5px 7px;

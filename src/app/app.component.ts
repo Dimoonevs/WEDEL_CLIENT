@@ -24,6 +24,7 @@ export class AppComponent {
   colorValue = "#ECECED";
   shapeColor = "#ECECED";
   showCookiesSettings = false;
+  isLoading = false;
 
   isDarkTrue():boolean{
     return this.isDark;
@@ -80,8 +81,22 @@ export class AppComponent {
       });
     });
   }
+  loadingSequenceLoop(): void {
+    const repetitions = 2;
+    const delayBetweenRepetitions = 5500;
+  
+    for (let i = 0; i < repetitions; i++) {
+      setTimeout(() => {
+        this.loadingBiforeLoadAllPage();
+        if(i === 1){
+          const loadingDiv = document.querySelector('.loading')
+          loadingDiv?.classList.add("none_elem")
+        }
+      }, i * delayBetweenRepetitions);
+    }
+  }
   ngOnInit(): void {
-    this.loadParticales()
+    // this.loadingSequenceLoop()
     console.log(this.showCookiesSettings)
 
     const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
@@ -165,6 +180,24 @@ export class AppComponent {
   }
   routeToPrivacy(){
     this.router.navigate(['privacy'])
+  }
+  loadingBiforeLoadAllPage(){
+    const loadDiv = document.querySelector(".loading") as HTMLElement;
+
+    loadDiv.classList.add("step-2");
+  
+    setTimeout(() => {
+      loadDiv.classList.add("step-3");
+  
+      setTimeout(() => {
+        loadDiv.classList.remove("step-3");
+  
+        setTimeout(() => {
+          loadDiv.classList.remove("step-2");
+        }, 1000);
+      }, 2000); 
+    }, 1000); 
+    
   }
 }
 

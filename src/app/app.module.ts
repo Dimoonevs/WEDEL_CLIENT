@@ -24,6 +24,11 @@ import { RequestACallComponent } from './shared/components/forms/request-acall/r
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { CookiesComponent } from './shared/layout/cookies/cookies.component';
 import { PrivacyComponent } from './shared/layout/privacy/privacy.component';
+import { LottieModule } from 'ngx-lottie';
+
+export function playerFactory() {
+  return import('lottie-web');
+}
 
 @NgModule({
   declarations: [
@@ -54,6 +59,7 @@ import { PrivacyComponent } from './shared/layout/privacy/privacy.component';
     MatNativeDateModule,
     OwlModule,
     NgxMaskModule.forRoot(),
+    LottieModule.forRoot({ player: playerFactory })
     
   ],
   providers: [

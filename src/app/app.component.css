@@ -303,3 +303,71 @@ footer{
 }
 
 /* cookies */
+
+/* Loading */
+
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--neutral-50, #FBFBFB);
+    z-index: 9999999;
+}
+.loading_line{
+    max-width: 0;
+    transition: 1s;
+    overflow: hidden;
+}
+.loading_wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading_del{
+    transition: 1s;
+}
+.loading_iver{
+    transition: 2s;
+    margin-left: 4px;
+    max-width: 156px;
+}
+.loading_we{
+    margin-right: 35px;
+    transition: 1s;
+}
+
+.step-2 .loading_we{
+    margin-right: 8px;
+}
+.step-2 .loading_iver{
+    opacity: 0;
+    max-width: 0;
+}
+.loading_we svg path{
+    transition: 1s;
+}
+.loading_del svg path{
+    transition: 1s;
+}
+.step-2 .loading_we svg path{
+    fill: #456080;
+}
+.step-2 .loading_del svg path{
+    fill: #566B5F;
+}
+.step-3 .loading_we{
+    margin-right: 0;
+    padding-right: 6px;
+    
+}
+.step-3 .loading_del{
+    padding-left: 6px;
+}
+.step-3 .loading_line{
+    max-width: 3px;
+}
+
+/* Loading */

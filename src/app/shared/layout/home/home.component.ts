@@ -2,7 +2,7 @@ import { Component, ElementRef,HostListener,OnInit, ViewChild} from '@angular/co
 import { fromEvent} from 'rxjs';
 import { OwlCarousel } from 'ngx-owl-carousel';
 import { AnimationService } from '../../service/animation.service';
-
+import * as lottie from 'lottie-web';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -19,7 +19,18 @@ export class HomeComponent implements OnInit {
   IsShowText = false;
   isVisible: boolean = false;
   isReadyVisible = false;
+  
   intersectionObserver!: IntersectionObserver;
+  animationConfig: object = {
+    path: 'assets/your-animation.json' // Путь к вашему файлу анимации Lottie
+  };
+
+  animationCreated(animationItem: lottie.AnimationItem): void {
+    // Обработчик, вызываемый при создании анимации
+    // Здесь вы можете использовать animationItem для управления анимацией
+  }
+
+  
 
 
   progress: NodeListOf<any> | any;

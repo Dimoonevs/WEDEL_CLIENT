@@ -550,6 +550,9 @@
     background-color: #E6EBF180;
     border-radius: 4px;
 }
+/* .tracking_content_text div{
+    max-height: 80px;
+} */
 
 /* Tracking */
 
@@ -692,6 +695,8 @@
 .story_card_values_cards_card_img{
     display: flex;
     justify-content: center;
+    max-width: 96px;
+    margin: 0 auto;
 }
 .story_card_manifesto_title{
     text-align: center;

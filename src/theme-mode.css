@@ -344,6 +344,17 @@
 
 /* Privacy */
 
+/* Loading */
+
+.dark .loading{
+    background: var(--neutral-1100, #2E3134) !important;
+}
+.dark .loading svg path{
+    fill: #A1A3A6 !important;
+}
+
+/* Loading */
+
 
 
 @media (max-width: 839px){

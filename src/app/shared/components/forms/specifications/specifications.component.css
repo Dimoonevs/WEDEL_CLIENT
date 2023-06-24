@@ -25,34 +25,22 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 49%;
+    margin: auto -12px;
 }
 .top_params_right{
     display: flex;
-    align-items: flex-end;
-    width: 49%;
-}
-.top_params_left .all_top_block{
-    width: calc(92% / 3);
+    align-self: flex-end;
 }
 .top_params_right_buttons{
-    margin: 8px 0;
-    width: 49%;
     display: flex;
     justify-content: space-evenly;
-}
-.top_params_right .all_top_block{
-    width: 54%;
+    width: 146px;
 }
 .params_add{
     background-color: rgba(21, 123, 59, 0.08);
     color: #157B3B;
     width: 100%;
     margin: 0 10px;
-}
-.params_remove:first-child{
-    /* display: none; */
-    width: 90%;
 }
 .params_remove{
     background-color: rgba(177, 15, 15, 0.08);
