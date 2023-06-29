@@ -608,3 +608,6 @@ button:disabled{
 footer a{
   cursor: pointer;;
 }
+.ng-lottie-animation {
+  transition: .5s;
+}

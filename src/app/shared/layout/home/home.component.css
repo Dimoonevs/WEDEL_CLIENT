@@ -695,8 +695,9 @@
 .story_card_values_cards_card_img{
     display: flex;
     justify-content: center;
-    max-width: 96px;
+    max-width: 116px;
     margin: 0 auto;
+    /* height: 101px; */
 }
 .story_card_manifesto_title{
     text-align: center;

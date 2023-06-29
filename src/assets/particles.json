@@ -42,9 +42,9 @@
       },
       "line_linked": {
         "enable_auto": false,
-        "distance": 100,
+        "distance": 120,
         "color": "#fff",
-        "opacity": 0.3,
+        "opacity": 1,
         "width": 1
       },
       "move": {

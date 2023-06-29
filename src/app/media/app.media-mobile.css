@@ -362,6 +362,10 @@
         max-width: 184px;
         max-height: 271px;
         margin-bottom: 36px;
+        margin-left: 0;
+    }
+    .arrage_cards_card .arrage_cards_card_dark_img{
+        display: none;
     }
 }
 @media (max-width: 751px){

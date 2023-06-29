@@ -2,7 +2,8 @@ import { Component, ElementRef,HostListener,OnInit, ViewChild} from '@angular/co
 import { fromEvent} from 'rxjs';
 import { OwlCarousel } from 'ngx-owl-carousel';
 import { AnimationService } from '../../service/animation.service';
-import * as lottie from 'lottie-web';
+import { AnimationOptions } from 'ngx-lottie';
+import { AnimationItem } from 'lottie-web';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -19,15 +20,65 @@ export class HomeComponent implements OnInit {
   IsShowText = false;
   isVisible: boolean = false;
   isReadyVisible = false;
+  isAnimationPlaying = false;
+  animationProgress = 0;
+  animElementName= ["CustomerFirst", "Agility", "FocusInInnovation", "Cooperation", "GrowthMindset", "Ownership"]
+  animElems: any[] = [
+    {    
+      path: 'assets/animation/' + this.animElementName[0] + ".json",
+      autoplay: this.isAnimationPlaying,
+      loop:false
+    },
+    {    
+      path: 'assets/animation/' + this.animElementName[1] + ".json",
+      autoplay: this.isAnimationPlaying,
+      loop:false
+    },
+    {    
+      path: 'assets/animation/' + this.animElementName[2] + ".json",
+      autoplay: this.isAnimationPlaying,
+      loop:false
+    },
+    {    
+      path: 'assets/animation/' + this.animElementName[3] + ".json",
+      autoplay: this.isAnimationPlaying,
+      loop:false
+    },
+    {    
+      path: 'assets/animation/' + this.animElementName[4] + ".json",
+      autoplay: this.isAnimationPlaying,
+      loop:false
+    },
+    {    
+      path: 'assets/animation/' + this.animElementName[5] + ".json",
+      autoplay: this.isAnimationPlaying,
+      loop:false
+    },
+    
+  ]
   
   intersectionObserver!: IntersectionObserver;
-  animationConfig: object = {
-    path: 'assets/your-animation.json' // Путь к вашему файлу анимации Lottie
-  };
+  
 
-  animationCreated(animationItem: lottie.AnimationItem): void {
-    // Обработчик, вызываемый при создании анимации
-    // Здесь вы можете использовать animationItem для управления анимацией
+  onAnimate(animationItem: AnimationItem): void {    
+    if (this.isAnimationPlaying){
+      animationItem.setLoop(false)
+    }
+  }
+  
+  resumeAnimation(id:any) {
+    if(this.animationProgress < 1){
+      this.isAnimationPlaying = true;
+      this.updateAnimationOptions(id)
+    }else{
+      this.isAnimationPlaying = false;
+    }
+  }
+  updateAnimationOptions(id:number) {
+    this.animElems[id] = {    
+      path: 'assets/animation/' + this.animElementName[id] + '.json',
+      autoplay: this.isAnimationPlaying  
+    }; 
   }
 
   
@@ -220,6 +271,7 @@ export class HomeComponent implements OnInit {
     this.darkPaths = document.querySelectorAll('.dark_curcile')
     this.darkPathMobile = document.querySelectorAll('.mobile_dark_curcile')
 
+    console.log(this.animElems)
 
     setInterval(() => {
       this.animationService.blinkPaths(this.paths, this.currentIndexLight);

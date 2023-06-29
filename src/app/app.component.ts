@@ -48,18 +48,18 @@ export class AppComponent {
   constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
-    const showCookiesSettings = localStorage.getItem('showCookiesSettings');
-    this.showCookiesSettings = showCookiesSettings ? JSON.parse(showCookiesSettings) : false;
+    // const showCookiesSettings = localStorage.getItem('showCookiesSettings');
+    // this.showCookiesSettings = showCookiesSettings ? JSON.parse(showCookiesSettings) : false;
   }
   @HostListener('window:resize')
   onResize() {
       this.loadParticales()
   }
   loadParticales():void{
-    if(window.innerWidth >= 1653){
+    if(window.innerWidth >= 2076){
       this.sizeMax = 10;
       this.sizeMin = 4;
-    }else if(window.innerWidth < 1653){
+    }else if(window.innerWidth < 2076){
       this.sizeMax = 7;
       this.sizeMin = 2
     }
@@ -81,14 +81,15 @@ export class AppComponent {
       });
     });
   }
+  loading= false;
   loadingSequenceLoop(): void {
-    const repetitions = 2;
-    const delayBetweenRepetitions = 5500;
+    const repetitions = 10;
+    const delayBetweenRepetitions = 4000;
   
     for (let i = 0; i < repetitions; i++) {
       setTimeout(() => {
         this.loadingBiforeLoadAllPage();
-        if(i === 1){
+        if(this.loading){
           const loadingDiv = document.querySelector('.loading')
           loadingDiv?.classList.add("none_elem")
         }
@@ -96,8 +97,12 @@ export class AppComponent {
     }
   }
   ngOnInit(): void {
-    // this.loadingSequenceLoop()
-    console.log(this.showCookiesSettings)
+    window.onload =  () =>{
+      this.loading = true
+    }
+    this.loadingSequenceLoop()
+    this.loadParticales()
+
 
     const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
     const lang = htmlElement.getAttribute('lang');
@@ -170,11 +175,11 @@ export class AppComponent {
     this.showCookiesSettings = true
     const cookies = this.elRef.nativeElement.querySelector('.cookies')
     cookies.style.setProperty('display', 'none')
-    localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
+    // localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
+    // localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
     this.router.navigate(['cookies'])
     this.closeCookies()
   }
@@ -194,9 +199,9 @@ export class AppComponent {
   
         setTimeout(() => {
           loadDiv.classList.remove("step-2");
-        }, 1000);
-      }, 2000); 
-    }, 1000); 
+        }, 500);
+      }, 1500); 
+    }, 500); 
     
   }
 }

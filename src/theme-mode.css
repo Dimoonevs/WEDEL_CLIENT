@@ -376,6 +376,12 @@
     .dark .arrage_cards_card_th{
         background: url('src/assets/img/we_do_mobile_dark_fs_th.svg') 100% !important;
     }
+    .dark .arrage_cards_card .arrage_cards_card_dark_img{
+        display: block !important;
+    }
+    .dark .arrage_cards_card .arrage_cards_card_light_img{
+        display: none !important;
+    }
 }
 @media(min-width: 1653px){
     .arrage_cards_card_fs{
