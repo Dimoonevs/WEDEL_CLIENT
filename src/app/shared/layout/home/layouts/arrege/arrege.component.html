@@ -1,0 +1,72 @@
+<div class="arrage">
+    <div class="wrapper">
+            <div class="arrage_title text_big title_all"><div class="title_all_block" i18n>We do</div></div>
+        <div class="arrage_cards wrapper_arrage">
+            <owl-carousel [options]="carouselOptions" (initialized)="onCarouselInitialized()">
+                <div carouselSlide class="arrage_cards_card arrage_cards_card_fs z-index">
+                        <div class="arrage_cards_card_text">
+                            <div class="arrage_cards_card_text_contener">
+                                <div class="arrage_cards_card_text_title text_title" i18n>Air Import & Export</div>
+                                <div class="arrage_cards_card_text_title_par text" i18n>Our specialization is air and ground transportation, and our services are adapted to these modes of transportation. If you order an import service, we will arrange the entire transport for you through our network of proven local expert partners who are members of the WCA (the largest global alliance of independent carriers) or JcTrans forwarders alliances. We handle export shipments from our Prague office through direct contact with airlines or their local representatives.
+                                <br><br> We can offer transportation in following modes:
+                                </div>
+                                <div class="wrapper_arrage_cards_card_text_ul_li text">
+                                    <ul>
+                                        <li i18n>Door to door,</li>
+                                        <li i18n>Door to airport,</li>
+                                        <li i18n>Airport to airport,</li>
+                                    </ul>
+                                    <ul>
+                                        <li i18n>Airport to door,</li>
+                                        <li i18n>Air charter (OnTime),</li>
+                                        <li i18n>On Board Courier (OnTime)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <button class="arrage_cards_card_button text"(click)="showText()"><div class="text" *ngIf="!IsShowText">Show more</div><div class="text" *ngIf="IsShowText">Show less</div><img src="assets/img/new_qouestion_icon.svg" alt=""></button>
+                        </div>
+                        <img src="assets/img/service_img_fs.svg" class="arrage_cards_card_img arrage_cards_card_light_img" alt="">
+                        <img src="assets/img/service_img_dark_fs.svg" class="arrage_cards_card_img arrage_cards_card_dark_img" alt="">
+                </div>
+                <div carouselSlide class="arrage_cards_card arrage_cards_card_sc z-index">
+                        <div class="arrage_cards_card_text arrage_cards_card_text_sc">
+                            <div class="arrage_cards_card_text_contener">
+                                <div class="arrage_cards_card_text_title text_title" i18n>Ground Transportation</div>
+                                <div class="arrage_cards_card_text_title_par text" i18n>Land transport goes hand in hand with air transport. We can offer both a dedicated vehicle for time-sensitive shipments, as well as cost-optimal loading that saves costs and the environment.</div>
+                                <div class="arrage_cards_card_text_title_par text" i18n>   We carry out ground transportation exclusively through verified partners with sufficient insurance coverage.</div>
+                            </div>
+                            <button class="arrage_cards_card_button arrage_cards_card_button_sc text" (click)="showText()"><div class="text" *ngIf="!IsShowText">Show more</div><div class="text" *ngIf="IsShowText">Show less</div><img src="assets/img/new_qouestion_icon.svg" alt=""></button>
+                        </div>
+                        <img src="assets/img/service_img_sc.svg" class="arrage_cards_card_img arrage_cards_card_light_img" alt="">
+                        <img src="assets/img/service_img_dark_sc.svg" class="arrage_cards_card_img arrage_cards_card_dark_img" alt="">
+                </div>
+                <div carouselSlide class="arrage_cards_card arrage_cards_card_th z-index">
+                        <div class="arrage_cards_card_text">
+                            <div class="arrage_cards_card_text_contener">
+                                <div class="arrage_cards_card_text_title text_title" i18n>Dangerous Goods</div>
+                                <div class="arrage_cards_card_text_title_par text" i18n>At WE-DEL we are certified dangerous goods experts certified by the International Aviation Association IATA. </div>
+                                <div class="arrage_cards_card_text_title_par text" i18n>We will be happy to arrange for you preparation of shipment according to the IATA Dangerous goods regulation and then transport it via air to your desired location.</div>
+                            </div>
+                            <button class="arrage_cards_card_button arrage_cards_card_button_th" (click)="showText()"><div class="text" *ngIf="!IsShowText">Show more</div><div class="text" *ngIf="IsShowText">Show less</div><img src="assets/img/new_qouestion_icon.svg" alt=""></button>
+                        </div>
+                        <img src="assets/img/service_img_th.svg" class="arrage_cards_card_img arrage_cards_card_light_img" alt="">
+                        <img src="assets/img/service_img_dark_th.svg" class="arrage_cards_card_img arrage_cards_card_dark_img" alt="">
+                </div>
+                
+            </owl-carousel>
+            <div class="custom-navigation">
+                <div class="custom-prev custom_button" (click)="prevSlide()">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.52781 12.4069L2.06781 6.99693L7.52781 1.58693C7.67781 1.43693 7.74781 1.24693 7.74781 1.05693C7.74781 0.86693 7.67781 0.67693 7.52781 0.52693C7.23781 0.23693 6.75781 0.22693 6.46781 0.52693L0.467813 6.46693C0.187813 6.74693 0.187813 7.24693 0.467813 7.53693L6.46781 13.4769C6.75781 13.7669 7.23781 13.7669 7.52781 13.4769C7.81781 13.1869 7.81781 12.6969 7.52781 12.4069Z" fill="#3C5470"/>
+                    </svg>
+                </div>
+                <div class="custom-next custom_button" (click)="nextSlide()">
+                    <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.53781 6.46817L1.53781 0.528169C1.24781 0.238169 0.767812 0.238169 0.477812 0.528169C0.187812 0.818169 0.187812 1.29817 0.477812 1.58817L5.93781 6.99817L0.477812 12.4082C0.327812 12.5582 0.257812 12.7482 0.257812 12.9382C0.257812 13.1282 0.327812 13.3182 0.477812 13.4682C0.767812 13.7582 1.24781 13.7682 1.53781 13.4682L7.53781 7.52817C7.81781 7.24817 7.81781 6.75817 7.53781 6.46817Z" fill="#3C5470"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

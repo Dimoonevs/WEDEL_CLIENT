@@ -1,4 +1,4 @@
-<form [formGroup]='senderForm' (ngSubmit)="submitSender()" novalidate>
+<form class="scroll-load-component" (appVisible)="onVisible()" [formGroup]='senderForm' (ngSubmit)="submitSender()" novalidate>
     <div class="sender_text_top"> <div class="text" i18n>Please provide the necessary information in five steps for an optimal quotation proposal tailored to your transportation needs. </div></div>
 
     <div class="all_top">

@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
 import { QuotationControllerService } from 'src/app/shared/controller/quotation-controller.service';
 import { HomeComponent } from 'src/app/shared/layout/home/home.component';
+import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { DueDate, QuotationRequest, Receiver, Sender, Specifications } from 'src/app/shared/module/interfaces';
 import { FormService } from 'src/app/shared/service/form.service';
 
@@ -47,7 +48,7 @@ export class SummaryComponent {
   receiverPhoneCode = this.formService.getReceiverPhoneCode()
   receiverEmailAdress= this.formService.getReceiverEmail();
 
-  constructor(private controller: QuotationControllerService,private http: HttpClient, private fb: FormBuilder, private homeComponent: HomeComponent, private formService: FormService) {  }
+  constructor(private controller: QuotationControllerService,private http: HttpClient, private fb: FormBuilder, private quotationComponent: QuotationComponent, private formService: FormService) {  }
 
 
   submitSender(){
@@ -102,10 +103,10 @@ export class SummaryComponent {
     })
 
     this.formService.clearAll()
-    this.homeComponent.setCurrencyForm('sender')
+    this.quotationComponent.setCurrencyForm('sender')
   }
   previousStep(){
-    this.homeComponent.setCurrencyForm('receiver')
+    this.quotationComponent.setCurrencyForm('receiver')
   }
   private _to2Git(n: number): string | any{
     return ('00' + n).slice(-2)

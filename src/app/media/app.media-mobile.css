@@ -210,15 +210,15 @@
     }
     .arrage_cards_card_fs{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_fs.svg') 0 0/cover no-repeat;
+        background: url('src/assets/img/bg_service_fs.svg') 0 0/100% auto no-repeat;
     }
     .arrage_cards_card_sc{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_sc.svg') 0 0/cover no-repeat;
+        background: url('src/assets/img/bg_service_sc.svg') 0 0/100% auto no-repeat;
     }
     .arrage_cards_card_th{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_th.svg') 0 0/cover no-repeat;
+        background: url('src/assets/img/bg_service_th.svg') 0 0/100% auto no-repeat;
     }
     
     .arrage_cards_card_text{
@@ -267,10 +267,10 @@
         justify-content: center;
     }
     .tailored .img:nth-child(1){
-        opacity: 0;
+        display: none;
     }
     .tailored .img:nth-child(2){
-        opacity: 1;
+        display: block;
     }
     .img svg{
         margin-top: -50px;
@@ -328,6 +328,12 @@
     }
     .story_card_values_cards_card{
         width: calc(100%/2 - 24px);
+    }
+    ng-lottie{
+        display: none;
+    }
+    .story_card_values_cards_card_img img{
+        display: block;
     }
     .content_rightnav{
         display: none;

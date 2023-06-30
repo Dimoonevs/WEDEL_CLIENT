@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
-import { ChangeDetectorRef, Component, ElementRef, EventEmitter, HostListener, Input, Output } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, ValidatorFn, Validators } from '@angular/forms';
+import { ChangeDetectorRef, Component, HostListener } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { QuotationControllerService } from 'src/app/shared/controller/quotation-controller.service';
-import { HomeComponent } from 'src/app/shared/layout/home/home.component';
+import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { CountryAndCallingCodeReq, SearchCountryReq } from 'src/app/shared/module/interfaces';
 import { FormService } from 'src/app/shared/service/form.service';
 
@@ -15,9 +15,7 @@ import { FormService } from 'src/app/shared/service/form.service';
 })
 export class SenderComponent {
 
-
-
-  
+  isVisible = false;
   codeCallingIsActive = false;
   countryInpIsActive =false;
   countries: any[] = [];
@@ -37,8 +35,12 @@ export class SenderComponent {
   searchCountryReq!: SearchCountryReq;
   phoneMask = '000 000 000'
 
-  ngOnInit(){
+  onVisible() {
+    this.isVisible = true;
     this.getCountryAndCallingCodeAnddigits()
+  }
+
+  ngOnInit(){
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -47,7 +49,7 @@ export class SenderComponent {
       this.searchCode(event.key);
     }
   }
-  constructor(private quotionController: QuotationControllerService, private http: HttpClient, private fb: FormBuilder, private homeComponent: HomeComponent, private formService: FormService, private cdr: ChangeDetectorRef) { this._createForm()}
+  constructor(private quotionController: QuotationControllerService, private http: HttpClient, private fb: FormBuilder, private homeComponent: QuotationComponent, private formService: FormService, private cdr: ChangeDetectorRef) { this._createForm()}
 
   onKeay(country:string){
       this.quotionController.searchCountry({name: country}).subscribe((country: CountryAndCallingCodeReq) =>{

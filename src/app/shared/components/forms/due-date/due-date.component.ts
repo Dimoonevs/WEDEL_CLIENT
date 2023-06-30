@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { HomeComponent } from 'src/app/shared/layout/home/home.component';
+import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { FormService } from 'src/app/shared/service/form.service';
 
 @Component({
@@ -19,7 +20,7 @@ export class DueDateComponent {
 
   ngOnInit(): void {
   }
-  constructor(private homeComponent: HomeComponent, private formService: FormService) {
+  constructor(private homeComponent: QuotationComponent, private formService: FormService) {
     this.currentMonth = new Date();
     this.generateCalendar();
   }

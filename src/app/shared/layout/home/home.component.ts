@@ -2,7 +2,6 @@ import { Component, ElementRef,HostListener,OnInit, ViewChild} from '@angular/co
 import { fromEvent} from 'rxjs';
 import { OwlCarousel } from 'ngx-owl-carousel';
 import { AnimationService } from '../../service/animation.service';
-import { AnimationOptions } from 'ngx-lottie';
 import { AnimationItem } from 'lottie-web';
 @Component({
   selector: 'app-home',
@@ -11,13 +10,7 @@ import { AnimationItem } from 'lottie-web';
 })
 
 export class HomeComponent implements OnInit {
-  @ViewChild(OwlCarousel)carousel!: OwlCarousel;
-  currentForm = 'sender';
-  slides = [0, 1, 2];
-  activeSlide = 0;
-  showDots = true; 
-  showNav = true; 
-  IsShowText = false;
+
   isVisible: boolean = false;
   isReadyVisible = false;
   isAnimationPlaying = false;
@@ -84,11 +77,7 @@ export class HomeComponent implements OnInit {
   
 
 
-  progress: NodeListOf<any> | any;
-  progressTextSpec: NodeListOf<any> | any;
-  progressTextSender: NodeListOf<any> | any;
-  progressTextData: NodeListOf<any> | any;
-  progressTextReceiver: NodeListOf<any> | any;
+  
   constructor(private animationService: AnimationService, private elRef: ElementRef) { 
     fromEvent(window, 'resize').subscribe(() => {
       this.pathMethod()
@@ -147,112 +136,13 @@ export class HomeComponent implements OnInit {
       }
     }
 
-
-    
-
-  carouselOptions = {
-    loop: true,
-    items: 1,
-    autoplay: true,
-    autoplayTimeout: 10000,
-    autoplayHoverPause: true,
-    dots: true,
-    nav: false
-  };
-
-  ngAfterViewInit(): void {
-    this.toggleCartContentCarusel();
-  }
-
-  onCarouselInitialized() {
-    if (this.carousel) {
-    }
-  }
-
-  prevSlide() {
-    if (this.carousel) {
-      this.carousel.previous();
-    }
-    
-  }
-
-  nextSlide() {
-    if (this.carousel) {
-      this.carousel.next();
-    }
-  }
-
-  toggleCartContentCarusel(){
-    const cards = document.querySelectorAll(".owl-item")
-    cards.forEach(card =>{
-      if(card.classList.contains('active')){
-        setTimeout(()=>{
-          card.classList.add('active_card_content')
-        },2000)
-      }else{
-        card.classList.remove('active_card_content')
-      }
-    })
-  }
-
-
-   setCurrencyForm(data:string){
-    this.currentForm = data
-    this.addClassIfNeed()
-   }
-
    toggleHelp(index: number){
     const classHelpToggleBlocke = document.querySelectorAll('.help_card_content_toggles_toggle')
     classHelpToggleBlocke[index].classList.toggle('help_card_content_toggles_toggle--active')
    }
 
-   addClassIfNeed(){
-    this.progress = document.querySelector(".quotation_block_progress")
-    this.progressTextSpec = document.querySelector(".quotation_block_progress_curcle_text-specifications")
-    this.progressTextData = document.querySelector('.quotation_block_progress_curcle_text-data')
-    this.progressTextSender = document.querySelector('.quotation_block_progress_curcle_text-sender')
-    this.progressTextReceiver = document.querySelector('.quotation_block_progress_curcle_text-receiver')
+   
 
-    if(this.currentForm === "specifications" || this.currentForm === "data" || this.currentForm === "receiver" || this.currentForm === "summary" ){
-      this.progress.classList.add("quotation_block_progress-done_sender")
-      this.progressTextSpec.classList.add("quotation_block_progress_curcle_text_active")
-    }else if(this.currentForm !== "specifications" && this.currentForm !== "data" && this.currentForm !== "receiver" ){
-      this.progress.classList.remove("quotation_block_progress-done_sender")
-      this.progressTextSpec.classList.remove("quotation_block_progress_curcle_text_active")
-    }
-
-    if(this.currentForm === 'date' || this.currentForm === "receiver" || this.currentForm === "summary"  ){
-      this.progress.classList.add("quotation_block_progress-done_specifications")
-      this.progress.classList.add("quotation_block_progress-done_sender")
-      this.progressTextSpec.classList.add("quotation_block_progress_curcle_text_active")
-    }else if(this.currentForm !== 'date' && this.currentForm !== "receiver" && this.currentForm !== "summary"){
-      this.progress.classList.remove("quotation_block_progress-done_specifications")
-    }
-
-    if(this.currentForm === "receiver" || this.currentForm === "summary" ){
-      this.progress.classList.add("quotation_block_progress-done_sender")
-      this.progress.classList.add("quotation_block_progress-done_specifications")
-      this.progressTextSpec.classList.add("quotation_block_progress_curcle_text_active")
-      this.progress.classList.add("quotation_block_progress-done_date")
-    }else if(this.currentForm !== "receiver" && this.currentForm !== "summary"){
-      this.progress.classList.remove("quotation_block_progress-done_date")
-    }
-    if(this.currentForm === "summary" ){
-      this.progress.classList.add("quotation_block_progress-done_receiver")
-    }else if( this.currentForm !== "summary") {
-      this.progress.classList.remove("quotation_block_progress-done_receiver")
-    }
-
-   }
-
-   showText(){
-    this.IsShowText = !this.IsShowText;
-    const serviceText = document.querySelectorAll('.arrage_cards_card')
-    for(let i =0; i < serviceText.length; i++){
-      serviceText[i].classList.toggle('arrage_cards_card--active')
-    }
-    console.log("OK")
-   }
 
 
 
@@ -270,8 +160,6 @@ export class HomeComponent implements OnInit {
     this.pathMobile = document.querySelectorAll('.mobile_curcile')
     this.darkPaths = document.querySelectorAll('.dark_curcile')
     this.darkPathMobile = document.querySelectorAll('.mobile_dark_curcile')
-
-    console.log(this.animElems)
 
     setInterval(() => {
       this.animationService.blinkPaths(this.paths, this.currentIndexLight);

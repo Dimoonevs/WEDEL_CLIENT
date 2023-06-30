@@ -1,0 +1,112 @@
+<div class="quotation">
+    <div class="wrapper">
+        <div class="quotation_title text_big title_all">
+            <div class="title_all_block" i18n>Quote</div>
+        </div>
+        <div class="quotation_block">
+            <div class="quotation_block_progress">
+                <div class="quotation_block_progress_wrapp">
+                    <div class="quotation_block_progress_curcle quotation_block_progress_curcle-sender" [ngClass]="{'quotation_block_progress_curcle_active': currentForm === 'sender'}">
+                        <img src="assets/img/Done.svg" alt="">
+                    </div>
+                    <div class="quotation_block_progress_curcle_text quotation_block_progress_curcle_text-sender text_title" [ngClass]="{'quotation_block_progress_curcle_text_active': currentForm === 'sender' || currentForm === 'specifications' || currentForm === 'date' || currentForm === 'receiver'}" i18n>Sender</div>
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line_active">
+
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-specifications">
+
+                </div>
+                <div class="quotation_block_progress_wrapp">
+                    <div class="quotation_block_progress_curcle quotation_block_progress_curcle-specifications" [ngClass]="{'quotation_block_progress_curcle_active': currentForm === 'specifications'}">
+                        <img src="assets/img/Done.svg" alt="">
+                    </div>
+                    <div class="quotation_block_progress_curcle_text quotation_block_progress_curcle_text-specifications text_title" i18n>Specifications</div>
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-specifications">
+
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-date">
+                    
+                </div>
+                <div class="quotation_block_progress_wrapp">
+                    <div class="quotation_block_progress_curcle quotation_block_progress_curcle-date" [ngClass]="{'quotation_block_progress_curcle_active': currentForm === 'date'}">
+                        <img src="assets/img/Done.svg" alt="">
+                    </div>
+                    <div class="quotation_block_progress_curcle_text quotation_block_progress_curcle_text-data text_title" [ngClass]="{'quotation_block_progress_curcle_text_active': currentForm === 'date' || currentForm === 'receiver'}" i18n>Due date</div>
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-date">
+
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-receiver">
+                    
+                </div>
+                <div class="quotation_block_progress_wrapp">
+                    <div class="quotation_block_progress_curcle quotation_block_progress_curcle-receiver " [ngClass]="{'quotation_block_progress_curcle_active': currentForm === 'receiver'}">
+                        <img src="assets/img/Done.svg" alt="">
+                    </div>
+                    <div class="quotation_block_progress_curcle_text quotation_block_progress_curcle_text-receiver text_title" [ngClass]="{'quotation_block_progress_curcle_text_active': currentForm === 'receiver'}" i18n>Receiver</div>
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-receiver">
+                    
+                </div>
+                <div class="quotation_block_progress_line quotation_block_progress_line-symmary">
+                    
+                </div>
+                <div class="quotation_block_progress_wrapp">
+                    <div class="quotation_block_progress_curcle quotation_block_progress_curcle-symmary "  [ngClass]="{'quotation_block_progress_curcle_active': currentForm === 'summary'}">
+                        <img src="assets/img/Done.svg" alt="">
+                    </div>
+                    <div class="quotation_block_progress_curcle_text text_title" i18n>Summary</div>
+                </div>
+            </div>
+            <div class="for_scroll quotation_block_forms content_wrepper">
+                <div class="stepper">
+                    <div class="stepper_text_container">
+                        <div class="stepper_text" *ngIf="currentForm === 'sender'">
+                            <div class="stepper_text_title text_title" i18n>Sender</div>
+                            <div class="stepper_text_text text">Next: Specifications</div>
+                        </div>
+                        <div class="stepper_text" *ngIf="currentForm === 'specifications'">
+                            <div class="stepper_text_title text_title" i18n>Specifications</div>
+                            <div class="stepper_text_text text">Next: Due date</div>
+                        </div>
+                        <div class="stepper_text" *ngIf="currentForm === 'date'">
+                            <div class="stepper_text_title text_title" i18n>Due date</div>
+                            <div class="stepper_text_text text">Next: Receiver</div>
+                        </div>
+                        <div class="stepper_text" *ngIf="currentForm === 'receiver'">
+                            <div class="stepper_text_title text_title" i18n>Receiver</div>
+                            <div class="stepper_text_text text">Next: Summary</div>
+                        </div>
+                        <div class="stepper_text" *ngIf="currentForm === 'summary'">
+                            <div class="stepper_text_title text_title" i18n>Summary</div>
+                            <div class="stepper_text_text text">Next: Confirm and send</div>
+                        </div>
+                    </div>
+                    <div class="stepper_swg">
+                        <div class="svg" *ngIf="currentForm === 'sender'"><img src="assets/img/step_one.svg" alt=""></div>
+                        <div class="svg" *ngIf="currentForm === 'specifications'"><img src="assets/img/step_two.svg" alt=""></div>
+                        <div class="svg" *ngIf="currentForm === 'date'"><img src="assets/img/step_three.svg" alt=""></div>
+                        <div class="svg" *ngIf="currentForm === 'receiver'"><img src="assets/img/step_four.svg" alt=""></div>
+                        <div class="svg" *ngIf="currentForm === 'summary'"><img src="assets/img/step_five.svg" alt=""></div>
+                        <div class="stepper_swg_text">
+                            <div class="stepper_swg_text_all text_title" *ngIf="currentForm === 'sender'">1<div class="stepper_swg_text_all_light">/5</div></div>
+                            <div class="stepper_swg_text_all text_title" *ngIf="currentForm === 'specifications'">2<div class="stepper_swg_text_all_light">/5</div></div>
+                            <div class="stepper_swg_text_all text_title" *ngIf="currentForm === 'date'">3<div class="stepper_swg_text_all_light">/5</div></div>
+                            <div class="stepper_swg_text_all text_title" *ngIf="currentForm === 'receiver'">4<div class="stepper_swg_text_all_light">/5</div></div>
+                            <div class="stepper_swg_text_all text_title" *ngIf="currentForm === 'summary'">5<div class="stepper_swg_text_all_light">/5</div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="content_wrepper">
+                <app-sender *ngIf="currentForm === 'sender'"></app-sender>
+                <app-specifications *ngIf="currentForm === 'specifications'"></app-specifications>
+                <app-due-date *ngIf="currentForm === 'date'"></app-due-date>
+                <app-receiver *ngIf="currentForm === 'receiver'"></app-receiver>
+                <app-summary *ngIf="currentForm === 'summary'"></app-summary>
+            </div>
+        </div>
+    </div>
+</div>

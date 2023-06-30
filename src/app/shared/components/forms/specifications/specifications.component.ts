@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component} from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { HomeComponent } from 'src/app/shared/layout/home/home.component';
+import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { FormService } from 'src/app/shared/service/form.service';
 
 function asyncValidatorFunction(control: AbstractControl): Promise<any> {
@@ -86,7 +87,7 @@ export class SpecificationsComponent {
     }
     
   }
-  constructor(private http: HttpClient, private formService: FormService, private fb: FormBuilder, private homeComponent: HomeComponent) {
+  constructor(private http: HttpClient, private formService: FormService, private fb: FormBuilder, private homeComponent: QuotationComponent) {
     this._createForm();
     if(formService.getSpecLengthBoxes() > 1){
       for( let i = 1; i < this.width.length; i++){

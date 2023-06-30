@@ -26,6 +26,7 @@
             "outputPath": "dist/wedel-client",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "optimization":true,
             "polyfills": [
               "zone.js"
             ],

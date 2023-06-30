@@ -3,6 +3,7 @@ import { ChangeDetectorRef, Component, HostListener } from '@angular/core';
 import { FormGroup, FormBuilder, Validators, AbstractControl } from '@angular/forms';
 import { QuotationControllerService } from 'src/app/shared/controller/quotation-controller.service';
 import { HomeComponent } from 'src/app/shared/layout/home/home.component';
+import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { CountryAndCallingCodeReq, SearchCountryReq } from 'src/app/shared/module/interfaces';
 import { FormService } from 'src/app/shared/service/form.service';
 
@@ -42,7 +43,7 @@ export class ReceiverComponent {
       this.searchCode(event.key);
     }
   }
-  constructor( private cdr: ChangeDetectorRef, private quotionController: QuotationControllerService, private http: HttpClient, private fb: FormBuilder, private homeComponent: HomeComponent, private formService: FormService) { this._createForm()}
+  constructor( private cdr: ChangeDetectorRef, private quotionController: QuotationControllerService, private http: HttpClient, private fb: FormBuilder, private homeComponent: QuotationComponent, private formService: FormService) { this._createForm()}
 
   onKeay(country:string){
     this.quotionController.searchCountry({name: country}).subscribe((country: CountryAndCallingCodeReq) =>{

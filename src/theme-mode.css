@@ -61,16 +61,16 @@
 /* Tailored */
 
 .dark .img:nth-child(1){
-    opacity: 0 !important;
+    display: none !important;
 }
 .dark .img:nth-child(2){
-    opacity: 0 !important; 
+    display: none !important; 
 }
 .dark .img:nth-child(3){
-    opacity: 1 !important;
+    display: block !important;
 }
 .dark .img:nth-child(4){
-    opacity: 0 !important;
+    display: none !important;
 }
 
 /* Tailored */
@@ -359,13 +359,13 @@
 
 @media (max-width: 839px){
     .dark .img:nth-child(2){
-        opacity: 0 !important;
+        display: none !important;
     }
     .dark .img:nth-child(3){
-        opacity: 0 !important;
+        display: none !important;
     }
     .dark .img:nth-child(4){
-        opacity: 1 !important;
+        display: block !important;
     }
     .dark .arrage_cards_card_fs{
         background: url('src/assets/img/we_do_mobile_dark_fs_th.svg') 100% !important;

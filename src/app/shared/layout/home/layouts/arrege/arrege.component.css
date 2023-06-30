@@ -1,0 +1,114 @@
+.arrage{
+    margin-top:120px ;
+    margin-bottom: 120px;
+}
+.arrage_title{
+    font-weight: 500;
+
+}
+.arrage_cards_card{
+    margin: 120px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 25px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: .5s;
+}
+.arrage_cards_card img{
+    display: none;
+}
+.arrage_cards_card_button{
+    display: none;
+}
+.arrage_cards_card_text{
+    max-width: 534px;
+    background: linear-gradient(124.98deg, rgba(255, 255, 255, 0.4) 11.72%, rgba(255, 255, 255, 0.1) 89.81%);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(20px);
+    border-radius: 0px 4px 4px 0px;
+    position: absolute;
+    left: -170%;
+    transition: .5s;
+}
+.arrage_cards_card_text:nth-child(1){
+    padding: 42px 58px 14px 59px;
+}
+.arrage_cards_card_sc .arrage_cards_card_text .arrage_cards_card_textarrage_cards_card_text_title_par:nth-child(3){
+    margin-bottom: 0;
+}
+.arrage_cards_card_th .arrage_cards_card_text_title_par:nth-child(3){
+    margin-bottom: 0;
+}   
+.arrage_cards_card_sc .arrage_cards_card_text{
+    padding: 21px 40px 17px 53px;
+}
+.arrage_cards_card_th .arrage_cards_card_text{
+    padding: 19px 24px 18px 74px;
+}
+.arrage_cards_card{
+    min-height: 502px;
+}
+.wrapper_arrage_cards_card_text_ul_li{
+    display: flex;
+    justify-content: space-between;
+
+}
+.wrapper_arrage_cards_card_text_ul_li li{
+    position: relative;
+    padding-left: 10px;
+}
+.wrapper_arrage_cards_card_text_ul_li li::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 4px;
+    height: 4px;
+    background-color: #456080;
+    border-radius: 50%;
+}
+.arrage_cards_card_text_title{
+    margin-bottom: 13px;
+}
+.arrage_cards_card_text_title_par{
+    margin-bottom: 15px;
+}
+.arrage_cards_card_img{
+    max-width: 521px;
+}
+.arrage_cards_card_img img{
+    width: 100%;
+    
+}
+.wrapper_arrage{
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 8px 16px; 
+    position: relative;
+}
+.custom_button{
+    position: absolute;
+    left: -35px;
+    top: 238px;
+    cursor: pointer;
+    margin: auto 0;
+    padding: 13px 17px;
+    border-radius: 50%;
+    transition: .5s;
+}
+.custom_button:hover{
+    background: rgba(102, 135, 173, 0.16);
+}
+.custom_button:active{
+    background: rgba(102, 135, 173, 0.26);
+}
+.custom-next{
+    left: auto;
+    right: -35px;
+}

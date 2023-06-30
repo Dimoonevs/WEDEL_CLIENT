@@ -18,7 +18,6 @@ export class AppComponent {
   isOpenBurger = false;
   lenguege!: string;
   isDark = false;
-  sizeWindow = window.innerWidth;
   sizeMax= 7;
   sizeMin = 2;
   colorValue = "#ECECED";
@@ -48,8 +47,6 @@ export class AppComponent {
   constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
-    // const showCookiesSettings = localStorage.getItem('showCookiesSettings');
-    // this.showCookiesSettings = showCookiesSettings ? JSON.parse(showCookiesSettings) : false;
   }
   @HostListener('window:resize')
   onResize() {
@@ -97,9 +94,6 @@ export class AppComponent {
     }
   }
   ngOnInit(): void {
-    window.onload =  () =>{
-      this.loading = true
-    }
     this.loadingSequenceLoop()
     this.loadParticales()
 
@@ -175,11 +169,9 @@ export class AppComponent {
     this.showCookiesSettings = true
     const cookies = this.elRef.nativeElement.querySelector('.cookies')
     cookies.style.setProperty('display', 'none')
-    // localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    // localStorage.setItem('showCookiesSettings', JSON.stringify(this.showCookiesSettings));
     this.router.navigate(['cookies'])
     this.closeCookies()
   }
@@ -203,6 +195,11 @@ export class AppComponent {
       }, 1500); 
     }, 500); 
     
+  }
+  ngAfterViewInit():void{
+    window.onload =  () =>{
+      this.loading = true
+    }
   }
 }
 

@@ -1,0 +1,160 @@
+
+.stepper{
+    display: none;
+    justify-content: space-between;
+    margin-bottom: 59px;
+}
+.stepper_swg_text_all{
+    font-size: 20px;
+    line-height: 24px;
+}
+.stepper_swg{
+    position: relative;
+}
+.stepper_swg_text_all{
+    position: absolute;
+    left: 8px;
+    top: 14px;
+    display: flex;
+}
+.stepper_swg_text_all_light{
+    color: #D9DADC;
+}
+.quotation{
+    margin-top: 120px;
+    padding-bottom: 120px;
+    overflow: hidden;
+}
+.quotation_block{
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 82px 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
+    transition: .5s;
+}
+.quotation_block_progress{
+    display: flex;
+    align-items: center;
+    align-self: center;
+    width: 80%;
+}
+.quotation_block_progress_curcle{
+    border-radius: 50%;
+    border: solid 2px #D9DADC;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    align-self:flex-end;
+}
+.quotation_block_progress_curcle img{
+    display: none;
+}
+.quotation_block_progress_curcle_active{
+    border:solid 2px #456080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotation_block_progress_curcle_active::after{
+    content: '';
+    border-radius:50% ;
+    width: 16px;
+    height: 16px;
+    background: #456080;
+}
+.quotation_block_progress_line{
+    width: 104.5px;
+    height: 2px;
+    background: #D9DADC;
+}
+.quotation_block_progress_line_active{
+    background: #456080;
+}
+.quotation_block_progress_wrapp{
+    position: relative;
+}
+.quotation_block_progress_curcle_text{
+    position: absolute;
+    top:42px;
+    left: -50px;
+    width: 154px;
+    font-size: 22px;
+    text-align: center;
+    color: #C7C8CA;
+}
+.quotation_block_progress_curcle_text_active{
+    color: #1A2430;
+}
+.quotation_block_forms{
+    margin-top: 107px;
+}
+
+.quotation_block_progress-done_sender .quotation_block_progress_line-specifications{
+    background: #456080;
+}
+.quotation_block_progress-done_sender .quotation_block_progress_curcle-sender{
+    border: none;
+    background: #456080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotation_block_progress-done_sender .quotation_block_progress_curcle-sender img{
+    display: block;
+}
+
+
+.quotation_block_progress-done_specifications .quotation_block_progress_line-specifications{
+    background: #456080;
+}
+.quotation_block_progress-done_specifications .quotation_block_progress_curcle-specifications{
+    border: none;
+    background: #456080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotation_block_progress-done_specifications .quotation_block_progress_curcle-specifications img{
+    display: block;
+}
+
+.quotation_block_progress-done_specifications .quotation_block_progress_line-date{
+    background: #456080;
+}
+
+
+
+.quotation_block_progress-done_date .quotation_block_progress_line-receiver{
+    background: #456080;
+}
+
+.quotation_block_progress-done_date .quotation_block_progress_curcle-date{
+    border: none;
+    background: #456080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotation_block_progress-done_date .quotation_block_progress_curcle-date img{
+    display: block;
+}
+.quotation_block_progress-done_receiver .quotation_block_progress_curcle-receiver img{
+    display: block;
+}
+.quotation_block_progress-done_receiver .quotation_block_progress_curcle-receiver{
+    border: none;
+    background: #456080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quotation_block_progress-done_receiver .quotation_block_progress_line-symmary{
+    background: #456080;
+}
+.quotation_block_progress-done_receiver .quotation_block_progress_curcle_text{
+    color: #1A2430;
+}
