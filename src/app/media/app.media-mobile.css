@@ -580,6 +580,9 @@
         margin-right: 6px;
         padding: 11px 11px;
     }
+    .tailored button{
+        margin-right: 0;
+    }
     .sleceted{
         padding: 7px 10px;
     }

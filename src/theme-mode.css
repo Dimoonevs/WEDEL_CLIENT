@@ -355,6 +355,14 @@
 
 /* Loading */
 
+/* Data */
+.dark .calendar_text{
+    background: #414447 !important;
+}
+.dark .calendar_choice_month--none{
+    background: #414447 !important;
+}
+
 
 
 @media (max-width: 839px){

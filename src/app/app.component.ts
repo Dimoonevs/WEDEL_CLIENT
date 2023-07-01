@@ -89,6 +89,8 @@ export class AppComponent {
         if(this.loading){
           const loadingDiv = document.querySelector('.loading')
           loadingDiv?.classList.add("none_elem")
+        }else{
+          this.loading = true
         }
       }, i * delayBetweenRepetitions);
     }
@@ -195,12 +197,13 @@ export class AppComponent {
       }, 1500); 
     }, 500); 
     
+    
   }
-  ngAfterViewInit():void{
-    window.onload =  () =>{
-      this.loading = true
-    }
-  }
+  // ngAfterViewInit():void{
+  //   window.onload =  () =>{
+  //     this.loading = true
+  //   }
+  // }
 }
 
 
