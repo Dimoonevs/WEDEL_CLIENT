@@ -89,6 +89,8 @@ export class AppComponent {
         if(this.loading){
           const loadingDiv = document.querySelector('.loading')
           loadingDiv?.classList.add("none_elem")
+          const closeElem = document.querySelector(".close_content")
+          closeElem?.classList.remove("open")
         }else{
           this.loading = true
         }
@@ -160,22 +162,30 @@ export class AppComponent {
   
   isDarkFunc(){
     if(!this.isDark){
-      this.isDark = !this.isDark
-      localStorage.setItem('isDark', JSON.stringify(this.isDark));
       const bodyElement = document.querySelector('body');
-      bodyElement?.classList.add('dark');
-      this.loadParticales()
-      location.reload()
+      const closeElem = document.querySelector(".close_content")
+      closeElem?.classList.add("open")
+      setTimeout(()=>{
+        this.isDark = !this.isDark
+        localStorage.setItem('isDark', JSON.stringify(this.isDark));
+        bodyElement?.classList.add('dark');
+        this.loadParticales()
+        location.reload()
+      },200)
     }
   }
   isLightFunc(){
     if(this.isDark){
-      this.isDark = !this.isDark
-      localStorage.setItem('isDark', JSON.stringify(this.isDark));
-      const bodyElement = document.querySelector('body') 
-      bodyElement?.classList.remove('dark')
-      this.loadParticales()
-      location.reload()
+      const bodyElement = document.querySelector('body');
+      const closeElem = document.querySelector(".close_content")
+      closeElem?.classList.add("open")
+      setTimeout(()=>{
+        this.isDark = !this.isDark
+        localStorage.setItem('isDark', JSON.stringify(this.isDark));
+        bodyElement?.classList.remove('dark')
+        this.loadParticales()
+        location.reload()
+      },200)
     }
   }
   closeCookies(){

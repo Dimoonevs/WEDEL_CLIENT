@@ -21,34 +21,34 @@ export class HomeComponent implements OnInit {
   animElems: any[] = [
     {    
       path: 'assets/animation/' + this.animElementName[0] + ".json",
-      // autoplay: true,
-      loop:true
+      autoplay: false,
+      loop:false
       
     },
     {    
       path: 'assets/animation/' + this.animElementName[1] + ".json",
-      // autoplay: false,
-      loop:true
+      autoplay: false,
+      loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[2] + ".json",
-      // autoplay: true,
-      loop:true
+      autoplay: false,
+      loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[3] + ".json",
-      // autoplay: false,
-      loop:true
+      autoplay: false,
+      loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[4] + ".json",
-      // autoplay: false,
-      loop:true
+      autoplay: false,
+      loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[5] + ".json",
-      // autoplay: false,
-      loop:true,
+      autoplay: false,
+      loop:false
     },
     
   ]
