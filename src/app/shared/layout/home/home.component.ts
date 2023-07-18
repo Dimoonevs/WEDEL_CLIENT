@@ -1,6 +1,6 @@
-import { Component, ElementRef,HostListener,OnInit, ViewChild} from '@angular/core';
+import { Component, ElementRef,HostListener,OnInit, QueryList, ViewChild} from '@angular/core';
 import { fromEvent} from 'rxjs';
-import { OwlCarousel } from 'ngx-owl-carousel';
+import { AnimationLoader  } from 'ngx-lottie';
 import { AnimationService } from '../../service/animation.service';
 import { AnimationItem } from 'lottie-web';
 import { AppComponent } from 'src/app/app.component';
@@ -21,45 +21,48 @@ export class HomeComponent implements OnInit {
   animElems: any[] = [
     {    
       path: 'assets/animation/' + this.animElementName[0] + ".json",
-      autoplay: false,
+      autoplay: this.isAnimationPlaying,
       loop:false
-      
     },
     {    
       path: 'assets/animation/' + this.animElementName[1] + ".json",
-      autoplay: false,
+      autoplay: this.isAnimationPlaying,
       loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[2] + ".json",
-      autoplay: false,
+      autoplay: this.isAnimationPlaying,
       loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[3] + ".json",
-      autoplay: false,
+      autoplay: this.isAnimationPlaying,
       loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[4] + ".json",
-      autoplay: false,
+      autoplay: this.isAnimationPlaying,
       loop:false
     },
     {    
       path: 'assets/animation/' + this.animElementName[5] + ".json",
-      autoplay: false,
+      autoplay: this.isAnimationPlaying,
       loop:false
     },
     
   ]
   
   intersectionObserver!: IntersectionObserver;
+  @ViewChild('lottieAnimation0') lottieAnimation0!: AnimationLoader;
+  @ViewChild('lottieAnimation1') lottieAnimation1!: AnimationLoader;
+  @ViewChild('lottieAnimation2') lottieAnimation2!: AnimationLoader;
+  @ViewChild('lottieAnimation3') lottieAnimation3!: AnimationLoader;
+  @ViewChild('lottieAnimation4') lottieAnimation4!: AnimationLoader;
+  @ViewChild('lottieAnimation5') lottieAnimation5!: AnimationLoader;
 
   onAnimate(animationItem: AnimationItem): void {    
     if (this.isAnimationPlaying){
-      animationItem.isPaused = false
-    }else if(!this.isAnimationPlaying){
-      animationItem.isPaused = true
+      animationItem.setLoop(false)
     }
   }
   
@@ -72,13 +75,28 @@ export class HomeComponent implements OnInit {
     }
   }
   updateAnimationOptions(id:number) {
-    // this.isAnimationPlaying = true;
-    // console.log(this.isAnimationPlaying)
-    // setTimeout(()=>{
-    //   this.isAnimationPlaying = false;
-    //   console.log(this.isAnimationPlaying)
-    // },2000)
-    
+    this.animationProgress = 0
+    this.animElems[id].autoplay = true
+    // this.lottieAnimation[id].loadAnimation(this.animElems[id])
+    if(id == 0){
+      this.lottieAnimation0.loadAnimation(this.animElems[0])
+    }
+    if(id == 1){
+      this.lottieAnimation1.loadAnimation(this.animElems[1])
+    }
+    if(id == 2){
+      this.lottieAnimation2.loadAnimation(this.animElems[2])
+      // console.log(this.lottieAnimation2)
+    }
+    if(id == 3){
+      this.lottieAnimation3.loadAnimation(this.animElems[3])
+    }
+    if(id == 4){
+      this.lottieAnimation4.loadAnimation(this.animElems[4])
+    }
+    if(id == 5){
+      this.lottieAnimation5.loadAnimation(this.animElems[5])
+    }
   }
 
   scrollTo(nameBlock:string){
