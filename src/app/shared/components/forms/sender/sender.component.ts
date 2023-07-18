@@ -240,7 +240,8 @@ export class SenderComponent {
     inputCountry?.classList.remove("country--focus")
     inputImg?.classList.remove("img_inpu_country--focus")
     this.codeCallingIsActive = !this.codeCallingIsActive
-
+    // this.getCountry()
+    this.getCountryAndCallingCodeAnddigits()
   }
   onFocusNumber(){
     const codeNumber = document.querySelector(".all_top_block_phone_code");

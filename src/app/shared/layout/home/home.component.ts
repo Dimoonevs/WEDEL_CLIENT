@@ -3,6 +3,7 @@ import { fromEvent} from 'rxjs';
 import { OwlCarousel } from 'ngx-owl-carousel';
 import { AnimationService } from '../../service/animation.service';
 import { AnimationItem } from 'lottie-web';
+import { AppComponent } from 'src/app/app.component';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -14,48 +15,51 @@ export class HomeComponent implements OnInit {
   isVisible: boolean = false;
   isReadyVisible = false;
   isAnimationPlaying = false;
+  IsShowText = false;
   animationProgress = 0;
   animElementName= ["CustomerFirst", "Agility", "FocusInInnovation", "Cooperation", "GrowthMindset", "Ownership"]
   animElems: any[] = [
     {    
       path: 'assets/animation/' + this.animElementName[0] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
+      // autoplay: true,
+      loop:true
+      
     },
     {    
       path: 'assets/animation/' + this.animElementName[1] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
+      // autoplay: false,
+      loop:true
     },
     {    
       path: 'assets/animation/' + this.animElementName[2] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
+      // autoplay: true,
+      loop:true
     },
     {    
       path: 'assets/animation/' + this.animElementName[3] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
+      // autoplay: false,
+      loop:true
     },
     {    
       path: 'assets/animation/' + this.animElementName[4] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
+      // autoplay: false,
+      loop:true
     },
     {    
       path: 'assets/animation/' + this.animElementName[5] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
+      // autoplay: false,
+      loop:true,
     },
     
   ]
   
   intersectionObserver!: IntersectionObserver;
-  
 
   onAnimate(animationItem: AnimationItem): void {    
     if (this.isAnimationPlaying){
-      animationItem.setLoop(false)
+      animationItem.isPaused = false
+    }else if(!this.isAnimationPlaying){
+      animationItem.isPaused = true
     }
   }
   
@@ -68,17 +72,20 @@ export class HomeComponent implements OnInit {
     }
   }
   updateAnimationOptions(id:number) {
-    this.animElems[id] = {    
-      path: 'assets/animation/' + this.animElementName[id] + '.json',
-      autoplay: this.isAnimationPlaying  
-    }; 
+    // this.isAnimationPlaying = true;
+    // console.log(this.isAnimationPlaying)
+    // setTimeout(()=>{
+    //   this.isAnimationPlaying = false;
+    //   console.log(this.isAnimationPlaying)
+    // },2000)
+    
   }
 
+  scrollTo(nameBlock:string){
+    this.appComponent.scrollTo(nameBlock);
+  }
   
-
-
-  
-  constructor(private animationService: AnimationService, private elRef: ElementRef) { 
+  constructor(private animationService: AnimationService, private elRef: ElementRef, private appComponent: AppComponent) { 
     fromEvent(window, 'resize').subscribe(() => {
       this.pathMethod()
     });
@@ -190,5 +197,27 @@ export class HomeComponent implements OnInit {
     this.animationService.pathMobileMethod(this.elRef);
     this.animationService.pathMobileDarkMethod(this.elRef);
   }
+  onScroll(event: Event) {
+    const shadow = document.querySelector('.services_cards_card_content_texts_tabled_shadow')
+    const element = event.target as HTMLElement;
+    if (element.scrollLeft + element.offsetWidth >= 657) {
+      shadow?.classList.add("services_cards_card_content_texts_tabled_shadow-end")
+    }
+    if (element.scrollLeft + element.offsetWidth < 657) {
+      shadow?.classList.remove("services_cards_card_content_texts_tabled_shadow-end")
+    }
+  }
+  showText(){
+    const hideBlocke = document.querySelector(".story_card") 
+    const hideText = document.querySelector(".story_card_text")
+
+    this.IsShowText = !this.IsShowText;
+    hideBlocke?.classList.toggle("story_card--active")
+    hideText?.classList.toggle("story_card_text--active")
+  }
+  location(){
+    window.location.href = "https://we-del.logitudeworld.com/login";
+  }
+  
 
 }

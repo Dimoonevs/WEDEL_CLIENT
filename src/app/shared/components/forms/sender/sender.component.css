@@ -41,9 +41,9 @@
     background: rgba(230, 235, 241, 0.5);
     border-radius: 4px;
     padding: 24px;
+    margin-bottom: 40px;
 }
 .sender_text_top .text{
-    /* margin: 24px; */
     padding-left: 10px;
     position: relative;
     line-height: 16px;

@@ -15,8 +15,9 @@ header{
     color: #456080 ;
 }
 .span_get a{
-    color: #090C10 ;
+    color: var(--primary-300, #B3C3D6);
 }
+
 .all_select_text_active{
     background: #E6EBF1;
 }
@@ -83,6 +84,12 @@ button{
     padding: 4px 8px;
     display: flex;
     align-items: center;
+}
+.span_get_img svg path{
+    fill: #B3C3D6;
+}
+.all_select_text_active svg path{
+    fill: #456080;
 }
   
 
@@ -223,13 +230,13 @@ button{
 footer{
     background: #456080;
     position: relative;
-    padding: 24px 0;
+    padding: 48px 0;
 }
 .footer-text{
     color: #FBFBFB;
 }
 .footer_top{
-    padding-bottom: 24px;
+    padding-bottom: 32px;
     border-bottom: 1px solid #FBFBFB;
 }
 .footer_top ul{
@@ -237,7 +244,7 @@ footer{
     justify-content: center;
 }
 .footer_top ul a{
-    padding: 0 16px;
+    padding: 0 32px;
     border-right: 1px solid #FBFBFB;
 }
 .footer-text_last{
@@ -246,7 +253,7 @@ footer{
 .footer_bottom_text{
     text-align: center;
     color: #FBFBFB;
-    margin: 24px 0;
+    margin: 32px 0;
 }
 
 /* footer */
@@ -267,7 +274,7 @@ footer{
 
 .cookies{
     position: fixed;
-    right: 24px;
+    right: -1024px;
     bottom: 24px;
     max-width: 397px;
     background: #456080;
@@ -275,6 +282,13 @@ footer{
     border-radius: 4px;
     padding: 24px;
     z-index: 999999;
+    transition: .5s;
+}
+.cookies_active{
+    right: 24px;
+}
+.cookies_dont_show{
+    right: -1024px;
 }
 .cookies_texts{
     color: #ECECED;

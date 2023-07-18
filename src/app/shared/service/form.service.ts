@@ -311,4 +311,21 @@ export class FormService{
       this.receiverDigitCode = 9
     }
 
+
+    requestACallPhoneCode = "+380"
+    requestACallDigitCode = 9;
+
+    getRequestACallPhoneCode():string{
+      return this.requestACallPhoneCode;
+    }
+    setRequestACallPhoneCode(code:string){
+      this.requestACallPhoneCode = code;
+    }
+    getRequestACallDigitCode():number{
+      return this.requestACallDigitCode;
+    }
+    setRequestACallDigitCode(digitCode: number){
+      this.requestACallDigitCode = digitCode;
+    }
+
 }

@@ -86,14 +86,17 @@
     font-family: 'Rubik',  sans-serif;
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 20px;
     transition: .5s;
+    color: #090C10;
 }
 .text_big{
     font-family: 'Rubik';
     font-weight: 500;
+    font-style: normal;
     font-size: 36px;
-    line-height: 44px;
+    line-height: 25px;
     transition: .5s;
 }
 .text_title{
@@ -101,8 +104,12 @@
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 15px;
     transition: .5s;
+    color: #090C10;
+}
+.white_text{
+  color: #FBFBFB;
 }
 .text_exampl{
     font-weight: 600;
@@ -118,7 +125,7 @@ body{
 .wrapper{
   max-width: 1240px; 
   margin: 0 auto; 
-  padding: 8px 16px; 
+  padding: 0px 16px; 
   
 }
 .content_wrepper {
@@ -130,6 +137,7 @@ body{
   text-align: center;
   padding-bottom: 24px;
   border-bottom: 2px solid #3C5470;
+  color: #090C10;
 }
 button{
     background: #456080;
@@ -140,6 +148,9 @@ button{
     width: 100%;
     max-width: 200px;
     line-height: 10px !important;
+}
+button.text{
+  color: #FBFBFB;
 }
 .XXL_button{
   width: 100%; 
@@ -173,6 +184,7 @@ button:disabled{
   border: 1px solid #CCD7E4;
   border-radius: 3.6px;
   padding: 8px 8px;
+  height: 36px;
 }
 .all_top_block{
   display: flex;
@@ -247,6 +259,7 @@ button:disabled{
   border: 1px solid #CCD7E4;
   border-radius: 3.6px;
   padding:8px;
+  max-height: 36px;
   position: relative;
   width: 68px;
   display: flex;
@@ -352,7 +365,7 @@ button:disabled{
 }
 .button_submit_next_step{
   display: flex;
-  margin-top: 48px;
+  margin-top: 40px;
   justify-content: flex-end;
 }
 .previous_step{
@@ -406,7 +419,9 @@ button:disabled{
 }
 /* for quotation form End */
 
-
+.select_image_all{
+  max-height: 48px;
+}
 
 /* For claendar */
 
@@ -620,6 +635,15 @@ footer a{
 }
 .ng-lottie-animation {
   transition: .5s;
+  position: relative;
+}
+.face_anim_json{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
 }
 /* *{
   border: 1px solid brown;

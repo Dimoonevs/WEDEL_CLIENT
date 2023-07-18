@@ -150,12 +150,13 @@
           <context context-type="linenumber">133</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="9210334928224726492" datatype="html">
-        <source> Let`s get in Touch! </source>
+      <trans-unit id="1109117195472260452" datatype="html">
+        <source> Let`s get in Touch!
+</source>
         <target>Spojte se s námi!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
-          <context context-type="linenumber">2,4</context>
+          <context context-type="linenumber">1,3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7416185334584191302" datatype="html">
@@ -1114,9 +1115,17 @@
           <context context-type="linenumber">5494</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6536541562941925198" datatype="html">
+        <source>To conveniently track your shipment, we encourage you to visit the designated page by clicking on the button below within our customer portal. This will provide you with the information you need and ensure a seamless tracking experience.</source>
+        <target>Pro pohodlné sledování vaší zásilky vás povzbuzujeme k návštěvě příslušné stránky kliknutím na tlačítko níže v našem zákaznickém portálu. Tímto způsobem získáte potřebné informace a zajistíte bezproblémovou sledovací zkušenost.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5524</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2092935502955853696" datatype="html">
         <source>Request for quatation</source>
-        <target>Poptat cenuv</target>
+        <target>Poptat cenu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5497</context>
@@ -1252,14 +1261,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5659</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8548296631068847608" datatype="html">
-        <source> Tracking ID always starts from “WD” and it has four numbers after eg. <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text_exampl text&quot;&gt;"/>WD0001<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target> Sledovací číslo vždy začíná na “WD” a poté následují 4 číslice, např. <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text_exampl text&quot;&gt;"/>WD0001<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5698,5699</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5817767006293697780" datatype="html">
@@ -1638,22 +1639,6 @@
           <context context-type="linenumber">5977</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8526267784939186101" datatype="html">
-        <source>Thank you for your email!</source>
-        <target>Děkujeme za Váš email!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2980226900994676313" datatype="html">
-        <source>We understand the importance of your request and are committed to providing you with a prompt response. However, if your request requires immediate attention and cannot wait for a response via email, we kindly request that you reach out to us directly via phone call. Our dedicated contact number is +420 727 893 073.</source>
-        <target>Rozumíme důležitosti vašeho požadavku a vždy je naši prioritou Vám odpovědět co nejdříve. Pokud však vaše poptávka vyžaduje okamžitou pozornost a nemůže čekat na odpověď skrze mail, prosíme Vás o přímé telefonické spojení. Pohotovostním kontaktem je +420 727 893 073.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6700732310668574063" datatype="html">
         <source> Our vision is to help especially small and medium – sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
         <target>Naší vizí je pomoci zejména malým a středním firmám skrze nabídku komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit náklady, čas a nervy.</target>
@@ -1804,6 +1789,54 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">152,154</context>
+        </context-group>
+      </trans-unit>
+       <trans-unit id="8526267784939186101" datatype="html">
+        <source>Thank you for your email!</source>
+        <target>Děkujeme za Váš email!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2980226900994676313" datatype="html">
+        <source>We understand the importance of your request and are committed to providing you with a prompt response. However, if your request requires immediate attention and cannot wait for a response via email, we kindly request that you reach out to us directly via phone call. Our dedicated contact number is +420 727 893 073.</source>
+        <target>Rozumíme důležitosti vašeho požadavku a vždy je naši prioritou Vám odpovědět co nejdříve. Pokud však vaše poptávka vyžaduje okamžitou pozornost a nemůže čekat na odpověď skrze mail, prosíme Vás o přímé telefonické spojení. Pohotovostním kontaktem je +420 727 893 073.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2263804175221544808" datatype="html">
+        <source>Thank you for your request!</source>
+        <target>Děkujeme za vaši žádost!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7993113678438459652" datatype="html">
+        <source>If the contact number you provided is valid and reachable, we will contact you within the next hour.</source>
+        <target>Pokud je vámi uvedené kontaktní číslo platné a dostupné, budeme vás kontaktovat během následující hodiny.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1148383325552933611" datatype="html">
+        <source>Thank you for your quotation request!</source>
+        <target>Děkujeme za váš požadavek na cenovou nabídku!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1134550742024712034" datatype="html">
+        <source>We aim to provide you with feedback within an hour. If you haven&apos;t received a confirmation email, please reach out to us at 420 727 893 073.</source>
+        <target>Vynasnažíme se zareagovat na Váš požadavek do jedné hodiny. Pokud jste nedostali potvrzující e-mail, prosím, kontaktujte nás na čísle 420 727 893 073.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
     </body>

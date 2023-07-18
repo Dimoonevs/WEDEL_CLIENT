@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component, HostListener } from '@angular/core';
 import { AbstractControl, FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { error } from 'jquery';
 import { QuotationControllerService } from 'src/app/shared/controller/quotation-controller.service';
-import { RequestACallReq } from 'src/app/shared/module/interfaces';
+import { CountryAndCallingCodeReq, RequestACallReq } from 'src/app/shared/module/interfaces';
+import { FormService } from 'src/app/shared/service/form.service';
 
 @Component({
   selector: 'app-request-acall',
@@ -11,8 +13,15 @@ import { RequestACallReq } from 'src/app/shared/module/interfaces';
 })
 export class RequestACallComponent {
   requestACallForm: FormGroup | any;
+  isActiveSelect = false;
+  countries: any[] = [];
+  callingCode: any[] = [];
+  digitsAfterCode: any[] = [];
+  digitCode = 9;
+  countryCode = "+380"
+  phoneMask='000 000 000'
 
-  constructor( private fb: FormBuilder, private controller: QuotationControllerService) { this._createForm()}
+  constructor(private quotionController: QuotationControllerService, private cdr: ChangeDetectorRef, private formService: FormService, private fb: FormBuilder, private controller: QuotationControllerService, private router:Router) { this._createForm()}
 
   private _createForm(){
     this.requestACallForm = this.fb.group({
@@ -27,13 +36,84 @@ export class RequestACallComponent {
 
   submitReqACAll(){
     const req: RequestACallReq = {
-      phone: this.requestACallForm.value.Phone
+      phone: this.countryCode + this.requestACallForm.value.Phone
     }
 
     this.controller.submitRequestACall(req).subscribe(() =>{
-      console.log('succsecful')
-      location.reload()
+      this.router.navigate(['/'], {
+        queryParams: {
+          request: true
+        }
+      })
+      this.requestACallForm.reset()
     })
   }
+  toggleSelectItem(){
+    this.isActiveSelect = !this.isActiveSelect
+    if(this.isActiveSelect){
+      this.callingCode = []
+      this.countries = []
+      this.digitsAfterCode = []
+      this.quotionController.getAllCountryAndCallingCode().subscribe((countries:CountryAndCallingCodeReq)=>{
+        for(let i = 0; i < countries.data.length; i++){
+          this.countries.push(countries.data[i].country);
+          this.callingCode.push(countries.data[i].callingCode);
+          this.digitsAfterCode.push(countries.data[i].digitsAfterCode)
+        }
+      })
+    }
+  }
 
+  @HostListener('window:keydown', ['$event'])
+  onKeyDown(event: KeyboardEvent) {
+    if(this.isActiveSelect){
+      this.searchCode(event.key);
+    }
+  }
+  
+  searchCode(leter: string){
+    this.callingCode = []
+    this.countries = []
+    this.digitsAfterCode = []
+    this.quotionController.searchCountry({name:leter}).subscribe((countries: CountryAndCallingCodeReq)=>{
+      for(let i = 0; i < countries.data.length; i++){
+        this.countries.push(countries.data[i].country);
+        this.callingCode.push(countries.data[i].callingCode);
+        this.digitsAfterCode.push(countries.data[i].digitsAfterCode)
+      }
+    })
+  }
+  getPhoneCode(code: string, number:number){
+    this.isActiveSelect = !this.isActiveSelect
+    this.countryCode = code;
+    this.digitCode = number;
+    this.getPattern()
+  }
+
+  getPattern(){
+
+    switch(this.digitCode){
+      case 5: 
+        this.phoneMask = '000 00'
+        break;
+      case 6: 
+        this.phoneMask = '000 000'
+        break;
+      case 7: 
+        this.phoneMask = '000 000 0'
+        break;
+      case 8: 
+        this.phoneMask = '000 000 00'
+        break;
+      case 9: 
+        this.phoneMask = '000 000 000'
+        break;
+      case 10: 
+        this.phoneMask = '000 000 00 00'
+        break;
+      case 11:
+        this.phoneMask = '000 000 000 00'
+        break;
+    }
+  }
 }

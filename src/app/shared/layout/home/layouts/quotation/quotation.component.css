@@ -21,8 +21,7 @@
     color: #D9DADC;
 }
 .quotation{
-    margin-top: 120px;
-    padding-bottom: 120px;
+    margin-bottom: 80px;
     overflow: hidden;
 }
 .quotation_block{
@@ -89,7 +88,7 @@
     color: #1A2430;
 }
 .quotation_block_forms{
-    margin-top: 107px;
+    margin-top: 91px;
 }
 
 .quotation_block_progress-done_sender .quotation_block_progress_line-specifications{

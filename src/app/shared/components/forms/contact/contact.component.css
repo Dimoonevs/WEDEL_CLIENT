@@ -6,10 +6,10 @@
 }
 .form_contact_title{
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
 }
 .form_contact_text{
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     padding: 24px;
     background: rgba(230, 235, 241, 0.5);
     border-radius: 4px;
@@ -23,8 +23,9 @@
     min-width: 100%;
     min-height: 103px;
     max-height: 163px;
+    margin-bottom: 40px;
 }
-.contact_form_button{
-    display: flex;
-    justify-content: flex-end;
+.contact_form_button button{
+    width: 100%;
+    max-width: none;
 }

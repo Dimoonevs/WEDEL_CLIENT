@@ -7,6 +7,9 @@
 .dark .text_title{
     color: #ECECED !important;
 }
+.dark .title_all_block{
+    color: #ECECED !important;
+}
 .dark .text{
     color: #ECECED !important;
 }
@@ -72,10 +75,23 @@
 .dark .img:nth-child(4){
     display: none !important;
 }
+.dark .services_cards_card_content_texts_tabled_shadow{
+    background: linear-gradient(270deg, #53595F 0%, rgba(84, 89, 96, 0.03) 100%) !important;
+}
+
+@media (max-width: 727px){
+    .dark .services_cards_card_content_texts_tabled::-webkit-scrollbar-thumb {
+        background: var(--primary-600, #6687AD) !important;
+    }
+    .dark .services_cards_card_content_texts_tabled::-webkit-scrollbar-track {
+        background: var(--neutral-600, #8E9295) !important;
+    }
+}
 
 /* Tailored */
 
 /* We do */
+
 .arrage_cards_card_fs{
     background: url('src/assets/img/new_bg_card_fs_nbs.svg') 100%    no-repeat;
 }
@@ -178,7 +194,7 @@
 /* Contnact */
 
 .dark .contact_card{
-    background: url('src/assets/img/dark_contact_bg.svg') !important;
+    background: url('src/assets/img/dark_contact_bg.svg') 0 0/ cover !important;
 }
 .dark .contact_card_links{
     background: linear-gradient(124.98deg, rgba(58, 60, 63, 0.4) 11.72%, rgba(58, 60, 63, 0.1) 89.81%) !important;
@@ -318,6 +334,21 @@
 .dark .form_request_a_call_button{
     background-color: rgba(245, 222, 179, 0) !important;
     border: none !important;
+    transition: .5s;
+}
+.dark .form_request_a_call_button:hover{
+    background: rgba(102, 135, 173, 0.16) !important;
+}
+.dark .form_request_a_call_button:active{
+    background: rgba(102, 135, 173, 0.26) !important;
+}
+.dark .footer_select_item{
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid var(--primary-1000, #344860) !important;
+}
+.dark .footer_input{
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid var(--primary-1000, #344860) !important;
 }
 
 /* Footer */
@@ -412,4 +443,10 @@
         background: url('src/assets/img/dark_card_we_do_th.svg') 0 0/cover   no-repeat;
     }
 }
+@media (max-width: 939px){
+    .dark .form_contact{
+        background: none !important;
+    }
+}
+
 

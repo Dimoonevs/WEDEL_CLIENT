@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormBuilder } from '@angular/forms';
+import { Router } from '@angular/router';
 import { QuotationControllerService } from 'src/app/shared/controller/quotation-controller.service';
 import { HomeComponent } from 'src/app/shared/layout/home/home.component';
 import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
@@ -48,7 +49,7 @@ export class SummaryComponent {
   receiverPhoneCode = this.formService.getReceiverPhoneCode()
   receiverEmailAdress= this.formService.getReceiverEmail();
 
-  constructor(private controller: QuotationControllerService,private http: HttpClient, private fb: FormBuilder, private quotationComponent: QuotationComponent, private formService: FormService) {  }
+  constructor(private controller: QuotationControllerService,private http: HttpClient, private fb: FormBuilder, private quotationComponent: QuotationComponent, private formService: FormService, private router:Router) {  }
 
 
   submitSender(){
@@ -99,8 +100,13 @@ export class SummaryComponent {
     };
 
     this.controller.submitQuotation(quotationRequest).subscribe(response => {
-      
+      this.router.navigate(['/'], {
+        queryParams: {
+          quote: true
+        }
+      })
     })
+
 
     this.formService.clearAll()
     this.quotationComponent.setCurrencyForm('sender')

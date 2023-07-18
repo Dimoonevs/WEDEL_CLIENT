@@ -18,7 +18,7 @@
     display: flex;
 }
 .tailored{
-    padding-top: 86px;
+    padding-top: 131px;
     
 }
 .img{
@@ -37,13 +37,12 @@
 }
 .tailored_content{
     max-width: 473px;
-    padding-top: 83px;
+    padding-top: 104px;
 }
 .tailored_content_text_title{
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 500;
-    line-height: 50px;
-    margin-bottom: 21px;
+    margin-bottom: 32px;
 }
 .tailored_content_text_parag{
     line-height: 20px;
@@ -104,6 +103,10 @@
       }
 }
 /* Services */
+
+.services{
+    margin-bottom: 80px;
+}
 .services_cards_card_content_title{
     text-align: center;
     margin-bottom: 8px;
@@ -117,29 +120,26 @@
     border-radius: 12px;
 }
 .services_cards_card:nth-child(1){
-    background: url('src/assets/img/services_bg_fs.svg') 100%;
-    /* transition: .5s; */
+    background: url('src/assets/img/services_bg_fs.svg') 0 0/cover;
 }
 .services_cards_card:nth-child(2){
-    background: url('src/assets/img/services_bg_sc.svg') 100% ;
-    /* transition: .5s; */
+    background: url('src/assets/img/services_bg_sc.svg') 0 0/cover ;
 }
 .services_cards_card:nth-child(3){
-    background: url('src/assets/img/services_bg_th.svg') 100% ;
-    /* transition: .5s; */
+    background: url('src/assets/img/services_bg_th.svg') 0 0/cover ;
 }
 .services_cards_card_content{
     background: linear-gradient(124.98deg, rgba(255, 255, 255, 0.55) 11.72%, rgba(255, 255, 255, 0.21) 89.81%);
     backdrop-filter: blur(20px);
-    padding: 36px 0;
+    padding: 48px 0;
     width: 100%;
     transition: .5s;
 }
 .services_cards_card_content_title{
-    margin-bottom: 24px;
+    margin-bottom: 32px;
 }
 .services_cards_card_content_texts{
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 .services_cards_card_content_texts_text{
     margin-bottom: 15px;
@@ -187,20 +187,20 @@
 /* Help */
 
 .help{
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 .help_card{
     background: #FFFFFF;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
-    padding: 80px 0;
+    padding: 56px 0;
     position: relative;
     transition: .5s;
 }
 .help_card_content_toggles_toggle_questions{
     display: flex;
     justify-content: space-between;
-    padding: 22px 24px;
+    padding: 16px 24px;
     background: #537399;
     border-radius: 4px ;
     transition: .5s;
@@ -271,7 +271,7 @@
 /* Tracking */
 
 .tracking{
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 
@@ -283,29 +283,29 @@
     position: relative;
     transition: .5s;
 }
+.tracking_content_top{
+    margin-bottom: 32px;
+}
 .tracking_content_text{
-    margin-top: 32px;
     position: relative;
     padding: 24px;
     background-color: #E6EBF180;
     border-radius: 4px;
+    margin-bottom: 32px;
 }
-/* .tracking_content_text div{
-    max-height: 80px;
-} */
 
 /* Tracking */
 
 /* Contacts */
 
 .contact{
-    margin-bottom: 120px;
+    margin-bottom: 266px;
 }
 
 .contact_card{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
-    background:url('src/assets/img/contact_bg.svg');
+    background:url('src/assets/img/contact_bg.svg') 0 0/cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -351,6 +351,13 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    transition: .5s;
+}
+.contact_card_links_block_button:hover{
+    background: rgba(102, 135, 173, 0.16);
+}
+.contact_card_links_block_button:active{
+    background: rgba(102, 135, 173, 0.26);
 }
 
 /* Contacts */
@@ -359,7 +366,7 @@
 /* Story */
 
 .story{
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 .story_card{
@@ -372,7 +379,7 @@
 }
 .story_card_title{
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
 }
 .story_card_content{
     height: 300px;
@@ -380,6 +387,7 @@
     background: #D9D9D9;
     border-radius: 4px;
     margin-bottom: 24px;
+    display: none;
 }
 .story_card_text{
     margin-bottom: 15px;
@@ -402,12 +410,11 @@
     border-radius: 50%;
 }
 .story_card_values{
-    margin-top: 28px;
-    margin-bottom: 28px;
+    margin: 48px 0;
 }
 .story_card_values_title{
     text-align: center;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 
 }
 .story_card_values_cards{
@@ -446,9 +453,6 @@
     margin-bottom: 32px;
 }
 .story_card_manifesto_card{
-    background: #EFF3F6;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     padding: 64px 0px 109px 0;
 }
 .story_card_manifesto_card{
@@ -459,6 +463,9 @@
 .story_card_manifesto_card_contaniner{
     position: relative;
     width: 0;
+}
+.story_card button{
+    display: none;
 }
 .story_card_manifesto_card_contaniner svg:nth-child(2){
     display: none;
@@ -549,6 +556,15 @@
 .story_card_manifesto_card_contanier_wrapper_block--active:nth-child(8){
     opacity: 1;
     right: 24px;
+}
+.story_card button{
+    position: absolute;
+    bottom: 28px;
+    left: 24px;
+    right: 24px;
+    width: auto;
+    margin: 0 auto;
+    
 }
 
 /* Story */

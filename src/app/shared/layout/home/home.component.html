@@ -7,7 +7,7 @@
             <div class="tailored_content_text_parag text" i18n>
                 Our vision is to help especially small and medium – sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves.
             </div>
-            <button class="text XXL_button" i18n>Request for quotation</button>
+            <button class="text XXL_button" (click)="scrollTo('quotation')" i18n>Request for quotation</button>
         </div>
         <div class="tailored_img">
             <div class="img img_light">
@@ -5426,7 +5426,7 @@
                             <div class="services_cards_card_content_texts_text text" i18n>Is the linestopper hanging in the air at the car factory? Do you have an excellent business opportunity where timing to market is the key? Then there is a priority air/ground cargo service for you, especially suitable if you are very concerned about the delivery time. We see a story in every shipment, even on a non-financial level. We believe that the shipping business is about personal relationships and failure to meet deadlines can have unfathomable financial and non-financial consequences.</div>
                         </div>
                         <div class="services_cards_card_content_button">
-                            <button class="text" i18n>Request for quatation</button>
+                            <button class="text" (click)="scrollTo('quotation')" i18n>Request for quatation</button>
                         </div>
                     </div>
                 </div>
@@ -5440,50 +5440,55 @@
                                 SMART air service offers the optimal ratio between transit time and price for imports from China.
                             </div>
                             <div class="services_cards_card_content_texts_text text" i18n>Our signature import service currently available on the route China – Czech Republic offering excellent value for money on a consolidated route from China 2* per week. The specific schedule can be found in the table below:</div>
-                            <div class="services_cards_card_content_texts_tabled">
-                                <table>
-                                    <tr>
-                                        <th class="text">Flight</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="text">Wednesday</td>
-                                        <td class="text">Sunday</td>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th class="text">Delivery</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="text">Thursday/Friday</td>
-                                        <td class="text">Mondy/Tuesday</td>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th class="text services_cards_card_content_texts_tabled_custom_order" >Deadline – order CN</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="text">Friday</td>
-                                        <td class="text">Tuesday</td>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr>
-                                        <th class="text services_cards_card_content_texts_tabled_custom_pick">Deadline – pick up CN</th>
-                                    </tr>
-                                    <tr>
-                                        <td class="text">Saturday</td>
-                                        <td class="text">Wednesday</td>
-                                    </tr>
-                                </table>
+                            <div class="services_cards_card_content_texts_tabled_contanier">
+                                <div class="services_cards_card_content_texts_tabled_shadow">
+    
+                                </div>
+                                <div class="services_cards_card_content_texts_tabled" (scroll)="onScroll($event)">
+                                    <table>
+                                        <tr>
+                                            <th class="text">Flight</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="text">Wednesday</td>
+                                            <td class="text">Sunday</td>
+                                        </tr>
+                                    </table>
+                                    <table>
+                                        <tr>
+                                            <th class="text">Delivery</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="text">Thursday/Friday</td>
+                                            <td class="text">Mondy/Tuesday</td>
+                                        </tr>
+                                    </table>
+                                    <table>
+                                        <tr>
+                                            <th class="text services_cards_card_content_texts_tabled_custom_order" >Deadline – order CN</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="text">Friday</td>
+                                            <td class="text">Tuesday</td>
+                                        </tr>
+                                    </table>
+                                    <table>
+                                        <tr>
+                                            <th class="text services_cards_card_content_texts_tabled_custom_pick">Deadline – pick up CN</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="text">Saturday</td>
+                                            <td class="text">Wednesday</td>
+                                        </tr>
+                                    </table>
+                                </div>
                             </div>
                             <div class="services_cards_card_content_texts_text text" i18n>This timing is valid for all of China, but we can handle consolidation later from some parts of China.</div>                        
                             <div class="services_cards_card_content_texts_text text" i18n>This service bypasses the economic service bottlenecks of dual airport warehouse handling and the airline-organized truck, which often awaits until enough shipments have accumulated to make the airport pick-up organization profitable.</div>
                             <div class="services_cards_card_content_texts_text services_cards_card_content_texts_text_description text" i18n>Guarantee! If, for any reason within WE-DEL's control, the transit time is not met, you will be invoiced for the price of the Budget service instead of the price of the Smart service.</div>
                         </div>
                         <div class="services_cards_card_content_button">
-                            <button class="text" i18n>Request for quatation</button>
+                            <button class="text" (click)="scrollTo('quotation')" i18n>Request for quatation</button>
                         </div>
                     </div>
                 </div>
@@ -5498,7 +5503,7 @@
                             <div class="services_cards_card_content_texts_text text" i18n>We will be very happy if you turn to us with confidence with your request for transport services.</div>
                         </div>
                         <div class="services_cards_card_content_button">
-                            <button class="text" i18n>Request for quatation</button>
+                            <button class="text" (click)="scrollTo('quotation')" i18n>Request for quatation</button>
                         </div>
                     </div>
                 </div>
@@ -5515,10 +5520,11 @@
         </div>  
         <div class="tracking_content">
             <div class="content_wrepper">
-                <app-tracking></app-tracking>
-                <div class="tracking_content_text text" i18n>
-                    Tracking ID always starts from “WD” and it has four numbers after eg. <span class="text_exampl text">WD0001</span>  
+                <div class="tracking_content_top text" i18n>To conveniently track your shipment, we encourage you to visit the designated page by clicking on the button below within our customer portal. This will provide you with the information you need and ensure a seamless tracking experience.</div>
+                <div class="tracking_content_text text">
+                    In case you don't have an account, please send us an email on vojtech.holeka@we-del.cz with subject <span class="text_exampl text">“Request for tracking access”.</span>  
                 </div>
+                <button class="text" (click)="location()">Track</button>
             </div>
         </div>
     </div>
@@ -5528,11 +5534,11 @@
         <div class="story_title text_big title_all">
             <div class="title_all_block" i18n>Our story</div>
         </div>
-        <div class="story_card">
+        <div class="story_card story_card--active">
             <div class="content_wrepper">
                 <div class="story_card_title text_title" i18n>Tailored Solution for Your Freight Success</div>
                 <div class="story_card_content"></div>
-                <div class="story_card_text text" i18n>
+                <div class="story_card_text story_card_text--active text" i18n>
                     We don't want a world full of corporations where we become just passive recipients of the decision which international corporation to choose despite all of them has the same services wrapped in a different marketing package. Big corporations are usually doing services for another big corporations and small and medium enterprises are not getting service with the same quality and price. With this vision, we decided to found WE-DEL. Small and medium-sized enterprises are the healthy backbone of our economy, yet their share of GDP in the Czech Republic is below the level of the EU28. To a certain extent, this is also due to the fact that the mentioned enterprises encounter barriers from the large players from various sectors in the market. We want to change that!
                 </div>
                 <div class="story_card_text text" i18n>
@@ -5674,6 +5680,7 @@
                     </div>
                 </div>
             </div>
+            <button class="arrage_cards_card_button arrage_cards_card_button_sc text" (click)="showText()"><div class="text white_text" *ngIf="!IsShowText">Show more</div><div class="text white_text" *ngIf="IsShowText">Show less</div><img src="assets/img/new_qouestion_icon.svg" alt=""></button>
         </div>
     </div>
 </div>
@@ -5798,7 +5805,7 @@
                                 <img src="assets/img/contact_img_email.svg" alt="">
                             </div>
                             <div class="contact_card_links_block_text text">
-                                <a class="text" href="">vojtech.holeka@we-del.cz</a>
+                                <a class="text" href="mailto:vojtech.holeka@we-del.cz">vojtech.holeka@we-del.cz</a>
                             </div>
                         </div>
                         <div class="contact_card_links_block">
@@ -5806,7 +5813,7 @@
                                 <img src="assets/img/contact_img_phone.svg" alt="">
                             </div>
                             <div class="contact_card_links_block_text text">
-                                <a class="text" href="">+420 727 893 073</a>
+                                <a class="text" href="tel:+420727893073">+420 727 893 073</a>
                             </div>
                         </div>
                         <div class="contact_card_links_block">
@@ -5814,11 +5821,11 @@
                                 <img src="assets/img/contact_img_lockaition.svg" alt="">
                             </div>
                             <div class="contact_card_links_block_text text">
-                                <a class="text" href="" i18n>Aviatická 1092/8, Praha 6, 161 00, CZ</a>
+                                <a class="text" href="https://www.google.com/maps/place/Aviatick%C3%A1+1092%2F8,+161+00+Praha+6-Ruzyn%C4%9B,+%D0%A7%D0%B5%D1%85%D1%96%D1%8F/data=!4m2!3m1!1s0x470bbf14407f7203:0xd0446b3a27742cc?sa=X&ved=2ahUKEwj5vc-QooGAAxUUBBAIHWfwCHMQ8gF6BAgPEAA&ved=2ahUKEwj5vc-QooGAAxUUBBAIHWfwCHMQ8gF6BAgSEAI" i18n>Aviatická 1092/8, Praha 6, 161 00, CZ</a>
                             </div>
                         </div>
                         <div class="contact_card_links_block">
-                            <a class="text contact_card_links_block_button" href="" i18n>Connect via Linkedin</a>
+                            <a class="text contact_card_links_block_button" href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEoR1e_sTyFWgAAAYk51xQAwqZlNna_3k1ItdNdGpIQVlcCHhIRYLEGu59XUNLKd_PtKnQHjm8hyleuxlBuFlRkdQi4axYkTZ_9LC5Qr37iAvKQ0nEZfAGvANUIQvkm9zFjRaU=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fvojt%25C4%259Bch-holeka-wedel%2F%3ForiginalSubdomain%3Dcz" i18n>Connect via Linkedin</a>
                         </div>
                     </div>
                 </div>

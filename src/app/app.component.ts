@@ -95,9 +95,16 @@ export class AppComponent {
       }, i * delayBetweenRepetitions);
     }
   }
+  showCookies(){
+    const cookies = document.querySelector(".cookies")
+    setTimeout(() =>{
+      cookies?.classList.add("cookies_active")
+    },4800)
+  }
   ngOnInit(): void {
     this.loadingSequenceLoop()
     this.loadParticales()
+    this.showCookies()
 
 
     const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
@@ -105,7 +112,11 @@ export class AppComponent {
     this.lenguege = lang;
     this.activeRoute.queryParams.subscribe((params: Params) => {
       if(params['contact']){
-        this.toast.showToast();
+        this.toast.showToast("email");
+      }if(params['quote']){
+        this.toast.showToast("quote")
+      }if(params['request']){
+        this.toast.showToast("request")
       }
     })
     if(!this.isDark){
@@ -138,7 +149,7 @@ export class AppComponent {
   scrollTo(ele: string){
     const targetBlock = document.querySelector('.'+ele);
     if (targetBlock) {
-      const scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 63;
+      const scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 70;
       window.scrollTo({
         top: scrollTopOffset,
         behavior: 'smooth'
@@ -169,8 +180,8 @@ export class AppComponent {
   }
   closeCookies(){
     this.showCookiesSettings = true
-    const cookies = this.elRef.nativeElement.querySelector('.cookies')
-    cookies.style.setProperty('display', 'none')
+    const cookies = document.querySelector('.cookies')
+    cookies?.classList.remove("cookies_active")
   }
   routeToCookies(){
     this.showCookiesSettings = true
@@ -199,11 +210,6 @@ export class AppComponent {
     
     
   }
-  // ngAfterViewInit():void{
-  //   window.onload =  () =>{
-  //     this.loading = true
-  //   }
-  // }
 }
 
 

@@ -7,5 +7,66 @@ form{
     justify-content: center;
 }
 .form_request_a_call_button{
-    border: 1px solid #FBFBFB;
+    margin-top: -1px;
+}
+.form_request_a_call_button:hover{
+    border-radius: 4px;
+    background: rgba(102, 135, 173, 0.16);
+}
+.form_request_a_call_button:active{
+    background: rgba(102, 135, 173, 0.26);
+}
+.footer_select_item{
+    max-height: none;
+    border: 1px solid var(--neutral-200, #D9DADC);
+    background: var(--neutral-100, #ECECED);
+    border-radius: 3.6px 0px 0px 3.6px;
+    cursor: pointer;
+}
+.footer_input{
+    height: auto;
+    border-radius: 0px 3.6px 3.6px 0px;
+    border: 1px solid var(--neutral-200, #D9DADC);
+    background: var(--neutral-100, #ECECED);
+}
+.all_botom_select_options--focuse{
+    top: auto;
+    bottom: 40px;
+    width: 306px;
+    max-height: 218px;
+}
+.input_form{
+    position: relative;
+    display: flex;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    transition: .5s;
+}
+.option:hover{
+    border-radius: 3.2px;
+    background: var(--neutral-100, #ECECED);
+}
+.phone_botom_select_options_codes{
+    padding: 8px;
+    overflow-y: scroll;
+}
+.rotate_block{
+    transform: rotate(180deg);
+}
+@media(max-width:603px){
+    form{
+        flex-direction: column;
+    }
+    .form_request_a_call_all_input{
+        margin-right: 0;
+        width: 100%;
+    }
+    .form_request_a_call_button{
+        max-width: none;
+        width: 100%;
+        margin-top: 24px;
+    }
 }
