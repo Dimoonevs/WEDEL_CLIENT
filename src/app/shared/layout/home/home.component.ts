@@ -53,12 +53,7 @@ export class HomeComponent implements OnInit {
   ]
   
   intersectionObserver!: IntersectionObserver;
-  @ViewChild('lottieAnimation0') lottieAnimation0!: AnimationLoader;
-  @ViewChild('lottieAnimation1') lottieAnimation1!: AnimationLoader;
-  @ViewChild('lottieAnimation2') lottieAnimation2!: AnimationLoader;
-  @ViewChild('lottieAnimation3') lottieAnimation3!: AnimationLoader;
-  @ViewChild('lottieAnimation4') lottieAnimation4!: AnimationLoader;
-  @ViewChild('lottieAnimation5') lottieAnimation5!: AnimationLoader;
+  
 
   onAnimate(animationItem: AnimationItem): void {    
     if (this.isAnimationPlaying){
@@ -75,29 +70,12 @@ export class HomeComponent implements OnInit {
     }
   }
   updateAnimationOptions(id:number) {
-    this.animationProgress = 0
-    this.animElems[id].autoplay = true
-    // this.lottieAnimation[id].loadAnimation(this.animElems[id])
-    if(id == 0){
-      this.lottieAnimation0.loadAnimation(this.animElems[0])
-    }
-    if(id == 1){
-      this.lottieAnimation1.loadAnimation(this.animElems[1])
-    }
-    if(id == 2){
-      this.lottieAnimation2.loadAnimation(this.animElems[2])
-      // console.log(this.lottieAnimation2)
-    }
-    if(id == 3){
-      this.lottieAnimation3.loadAnimation(this.animElems[3])
-    }
-    if(id == 4){
-      this.lottieAnimation4.loadAnimation(this.animElems[4])
-    }
-    if(id == 5){
-      this.lottieAnimation5.loadAnimation(this.animElems[5])
-    }
+    this.animElems[id] = {    
+      path: 'assets/animation/' + this.animElementName[id] + '.json',
+      autoplay: this.isAnimationPlaying  
+    }; 
   }
+
 
   scrollTo(nameBlock:string){
     this.appComponent.scrollTo(nameBlock);
