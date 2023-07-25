@@ -39,6 +39,9 @@
     }
 }
 @media(min-width: 2086px){
+    .cookies{
+        max-width: 558px;
+    }
     .wrapper{
         max-width: 1557px;
     }
@@ -152,8 +155,5 @@
         z-index: 0;
         width: 17px;
         height: 17px;
-    }
-    button{
-        max-width: 270px;
     }
 }

@@ -11,4 +11,4 @@ RUN node_modules/.bin/ng build
 
 FROM nginx:latest
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY --from=build /usr/src/app/dist/wedel-client /usr/share/nginx/html
+COPY --from=build /usr/src/app/dist/wedel-client /etc/nginx/html
