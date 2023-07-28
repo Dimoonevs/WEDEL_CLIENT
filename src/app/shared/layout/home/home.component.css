@@ -566,6 +566,9 @@
     margin: 0 auto;
     
 }
+.rotateImg{
+    transform: rotate(180deg);
+}
 
 /* Story */
 

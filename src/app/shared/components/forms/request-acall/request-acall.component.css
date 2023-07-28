@@ -17,14 +17,14 @@ form{
     background: rgba(102, 135, 173, 0.26);
 }
 .footer_select_item{
-    max-height: none;
+    /* max-height: none; */
     border: 1px solid var(--neutral-200, #D9DADC);
     background: var(--neutral-100, #ECECED);
     border-radius: 3.6px 0px 0px 3.6px;
     cursor: pointer;
 }
 .footer_input{
-    height: auto;
+    /* height: auto; */
     border-radius: 0px 3.6px 3.6px 0px;
     border: 1px solid var(--neutral-200, #D9DADC);
     background: var(--neutral-100, #ECECED);

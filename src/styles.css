@@ -85,9 +85,9 @@
 .text{
     font-family: 'Rubik',  sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
-    line-height: 20px;
+    line-height: 22px;
     transition: .5s;
     color: #090C10;
 }
@@ -149,13 +149,14 @@ button{
     max-width: 200px;
     line-height: 10px !important;
 }
+
 button.text{
   color: #FBFBFB;
 }
 .XXL_button{
   width: 100%; 
   max-width: 397px;
-  padding: 18px auto;
+  padding: 18px 0;
 }
 button:hover{
   background: #3C5470;
@@ -182,9 +183,9 @@ button:disabled{
 
 .all_top_block_inp{
   border: 1px solid #CCD7E4;
-  border-radius: 3.6px;
-  padding: 8px 8px;
-  height: 36px;
+  border-radius: 4px;
+  padding: 14px 12px;
+  height: 40px;
 }
 .all_top_block{
   display: flex;
@@ -198,6 +199,8 @@ button:disabled{
   position: relative;
   display: flex;
   align-items: center;
+  padding-bottom: 12px;
+  line-height: 9px;
 }
 .all_top_block_inp:focus{
   border: 1px solid #6687AD
@@ -258,8 +261,8 @@ button:disabled{
   align-self: flex-end;
   border: 1px solid #CCD7E4;
   border-radius: 3.6px;
-  padding:8px;
-  max-height: 36px;
+  padding:10px;
+  max-height: 40px;
   position: relative;
   width: 68px;
   display: flex;
@@ -418,10 +421,6 @@ button:disabled{
   border-right: 0;
 }
 /* for quotation form End */
-
-.select_image_all{
-  max-height: 48px;
-}
 
 /* For claendar */
 

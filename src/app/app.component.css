@@ -256,6 +256,14 @@ footer{
     margin: 32px 0;
 }
 
+.footer_input{
+    height: 40px;
+
+}
+.footer_select_item{
+    max-height: 40px;
+}
+
 /* footer */
 
 

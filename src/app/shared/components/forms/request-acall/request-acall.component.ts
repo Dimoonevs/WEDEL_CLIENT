@@ -9,7 +9,7 @@ import { FormService } from 'src/app/shared/service/form.service';
 @Component({
   selector: 'app-request-acall',
   templateUrl: './request-acall.component.html',
-  styleUrls: ['./request-acall.component.css']
+  styleUrls: ['./request-acall.component.css','../../../../media/app.media-mobile.css', '../../../../media/app.media-4K.css']
 })
 export class RequestACallComponent {
   requestACallForm: FormGroup | any;

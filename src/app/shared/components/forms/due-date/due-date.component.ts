@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { HomeComponent } from 'src/app/shared/layout/home/home.component';
 import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { FormService } from 'src/app/shared/service/form.service';
 

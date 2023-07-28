@@ -5680,7 +5680,7 @@
                     </div>
                 </div>
             </div>
-            <button class="arrage_cards_card_button arrage_cards_card_button_sc text" (click)="showText()"><div class="text white_text" *ngIf="!IsShowText">Show more</div><div class="text white_text" *ngIf="IsShowText">Show less</div><img src="assets/img/new_qouestion_icon.svg" alt=""></button>
+            <button class="arrage_cards_card_button arrage_cards_card_button_sc text" (click)="showText()"><div class="text white_text" *ngIf="!IsShowText">Show more</div><div class="text white_text" *ngIf="IsShowText">Show less</div><img [ngClass]="{'rotateImg': IsShowText}" src="assets/img/new_qouestion_icon.svg" alt=""></button>
         </div>
     </div>
 </div>

@@ -549,7 +549,7 @@
         overflow: hidden;
     }
     .story_card_text--active{
-        max-height: 81px;
+        max-height: 90px;
         overflow-y: hidden;
         margin-bottom: 180px;
     }
