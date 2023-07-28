@@ -7,12 +7,12 @@
 
 }
 .arrage_cards_card{
-    margin: 120px 0;
+    /* margin: 120px 0; */
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 8px 25px;
+    /* margin: 8px 25px; */
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
     overflow: hidden;
@@ -25,7 +25,7 @@
     display: none;
 }
 .arrage_cards_card_text{
-    max-width: 534px;
+    max-width: 551px;
     background: linear-gradient(124.98deg, rgba(255, 255, 255, 0.4) 11.72%, rgba(255, 255, 255, 0.1) 89.81%);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(20px);
@@ -34,23 +34,24 @@
     left: -170%;
     transition: .5s;
 }
-.arrage_cards_card_text:nth-child(1){
+/* .arrage_cards_card_text:nth-child(1){
     padding: 42px 58px 14px 59px;
-}
+} */
 .arrage_cards_card_sc .arrage_cards_card_text .arrage_cards_card_textarrage_cards_card_text_title_par:nth-child(3){
     margin-bottom: 0;
 }
 .arrage_cards_card_th .arrage_cards_card_text_title_par:nth-child(3){
     margin-bottom: 0;
 }   
-.arrage_cards_card_sc .arrage_cards_card_text{
+/* .arrage_cards_card_sc .arrage_cards_card_text{
     padding: 21px 40px 17px 53px;
-}
-.arrage_cards_card_th .arrage_cards_card_text{
-    padding: 19px 24px 18px 74px;
+} */
+.arrage_cards_card_text{
+    padding: 48px;
 }
 .arrage_cards_card{
     min-height: 502px;
+    margin: 0 25px;
 }
 .wrapper_arrage_cards_card_text_ul_li{
     display: flex;
@@ -87,7 +88,7 @@
     
 }
 .wrapper_arrage{
-    max-width: 1000px; 
+    max-width: 1112px; 
     margin: 0 auto; 
     padding: 0px 16px; 
     position: relative;

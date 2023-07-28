@@ -268,7 +268,7 @@
         max-height: 505px; 
       }
     .owl-dots {
-        margin-top: 0;
+        margin-top: 16px;
     }
     .custom-navigation{
         display: none;
@@ -318,6 +318,9 @@
     .story_card_values_cards_card_img img{
         display: block;
     }
+    .cookies_page{
+        padding-top: 118px;
+    }
     .cookies_info{
         flex-direction: column;
     }
@@ -334,6 +337,9 @@
     .cookies_info_texts{
         margin: 0;
     }
+    .privacy{
+        padding-top: 118px; 
+    }
     .privacy_text_block_top{
         flex-direction: column-reverse;
     }
@@ -348,6 +354,15 @@
         display: none;
     }
 }
+@media (max-width: 818px) {
+    .services_cards_card_content_texts_tabled{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    .services_cards_card_content_texts_tabled table{
+        min-width: 203px;
+    }
+}
 @media (max-width: 751px){
     .top_params{
         flex-direction: column;
@@ -360,13 +375,6 @@
     .services_cards_card_content_texts_tabled_contanier{
         position: relative;
     }
-    .services_cards_card_content_texts_tabled table{
-        min-width: 165px;
-    }
-    .services_cards_card_content_texts_tabled{
-        overflow-x: scroll;
-        flex-wrap: nowrap;
-    }
     .services_cards_card_content_texts_tabled_shadow{
         position: absolute;
         right: 0;
@@ -375,10 +383,25 @@
         background: linear-gradient(270deg, #EFF3F6 0%, rgba(239, 243, 246, 0.00) 100%);
         width: 57px;
         height: 100%;
+        border-radius: 3.6px;
+        opacity: 0;
+        transition: .5s;
     }
-    .services_cards_card_content_texts_tabled_shadow-end{
+    .services_cards_card_content_texts_tabled_shadow_end{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        background: linear-gradient(270deg, #EFF3F6 0%, rgba(239, 243, 246, 0.00) 100%);
+        width: 57px;
+        height: 100%;
+        border-radius: 3.6px;
         left: 0;
         transform: scaleX(-1);
+        opacity: 0;
+        transition: .5s;
+    }
+    .active_shadow{
+        opacity: 1;
     }
     .services_cards_card_content_texts_tabled::-webkit-scrollbar {
         height: 4px;
@@ -396,6 +419,9 @@
     
 }
 @media (max-width: 701px){
+    .img_inpu_country{
+        top: 42px;
+    }
     .all_top_block_inp{
         height: 48px;
         padding: 17px;
@@ -429,6 +455,8 @@
     }
     .stepper{
         display: flex;
+        padding: 24px;
+        border-radius: 4px;
     }
     .variable{
         width: 100%;

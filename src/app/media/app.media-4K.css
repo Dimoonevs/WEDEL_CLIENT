@@ -37,6 +37,14 @@
     .all_top_block_text-message{
         width: 243px !important;
     }
+    .img_inpu_country {
+        top: 50px;
+        right: 15px;
+        width: 11px;
+    }
+    .img_inpu_country img{
+        width: 100%;
+    }
 }
 @media(min-width: 2086px){
     .wrapper-header{
@@ -143,7 +151,7 @@
         justify-content: center;
     }
     .img_inpu_country{
-        top: 64px;
+        top: 68px;
         right: 15px;
         width: 18px;
     }
@@ -202,7 +210,7 @@
         padding: 5px;
     }
     .XXL_button{
-        max-width: none;
+        max-width: 529px;
     }
     .help_card_content_toggles_toggle_questions{
         padding: 23px 28px;

@@ -74,7 +74,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5536</context>
+          <context context-type="linenumber">5535</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2806917038528218276" datatype="html">
@@ -89,7 +89,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5691</context>
+          <context context-type="linenumber">5690</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7922989125096435449" datatype="html">
@@ -321,133 +321,133 @@
         <source>Su</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4197236438302165051" datatype="html">
         <source>Mo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6034455877220674404" datatype="html">
         <source>Tu</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3221670730445125135" datatype="html">
         <source>We</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="772466829681972216" datatype="html">
         <source>Th</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8598262708800132669" datatype="html">
         <source>Fr</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="569007902695332072" datatype="html">
         <source>Sa</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7595747576974676670" datatype="html">
         <source>Jan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4916040996255005712" datatype="html">
         <source>Feb</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6438827956918137617" datatype="html">
         <source>Mar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5507326650332881991" datatype="html">
         <source>Apr</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8469692700277617405" datatype="html">
         <source>May</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2113470244260512015" datatype="html">
         <source>Jun</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="53176888553719239" datatype="html">
         <source>Jul</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5648574669404659458" datatype="html">
         <source>Aug</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8008220216521768133" datatype="html">
         <source>Sept</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6207754626941051341" datatype="html">
         <source>Oct</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8269261039058575292" datatype="html">
         <source>Nov</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7777579586760423636" datatype="html">
         <source>Dec</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="479402440720134924" datatype="html">
@@ -883,53 +883,60 @@
           <context context-type="linenumber">5,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7026422590085432070" datatype="html">
-        <source> Cookies refer to small data files that are downloaded onto your device when you visit a website. When you revisit the same website, these cookies ensure that your device is recognized. Through the use of cookies and similar technologies like pixel tags/beacons and scripts, websites can store information about visits and their visitors. This information may include your IP address, the type of device you use, and your browsing behavior, such as specific web pages visited and website navigation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We employ two types of cookies: session cookies, which are deleted when you close your browser, and persistent cookies, which remain on your device for a predetermined period. Some cookies are placed by us, while others are placed by third parties. Third-party cookies may collect data beyond our own website. </source>
+      <trans-unit id="6904505781780960530" datatype="html">
+        <source> Cookies refer to small data files that are downloaded onto your device when you visit a website. When you revisit the same website, these cookies ensure that your device is recognized. Through the use of cookies and similar technologies like pixel tags/beacons and scripts, websites can store information about visits and their visitors. This information may include your IP address, the type of device you use, and your browsing behavior, such as specific web pages visited and website navigation. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">8,11</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1907092665945745658" datatype="html">
+        <source> We employ two types of cookies: session cookies, which are deleted when you close your browser, and persistent cookies, which remain on your device for a predetermined period. Some cookies are placed by us, while others are placed by third parties. Third-party cookies may collect data beyond our own website. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3992774831265302816" datatype="html">
         <source> What categories of cookies are utilized on this website? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">20,22</context>
+          <context context-type="linenumber">22,24</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7255201269192292781" datatype="html">
         <source> This website exclusively employs functional and analytical cookies, which are essential for the proper functioning of the website. These cookies do not necessitate your explicit consent and are automatically placed on your browser when you use this website. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">23,25</context>
+          <context context-type="linenumber">25,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="741039652631536802" datatype="html">
         <source> Functional Cookies </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">30,32</context>
+          <context context-type="linenumber">32,34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9038108784075633481" datatype="html">
         <source> Functional cookies are essential for ensuring proper functionality and usability of our website. These cookies enable you to view and navigate our website seamlessly. They are also utilized to remember your language preferences and cookie settings. Additionally, functional cookies facilitate A/B testing, allowing us to experiment with new features, various versions, and designs of our website. It&apos;s important to note that the information gathered through these cookies is not used for marketing purposes. These cookies are vital for the optimal use of our website. If you choose to block this type of cookie in your browser, it may adversely affect the functionality of our website, and certain features may become unavailable. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">33,35</context>
+          <context context-type="linenumber">35,37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3917560399050081246" datatype="html">
         <source> Analytical Cookies </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">44,46</context>
+          <context context-type="linenumber">46,48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8590062955479820980" datatype="html">
         <source> Analytical cookies collect aggregated information about how visitors utilize our website. This includes data on the most frequently visited pages, duration of visits, and any encountered errors. Furthermore, these cookies are employed for conducting user surveys and gathering feedback from visitors regarding our website as a whole or specific elements of it. The information derived from these cookies aids us in comprehending which sections of our website attract the most interest from our visitors and enables us to enhance the overall quality of our website. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">47,49</context>
+          <context context-type="linenumber">49,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6700732310668574063" datatype="html">
@@ -1035,343 +1042,343 @@
         <source>To conveniently track your shipment, we encourage you to visit the designated page by clicking on the button below within our customer portal. This will provide you with the information you need and ensure a seamless tracking experience.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5524</context>
+          <context context-type="linenumber">5523</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5817767006293697780" datatype="html">
         <source>Tailored Solution for Your Freight Success</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5540</context>
+          <context context-type="linenumber">5539</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5819173161100100666" datatype="html">
         <source> We don&apos;t want a world full of corporations where we become just passive recipients of the decision which international corporation to choose despite all of them has the same services wrapped in a different marketing package. Big corporations are usually doing services for another big corporations and small and medium enterprises are not getting service with the same quality and price. With this vision, we decided to found WE-DEL. Small and medium-sized enterprises are the healthy backbone of our economy, yet their share of GDP in the Czech Republic is below the level of the EU28. To a certain extent, this is also due to the fact that the mentioned enterprises encounter barriers from the large players from various sectors in the market. We want to change that! </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5542,5544</context>
+          <context context-type="linenumber">5541,5543</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3208990487356209663" datatype="html">
         <source> Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5545,5547</context>
+          <context context-type="linenumber">5544,5546</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4993469915381526082" datatype="html">
         <source> Our Values </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5549,5551</context>
+          <context context-type="linenumber">5548,5550</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1638310449346210124" datatype="html">
         <source>Customer first</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5554</context>
+          <context context-type="linenumber">5553</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6698423114223673121" datatype="html">
         <source>The satisfaction of our customers is at the core of our efforts.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5555</context>
+          <context context-type="linenumber">5554</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2450951288627752134" datatype="html">
         <source>Agility</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5564</context>
+          <context context-type="linenumber">5563</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1926877736704264772" datatype="html">
         <source>We possess the ability to swiftly adapt to change, recognizing its constant presence.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5565</context>
+          <context context-type="linenumber">5564</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3729314247756863462" datatype="html">
         <source>Focus on innovation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5574</context>
+          <context context-type="linenumber">5573</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1743799074497010259" datatype="html">
         <source>We consistently strive to innovate our processes to deliver an exceptional customer experience.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5575</context>
+          <context context-type="linenumber">5574</context>
         </context-group>
       </trans-unit>
       <trans-unit id="209549737316100942" datatype="html">
         <source>Cooperation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5584</context>
+          <context context-type="linenumber">5583</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7185419358875493383" datatype="html">
         <source>Feedback and cooperation are the driving forces behind our service.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5585</context>
+          <context context-type="linenumber">5584</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4398595295611140843" datatype="html">
         <source>Growth mindset</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5594</context>
+          <context context-type="linenumber">5593</context>
         </context-group>
       </trans-unit>
       <trans-unit id="228425244117050094" datatype="html">
         <source>We consistently explore new approaches to service in order to foster our growth.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5595</context>
+          <context context-type="linenumber">5594</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2483358638836463475" datatype="html">
         <source>Ownership</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5604</context>
+          <context context-type="linenumber">5603</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7158005508929745261" datatype="html">
         <source>We proactively assume initiative and complete responsibility for our shipments.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5605</context>
+          <context context-type="linenumber">5604</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2736085482265996476" datatype="html">
         <source> Our manifesto </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5616,5618</context>
+          <context context-type="linenumber">5615,5617</context>
         </context-group>
       </trans-unit>
       <trans-unit id="312745038600451045" datatype="html">
         <source>Individual care instead of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5647</context>
+          <context context-type="linenumber">5646</context>
         </context-group>
       </trans-unit>
       <trans-unit id="979503642896303544" datatype="html">
         <source>an individual price list</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5648</context>
+          <context context-type="linenumber">5647</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2805458397817519196" datatype="html">
         <source>Consulting with the aim of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5651</context>
+          <context context-type="linenumber">5650</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1699857260982294474" datatype="html">
         <source>saving costs instead of simply solving the request</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5652</context>
+          <context context-type="linenumber">5651</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5508591364768375953" datatype="html">
         <source>An entrepreneurial approach instead of </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5655</context>
+          <context context-type="linenumber">5654</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4909031884951128554" datatype="html">
         <source>an employee approach</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5656</context>
+          <context context-type="linenumber">5655</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5369623719796446392" datatype="html">
         <source>Business partnership instead of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5659</context>
+          <context context-type="linenumber">5658</context>
         </context-group>
       </trans-unit>
       <trans-unit id="556431882086009302" datatype="html">
         <source>a customer-supplier relationship</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5660</context>
+          <context context-type="linenumber">5659</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4084689416360723520" datatype="html">
         <source>Single point of contact instead of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5663</context>
+          <context context-type="linenumber">5662</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5119173928427097502" datatype="html">
         <source>communication with several departments</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5664</context>
+          <context context-type="linenumber">5663</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6804387723796490295" datatype="html">
         <source>Transparent fixed price instead of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5667</context>
+          <context context-type="linenumber">5666</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1126770656462548583" datatype="html">
         <source>non-transparent surcharges</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5668</context>
+          <context context-type="linenumber">5667</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6600648507806246664" datatype="html">
         <source>Agile approach instead of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5671</context>
+          <context context-type="linenumber">5670</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5097333256229789840" datatype="html">
         <source>blindly following the given process</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5672</context>
+          <context context-type="linenumber">5671</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2021666287748716229" datatype="html">
         <source>Individual service instead of</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5675</context>
+          <context context-type="linenumber">5674</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2899416372327536515" datatype="html">
         <source>depersonalizing and transferring part of the process to the customer</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5676</context>
+          <context context-type="linenumber">5675</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2556347949191696149" datatype="html">
         <source> What is your prefered mean of communication? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5700,5702</context>
+          <context context-type="linenumber">5699,5701</context>
         </context-group>
       </trans-unit>
       <trans-unit id="239610956699179194" datatype="html">
         <source>At first there are three means of communication – online chat, email and call. For order/quote related communication e-mail is essential, while phone call is the fastest mean of communication. In case you dislike anything, do not hesitate to give us a call so we can find a address your feedback. As foretold – feedback is mother of partnership and mutually beneficient cooperation.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5709</context>
+          <context context-type="linenumber">5708</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1703430386402927272" datatype="html">
         <source> Can I ship all around the world with WE-DEL? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5715,5717</context>
+          <context context-type="linenumber">5714,5716</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1683857576001037335" datatype="html">
         <source> Well, almost yes! Of course there are some exceptions. We can’t offer shipment to: Cuba, North Korea, Iran, Syria, Belarus, Sudan, South Sudan, Yemen, Somalia, Burma (Maymar) and of course to Russia. At WE-DEL we believe that the firm spine is more important then profit. Additional check-ups may apply to the shipment that raise a suspicion that might be transfered to Russia through various transit countries. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5723,5725</context>
+          <context context-type="linenumber">5722,5724</context>
         </context-group>
       </trans-unit>
       <trans-unit id="348857353651701259" datatype="html">
         <source> Which shipments is WE-DEL able to transfer? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5730,5732</context>
+          <context context-type="linenumber">5729,5731</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7635068768945363396" datatype="html">
         <source> WE-DEL is able to transfer everything via Air/ground transport. Our service is mostly designed for time-critical shipments and cost-effective shipments above 70 kg. But no worries – we can also provide you transport or smaller parcels via our courier partners for competitive prices. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5738,5740</context>
+          <context context-type="linenumber">5737,5739</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7833386026075091386" datatype="html">
         <source> Are you working during holidays/weekends? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5745,5747</context>
+          <context context-type="linenumber">5744,5746</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5370766545194594329" datatype="html">
         <source> At WE-DEL ve value your time a lot. Therefore you can approach as anytime via phone call. At our regular work hours, which is from Monday to Friday 08-17 CET we will try our utmost best tol reply you within one hour from sending of mail infromation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> For OnTime service you can give us a call 24/7/365. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5753,5756</context>
+          <context context-type="linenumber">5752,5755</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3228426313828509562" datatype="html">
         <source> Is my shipment insured against any damage/losage of cargo? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5761,5763</context>
+          <context context-type="linenumber">5760,5762</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8330006065226941886" datatype="html">
         <source> As a freight forwarding company the cargo you are shipping with us is governed by insurance of our carrier. With that said it is by Montreal &amp; Warszaw agreement in the case of air transport and by CMR in case of ground transport. On top of it WE-DEL has insurance with limit 3 000 000 CZK for freight-forwarding related mistakes. If your shipment exceeds this amouth, do not hesitate to write us for additional insurance. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5769,5771</context>
+          <context context-type="linenumber">5768,5770</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7232202323158909102" datatype="html">
         <source> How can I track my shipment? </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5776,5778</context>
+          <context context-type="linenumber">5775,5777</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3549428494719411673" datatype="html">
         <source> We are having tracking option on the page. If for any reason the tracking is not giving updated informations we are always awailable to check the shipment progress via phone/mail/online chat. As for our premium service OnTime we are offering 24/7 tracking. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5784,5786</context>
+          <context context-type="linenumber">5783,5785</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8478716983552743608" datatype="html">
         <source> Contact </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5797,5799</context>
+          <context context-type="linenumber">5796,5798</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7761915372121338165" datatype="html">
         <source>Aviatická 1092/8, Praha 6, 161 00, CZ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5825</context>
+          <context context-type="linenumber">5824</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8470042154316912898" datatype="html">
         <source>Connect via Linkedin</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5829</context>
+          <context context-type="linenumber">5828</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1069372698608154423" datatype="html">
@@ -1552,7 +1559,7 @@
         <source> The Orderer grants consent in accordance with this article of these GTC for the duration of the contractual relationship established between the Sender and the Orderer and established by the TC. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
-          <context context-type="linenumber">14,16</context>
+          <context context-type="linenumber">18,20</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
@@ -1563,7 +1570,7 @@
         <source> The Orderer undertakes to ensure the consent of the recipient of the Shipment to the processing of the personal data of such recipient by the Sender and the Transporter in the sense of the GDPR, to the extent that the Sender can properly fulfill the obligations arising from the General Terms and Conditions. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>
-          <context context-type="linenumber">17,19</context>
+          <context context-type="linenumber">21,23</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/privacy/privacy.component.html</context>

@@ -1,5 +1,5 @@
 .cookies_page{
-    padding-top: 68px;
+    padding-top: 148px;
 }
 .cookies_info_img_dark{
     display: none;
@@ -26,4 +26,7 @@
 }
 .cookies_info:nth-last-child(1){
     border: none;
+}
+.text_mb{
+    margin-bottom: 12px;
 }

@@ -157,3 +157,6 @@
 .quotation_block_progress-done_receiver .quotation_block_progress_curcle_text{
     color: #1A2430;
 }
+.stepper_text_title{
+    margin-bottom: 12px;
+}

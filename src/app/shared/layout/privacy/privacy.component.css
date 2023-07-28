@@ -1,5 +1,5 @@
 .privacy{
-    padding-top: 68px;
+    padding-top: 148px;
     overflow: hidden;
     position: relative;
 }
@@ -19,9 +19,6 @@
     margin-bottom: 32px;
     padding-bottom: 32px;
     border-bottom: 1px solid #456080;
-}
-.privacy_text_block_top_left .privacy_text_block_text {
-    max-width: 819px;
 }
 .privacy_img{
     margin-left: 86px;

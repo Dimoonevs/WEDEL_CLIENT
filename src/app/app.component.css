@@ -17,9 +17,12 @@ header{
 .span_get a{
     color: var(--primary-300, #B3C3D6);
 }
-
-.all_select_text_active{
+.sleceted_header{
     background: #E6EBF1;
+    border-radius: 4px;
+  }
+.all_select_text_active{
+    background: #FBFBFB;
 }
 header{
     position: fixed;
@@ -143,11 +146,7 @@ button{
 }
 .mobile_content_nav .all_select{
     width: 150px;
-    background: #FFFFFF;
     margin: 16px 0;
-}
-.mobile_content_nav .all_select a{
-    color: black;
 }
 .all_select_text_active a{
     color: #456080;
@@ -167,7 +166,6 @@ button{
     transition: .5s;
 }
 .mobile a {
-    color: #3C5470;
     transition: .5s;
     cursor: pointer;
 }

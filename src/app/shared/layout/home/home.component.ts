@@ -195,12 +195,15 @@ export class HomeComponent implements OnInit {
   }
   onScroll(event: Event) {
     const shadow = document.querySelector('.services_cards_card_content_texts_tabled_shadow')
+    const shadowEnd = document.querySelector('.services_cards_card_content_texts_tabled_shadow_end')
     const element = event.target as HTMLElement;
     if (element.scrollLeft + element.offsetWidth >= 657) {
-      shadow?.classList.add("services_cards_card_content_texts_tabled_shadow-end")
+      shadow?.classList.remove("active_shadow")
+      shadowEnd?.classList.add("active_shadow")
     }
     if (element.scrollLeft + element.offsetWidth < 657) {
-      shadow?.classList.remove("services_cards_card_content_texts_tabled_shadow-end")
+      shadowEnd?.classList.remove("active_shadow")
+      shadow?.classList.add("active_shadow")
     }
   }
   showText(){

@@ -2,7 +2,7 @@
     <div class="all_top">
         <div class="all_top_block">
             <label for="Company" class="all_top_block_text text" i18n>Company name<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
-            <input [(ngModel)]="company" [ngClass]="{'input_error': getControl('Company').invalid && (getControl('Company').touched || getControl('Company').dirty)}" type="text" placeholder="Place text here" name="Company" class="all_top_block_inp text" formControlName="Company">
+            <input [(ngModel)]="company" [ngClass]="{'input_error': getControl('Company').invalid && (getControl('Company').touched || getControl('Company').dirty)}" type="text" name="Company" class="all_top_block_inp text" formControlName="Company">
             <div *ngIf="getControl('Company').invalid && (getControl('Company').touched || getControl('Company').dirty)">
                 <div class="text_error text" *ngIf="getControl('Company').errors?.['required']" i18n>
                   This field is required.
@@ -12,7 +12,7 @@
         <div class="all_top_block counrty_block">
             <label for="Country" class="all_top_block_text text" i18n>Country<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
             <div class="img_inpu_country"><img src="assets/img/input_simvol.svg" alt=""></div>
-            <input (keyup)="onKeay(valueCountry)" [(ngModel)]="valueCountry" type="text" (click)="addFocuse()" [(ngModel)]="valueCountry" autocomplete="off" placeholder="Place text here" name="Country" class="all_top_block_inp all_top_block_inp_country text"  formControlName="Country">
+            <input (keyup)="onKeay(valueCountry)" [(ngModel)]="valueCountry" type="text" (click)="addFocuse()" [(ngModel)]="valueCountry" autocomplete="off" name="Country" class="all_top_block_inp all_top_block_inp_country text"  formControlName="Country">
             <div id="country" class="country">
                 <div class="span_country" *ngFor="let country of countries">
                     <div class="text text_country" [ngClass]="{'text_country-selected' : valueCountry === country }" *ngIf="country !== 'Belarus' 
@@ -51,7 +51,7 @@
         </div>
         <div class="all_top_block">
             <label for="City" class="all_top_block_text text" i18n>City<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
-            <input [(ngModel)]="city" [ngClass]="{'input_error': getControl('City').invalid && (getControl('City').touched || getControl('City').dirty)}" type="text" placeholder="Place text here" name="City" class="all_top_block_inp text" formControlName="City">
+            <input [(ngModel)]="city" [ngClass]="{'input_error': getControl('City').invalid && (getControl('City').touched || getControl('City').dirty)}" type="text" name="City" class="all_top_block_inp text" formControlName="City">
             <div *ngIf="getControl('City').invalid && (getControl('City').touched || getControl('City').dirty)">
                 <div class="text_error text" *ngIf="getControl('City').errors?.['required']" i18n>
                   This field is required.
@@ -60,7 +60,7 @@
         </div>
         <div class="all_top_block">
             <label for="Postal" class="all_top_block_text text" i18n>Postal code<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
-            <input [(ngModel)]="postal" [ngClass]="{'input_error': getControl('Postal').invalid && (getControl('Postal').touched || getControl('Postal').dirty)}" type="text" placeholder="Place text here" name="Postal" class="all_top_block_inp text" formControlName="Postal">
+            <input [(ngModel)]="postal" [ngClass]="{'input_error': getControl('Postal').invalid && (getControl('Postal').touched || getControl('Postal').dirty)}" type="text" name="Postal" class="all_top_block_inp text" formControlName="Postal">
             <div *ngIf="getControl('Postal').invalid && (getControl('Postal').touched || getControl('Postal').dirty)">
                 <div class="text_error text" *ngIf="getControl('Postal').errors?.['required']" i18n>
                   This field is required.
@@ -74,7 +74,7 @@
         </div>
     </div>
     <label for="Street" class="all_top_block_text text" i18n>Street<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
-    <input [(ngModel)]="street" [ngClass]="{'input_error': getControl('Street').invalid && (getControl('Street').touched || getControl('Street').dirty)}" type="text" placeholder="Place text here" name="Street" class="all_top_block_inp sender_top_block_inp_street receiver_top_block_inp_street text" formControlName="Street">
+    <input [(ngModel)]="street" [ngClass]="{'input_error': getControl('Street').invalid && (getControl('Street').touched || getControl('Street').dirty)}" type="text" name="Street" class="all_top_block_inp sender_top_block_inp_street receiver_top_block_inp_street text" formControlName="Street">
     <div *ngIf="getControl('Street').invalid && (getControl('Street').touched || getControl('Street').dirty)">
         <div class="text_error text" *ngIf="getControl('Street').errors?.['required']" i18n>
           This field is required.
@@ -93,13 +93,13 @@
                         <div *ngFor="let country of countries; let i = index" class="option text"(click)="valuePhone(callingCode[i], i)" [ngClass]="{'option--active': phoneCode === callingCode[i]}"><div class="phone_code_country_name">{{country}}</div><div class="phone_code_country_code">{{callingCode[i]}}</div></div>
                     </div>
                 </div>
-                <input (focus)="onFocusNumber()" (blur)="onFocusNumber()" type="phone" [(ngModel)]="contacts" placeholder="Place text here" name="Contact" class="all_top_block_inp all_top_block_inp_phone text" formControlName="Contact" [mask]="phoneMask">
+                <input (focus)="onFocusNumber()" (blur)="onFocusNumber()" type="phone" [(ngModel)]="contacts" name="Contact" class="all_top_block_inp all_top_block_inp_phone text" formControlName="Contact" [mask]="phoneMask">
             </div>
         </div>
         <div class="all_top_block sender_botom_block">
             <label for="Budget" class="all_top_block_text text" i18n>Email address <div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
             <div class="all_botom_block_select">
-                <input [(ngModel)]="email" [ngClass]="{'input_error': getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)}" type="text" placeholder="Place text here" name="Budget" class="all_top_block_inp text" formControlName="Email">
+                <input [(ngModel)]="email" [ngClass]="{'input_error': getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)}" type="text" name="Budget" class="all_top_block_inp text" formControlName="Email">
             </div>
             <div *ngIf="getControl('Email').invalid && (getControl('Email').touched || getControl('Email').dirty)">
                 <div class="text_error text" *ngIf="getControl('Email').errors?.['required']" i18n>

@@ -1719,14 +1719,6 @@
           <context context-type="linenumber">5,7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7026422590085432070" datatype="html">
-        <source> Cookies refer to small data files that are downloaded onto your device when you visit a website. When you revisit the same website, these cookies ensure that your device is recognized. Through the use of cookies and similar technologies like pixel tags/beacons and scripts, websites can store information about visits and their visitors. This information may include your IP address, the type of device you use, and your browsing behavior, such as specific web pages visited and website navigation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We employ two types of cookies: session cookies, which are deleted when you close your browser, and persistent cookies, which remain on your device for a predetermined period. Some cookies are placed by us, while others are placed by third parties. Third-party cookies may collect data beyond our own website. </source>
-        <target> Cookies označují malé datové soubory, které se stahují do vašeho zařízení při návštěvě webové stránky. Když znovu navštívíte stejnou webovou stránku, tyto soubory cookie zajistí rozpoznání vašeho zařízení. Pomocí souborů cookie a podobných technologií, jako jsou pixelové značky/beacons a skripty, mohou webové stránky ukládat informace o návštěvách a jejich návštěvnících. Tyto informace mohou zahrnovat vaši IP adresu, typ zařízení, které používáte, a vaše chování při procházení, jako jsou konkrétní navštívené webové stránky a navigace na webu. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Využíváme dva typy souborů cookie: soubory cookie relace, které se vymažou, když zavřete prohlížeč, a trvalé soubory cookies, které zůstávají na vašem zařízení po předem stanovenou dobu. Některé soubory cookie ukládáme my, zatímco jiné ukládají třetí strany. Soubory cookie třetích stran mohou shromažďovat údaje mimo naše vlastní webové stránky.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
-          <context context-type="linenumber">8,11</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="3992774831265302816" datatype="html">
         <source> What categories of cookies are utilized on this website? </source>
         <target> Jaké kategorie souborů cookies se používají na tomto webu?</target>
@@ -1837,6 +1829,22 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/module/toast/toast.component.html</context>
           <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6904505781780960530" datatype="html">
+        <source> Cookies refer to small data files that are downloaded onto your device when you visit a website. When you revisit the same website, these cookies ensure that your device is recognized. Through the use of cookies and similar technologies like pixel tags/beacons and scripts, websites can store information about visits and their visitors. This information may include your IP address, the type of device you use, and your browsing behavior, such as specific web pages visited and website navigation. </source>
+        <target>Cookies označují malé datové soubory, které se stahují do vašeho zařízení při návštěvě webové stránky. Když znovu navštívíte stejnou webovou stránku, tyto soubory cookie zajistí rozpoznání vašeho zařízení. Pomocí souborů cookie a podobných technologií, jako jsou pixelové značky/beacons a skripty, mohou webové stránky ukládat informace o návštěvách a jejich návštěvnících. Tyto informace mohou zahrnovat vaši IP adresu, typ zařízení, které používáte, a vaše chování při procházení, jako jsou konkrétní navštívené webové stránky a navigace na webu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1907092665945745658" datatype="html">
+        <source> We employ two types of cookies: session cookies, which are deleted when you close your browser, and persistent cookies, which remain on your device for a predetermined period. Some cookies are placed by us, while others are placed by third parties. Third-party cookies may collect data beyond our own website. </source>
+        <target>Využíváme dva typy souborů cookie: soubory cookie relace, které se vymažou, když zavřete prohlížeč, a trvalé soubory cookies, které zůstávají na vašem zařízení po předem stanovenou dobu. Některé soubory cookie ukládáme my, zatímco jiné ukládají třetí strany. Soubory cookie třetích stran mohou shromažďovat údaje mimo naše vlastní webové stránky.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/cookies/cookies.component.html</context>
+          <context context-type="linenumber">11,13</context>
         </context-group>
       </trans-unit>
     </body>
