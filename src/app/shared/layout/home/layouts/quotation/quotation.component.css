@@ -48,7 +48,7 @@
     position: relative;
     align-self:flex-end;
 }
-.quotation_block_progress_curcle img{
+.quotation_block_progress_curcle svg{
     display: none;
 }
 .quotation_block_progress_curcle_active{
@@ -101,7 +101,7 @@
     justify-content: center;
     align-items: center;
 }
-.quotation_block_progress-done_sender .quotation_block_progress_curcle-sender img{
+.quotation_block_progress-done_sender .quotation_block_progress_curcle-sender svg{
     display: block;
 }
 
@@ -116,7 +116,7 @@
     justify-content: center;
     align-items: center;
 }
-.quotation_block_progress-done_specifications .quotation_block_progress_curcle-specifications img{
+.quotation_block_progress-done_specifications .quotation_block_progress_curcle-specifications svg{
     display: block;
 }
 
@@ -138,10 +138,10 @@
     align-items: center;
 }
 
-.quotation_block_progress-done_date .quotation_block_progress_curcle-date img{
+.quotation_block_progress-done_date .quotation_block_progress_curcle-date svg{
     display: block;
 }
-.quotation_block_progress-done_receiver .quotation_block_progress_curcle-receiver img{
+.quotation_block_progress-done_receiver .quotation_block_progress_curcle-receiver svg{
     display: block;
 }
 .quotation_block_progress-done_receiver .quotation_block_progress_curcle-receiver{

@@ -182,9 +182,9 @@
 .dark .story_card_values_cards_card{
     background: rgba(82, 84, 87, 0.5) !important;
 }
-.dark .story_card_manifesto_card{
+/* .dark .story_card_manifesto_card{
     background: rgba(69, 96, 128, 0.2) !important;
-}
+} */
 
 /* Story */
 
@@ -333,7 +333,40 @@
 .dark .stepper{
     background: #414447 !important;
 }
-
+.dark .quotation_block_progress-done_sender .quotation_block_progress_curcle-sender{
+    border:1px solid #99AFC8 !important;
+    background: #99AFC8 !important;
+}
+.dark .quotation_block_progress-done_specifications .quotation_block_progress_curcle-specifications{
+    border:1px solid #99AFC8 !important;
+    background: #99AFC8 !important;
+}
+.dark .quotation_block_progress-done_date .quotation_block_progress_curcle-date{
+    border:1px solid #99AFC8 !important;
+    background: #99AFC8 !important;
+}
+.dark .quotation_block_progress-done_receiver .quotation_block_progress_curcle-receiver{
+    border:1px solid #99AFC8 !important;
+    background: #99AFC8 !important;
+}
+.dark .quotation_block_progress_curcle svg path{
+    fill: #3A3C3F !important;
+}
+.dark .quotation_block_progress_curcle_text{
+    color: #7C7F83 !important;
+}
+.dark .quotation_block_progress_curcle_text_active{
+    color: #ECECED !important;
+}
+.dark .svg svg path:nth-child(1){
+    fill: #A1A3A6 !important;
+}
+.dark .svg svg path:nth-child(2){
+    fill: #6687AD !important;
+}
+.dark .stepper_swg_text_all_light{
+    color: #8E9295 !important;
+}
 
 /* Quote */
 

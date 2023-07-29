@@ -151,7 +151,12 @@ export class AppComponent {
   scrollTo(ele: string){
     const targetBlock = document.querySelector('.'+ele);
     if (targetBlock) {
-      const scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 70;
+      let scrollTopOffset = 0;
+      if(window.innerWidth >= 2086){
+        scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 120;
+      }else{
+        scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 90;
+      }
       window.scrollTo({
         top: scrollTopOffset,
         behavior: 'smooth'

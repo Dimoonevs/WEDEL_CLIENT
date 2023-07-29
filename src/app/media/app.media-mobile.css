@@ -695,11 +695,25 @@
         margin-top: 120px;
     }
     .title_all_block{
-        min-width: 246px;
         padding-bottom: 12px;
     }
     .active_mobile{
         width: 194px;
+    }
+    .loading_we svg{
+        width: 55px;
+    }
+    .loading_del svg{
+        width: 66px;
+    }
+    .loading_iver svg{
+        width: 84px;
+    }
+    .loading_line svg{
+        max-height: 27px;
+    }
+    .loading_we{
+        margin-right: 25px;
     }
 }
 @media (max-width: 424px){

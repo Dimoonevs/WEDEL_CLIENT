@@ -13,12 +13,14 @@ export class DueDateComponent {
   currentMonth: Date;
   weekDays: string[] = [$localize`Su`, $localize`Mo`, $localize`Tu`, $localize`We`, $localize`Th`, $localize`Fr`, $localize`Sa`];
   calendar: { day: number | null, isCurrentDay: boolean, date: Date | null}[][] = [];
-  selectedDate: Date | null = this.formService.getDateSelected(); ;
+  selectedDate: Date | null = null;
   monthForChoise: string[] =[$localize`Jan`, $localize`Feb`, $localize`Mar`, $localize`Apr`, $localize`May`, $localize`Jun`, $localize`Jul`, $localize`Aug`, $localize`Sept`, $localize`Oct`, $localize`Nov`, $localize`Dec`]
   calendarChoise = false;
 
   ngOnInit(): void {
+    
   }
+  
   constructor(private homeComponent: QuotationComponent, private formService: FormService) {
     this.currentMonth = new Date();
     this.generateCalendar();
@@ -29,7 +31,6 @@ export class DueDateComponent {
   }
   selectDate(date: Date | null): void {
     this.selectedDate = date;
-    // console.log(this.selectedDate?.getFullYear() + '-' + this._to2Git(this.selectedDate!.getMonth() + 1) + '-' + this._to2Git(this.selectedDate!.getDate()))
   }
   generateCalendar(): void {
     const year = this.currentMonth.getFullYear();
@@ -38,16 +39,19 @@ export class DueDateComponent {
     const today = new Date();
     const lastDay = new Date(year, month + 1, 0);
     const numDays = lastDay.getDate();
+
+    this.selectedDate = this.formService.getDateSelected()
+
   
     let currentDay = 1;
     this.calendar = [];
   
     for (let week = 0; week < 6; week++) {
-      const days: { day: number | null, isCurrentDay: boolean, date: Date | null }[] = [];
+      const days: { day: number | null, isCurrentDay: boolean, date: Date | null}[] = [];
   
       for (let i = 0; i < 7; i++) {
         if ((week === 0 && i < firstDay.getDay()) || currentDay > numDays) {
-          days.push({ day: null, isCurrentDay: false, date: null});
+            days.push({ day: null, isCurrentDay: false, date: null});
         } else {
           const isCurrentDay = currentDay === today.getDate() && month === today.getMonth() && year === today.getFullYear();
           const date = new Date(year, month, currentDay);
@@ -62,6 +66,13 @@ export class DueDateComponent {
       }
     }
   }
+
+  // isWasSelected(date:Date | null): boolean{
+  //   if(new Date != this.formService.getDateSelected() && this.formService.getDateSelected() == date && date != null){
+  //     return true;
+  //   }
+  //   return false;
+  // }
 
   previousStep(){
     this.homeComponent.setCurrencyForm('specifications')
