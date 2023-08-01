@@ -198,7 +198,7 @@ export class SenderComponent {
     this.getCountryAndCallingCodeAnddigits()
     this.countryInpIsActive = true;
     
-    const select = document.querySelector('.all_botom_select_options_codes')
+    const select = document.querySelector('.all_botom_select_options_codes_container')
     const img = document.querySelector(".all_img_selected_phone")
     select?.classList.remove('all_botom_select_options--focuse')
     img?.classList.remove("all_img_selected--active")
@@ -229,7 +229,7 @@ export class SenderComponent {
     this.senderForm.removeControlByName('Contact');
   }
   toogleActiveForSlectOptionPhone(){
-    const select = document.querySelector('.all_botom_select_options_codes')
+    const select = document.querySelector('.all_botom_select_options_codes_container')
     const img = document.querySelector(".all_img_selected_phone")
     select?.classList.toggle('all_botom_select_options--focuse')
     img?.classList.toggle("all_img_selected--active")

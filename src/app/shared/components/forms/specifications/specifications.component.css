@@ -25,7 +25,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto -12px;
 }
 .top_params_right{
     display: flex;
@@ -35,6 +34,10 @@
     display: flex;
     justify-content: space-evenly;
     width: 146px;
+}
+.specification_custom_block--as{
+    margin: 0;
+    margin-right: 24px;  
 }
 .params_add{
     background-color: rgba(21, 123, 59, 0.08);
@@ -50,7 +53,7 @@
     align-items: center;
 }
 .variable{
-    width: 49%;
+    width: 48.5%;
 }
 .variables_top{
     display: flex;
@@ -58,7 +61,7 @@
     justify-content: space-between;
 }
 .variables_top_variable{
-    width: 49%;
+    width: 48.5%;
 }
 .top_params_spec .text_error{
     margin-bottom: -20px;

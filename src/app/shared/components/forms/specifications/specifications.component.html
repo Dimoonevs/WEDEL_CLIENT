@@ -44,7 +44,7 @@
                     </div>
                 </div>
             </div>
-            <div class="all_top_block specification_custom_block--as">
+            <div class="all_top_block specification_custom_block--as last_block">
                 <label for="Quantity{{i}}" class="all_top_block_text text" i18n>Quantity (pcs)<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
                 <input [ngClass]="{'input_error': getControl(i, 'Quantity').invalid && (getControl(i, 'Quantity').touched || getControl(i, 'Quantity').dirty)}" [(ngModel)]="quantity[i]" type="text" name="Quantity{{i}}" class="all_top_block_inp Width text" formControlName="Quantity{{i}}">
                 <div *ngIf="getControl(i, 'Quantity').invalid && (getControl(i, 'Quantity').touched || getControl(i, 'Quantity').dirty)">

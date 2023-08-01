@@ -110,6 +110,8 @@
 .services_cards_card_content_title{
     text-align: center;
     margin-bottom: 8px;
+    font-size: 26px;
+    line-height: 30px;
 }
 .services_cards_card{
     margin: 48px 0;
@@ -190,7 +192,7 @@
     margin-bottom: 80px;
 }
 .help_card{
-    background: #FFFFFF;
+    background: #FBFBFB;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
     padding: 56px 0;
@@ -200,7 +202,7 @@
 .help_card_content_toggles_toggle_questions{
     display: flex;
     justify-content: space-between;
-    padding: 16px 24px;
+    padding: 17px 24px;
     background: #537399;
     border-radius: 4px ;
     transition: .5s;
@@ -344,7 +346,7 @@
     justify-content: center;
 }
 .contact_card_links_block_button{
-    padding: 13px 0;
+    padding: 9px 0;
     background: rgba(102, 135, 173, 0.16);
     border-radius: 3.6px;
     color: #456080;
@@ -370,7 +372,7 @@
 }
 
 .story_card{
-    background: #FFFFFF;
+    background: #FBFBFB;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     border-radius: 12px;
     padding: 80px 0;
@@ -477,9 +479,12 @@
 }
 .story_card_manifesto_card_contaniner_block_text{
     color: #A1A3A6;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; 
 }
 .story_card_manifesto_card_contaniner_block{
-    width: 248px;
+    width: 253px;
     position: absolute;
     top: 0;
     left: -224px;

@@ -1,4 +1,3 @@
-
 .stepper{
     display: none;
     justify-content: space-between;
@@ -22,11 +21,11 @@
 }
 .quotation{
     margin-bottom: 80px;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .quotation_block{
     position: relative;
-    background: #FFFFFF;
+    background: #FBFBFB;
     border-radius: 12px;
     padding: 82px 0;
     display: flex;
@@ -83,6 +82,10 @@
     font-size: 22px;
     text-align: center;
     color: #C7C8CA;
+    line-height: 26px;
+}
+.quotation_block_progress_curcle_text-specifications{
+    left: -57px;
 }
 .quotation_block_progress_curcle_text_active{
     color: #1A2430;

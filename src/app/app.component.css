@@ -80,11 +80,11 @@ button{
     height: 22px;
 }
 .all_select .span_get{
-    padding: 12px 8px;
+    padding: 12px 6px;
     line-height: 4px;
 }
 .span_get_img{
-    padding: 4px 8px;
+    padding: 4px 7.5px;
     display: flex;
     align-items: center;
 }
@@ -320,6 +320,12 @@ footer{
 }
 .cookies_bottom button:active{
     background: rgba(102, 135, 173, 0.26);
+}
+.cookies_texts_title_text{
+    font-weight: 500;
+}
+.cookies_texts_text{
+    font-size: 14px;
 }
 
 /* cookies */

@@ -20,6 +20,8 @@
 }
 .cookies_info_texts_title{
     margin-bottom: 32px;
+    font-size: 26px;
+    line-height: 30px;
 }
 .cookies_info_texts{
     align-self: center;

@@ -27,10 +27,6 @@
         font-size: 16px;
         line-height: 22px;
     }
-    .text_title{
-        font-size: 31px;
-        line-height: 44px
-    }
     .tailored_img .img svg{
         width: 1100px;
     }
@@ -51,6 +47,9 @@
     }
 }
 @media(min-width: 2086px){
+    button{
+        height: auto;
+    }
     .wrapper-header{
         padding: 16px;
     }
@@ -58,7 +57,7 @@
         width: 28px;
     }
     .all_img_selected_phone img{
-        width: 17px;
+        width: 13px;
     }
     .all_top_block_inp{
         height: 60px
@@ -160,7 +159,7 @@
     .img_inpu_country{
         top: 68px;
         right: 15px;
-        width: 18px;
+        width: 13px;
     }
     .img_inpu_country img{
         width: 100%;
@@ -170,13 +169,20 @@
         max-height: 60px;
         padding: 14px 8px;
     }
-    .all_botom_select_options{
+    .all_botom_select_options_codes_container{
         top: 62px;
         padding: 14px;
     }
+    .all_botom_select_options_codes--footer{
+        bottom: 62px;
+        top:auto;
+    }
+    .country{
+        top:116px
+    }
 
     .all_img_selected{
-        width: 15px;
+        width: 13px;
     }
     .all_img_selected img{
         width: 100%;

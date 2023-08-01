@@ -5,7 +5,7 @@
             <div class="all_img_selected_phone" (click)="toggleSelectItem()">
                 <img src="assets/img/input_simvol.svg" alt="" [ngClass]="{'rotate_block':isActiveSelect}">
             </div>
-            <div [ngClass]="{'all_botom_select_options--focuse':isActiveSelect}" class="all_botom_select_options_codes phone_botom_select_options_codes ">
+            <div [ngClass]="{'all_botom_select_options--focuse':isActiveSelect}" class="all_botom_select_options_codes all_botom_select_options_codes--footer phone_botom_select_options_codes ">
                 <div class="option text" *ngFor="let countri of countries; let i = index" (click)="getPhoneCode(callingCode[i], digitsAfterCode[i])">
                     <div class="phone_code_country_name">{{countri}}</div><div class="phone_code_country_code">{{callingCode[i]}}</div>
                 </div>

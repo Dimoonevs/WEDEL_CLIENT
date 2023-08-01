@@ -22,6 +22,7 @@
     padding: 11px 8px;
     border-radius: 3.2px;  
     cursor: default;
+    margin: 2px 0;
 }
 .phone_botom_select_options_codes .option--active{
     background: #E6EBF1;

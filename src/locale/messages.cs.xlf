@@ -979,14 +979,6 @@
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7697609720327060959" datatype="html">
-        <source>Request for quotation</source>
-        <target>Poptat cenu</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="1069372698608154423" datatype="html">
         <source>Air Import &amp; Export</source>
         <target>Letecký Import &amp; Export</target>
@@ -1123,20 +1115,24 @@
           <context context-type="linenumber">5524</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2092935502955853696" datatype="html">
-        <source>Request for quatation</source>
+      <trans-unit id="3519986166834284512" datatype="html">
+        <source>Request a quote</source>
         <target>Poptat cenu</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5497</context>
+          <context context-type="linenumber">10</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5554</context>
+          <context context-type="linenumber">5429</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5569</context>
+          <context context-type="linenumber">5494</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5509</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5717557116933302515" datatype="html">
