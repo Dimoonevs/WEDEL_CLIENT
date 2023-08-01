@@ -222,7 +222,7 @@ export class SenderComponent {
     img?.classList.remove("all_img_selected--active")
   }
   toogleActiveForSlectOption(){
-    const select = document.querySelector('.all_botom_select_options_codes_container')
+    const select = document.querySelector('.all_botom_select_options')
     const img = document.querySelector(".all_img_selected")
     select?.classList.toggle('all_botom_select_options--focuse')
     img?.classList.toggle("all_img_selected--active")
