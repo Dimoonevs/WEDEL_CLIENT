@@ -137,7 +137,7 @@ export class ReceiverComponent {
     inputImg?.classList.add("img_inpu_country--focus")
     this.countryInpIsActive = true;
 
-    const select = document.querySelector('.all_botom_select_options_codes')
+    const select = document.querySelector('.all_botom_select_options_codes_container')
     const img = document.querySelector(".all_img_selected_phone")
     select?.classList.remove('all_botom_select_options--focuse')
     img?.classList.remove("all_img_selected--active")
@@ -202,7 +202,7 @@ export class ReceiverComponent {
     select?.classList.toggle('all_botom_select_options--focuse')
     img?.classList.toggle("all_img_selected--active")
 
-    const inputCountry = document.querySelector('.country')
+    const inputCountry = document.querySelector('.county_container')
     const inputImg = document.querySelector('.img_inpu_country')
     inputCountry?.classList.remove("country--focus")
     inputImg?.classList.remove("img_inpu_country--focus")

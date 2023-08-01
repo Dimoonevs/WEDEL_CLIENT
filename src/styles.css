@@ -556,6 +556,8 @@ button:disabled{
   background: #FFFFFF;
   z-index: 9999;
   padding: 8px;
+  transition: .5s;
+  display: none;
 }
 .country{
   display: flex;
@@ -563,7 +565,6 @@ button:disabled{
   padding: 4px;
 }
 .country {
-  display: none;
   transition: .5s;
 }
 .country .span_country .text_country{
