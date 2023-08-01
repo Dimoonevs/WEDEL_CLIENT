@@ -20,39 +20,41 @@
             <label for="Country" class="all_top_block_text text" i18n>Country<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
             <div class="img_inpu_country"><img src="assets/img/input_simvol.svg" alt="" (click)="addFocuse()" ></div>
             <input type="text" (click)="addFocuse()"  [(ngModel)]="valueCountry" autocomplete="off" name="Country" class="all_top_block_inp all_top_block_inp_country text" (keyup)="onKeay(valueCountry)"  formControlName="Country">
-            <div id="country" class="country">
-                <div class="span_country" *ngFor="let country of countries">
-                    <div class="text text_country" [ngClass]="{'text_country-selected' : valueCountry === country }" *ngIf="country !== 'Belarus' 
-                    && country !== 'Cuba' 
-                    && country !=='Iran' 
-                    && country !=='Korea, North' 
-                    && country !== 'Yemen' 
-                    && country !== 'Russia'
-                    && country !== 'Syria'
-                    && country !== 'Somalia'
-                    && country !== 'Sudan'
-                    && country !== 'South Sudan'" 
-                    (click)="slectValueClick(country)" (mouseenter)="slectValue(country)">{{country}}</div>
-                    <div class="text text_country" [ngClass]="{'text_country-non-active' : country === 'Belarus' 
-                    || country === 'Cuba' 
-                    || country ==='Iran' 
-                    || country ==='Korea, North' 
-                    || country === 'Yemen' 
-                    || country === 'Russia'
-                    || country === 'Syria'
-                    || country === 'Somalia'
-                    || country === 'Sudan'
-                    || country === 'South Sudan'}" 
-                    *ngIf="country === 'Belarus' 
-                    || country === 'Cuba' 
-                    || country ==='Iran' 
-                    || country ==='Korea, North' 
-                    || country === 'Yemen' 
-                    || country === 'Russia'
-                    || country === 'Syria'
-                    || country === 'Somalia'
-                    || country === 'Sudan'
-                    || country === 'South Sudan'">{{country}}</div>
+            <div class="county_container">
+                <div id="country" class="country">
+                    <div class="span_country" *ngFor="let country of countries">
+                        <div class="text text_country" [ngClass]="{'text_country-selected' : valueCountry === country }" *ngIf="country !== 'Belarus' 
+                        && country !== 'Cuba' 
+                        && country !=='Iran' 
+                        && country !=='Korea, North' 
+                        && country !== 'Yemen' 
+                        && country !== 'Russia'
+                        && country !== 'Syria'
+                        && country !== 'Somalia'
+                        && country !== 'Sudan'
+                        && country !== 'South Sudan'" 
+                        (click)="slectValueClick(country)" (mouseenter)="slectValue(country)">{{country}}</div>
+                        <div class="text text_country" [ngClass]="{'text_country-non-active' : country === 'Belarus' 
+                        || country === 'Cuba' 
+                        || country ==='Iran' 
+                        || country ==='Korea, North' 
+                        || country === 'Yemen' 
+                        || country === 'Russia'
+                        || country === 'Syria'
+                        || country === 'Somalia'
+                        || country === 'Sudan'
+                        || country === 'South Sudan'}" 
+                        *ngIf="country === 'Belarus' 
+                        || country === 'Cuba' 
+                        || country ==='Iran' 
+                        || country ==='Korea, North' 
+                        || country === 'Yemen' 
+                        || country === 'Russia'
+                        || country === 'Syria'
+                        || country === 'Somalia'
+                        || country === 'Sudan'
+                        || country === 'South Sudan'">{{country}}</div>
+                    </div>
                 </div>
             </div>
         </div>

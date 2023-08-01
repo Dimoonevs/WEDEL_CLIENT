@@ -131,7 +131,7 @@ export class ReceiverComponent {
     this.formService.setReceiverCountry(country)
   }
   addFocuse(){
-    const inputCountry = document.querySelector('.country')
+    const inputCountry = document.querySelector('.county_container')
     const inputImg = document.querySelector('.img_inpu_country')
     inputCountry?.classList.add("country--focus")
     inputImg?.classList.add("img_inpu_country--focus")
@@ -145,7 +145,7 @@ export class ReceiverComponent {
     
   }
   slectValueClick(country: string){
-    const inputCountry = document.querySelector('.country')
+    const inputCountry = document.querySelector('.county_container')
     const inputImg = document.querySelector('.img_inpu_country')
     inputCountry?.classList.remove("country--focus")
     inputImg?.classList.remove("img_inpu_country--focus")
