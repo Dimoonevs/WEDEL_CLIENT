@@ -231,5 +231,11 @@
     .form_request_a_call_all_input{
         width: 400px;
     }
+    .all_botom_select_options--focuse{
+        width: 562px;
+    }
+    .all_botom_select_options_codes--footer{
+        width: 509px;
+    }
     
 }

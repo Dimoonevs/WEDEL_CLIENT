@@ -33,7 +33,6 @@ form{
     top: auto;
     bottom: 40px;
     width: 306px;
-    max-height: 218px;
 }
 .input_form{
     position: relative;
@@ -52,6 +51,7 @@ form{
 .phone_botom_select_options_codes{
     padding: 8px;
     overflow-y: scroll;
+    max-height: 218px;
 }
 .rotate_block{
     transform: rotate(180deg);
