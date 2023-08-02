@@ -1,5 +1,10 @@
+.all_top_block{
+    width: calc(100%/2 - 12px);
+    margin-bottom: 24px;
+}
 .receiver_top_block_inp_street{
     width: 100%;
+    margin-bottom: 24px;
 }
 .receiver_select_phone_code{
     position: static;

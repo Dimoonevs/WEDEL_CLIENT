@@ -1,6 +1,7 @@
 .summary_title-all{
     font-weight: 500;
     font-size: 18px;
+    margin-bottom: 8px;
 }
 .summary_info_input_value-all{
     padding: 8px 8px;
@@ -12,10 +13,10 @@
     width: 820px;
 }
 .all_block_text{
-    margin-top: 18px;
+    margin-top: 24px;
 }
 .summary_info_input-all{
-    width: 49%;
+    width: calc(100%/2 - 12px);
     height: 25%;
 }
 .summary_info-all{
@@ -30,8 +31,12 @@
     margin-top: 40px;
 }
 .summary_specification_params_block_quatity{
-    width: 24%;
+    width: calc(100%/4 - 12px);
 }
 .summary_sender{
     margin-top: 0;
+}
+.all_block_text{
+    font-size: 14px;
+    color: #6A6D70;
 }

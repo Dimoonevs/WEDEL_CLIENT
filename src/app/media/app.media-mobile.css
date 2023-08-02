@@ -3,6 +3,16 @@
         width: 608px;
     }
 }
+@media(max-width: 1230px){
+    .custom_button{
+        left: -12px;
+        right: auto;
+    }
+    .custom-next{
+        right: -12px;
+        left: auto;
+    }
+}
 @media(max-width:1136px){
     .contact_card{
         padding-right: 51px;
@@ -33,6 +43,7 @@
     .arrage .text{
         line-height: 17px;
     }
+    
 }
 @media (max-width: 1036px){
     .tailored_content{
@@ -103,11 +114,12 @@
     }
 }
 @media (max-width: 939px) {
+    
     .summary_sender_info{
         width: 100%;
     }
     .content_wrepper {
-        padding: 0 17px; 
+        padding: 0 24px; 
         margin: auto 0;
     }
     .quotation_block_forms{
@@ -127,13 +139,13 @@
         max-width: 763px; 
     }
     .arrage_cards_card_text:nth-child(1){
-        padding: 13px 15px 13px 15px;
+        padding: 13px 24px;
     }
     .arrage_cards_card_sc .arrage_cards_card_text{
-        padding: 13px 15px 13px 15px;
+        padding: 13px 24px;
     }
     .arrage_cards_card_th .arrage_cards_card_text{
-        padding: 13px 15px 13px 15px;
+        padding: 13px 24px;
     }
     .arrage .text_title{
         font-size: 25px;
@@ -161,7 +173,7 @@
         padding: 10px;
     }
     .tracking_content{
-        padding: 38px 0;
+        padding: 48px 0;
     }
     .contact_card{
         height: auto;
@@ -188,7 +200,7 @@
     }
     .specification_custom_block--as{
         width: calc(100%/2 - 12px) !important;
-        margin: 12px 0;
+        margin: 0 0 24px 0;
     }
     .top_params{
         flex-direction: column;
@@ -215,7 +227,7 @@
     .arrage_cards_card img{
         display: block;
         max-width: 340px;
-        margin-bottom: 39px;
+        margin-bottom: 24px;
     }
     .arrage_cards_card{
         display: flex;
@@ -419,8 +431,23 @@
     
 }
 @media (max-width: 701px){
+    .county_container{
+        top: 82px;
+    }
+    .all_botom_select_options_codes_container{
+        top: 51px;
+    }
+    .all_botom_select_options--focuse{
+        top:auto;
+        bottom: 50px;
+        width: auto;
+        right: 0;
+    }
     .img_inpu_country{
-        top: 42px;
+        top: 51px;
+    }
+    .img_inpu_country--focus{
+        top: 45px;
     }
     .all_top_block_inp{
         height: 48px;
@@ -440,6 +467,7 @@
     }
     .title_all{
         font-size: 28px;
+        line-height: 34px;
     }
     .all_top_block{
         width: 100%;
@@ -466,6 +494,16 @@
     }
     .variables_top_variable{
         width: 100%;
+    }
+    .variables_top_variable:nth-child(1){
+        margin-bottom: 24px;
+    }
+    .mb-24{
+        margin-bottom: 24px;
+    }
+
+    .variable{
+        margin-bottom: 24px;
     }
     .container{
         display: none;
@@ -663,7 +701,53 @@
         width: 144px;
     }
     .services_cards_card_content{
-        padding: 15px 0;
+        padding: 24px 0;
+    }
+    .tailored_content_text_title{
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .tailored_content_text_parag{
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+    .arrage_cards_card{
+        margin: 0px;
+    }
+    .arrage_title{
+        margin-bottom: 40px;
+    }
+    .text_title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .title_all{
+        margin-bottom: 40px;
+    }
+    .services_cards_card_content_title{
+        margin-bottom: 24px;
+    }
+    .services_cards_card_content_texts{
+        margin-bottom: 36px;
+    }
+    .services_cards_card_content_texts_text_description{
+        padding: 16px;
+    }
+    .stepper{
+        margin-bottom: 36px;
+    }
+    .sender_text_top{
+        margin-bottom: 36px;
+    }
+    .tracking_content_top{
+        margin-bottom: 24px;
+    }
+    .tracking_content_text{
+        margin-bottom: 24px;
+        padding: 16px 24px;
+    }
+    .help_card{
+        padding: 24px 0;
     }
 }
 @media (max-width: 502px){
@@ -695,7 +779,7 @@
         margin-top: 120px;
     }
     .title_all_block{
-        padding-bottom: 12px;
+        padding-bottom: 16px;
     }
     .active_mobile{
         width: 194px;
@@ -717,9 +801,6 @@
     }
 }
 @media (max-width: 428px){
-    .arrage_cards_card{
-        margin: 57px 10px;
-    }
     .arrage_cards_card_img{
         max-width: 272px !important;
     }

@@ -146,6 +146,27 @@
     background: #A1A3A6 !important;
 }
 
+@media(max-width:1075px) {
+    .arrage_cards_card_fs{
+        background: url('src/assets/img/new_bg_card_fs_nbs.svg') 100% no-repeat;
+    }
+    .arrage_cards_card_th{
+        background: url('src/assets/img/new_bg_card_th_nbs.svg') 100% no-repeat;
+    }
+    .arrage_cards_card_sc{
+        background: url('src/assets/img/new_bg_card_sc_nbs.svg') 100% no-repeat;
+    }
+    .dark .arrage_cards_card_fs{
+        background: url('src/assets/img/dark_card_we_do_fs.svg') 100% no-repeat;
+    }
+    .dark .arrage_cards_card_th{
+        background: url('src/assets/img/dark_card_we_do_th.svg') 100% no-repeat;
+    }
+    .dark .arrage_cards_card_sc{
+        background: url('src/assets/img/dark_card_we_do_sc.svg') 100% no-repeat;
+    }
+}
+
 /* We do */
 
 

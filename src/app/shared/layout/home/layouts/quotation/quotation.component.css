@@ -27,7 +27,7 @@
     position: relative;
     background: #FBFBFB;
     border-radius: 12px;
-    padding: 82px 0;
+    padding: 80px 0;
     display: flex;
     flex-direction: column;
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
@@ -162,4 +162,8 @@
 }
 .stepper_text_title{
     margin-bottom: 12px;
+}
+.text{
+    font-size: 14px;
+    line-height: 22px;
 }

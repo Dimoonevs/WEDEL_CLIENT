@@ -1,8 +1,12 @@
+.all_top_block{
+    margin-bottom: 24px;
+    width: calc(100%/2 - 12px);
+}
+.sender_top_block_inp_street {
+    margin-bottom: 24px;
+}
 .sender_top_block_inp_street{
     width: 100%;
-}
-.sender_botom_block{
-    width: calc(100%/2 -24px);
 }
 .sender_select_phone_code{
     position: static;

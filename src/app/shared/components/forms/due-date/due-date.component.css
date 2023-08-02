@@ -9,7 +9,7 @@
     padding: 24px;
     background: rgba(230, 235, 241, 0.5);
     border-radius: 4px;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
 }
 .date_top_block_textarea{
     width: 818px;
@@ -17,7 +17,7 @@
     height: 103px;
 }
 .date_top_block_text_textarea{
-    margin-top: 28px;
+    margin-top: 24px;
 }
 .calendar_table th{
     padding: 4px 0;

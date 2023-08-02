@@ -1,5 +1,5 @@
 .form_request_a_call_all_input{
-    margin-right: 8px;
+    margin-right: 24px;
     width: 208px;
 }
 form{
@@ -31,8 +31,8 @@ form{
 }
 .all_botom_select_options--focuse{
     top: auto;
-    bottom: 40px;
-    width: 306px;
+    bottom: 42px;
+    width: 305px;
 }
 .input_form{
     position: relative;

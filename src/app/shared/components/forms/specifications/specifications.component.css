@@ -1,3 +1,6 @@
+.all_top_block{
+    width: calc(100%/2 - 12px);
+}
 .specifications_top_block_textarea{
     width: 100%;
     height: 103px;
@@ -5,7 +8,7 @@
 
 }
 .specifications_top_block_text_textarea{
-    margin-top: 16px;
+    margin-top: 24px;
 }
 .params_actions{
     font-weight: 400;
@@ -20,6 +23,7 @@
 .spec_bottom{
     padding-top: 24px;
     border-top: 1px solid #D9DADC;
+    margin-bottom: 24px;
 }
 .top_params_left{
     display: flex;
@@ -43,7 +47,6 @@
     background-color: rgba(21, 123, 59, 0.08);
     color: #157B3B;
     width: 100%;
-    margin: 0 10px;
 }
 .params_remove{
     background-color: rgba(177, 15, 15, 0.08);
@@ -53,19 +56,30 @@
     align-items: center;
 }
 .variable{
-    width: 48.5%;
+    width: calc(100%/2 - 12px);
 }
 .variables_top{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-bottom: 24px;
 }
 .variables_top_variable{
-    width: 48.5%;
+    width: calc(100%/2 - 12px);
 }
 .top_params_spec .text_error{
     margin-bottom: -20px;
 }
 .all_select_text{
     padding: 4px 0;
+}
+
+/* .specification_custom_block--as{
+    width: calc(100%/4 - 24px);
+} */
+.specification_custom_block--as{
+    width: 114.6px;
+}
+.last_block{
+    width: 227px;
 }

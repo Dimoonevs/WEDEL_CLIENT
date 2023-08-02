@@ -27,6 +27,9 @@
         font-size: 16px;
         line-height: 22px;
     }
+    .lh{
+        line-height: 12px;
+    }
     .tailored_img .img svg{
         width: 1100px;
     }
@@ -37,6 +40,9 @@
         top: 50px;
         right: 15px;
         width: 11px;
+    }
+    .img_inpu_country--focus{
+        top: 40px;
     }
     .img_inpu_country img{
         width: 100%;
@@ -178,7 +184,7 @@
         top:auto;
     }
     .county_container{
-        top:109px;
+        top:105px;
     }
 
     .all_img_selected{

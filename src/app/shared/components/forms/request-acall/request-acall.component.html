@@ -5,10 +5,10 @@
             <div class="all_img_selected_phone" (click)="toggleSelectItem()">
                 <img src="assets/img/input_simvol.svg" alt="" [ngClass]="{'rotate_block':isActiveSelect}">
             </div>
-            <div class="all_botom_select_options_codes_container all_botom_select_options_codes--footer" [ngClass]="{'all_botom_select_options--focuse':isActiveSelect}">
-                <div  class="all_botom_select_options_codes phone_botom_select_options_codes " >
-                    <div *ngFor="let country of countries; let i = index" class="option text" (click)="getPhoneCode(callingCode[i], digitsAfterCode[i])"><div class="phone_code_country_name">{{country}}</div><div class="phone_code_country_code">{{callingCode[i]}}</div></div>
-                </div>
+        </div>
+        <div class="all_botom_select_options_codes_container all_botom_select_options_codes--footer" [ngClass]="{'all_botom_select_options--focuse':isActiveSelect}">
+            <div  class="all_botom_select_options_codes phone_botom_select_options_codes " >
+                <div *ngFor="let country of countries; let i = index" class="option text" (click)="getPhoneCode(callingCode[i], digitsAfterCode[i])"><div class="phone_code_country_name">{{country}}</div><div class="phone_code_country_code">{{callingCode[i]}}</div></div>
             </div>
         </div>
         <input type="text" name="phone" class="footer_input all_top_block_inp form_request_a_call_all_input text" formControlName="Phone" [mask]="phoneMask">    

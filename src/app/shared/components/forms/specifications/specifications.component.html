@@ -65,7 +65,7 @@
         </div>
     </div>
     <div class="all_top spec_bottom">
-        <div class="all_top_block">
+        <div class="all_top_block mb-24">
             <label for="TotalQuantity" class="all_top_block_text text" i18n>Total quantity (pcs)<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
             <input [ngClass]="{'input_error': getControlOther('TotalQuantity').invalid && (getControlOther('TotalQuantity').touched || getControlOther('TotalQuantity').dirty)}" [(ngModel)]="totalQuantity" type="text" name="TotalQuantity" class="all_top_block_inp text" formControlName="TotalQuantity">
             <div *ngIf="getControlOther('TotalQuantity').invalid && (getControlOther('TotalQuantity').touched || getControlOther('TotalQuantity').dirty)">

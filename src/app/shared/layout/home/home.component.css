@@ -202,7 +202,7 @@
 .help_card_content_toggles_toggle_questions{
     display: flex;
     justify-content: space-between;
-    padding: 17px 24px;
+    padding: 16px 24px;
     background: #537399;
     border-radius: 4px ;
     transition: .5s;
@@ -290,7 +290,7 @@
 }
 .tracking_content_text{
     position: relative;
-    padding: 24px;
+    padding: 16px 24px;
     background-color: #E6EBF180;
     border-radius: 4px;
     margin-bottom: 32px;
