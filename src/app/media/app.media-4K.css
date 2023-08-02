@@ -237,5 +237,17 @@
     .all_botom_select_options_codes--footer{
         width: 509px;
     }
-    
+    .currency{
+        width: 91px;
+    }
+    .currency{
+        top: 64px;
+    }
+    .quotation_block_progress_curcle_text-specifications{
+        left: -71px;
+    }
+    .img_inpu_country--focus{
+        top: 64px;
+    }
+
 }
