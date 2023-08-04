@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./quotation.component.css','../../../../../media/app.media-mobile.css', '../../../../../media/app.media-4K.css']
 })
 export class QuotationComponent {
-  currentForm = 'specifications';
+  currentForm = 'sender';
 
 progress: NodeListOf<any> | any;
 progressTextSpec: NodeListOf<any> | any;
