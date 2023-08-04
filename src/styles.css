@@ -462,6 +462,10 @@ button:disabled{
   border: 1px solid #EC2121 ;
   border-right: 0;
 }
+.mt-24{
+  margin-top: -24px;
+  margin-bottom: 24px;
+}
 /* for quotation form End */
 
 /* For claendar */

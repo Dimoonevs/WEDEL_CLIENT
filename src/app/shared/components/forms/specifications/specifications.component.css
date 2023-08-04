@@ -68,15 +68,12 @@
     width: calc(100%/2 - 12px);
 }
 .top_params_spec .text_error{
-    margin-bottom: -20px;
+    margin-bottom: -22px;
 }
 .all_select_text{
     padding: 4px 0;
 }
 
-/* .specification_custom_block--as{
-    width: calc(100%/4 - 24px);
-} */
 .specification_custom_block--as{
     width: 114.6px;
 }

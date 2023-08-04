@@ -90,12 +90,12 @@
     <label for="Street" class="all_top_block_text text"i18n>Street<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text fiive">This field is required</div></div> </label>
     <input type="text" [ngClass]="{'input_error': _street.invalid && (_street.touched || _street.dirty)}" [(ngModel)]="street" name="Street" class="all_top_block_inp sender_top_block_inp_street text" formControlName="Street">
     <div *ngIf="_street.invalid && (_street.touched || _street.dirty)">
-        <div class="text_error text" *ngIf="_street.errors?.required" i18n>
+        <div class="text_error text mt-24" *ngIf="_street.errors?.required" i18n>
             This field is required.
         </div>
     </div>
     <div *ngIf="_street.invalid && (_street.touched || _street.dirty)">
-        <div class="text_error text" *ngIf="_street.errors?.pattern">
+        <div class="text_error text mt-24" *ngIf="_street.errors?.pattern">
             Data is invalid.
         </div>
     </div>

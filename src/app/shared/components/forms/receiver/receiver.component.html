@@ -78,7 +78,7 @@
     <label for="Street" class="all_top_block_text text" i18n>Street<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
     <input [(ngModel)]="street" [ngClass]="{'input_error': getControl('Street').invalid && (getControl('Street').touched || getControl('Street').dirty)}" type="text" name="Street" class="all_top_block_inp sender_top_block_inp_street receiver_top_block_inp_street text" formControlName="Street">
     <div *ngIf="getControl('Street').invalid && (getControl('Street').touched || getControl('Street').dirty)">
-        <div class="text_error text" *ngIf="getControl('Street').errors?.['required']" i18n>
+        <div class="text_error text mt-24" *ngIf="getControl('Street').errors?.['required']" i18n>
           This field is required.
         </div>
     </div>
