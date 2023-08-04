@@ -1,8 +1,15 @@
 <div class="summary_sender summary_blocks-all">
-    <div class="summary_sender_title summary_title-all text" i18n>
-        Sender
+    <div class="text_block_summary" (click)="toggleBlock(0)">
+        <div class="summary_sender_title summary_title-all text" i18n>
+            Sender
+        </div>
+        <div class="text_block_summary_img">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18.4661 14.465L12.5261 8.465C12.2461 8.185 11.7461 8.185 11.4561 8.465L5.52609 14.465C5.23609 14.755 5.23609 15.235 5.52609 15.525C5.81609 15.815 6.29609 15.815 6.58609 15.525L11.9961 10.065L17.4061 15.525C17.5561 15.675 17.7461 15.745 17.9361 15.745C18.1261 15.745 18.3161 15.675 18.4661 15.525C18.7561 15.235 18.7661 14.755 18.4661 14.465Z" fill="#090C10"/>
+            </svg>
+        </div>
     </div>
-    <div class="summary_sender_info">
+    <div class="summary_sender_info mobile_summary">
         <div class="summary_sender_info_top summary_info-all">
             <div class="summary_sender_info_top_input summary_info_input-all">
                 <div class="all_block_text summary_sender_info_top_input_text text" i18n>
@@ -65,127 +72,152 @@
     </div>
 </div>
 <div class="summary_specification summary_blocks-all">
-    <div class="summary_specification_title summary_title-all text" i18n>
-        Specifications
+    <div class="text_block_summary" (click)="toggleBlock(1)">
+        <div class="summary_specification_title summary_title-all text" i18n>
+            Specifications
+        </div>
+        <div class="text_block_summary_img">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18.4661 14.465L12.5261 8.465C12.2461 8.185 11.7461 8.185 11.4561 8.465L5.52609 14.465C5.23609 14.755 5.23609 15.235 5.52609 15.525C5.81609 15.815 6.29609 15.815 6.58609 15.525L11.9961 10.065L17.4061 15.525C17.5561 15.675 17.7461 15.745 17.9361 15.745C18.1261 15.745 18.3161 15.675 18.4661 15.525C18.7561 15.235 18.7661 14.755 18.4661 14.465Z" fill="#090C10"/>
+            </svg>
+        </div>
     </div>
-    <div class="summary_specification_params">
-        <div class="summary_specification_params_block summary_info-all" *ngFor="let box of specificationQuantity; let i = index">
+    <div class="summary_specification_contener mobile_summary">
+        <div class="summary_specification_params">
+            <div class="summary_specification_params_block summary_info-all" *ngFor="let box of specificationQuantity; let i = index">
+                <div class="summary_specification_params_block_quatity summary_info_input-all">
+                    <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                        Quantity (pcs)
+                    </div>
+                    <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                        {{specificationQuantity[i]}}
+                    </div>
+                </div>
+                <div class="summary_specification_params_block_quatity summary_info_input-all">
+                    <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                        Length (cm)
+                    </div>
+                    <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                        {{specificationLenght[i]}}
+                    </div>
+                </div>
+                <div class="summary_specification_params_block_quatity summary_info_input-all">
+                    <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                        Width (cm)
+                    </div>
+                    <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                        {{specificationWidth[i]}}
+                    </div>
+                </div>
+                <div class="summary_specification_params_block_quatity summary_info_input-all">
+                    <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
+                        Height (cm)
+                    </div>
+                    <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
+                        {{specificationHeight[i]}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="summary_specification_info-all summary_info-all">
+            <div class=" summary_info_input-all">
+                <div class="all_block_text  text" i18n>
+                    Total quantity (pcs)
+                </div>
+                <div class=" summary_info_input_value-all text">
+                    {{specificationTotalQuantity}}
+                </div>
+            </div>
+            <div class=" summary_info_input-all">
+                <div class="all_block_text  text" i18n>
+                    Total weigh (kg)
+                </div>
+                <div class="summary_info_input_value-all text">
+                    {{specificationTotalWeigh}}
+                </div>
+            </div>
+        </div>
+        <div class="summary_specification_params_block summary_info-all">
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
-                    Quantity (pcs)
+                <div class="all_block_text text" i18n>
+                    Goods type
                 </div>
-                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
-                    {{specificationQuantity[i]}}
-                </div>
-            </div>
-            <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
-                    Length (cm)
-                </div>
-                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
-                    {{specificationLenght[i]}}
+                <div class=" summary_info_input_value-all text">
+                    {{specificationGoodsType}}
                 </div>
             </div>
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
-                    Width (cm)
+                <div class="all_block_text lh text" i18n>
+                    My shipment is stackable
                 </div>
-                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
-                    {{specificationWidth[i]}}
+                <div class=" summary_info_input_value-all text">
+                    {{specificationShipmentStackable}}
                 </div>
             </div>
             <div class="summary_specification_params_block_quatity summary_info_input-all">
-                <div class="all_block_text summary_specification_params_block_quatity_text  text" i18n>
-                    Height (cm)
+                <div class="all_block_text   text" i18n>
+                    Shipment priority
                 </div>
-                <div class="summary_specification_info_top_input_value summary_info_input_value-all text">
-                    {{specificationHeight[i]}}
+                <div class=" summary_info_input_value-all text">
+                    {{specificationShipmentPriority}}
+                </div>
+            </div>
+            <div class="summary_specification_params_block_quatity summary_info_input-all">
+                <div class="all_block_text  text" i18n>
+                    Total value
+                </div>
+                <div class=" summary_info_input_value-all text">
+                    {{specificationTotalValue}} {{specificationCurrency}}
                 </div>
             </div>
         </div>
-    </div>
-    <div class="summary_specification_info-all summary_info-all">
-        <div class=" summary_info_input-all">
-            <div class="all_block_text  text" i18n>
-                Total quantity (pcs)
-            </div>
-            <div class=" summary_info_input_value-all text">
-                {{specificationTotalQuantity}}
-            </div>
+        <div class="all_block_text text" i18n>
+            Street
         </div>
-        <div class=" summary_info_input-all">
-            <div class="all_block_text  text" i18n>
-                Total weigh (kg)
-            </div>
-            <div class="summary_info_input_value-all text">
-                {{specificationTotalWeigh}}
-            </div>
+        <div class=" summary_info_input_value-all text">
+            {{specificationGoodsDescription}}
         </div>
-    </div>
-    <div class="summary_specification_params_block summary_info-all">
-        <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text text" i18n>
-                Goods type
-            </div>
-            <div class=" summary_info_input_value-all text">
-                {{specificationGoodsType}}
-            </div>
-        </div>
-        <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text lh text" i18n>
-                My shipment is stackable
-            </div>
-            <div class=" summary_info_input_value-all text">
-                {{specificationShipmentStackable}}
-            </div>
-        </div>
-        <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text   text" i18n>
-                Shipment priority
-            </div>
-            <div class=" summary_info_input_value-all text">
-                {{specificationShipmentPriority}}
-            </div>
-        </div>
-        <div class="summary_specification_params_block_quatity summary_info_input-all">
-            <div class="all_block_text  text" i18n>
-                Total value
-            </div>
-            <div class=" summary_info_input_value-all text">
-                {{specificationTotalValue}} {{specificationCurrency}}
-            </div>
-        </div>
-    </div>
-    <div class="all_block_text text" i18n>
-        Street
-    </div>
-    <div class=" summary_info_input_value-all text">
-        {{specificationGoodsDescription}}
     </div>
 </div>
 <div class="summary_date summary_blocks-all">
-    <div class="summary_title-all text" i18n>
-        Due date
+    <div class="text_block_summary" (click)="toggleBlock(2)">
+        <div class="summary_title-all text" i18n>
+            Due date
+        </div>
+        <div class="text_block_summary_img">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18.4661 14.465L12.5261 8.465C12.2461 8.185 11.7461 8.185 11.4561 8.465L5.52609 14.465C5.23609 14.755 5.23609 15.235 5.52609 15.525C5.81609 15.815 6.29609 15.815 6.58609 15.525L11.9961 10.065L17.4061 15.525C17.5561 15.675 17.7461 15.745 17.9361 15.745C18.1261 15.745 18.3161 15.675 18.4661 15.525C18.7561 15.235 18.7661 14.755 18.4661 14.465Z" fill="#090C10"/>
+            </svg>
+        </div>
     </div>
-    <div class="all_block_text text" i18n>
-        Date of realization
-    </div>
-    <div class=" summary_info_input_value-all text">
-        {{dateRealization}}
-    </div>
-    <div class="all_block_text text" i18n>
-        Note
-    </div>
-    <div class=" summary_info_input_value-all text">
-        <div class="text" *ngIf="dateNote !== undefined">{{dateNote}}</div>
-        <div class="text" *ngIf="dateNote === undefined || dateNote === ''">N/A</div>
+    <div class="summary_date_contener mobile_summary">
+        <div class="all_block_text text" i18n>
+            Date of realization
+        </div>
+        <div class=" summary_info_input_value-all text">
+            {{dateRealization}}
+        </div>
+        <div class="all_block_text text" i18n>
+            Note
+        </div>
+        <div class=" summary_info_input_value-all text">
+            <div class="text" *ngIf="dateNote !== undefined">{{dateNote}}</div>
+            <div class="text" *ngIf="dateNote === undefined || dateNote === ''">N/A</div>
+        </div>
     </div>
 </div>   
 <div class=" summary_blocks-all">
-    <div class="summary_title-all text" i18n>
-        Receiver
+    <div class="text_block_summary" (click)="toggleBlock(3)">
+        <div class="summary_title-all text" i18n>
+            Receiver
+        </div>
+        <div class="text_block_summary_img">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M18.4661 14.465L12.5261 8.465C12.2461 8.185 11.7461 8.185 11.4561 8.465L5.52609 14.465C5.23609 14.755 5.23609 15.235 5.52609 15.525C5.81609 15.815 6.29609 15.815 6.58609 15.525L11.9961 10.065L17.4061 15.525C17.5561 15.675 17.7461 15.745 17.9361 15.745C18.1261 15.745 18.3161 15.675 18.4661 15.525C18.7561 15.235 18.7661 14.755 18.4661 14.465Z" fill="#090C10"/>
+            </svg>
+        </div>
     </div>
-    <div class="">
+    <div class="summary_receiver_contener mobile_summary">
         <div class="summary_info-all">
             <div class=" summary_info_input-all">
                 <div class="all_block_text  text" i18n>

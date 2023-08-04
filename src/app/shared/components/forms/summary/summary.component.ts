@@ -121,5 +121,9 @@ export class SummaryComponent {
   createDate(date:Date){
     return  date.getFullYear()+ '-' + this._to2Git(date.getMonth() + 1)+ "-" + this._to2Git(date.getDate()) ;
   }
+  toggleBlock(index: number){
+    const blocks = document.querySelectorAll(".summary_blocks-all")
+    blocks[index].classList.toggle("block_summary--active")
+  }
 
 }

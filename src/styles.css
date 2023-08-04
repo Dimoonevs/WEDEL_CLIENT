@@ -119,7 +119,7 @@
   color: #FBFBFB;
 }
 .text_exampl{
-    font-weight: 600;
+    font-weight: 500;
     color: #456080;
 }
 .z-index{
@@ -275,7 +275,7 @@ button:disabled{
 }
 .all_botom_select{
   align-self: flex-end;
-  border: 1px solid #CCD7E4;
+  border: 1px solid #D9DADC;
   border-radius: 3.6px;
   padding:11px;
   max-height: 40px;
@@ -406,7 +406,7 @@ button:disabled{
 }
 .button_submit_next_step{
   display: flex;
-  margin-top: 48px;
+  margin-top: 16px;
   justify-content: flex-end;
 }
 .previous_step{
@@ -698,3 +698,7 @@ footer a{
 /* *{
   border: 1px solid brown;
 } */
+
+.mb_texarea{
+  margin-bottom: 24px;
+}

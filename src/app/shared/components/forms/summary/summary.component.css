@@ -29,6 +29,7 @@
     padding-bottom: 32px;
     border-bottom: 1px solid #D9DADC;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 .summary_specification_params_block_quatity{
     width: calc(100%/4 - 12px);
@@ -39,4 +40,16 @@
 .all_block_text{
     font-size: 14px;
     color: #6A6D70;
+}
+.text_block_summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_block_summary svg{
+    transform: rotate(180deg);
+    transition: .5s;
+}
+.text_block_summary_img{
+    display: none;
 }

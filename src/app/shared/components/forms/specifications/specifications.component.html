@@ -159,9 +159,9 @@
     </div>
     
     <label for="Goods" class="all_top_block_text specifications_top_block_text_textarea text" i18n>Goods description<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
-    <textarea [ngClass]="{'input_error': getControlOther('Goods').invalid && (getControlOther('Goods').touched || getControlOther('Goods').dirty)}" [(ngModel)]="descriptionGoods" name="Goods" id=""  class="all_top_block_inp text specifications_top_block_textarea" formControlName="Goods"></textarea>
+    <textarea [ngClass]="{'input_error': getControlOther('Goods').invalid && (getControlOther('Goods').touched || getControlOther('Goods').dirty)}" [(ngModel)]="descriptionGoods" name="Goods" id=""  class="all_top_block_inp mb_texarea text specifications_top_block_textarea" formControlName="Goods"></textarea>
     <div *ngIf="getControlOther('Goods').invalid && (getControlOther('Goods').touched || getControlOther('Goods').dirty)">
-        <div class="text_error text" *ngIf="getControlOther('Goods').errors?.['required']">
+        <div class="text_error text mt-24" *ngIf="getControlOther('Goods').errors?.['required']">
           This field is required.
         </div>
     </div>

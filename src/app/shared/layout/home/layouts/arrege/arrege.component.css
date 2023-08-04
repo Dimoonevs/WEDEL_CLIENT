@@ -70,7 +70,9 @@
     border-radius: 50%;
 }
 .arrage_cards_card_text_title{
-    margin-bottom: 13px;
+    margin-bottom: 32px;
+    font-size: 26px;
+    line-height: 30px;
 }
 .arrage_cards_card_text_title_par{
     margin-bottom: 15px;

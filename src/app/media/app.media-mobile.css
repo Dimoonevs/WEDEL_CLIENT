@@ -565,6 +565,9 @@
         left: auto;
         right: 3px;
     }
+    .button_submit_next_step{
+        margin-top: 12px;
+    }
 }
 @media(max-width: 638px){
     .img{
@@ -621,6 +624,37 @@
     }
     .story_card button{
         display: flex;
+    }
+    .summary_blocks-all{
+        position: relative;
+        
+    }
+    .text_block_summary{
+        position: relative;
+        z-index: 99;
+    }
+    .mobile_summary{
+        position: absolute;
+        top: 0;
+        opacity: 0;
+        transition: .5s;
+        z-index: 0;
+    }
+    .text_block_summary_img{
+        display: block;
+    }
+    .block_summary--active svg{
+        transform: rotate(-180deg);
+    }
+    .block_summary--active .mobile_summary{
+        position: relative;
+        opacity: 1;
+    }
+    .text_block_summary{
+        cursor: pointer;
+    }
+    .stepper_swg_text_all{
+        font-size: 19px;
     }
 }
 @media(max-width: 562px){
@@ -748,6 +782,9 @@
     }
     .help_card{
         padding: 24px 0;
+    }
+    .stepper_swg_text_all{
+        font-size: 19px;
     }
 }
 @media (max-width: 502px){

@@ -43,6 +43,7 @@
     font-size: 42px;
     font-weight: 500;
     margin-bottom: 32px;
+    line-height: 50px;
 }
 .tailored_content_text_parag{
     line-height: 20px;
@@ -456,6 +457,8 @@
 }
 .story_card_manifesto_card{
     padding: 64px 0px 109px 0;
+    background: #FFF;
+    border-radius: 4px;
 }
 .story_card_manifesto_card{
     height: 815px;
