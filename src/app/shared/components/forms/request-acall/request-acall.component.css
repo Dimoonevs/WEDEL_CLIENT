@@ -56,6 +56,10 @@ form{
 .rotate_block{
     transform: rotate(180deg);
 }
+.input_block{
+    display: flex;
+    flex-direction: column;
+}
 @media(max-width:603px){
     form{
         flex-direction: column;

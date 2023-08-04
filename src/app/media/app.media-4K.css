@@ -113,6 +113,11 @@
         font-size: 23px !important;
         line-height: 31px !important;
     }
+    .text_error{
+        font-size: 15px !important;
+        line-height: 12px !important;
+        margin-top: 5px;
+    }
     .text_title{
         font-size: 53px;
         line-height: 71px;
@@ -223,7 +228,7 @@
         padding: 10px;
     }
     .specification_custom_block--as{
-        width: 239px;
+        width: 218px;
     }
     header .all_select{
         padding: 5px;

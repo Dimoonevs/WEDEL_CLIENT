@@ -2,7 +2,7 @@
 .wrapper-header {
     max-width: 1160px; 
     margin: 0 auto; 
-    padding: 8px 16px; 
+    padding: 3px 16px; 
     box-sizing: border-box; 
     display: flex;
     justify-content:space-between;
@@ -51,14 +51,30 @@ header{
     background-color: #3C5470;
     transition: .5s;
 }
+.footer_top .border_bottom_of_hover{
+    background: #fbfbfb;
+    width: 0;
+    height: 1px;
+}
 .content_nav ul li{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 13px 16px;
 }
+.footer_top_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .content_nav ul li:hover .border_bottom_of_hover{
     width: 100%;
+}
+.footer_top ul li:hover .border_bottom_of_hover{
+    width: 100%;
+}
+.non-pointer a{
+    cursor: default;
 }
 .content_rightnav{
     display: flex;
@@ -241,7 +257,7 @@ footer{
     display: flex;
     justify-content: center;
 }
-.footer_top ul a{
+.footer_top_container{
     padding: 0 32px;
     border-right: 1px solid #FBFBFB;
 }

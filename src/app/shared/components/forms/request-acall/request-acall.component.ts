@@ -25,9 +25,13 @@ export class RequestACallComponent {
 
   private _createForm(){
     this.requestACallForm = this.fb.group({
-      Phone:['',[]]
+      Phone:['',[Validators.required]]
 
     })
+  }
+
+  get _phone(){
+    return this.requestACallForm.get("Phone")
   }
 
   getControl(controlName: string): AbstractControl {

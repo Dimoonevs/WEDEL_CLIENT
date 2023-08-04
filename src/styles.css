@@ -441,7 +441,6 @@ button:disabled{
   border-radius:  3.6px 0 0 3.6px ;
   border-right: 0.5px;
   width: 98px;
-  /* overflow-x: hidden; */
 }
 .all_top_block_phone_code .all_botom_select_selected{
   margin-right: 10px;
@@ -453,7 +452,8 @@ button:disabled{
 .text_error{
   color: #B10F0F;
   font-style: italic;
-  font-size: 12px;
+  font-size: 12px !important;
+  margin-top: -1px;
 }
 .input_error{
   border: 1px solid #EC2121 !important;

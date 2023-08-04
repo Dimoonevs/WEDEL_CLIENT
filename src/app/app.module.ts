@@ -24,6 +24,12 @@ import { PrivacyComponent } from './shared/layout/privacy/privacy.component';
 import { LottieModule } from 'ngx-lottie';
 import { ArregeComponent } from './shared/layout/home/layouts/arrege/arrege.component';
 import { QuotationComponent } from './shared/layout/home/layouts/quotation/quotation.component';
+import { JsonAminFirstComponent } from './shared/components/json/json-amin-first/json-amin-first.component';
+import { JsonAminSecondComponent } from './shared/components/json/json-amin-second/json-amin-second.component';
+import { JsonAminThirdComponent } from './shared/components/json/json-amin-third/json-amin-third.component';
+import { JsonAminFourthComponent } from './shared/components/json/json-amin-fourth/json-amin-fourth.component';
+import { JsonAminFifthComponent } from './shared/components/json/json-amin-fifth/json-amin-fifth.component';
+import { JsonAminSixthComponent } from './shared/components/json/json-amin-sixth/json-amin-sixth.component';
 
 export function playerFactory() {
   return import('lottie-web');
@@ -47,6 +53,12 @@ export function playerFactory() {
     PrivacyComponent,
     ArregeComponent,
     QuotationComponent,
+    JsonAminFirstComponent,
+    JsonAminSecondComponent,
+    JsonAminThirdComponent,
+    JsonAminFourthComponent,
+    JsonAminFifthComponent,
+    JsonAminSixthComponent,
   ],
   imports: [
     BrowserModule,

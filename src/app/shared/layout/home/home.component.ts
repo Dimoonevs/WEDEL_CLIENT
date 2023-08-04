@@ -17,64 +17,7 @@ export class HomeComponent implements OnInit {
   isAnimationPlaying = false;
   IsShowText = false;
   animationProgress = 0;
-  animElementName= ["CustomerFirst", "Agility", "FocusInInnovation", "Cooperation", "GrowthMindset", "Ownership"]
-  animElems: any[] = [
-    {    
-      path: 'assets/animation/' + this.animElementName[0] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
-    },
-    {    
-      path: 'assets/animation/' + this.animElementName[1] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
-    },
-    {    
-      path: 'assets/animation/' + this.animElementName[2] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
-    },
-    {    
-      path: 'assets/animation/' + this.animElementName[3] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
-    },
-    {    
-      path: 'assets/animation/' + this.animElementName[4] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
-    },
-    {    
-      path: 'assets/animation/' + this.animElementName[5] + ".json",
-      autoplay: this.isAnimationPlaying,
-      loop:false
-    },
-    
-  ]
-  
-  intersectionObserver!: IntersectionObserver;
-  
-
-  onAnimate(animationItem: AnimationItem): void {    
-    if (this.isAnimationPlaying){
-      animationItem.setLoop(false)
-    }
-  }
-  
-  resumeAnimation(id:any) {
-    if(this.animationProgress < 1){
-      this.isAnimationPlaying = true;
-      this.updateAnimationOptions(id)
-    }else{
-      this.isAnimationPlaying = false;
-    }
-  }
-  updateAnimationOptions(id:number) {
-    this.animElems[id] = {    
-      path: 'assets/animation/' + this.animElementName[id] + '.json',
-      autoplay: this.isAnimationPlaying  
-    }; 
-  }
+ 
 
 
   scrollTo(nameBlock:string){
