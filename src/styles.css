@@ -138,7 +138,7 @@ body{
 }
 .owl-carousel .owl-item img{
   width: calc(100%/1 - 48px)!important;
-  margin: 0 24px;
+  margin: 0 24px 24px 24px; 
 }
 .content_wrepper {
   max-width: 1030px; 
@@ -350,7 +350,7 @@ button:disabled{
 }
 .all_botom_block_select input{
   width: 100%;
-  margin-right: 16px;
+  margin-right: 24px;
 }
 
 .all_select{

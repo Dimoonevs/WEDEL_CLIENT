@@ -40,9 +40,6 @@
     .arrage .text_title{
         font-size: 28px;
     }
-    .arrage .text{
-        line-height: 17px;
-    }
     
 }
 @media (max-width: 1036px){
@@ -84,7 +81,7 @@
 }
 @media(max-width:992px){
     .img{
-        top: 54px;
+        top: 138px;
     }
     .tailored_content{
         max-width: 271px;
@@ -103,6 +100,7 @@
     }
     .content_rightnav_mobile{
         display: block;
+        margin: -16px 0;
     }
     .mobile{
         display: block;
@@ -148,20 +146,11 @@
         padding: 13px 24px;
     }
     .arrage .text_title{
-        font-size: 25px;
-    }
-    .arrage .text{
-        font-size: 13px;
-        line-height: 15px;
+        font-size: 22px;
+        line-height: 28px;
     }
     .services_cards_card_content{
         padding: 36px 0;
-    }
-    .help_card_content_toggles_toggle_questions_text{
-        font-size: 13px;
-    }
-    .help_card_content_toggles_toggle_questions{
-        padding: 10px;
     }
     .help_card_content_toggles_title{
         font-size: 24px;
@@ -177,7 +166,7 @@
     }
     .contact_card{
         height: auto;
-        padding: 25px 12px;
+        padding: 25px 24px;
         flex-direction: column;
     }
     .contact_card_links{
@@ -232,19 +221,20 @@
     .arrage_cards_card{
         display: flex;
         flex-direction: column-reverse;
+        justify-content: flex-end;
         margin: 0 15px;
     }
     .arrage_cards_card_fs{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_fs.svg') 0 0/100% auto no-repeat;
+        background: url('src/assets/img/bg_service_fs.svg') 0 0/cover no-repeat;
     }
     .arrage_cards_card_sc{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_sc.svg') 0 0/100% auto no-repeat;
+        background: url('src/assets/img/bg_service_sc.svg') 0 0/cover no-repeat;
     }
     .arrage_cards_card_th{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_th.svg') 0 0/100% auto no-repeat;
+        background: url('src/assets/img/bg_service_th.svg') 0 0/cover no-repeat;
     }
     
     .arrage_cards_card_text{
@@ -365,6 +355,9 @@
     .arrage_cards_card .arrage_cards_card_dark_img{
         display: none;
     }
+    .arrage_cards_card_text_title{
+        margin-bottom: 24px;
+    }
 }
 @media (max-width: 818px) {
     .services_cards_card_content_texts_tabled{
@@ -476,7 +469,7 @@
         width: 100%;
     }
     .quotation_block_forms{
-        margin-top: 47px;
+        margin-top: 48px;
     }
     .quotation_block_progress{
         display: none;
@@ -522,12 +515,12 @@
         flex-direction: column;
         align-items: center;
     }
-    .footer_top ul li a{
+    .footer_top_container{
         border: none;
     
     }
     .footer_top ul li{
-        margin: 12px 0;
+        margin: 18px 0;
     }
     .story_card_manifesto_card_contaniner_block{
         width: 237px;
@@ -569,9 +562,61 @@
         margin-top: 12px;
     }
 }
+
+/* START MOBILE */
+/* START MOBILE */
+/* START MOBILE */
 @media(max-width: 638px){
-    .img{
+    /* .img{
         top: 97px;
+    } */
+    .logo svg{
+        width: 136px;
+        height: 28px;
+    }
+    .tailored{
+        padding-top: 136px;
+    }
+    .tailored_content_text_parag{
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+
+    footer{
+        padding: 24px 0;
+    }
+    .footer_top{
+        padding-bottom: 24px;
+    }
+    .footer_bottom_text{
+        margin: 24px 0;
+    }
+    .title_all{
+        margin-bottom: 40px;
+    }
+    .title_all_block{
+        padding-bottom: 16px;
+    }
+    .services_cards_card_content{
+        padding: 24px 0;
+    }
+    .services_cards_card_content_title{
+        margin-bottom: 24px;
+    }
+    .services_cards_card_content_texts{
+        margin-bottom: 36px;
+    }
+    .services_cards_card_content_texts_text_description{
+        padding: 16px;
+    }
+    .stepper{
+        margin-bottom: 36px;
+    }
+    .sender_text_top{
+        margin-bottom: 36px;
+    }
+    .help_card_content_toggles_toggle_questions{
+        padding: 16px;
     }
     .img svg{
         margin-top: -50px;
@@ -656,6 +701,78 @@
     .stepper_swg_text_all{
         font-size: 19px;
     }
+    .help_card{
+        padding: 24px 0;
+    }
+    .form_contact{
+        padding: 0;
+        background: none;
+    }
+    .text_title{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .tailored_content_text_title {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 24px;
+    }
+    .arrage{
+        margin-top: 75px;
+        margin-bottom: 64px;
+    }
+    .services{
+        margin-bottom: 64px;
+    }
+    .quotation{
+        margin-bottom: 64px;
+    }
+    .tracking{
+        margin-bottom: 64px;
+    }
+    .story{
+        margin-bottom: 64px;
+    }
+    .help{
+        margin-bottom: 64px;
+    }
+    .contact{
+        margin-bottom: 71px;
+    }
+    .arrage_title{
+        margin-bottom: 40px;
+    }
+    .tracking_content_top{
+        margin-bottom: 24px;
+    }
+    .tracking_content_text{
+        margin-bottom: 24px;
+        padding: 16px;
+    }
+    .form_contact_text{
+        padding: 16px;
+    }
+    .story_card_title{
+        display: none;
+    }
+    .story_card_values_title{
+        display: none;
+    }
+    .story_card_values_title--modile{
+        display: block;
+        text-align: center;
+    }
+    .title_for_story{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 28px;
+    }
+    .services_cards_card{
+        margin: 40px 0;
+    }
+    .sender_text_top{
+        padding: 16px;
+    }
 }
 @media(max-width: 562px){
     .quotation_block_progress_curcle_text{
@@ -734,55 +851,6 @@
     .logo img{
         width: 144px;
     }
-    .services_cards_card_content{
-        padding: 24px 0;
-    }
-    .tailored_content_text_title{
-        font-size: 30px;
-        margin-bottom: 24px;
-    }
-    .tailored_content_text_parag{
-        line-height: 22px;
-        margin-bottom: 40px;
-    }
-    .arrage_cards_card{
-        margin: 0px;
-    }
-    .arrage_title{
-        margin-bottom: 40px;
-    }
-    .text_title{
-        font-size: 22px;
-        line-height: 28px;
-    }
-    .title_all{
-        margin-bottom: 40px;
-    }
-    .services_cards_card_content_title{
-        margin-bottom: 24px;
-    }
-    .services_cards_card_content_texts{
-        margin-bottom: 36px;
-    }
-    .services_cards_card_content_texts_text_description{
-        padding: 16px;
-    }
-    .stepper{
-        margin-bottom: 36px;
-    }
-    .sender_text_top{
-        margin-bottom: 36px;
-    }
-    .tracking_content_top{
-        margin-bottom: 24px;
-    }
-    .tracking_content_text{
-        margin-bottom: 24px;
-        padding: 16px 24px;
-    }
-    .help_card{
-        padding: 24px 0;
-    }
     .stepper_swg_text_all{
         font-size: 19px;
     }
@@ -795,7 +863,7 @@
         margin-left: 6px;
     }
     .wrapper-header{
-        padding: 8px 8px;
+        padding: 16px 20px;
     }
     button{
         padding: 14px 6px;
@@ -811,12 +879,6 @@
         top: 17px;
         left: -59px;
         font-size: 10px;
-    }
-    .arrage{
-        margin-top: 120px;
-    }
-    .title_all_block{
-        padding-bottom: 16px;
     }
     .active_mobile{
         width: 194px;

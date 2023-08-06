@@ -1115,6 +1115,14 @@
           <context context-type="linenumber">5524</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8372417110884815849" datatype="html">
+        <source> Tailored solution for your airfreight </source>
+        <target>Řešení na míru pro úspěch vaší zásilky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5554,5556</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="3519986166834284512" datatype="html">
         <source>Request a quote</source>
         <target>Poptat cenu</target>

@@ -2,7 +2,7 @@
 .wrapper-header {
     max-width: 1160px; 
     margin: 0 auto; 
-    padding: 3px 16px; 
+    padding: 16px 20px; 
     box-sizing: border-box; 
     display: flex;
     justify-content:space-between;
@@ -60,7 +60,7 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 13px 16px;
+    margin: 0px 16px;
 }
 .footer_top_container{
     display: flex;
@@ -80,6 +80,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: -24px;
 }
 .sleceted_header{
     margin-right: 24px;
@@ -141,14 +142,14 @@ button{
 }
 .mobile{
     position: absolute;
-    top: 58.5px;
+    top: 74.5px;
     right: -300px;
     transition: .5s;
     z-index: 9999;
     background: linear-gradient(124.98deg, rgba(255, 255, 255, 0.4) 11.72%, rgba(255, 255, 255, 0.1) 89.81%);
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(20px);
-    height: 100vh;
+    height: calc(100vh - 74px);
     display: none;
 }
 .mobile_content_nav {
@@ -156,7 +157,7 @@ button{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 45px;
+    padding: 24px 20px;
     transition: .5s;
     height: 100%;
 }
@@ -174,6 +175,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: -12px 0;
 }
 .active_mobile{
     width: 300px;
@@ -190,7 +192,8 @@ button{
 
 }
 .mobile_content_nav li{
-    margin: 15px 0;
+    padding: 13px 0;
+    margin: 12px 0;
 }
 
 .burger {

@@ -60,7 +60,10 @@ form{
     display: flex;
     flex-direction: column;
 }
-@media(max-width:603px){
+.form_request_a_call_button{
+    height: 40px;
+}
+@media(max-width:638px){
     form{
         flex-direction: column;
     }
@@ -72,5 +75,8 @@ form{
         max-width: none;
         width: 100%;
         margin-top: 24px;
+    }
+    .form_request_a_call_button{
+        height: 48px;
     }
 }

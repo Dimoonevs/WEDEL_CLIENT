@@ -45,7 +45,7 @@
     padding: 48px;
 }
 .arrage_cards_card{
-    min-height: 502px;
+    min-height: 477px;
     margin: 0 25px;
 }
 .wrapper_arrage_cards_card_text_ul_li{
@@ -99,6 +99,7 @@
     padding: 12px 16px;
     border-radius: 50%;
     transition: .5s;
+    z-index: 9999;
 }
 .custom_button:hover{
     background: rgba(102, 135, 173, 0.16);
