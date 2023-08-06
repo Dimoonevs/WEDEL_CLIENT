@@ -1175,8 +1175,8 @@
           <context context-type="linenumber">5634</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="979503642896303544" datatype="html">
-        <source>an individual price list</source>
+      <trans-unit id="4499233733301691521" datatype="html">
+        <source>instead of an individual price list</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5635</context>
@@ -1189,8 +1189,8 @@
           <context context-type="linenumber">5638</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1699857260982294474" datatype="html">
-        <source>saving costs instead of simply solving the request</source>
+      <trans-unit id="7166250228636502224" datatype="html">
+        <source>instead of simply solving the request</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5639</context>
@@ -1203,8 +1203,8 @@
           <context context-type="linenumber">5642</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4909031884951128554" datatype="html">
-        <source>an employee approach</source>
+      <trans-unit id="4464214253517449903" datatype="html">
+        <source>instead of an employee approach</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5643</context>
@@ -1217,8 +1217,8 @@
           <context context-type="linenumber">5646</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="556431882086009302" datatype="html">
-        <source>a customer-supplier relationship</source>
+      <trans-unit id="6100453655451258067" datatype="html">
+        <source>instead of a customer-supplier relationship</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5647</context>
@@ -1231,8 +1231,8 @@
           <context context-type="linenumber">5650</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5119173928427097502" datatype="html">
-        <source>communication with several departments</source>
+      <trans-unit id="2891671028066525973" datatype="html">
+        <source>instead of communication with several departments</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5651</context>
@@ -1245,8 +1245,8 @@
           <context context-type="linenumber">5654</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1126770656462548583" datatype="html">
-        <source>non-transparent surcharges</source>
+      <trans-unit id="8813530758009418612" datatype="html">
+        <source>instead of non-transparent surcharges</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5655</context>
@@ -1259,8 +1259,8 @@
           <context context-type="linenumber">5658</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5097333256229789840" datatype="html">
-        <source>blindly following the given process</source>
+      <trans-unit id="5845581746576026367" datatype="html">
+        <source>instead of blindly following the given process</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5659</context>
@@ -1273,8 +1273,8 @@
           <context context-type="linenumber">5662</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2899416372327536515" datatype="html">
-        <source>depersonalizing and transferring part of the process to the customer</source>
+      <trans-unit id="7178351833638169138" datatype="html">
+        <source>instead of depersonalizing and transferring part of the process to the customer</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5663</context>

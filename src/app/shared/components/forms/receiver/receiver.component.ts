@@ -131,6 +131,29 @@ export class ReceiverComponent {
   slectValue(country: string){
     this.formService.setReceiverCountry(country)
   }
+  toggleFocuse(){
+    if(!this.countryInpIsActive){
+      const inputCountry = document.querySelector('.county_container')
+      const inputImg = document.querySelector('.img_inpu_country')
+      inputCountry?.classList.add("country--focus")
+      inputImg?.classList.add("img_inpu_country--focus")
+      this.countries = []
+      this.getCountryAndCallingCodeAnddigits()
+      this.countryInpIsActive = true;
+    }else{
+      const inputCountry = document.querySelector('.county_container')
+      const inputImg = document.querySelector('.img_inpu_country')
+      inputCountry?.classList.remove("country--focus")
+      inputImg?.classList.remove("img_inpu_country--focus")
+      this.countries = []
+      this.countryInpIsActive = false;
+    }
+    const select = document.querySelector('.all_botom_select_options_codes_container')
+    const img = document.querySelector(".all_img_selected_phone")
+    select?.classList.remove('all_botom_select_options--focuse')
+    img?.classList.remove("all_img_selected--active")
+    this.codeCallingIsActive = false
+  }
   addFocuse(){
     const inputCountry = document.querySelector('.county_container')
     const inputImg = document.querySelector('.img_inpu_country')
@@ -193,21 +216,19 @@ export class ReceiverComponent {
     img?.classList.toggle("all_img_selected--active")
   }
   toogleActiveForSlectOptionPhone(){
-    this.callingCode = []
-    this.countries = []
-    this.digitsAfterCode = []
-    this.getCountryAndCallingCodeAnddigits()
-
-    const select = document.querySelector('.all_botom_select_options_codes')
+    const select = document.querySelector('.all_botom_select_options_codes_container')
     const img = document.querySelector(".all_img_selected_phone")
     select?.classList.toggle('all_botom_select_options--focuse')
     img?.classList.toggle("all_img_selected--active")
+    
 
     const inputCountry = document.querySelector('.county_container')
     const inputImg = document.querySelector('.img_inpu_country')
     inputCountry?.classList.remove("country--focus")
     inputImg?.classList.remove("img_inpu_country--focus")
     this.codeCallingIsActive = !this.codeCallingIsActive
+    // this.getCountry()
+    this.getCountryAndCallingCodeAnddigits()
   }
   onFocusNumber(){
     const codeNumber = document.querySelector(".all_top_block_phone_code");

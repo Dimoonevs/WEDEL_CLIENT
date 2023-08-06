@@ -40,10 +40,12 @@
   }
   
   input, button, textarea {
+    -webkit-font-family: inherit;
     font-family: inherit;
   }
   
   input::-ms-clear {
+    -webkit-display: none;
     display: none;
   }
   
@@ -356,7 +358,7 @@ button:disabled{
 .all_select{
   width: 100%;
   border-radius: 4px;
-  padding: 4px;
+  padding: 4px 2px;
   display: flex;
 }
 .border_for_select{
@@ -646,7 +648,7 @@ button:disabled{
   height: 8px;
   border-radius: 50%;
   background: rgba(106, 109, 112, 0.16) !important;
-  margin: 0 5px;
+  margin: 0 4px;
   cursor: pointer;
   transition: .5s;
 }

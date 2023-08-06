@@ -18,7 +18,7 @@
         </div>
         <div class="all_top_block counrty_block">
             <label for="Country" class="all_top_block_text text" i18n>Country<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text two">This field is required</div></div> </label>
-            <div class="img_inpu_country"><img src="assets/img/input_simvol.svg" alt="" (click)="addFocuse()" ></div>
+            <div class="img_inpu_country"><img src="assets/img/input_simvol.svg" alt="" (click)="toggleFocuse()" ></div>
             <input type="text" (click)="addFocuse()"  [(ngModel)]="valueCountry" autocomplete="off" name="Country" class="all_top_block_inp all_top_block_inp_country text" (keyup)="onKeay(valueCountry)"  formControlName="Country">
             <div class="county_container">
                 <div id="country" class="country">

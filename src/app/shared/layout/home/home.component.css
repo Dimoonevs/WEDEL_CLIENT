@@ -206,7 +206,7 @@
 .help_card_content_toggles_toggle_questions{
     display: flex;
     justify-content: space-between;
-    padding: 16px 24px;
+    padding: 17px 24px;
     background: #537399;
     border-radius: 4px ;
     transition: .5s;
@@ -352,7 +352,7 @@
 .contact_card_links_block_button{
     padding: 9px 0;
     background: rgba(102, 135, 173, 0.16);
-    border-radius: 3.6px;
+    border-radius: 4px;
     color: #456080;
     width: 100%;
     display: flex;

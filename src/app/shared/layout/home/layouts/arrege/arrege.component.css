@@ -95,8 +95,12 @@
     left: -35px;
     top: 238px;
     cursor: pointer;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto 0;
-    padding: 12px 16px;
     border-radius: 50%;
     transition: .5s;
     z-index: 9999;

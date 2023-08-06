@@ -18,9 +18,12 @@ header{
     color: var(--primary-300, #B3C3D6);
 }
 .sleceted_header{
-    background: #E6EBF1;
+    background: #EFF3F6;
     border-radius: 4px;
-  }
+}
+.all_select{
+    border-radius: 3.6px;
+}
 .all_select_text_active{
     background: #FBFBFB;
 }
@@ -99,6 +102,7 @@ button{
 .all_select .span_get{
     padding: 12px 6px;
     line-height: 4px;
+    font-size: 14px;
 }
 .span_get_img{
     padding: 4px 7.5px;

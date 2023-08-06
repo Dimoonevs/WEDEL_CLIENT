@@ -189,6 +189,29 @@ export class SenderComponent {
   slectValue(country: string){
     this.formService.setSenderCountry(country);
   }
+  toggleFocuse(){
+    if(!this.countryInpIsActive){
+      const inputCountry = document.querySelector('.county_container')
+      const inputImg = document.querySelector('.img_inpu_country')
+      inputCountry?.classList.add("country--focus")
+      inputImg?.classList.add("img_inpu_country--focus")
+      this.countries = []
+      this.getCountryAndCallingCodeAnddigits()
+      this.countryInpIsActive = true;
+    }else{
+      const inputCountry = document.querySelector('.county_container')
+      const inputImg = document.querySelector('.img_inpu_country')
+      inputCountry?.classList.remove("country--focus")
+      inputImg?.classList.remove("img_inpu_country--focus")
+      this.countries = []
+      this.countryInpIsActive = false;
+    }
+    const select = document.querySelector('.all_botom_select_options_codes_container')
+    const img = document.querySelector(".all_img_selected_phone")
+    select?.classList.remove('all_botom_select_options--focuse')
+    img?.classList.remove("all_img_selected--active")
+    this.codeCallingIsActive = false
+  }
   addFocuse(){
     const inputCountry = document.querySelector('.county_container')
     const inputImg = document.querySelector('.img_inpu_country')
@@ -197,6 +220,7 @@ export class SenderComponent {
     this.countries = []
     this.getCountryAndCallingCodeAnddigits()
     this.countryInpIsActive = true;
+    
     
     const select = document.querySelector('.all_botom_select_options_codes_container')
     const img = document.querySelector(".all_img_selected_phone")

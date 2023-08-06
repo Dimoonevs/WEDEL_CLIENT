@@ -60,9 +60,6 @@ form{
     display: flex;
     flex-direction: column;
 }
-.form_request_a_call_button{
-    height: 40px;
-}
 @media(max-width:638px){
     form{
         flex-direction: column;
