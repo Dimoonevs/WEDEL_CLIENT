@@ -220,9 +220,12 @@
 .dark .story_card_values_cards_card{
     background: rgba(82, 84, 87, 0.5) !important;
 }
-/* .dark .story_card_manifesto_card{
-    background: rgba(69, 96, 128, 0.2) !important;
-} */
+.dark .story_card_manifesto_card{
+    background: none !important;
+}
+.dark .story_card_manifesto_card_contaniner_block_text{
+    color: #D9DADC !important;
+}
 
 /* Story */
 

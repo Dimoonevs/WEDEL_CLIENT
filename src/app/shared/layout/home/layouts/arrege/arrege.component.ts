@@ -8,7 +8,9 @@ import { OwlCarousel } from 'ngx-owl-carousel';
 })
 export class ArregeComponent {
   @ViewChild(OwlCarousel)carousel!: OwlCarousel;
-IsShowText = false;
+IsShowTextOne = false;
+IsShowTextTwo = false;
+IsShowTextThree = false
 ngAfterViewInit(): void {
   this.toggleCartContentCarusel();
 }
@@ -25,11 +27,41 @@ onCarouselInitialized() {
   if (this.carousel) {
   }
 }
-showText(){
-  this.IsShowText = !this.IsShowText;
-  const serviceText = document.querySelectorAll('.arrage_cards_card')
-  for(let i =0; i < serviceText.length; i++){
-    serviceText[i].classList.toggle('arrage_cards_card--active')
+showText(id:number){
+  // this.IsShowText = !this.IsShowText;
+  // const serviceText = document.querySelectorAll('.arrage_cards_card')
+  // for(let i =0; i < serviceText.length; i++){
+  //   console.log(serviceText)
+  //   serviceText[i].classList.toggle('arrage_cards_card--active')
+  // }
+  switch (id){
+    case 1:
+      {
+        const serviceText = document.querySelectorAll('.arrage_cards_card_fs')
+        for(let i =0; i < serviceText.length; i++){
+          serviceText[i].classList.toggle('arrage_cards_card--active')
+        }
+        this.IsShowTextOne = !this.IsShowTextOne
+        break;
+      }
+    case 2:
+      {
+        const serviceText = document.querySelectorAll('.arrage_cards_card_sc')
+        for(let i =0; i < serviceText.length; i++){
+          serviceText[i].classList.toggle('arrage_cards_card--active')
+        }
+        this.IsShowTextTwo = !this.IsShowTextTwo
+        break;
+      }
+    case 3:
+      {
+        const serviceText = document.querySelectorAll('.arrage_cards_card_th')
+        for(let i =0; i < serviceText.length; i++){
+          serviceText[i].classList.toggle('arrage_cards_card--active')
+        }
+        this.IsShowTextThree = !this.IsShowTextThree
+        break;
+      }
   }
  }
  prevSlide() {

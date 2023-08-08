@@ -262,14 +262,20 @@
         justify-content: center;
         align-items: center;
     }
+    .arrage_cards_card--active .arrage_cards_card_text_contener {
+        max-height: 505px; 
+        display: block;
+        -webkit-box-orient: horizontal; 
+        -webkit-line-clamp: initial; 
+    }
     .arrage_cards_card_text_contener{
         max-height: 100px;
         overflow: hidden;
         transition: .5s;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
     }
-    .arrage_cards_card--active .arrage_cards_card_text_contener {
-        max-height: 505px; 
-      }
     .owl-dots {
         margin-top: 16px;
     }
@@ -663,15 +669,19 @@
     }
     .story_card{
         padding: 48px 0;
+        display: block;
     }
     .story_card--active{
         max-height: 289px;
         overflow: hidden;
     }
     .story_card_text--active{
-        max-height: 90px;
+        /* max-height: 90px; */
         overflow-y: hidden;
         margin-bottom: 180px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 7;
     }
     .story_card button{
         display: flex;
