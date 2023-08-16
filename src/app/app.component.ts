@@ -1,5 +1,5 @@
 import { Component, ElementRef, HostListener } from '@angular/core';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, NavigationExtras, Params, Router } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
 import { FormService } from './shared/service/form.service';
@@ -204,20 +204,17 @@ export class AppComponent {
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    const newTab = window.open('', '_blank');
-    if(newTab)
-    newTab.location.href = '/cookies';
+    const newTab = window.open('/cookies', '_blank');
+    newTab?.focus();
     this.closeCookies()
   }
   routeToPrivacy(){
-    const newTab = window.open('', '_blank');
-    if(newTab)
-    newTab.location.href = '/privacy';
+    const newTab = window.open('/privacy', '_blank');
+    newTab?.focus();
   }
   routeToGDPR(){
-    const newTab = window.open('', '_blank');
-    if(newTab)
-    newTab.location.href =  '/GDPR';
+    const newTab = window.open('/GDPR', '_blank');
+    newTab?.focus();
   }
   loadingBiforeLoadAllPage(){
     const loadDiv = document.querySelector(".loading") as HTMLElement;
