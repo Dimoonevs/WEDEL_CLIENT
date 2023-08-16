@@ -206,18 +206,18 @@ export class AppComponent {
     this.showCookiesSettings = true
     const newTab = window.open('', '_blank');
     if(newTab)
-    newTab.location.href = this.lenguege +  '/cookies';
+    newTab.location.href = '/cookies';
     this.closeCookies()
   }
   routeToPrivacy(){
     const newTab = window.open('', '_blank');
     if(newTab)
-    newTab.location.href = this.lenguege + '/privacy';
+    newTab.location.href = '/privacy';
   }
   routeToGDPR(){
     const newTab = window.open('', '_blank');
     if(newTab)
-    newTab.location.href = this.lenguege +  '/GDPR';
+    newTab.location.href =  '/GDPR';
   }
   loadingBiforeLoadAllPage(){
     const loadDiv = document.querySelector(".loading") as HTMLElement;

@@ -8,8 +8,14 @@ import { InformationComponent } from './shared/layout/information/information.co
 const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: 'cookies', component: CookiesComponent},
+  {path: 'cs/cookies', component: CookiesComponent},
+  {path: 'en-US/cookies', component: CookiesComponent},
   {path: "GDPR", component: PrivacyComponent},
-  {path: "privacy", component: InformationComponent}
+  {path: "cs/GDPR", component: PrivacyComponent},
+  {path: "en-US/GDPR", component: PrivacyComponent},
+  {path: "privacy", component: InformationComponent},
+  {path: "cs/privacy", component: InformationComponent},
+  {path: "en-US/privacy", component: InformationComponent},
 ];
 
 @NgModule({
