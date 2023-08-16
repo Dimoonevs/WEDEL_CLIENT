@@ -13,7 +13,7 @@ export class FormService{
     senderStreet!: string;
     senderContacts!: string;
     senderBuget!: string;
-    senderPhoneCode = "+380";
+    senderPhoneCode = "+420";
     senderDigitCode = 9;
 
     setSenderDigitCode(num:number){
@@ -209,7 +209,7 @@ export class FormService{
     receiverStreet!: string;
     receiverContacts!: string;
     receiverEmail!: string;
-    receiverPhoneCode = "+380"
+    receiverPhoneCode = "+420"
     receiverDigitCode = 9
 
     getReceiverDigitCode():number{
@@ -283,7 +283,7 @@ export class FormService{
       this.senderStreet = "";
       this.senderContacts = "";
       this.senderBuget = "";
-      this.senderPhoneCode = "+380";
+      this.senderPhoneCode = "+420";
       this.senderDigitCode = 9;
       this.specBoxesWidth = [];
       this.specBoxesLength = [];
@@ -307,7 +307,7 @@ export class FormService{
       this.receiverStreet = "";
       this.receiverContacts = "";
       this.receiverEmail = "";
-      this.receiverPhoneCode = "+380"
+      this.receiverPhoneCode = "+420"
       this.receiverDigitCode = 9
     }
 

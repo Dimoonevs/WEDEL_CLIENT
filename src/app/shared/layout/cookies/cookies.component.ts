@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AnimationService } from '../../service/animation.service';
 
 @Component({
   selector: 'app-cookies',
@@ -6,13 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./cookies.component.css','../../../media/app.media-mobile.css', '../../../media/app.media-4K.css']
 })
 export class CookiesComponent {
+  constructor(private service: AnimationService){}
   ngOnInit(): void {
     const headerNavs = document.querySelectorAll(".nav_all")
     const toggleLengAndTheme = document.querySelector('.content_rightnav')
     const burger = document.querySelector(".burger")
     const mobile = document.querySelector(".mobile")
     const cookies = document.querySelector('.cookies')
-
+    
     toggleLengAndTheme?.classList.add('none_elem')
     burger?.classList.add("none_elem")
     mobile?.classList.add("none_elem")
@@ -20,5 +22,6 @@ export class CookiesComponent {
     headerNavs.forEach(nav => {
       nav.classList.add("none_elem")
     });
+    this.service.setTrueIsCkecked()
   }
 }

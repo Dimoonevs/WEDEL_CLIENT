@@ -2,6 +2,8 @@ import { Component, ElementRef, HostListener } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
+import { FormService } from './shared/service/form.service';
+import { AnimationService } from './shared/service/animation.service';
 
 declare var particlesJS: any;
 
@@ -44,7 +46,7 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cs", leng: 'cs'}
   ]
   
-  constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent){
+  constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
   }
@@ -106,7 +108,9 @@ export class AppComponent {
   ngOnInit(): void {
     this.loadingSequenceLoop()
     this.loadParticales()
-    this.showCookies()
+    if(!this.service.myVariable){
+      this.showCookies()
+    }
 
 
     const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
@@ -200,11 +204,20 @@ export class AppComponent {
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    this.router.navigate(['cookies'])
+    const newTab = window.open('', '_blank');
+    if(newTab)
+    newTab.location.href = '/cookies';
     this.closeCookies()
   }
   routeToPrivacy(){
-    this.router.navigate(['privacy'])
+    const newTab = window.open('', '_blank');
+    if(newTab)
+    newTab.location.href = '/privacy';
+  }
+  routeToGDPR(){
+    const newTab = window.open('', '_blank');
+    if(newTab)
+    newTab.location.href = '/GDPR';
   }
   loadingBiforeLoadAllPage(){
     const loadDiv = document.querySelector(".loading") as HTMLElement;

@@ -5,12 +5,28 @@ import { Injectable } from '@angular/core';
 })
 export class AnimationService {
 
+  _myVariable : boolean | any;
+
+  constructor(){
+    const savedValue = localStorage.getItem('myVariable');
+    this._myVariable = savedValue === 'false';
+  }
+
   blinkPaths(paths: NodeListOf<Element>, currentIndexLight: number) {
     const path = paths[currentIndexLight];
     path.classList.add('pulse');
     setTimeout(() => {
       path.classList.remove('pulse');
     }, 800);
+  }
+
+  get myVariable(): boolean {
+    return this._myVariable;
+  }
+  setTrueIsCkecked(){
+    const savedValue = localStorage.getItem('myVariable');
+    this._myVariable = savedValue === 'true';
+    localStorage.setItem('myVariable', this._myVariable.toString());
   }
 
   pathMethod(elRef: any) {

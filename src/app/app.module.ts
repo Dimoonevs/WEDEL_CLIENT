@@ -10,7 +10,7 @@ import { DueDateComponent } from './shared/components/forms/due-date/due-date.co
 import { ReceiverComponent } from './shared/components/forms/receiver/receiver.component';
 import { HttpClientModule} from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MAT_DATE_LOCALE, MatNativeDateModule } from '@angular/material/core';
+import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { SummaryComponent } from './shared/components/forms/summary/summary.component';
 import { NgxMaskModule } from 'ngx-mask-2';
 import { OwlModule } from 'ngx-owl-carousel';
@@ -30,6 +30,7 @@ import { JsonAminThirdComponent } from './shared/components/json/json-amin-third
 import { JsonAminFourthComponent } from './shared/components/json/json-amin-fourth/json-amin-fourth.component';
 import { JsonAminFifthComponent } from './shared/components/json/json-amin-fifth/json-amin-fifth.component';
 import { JsonAminSixthComponent } from './shared/components/json/json-amin-sixth/json-amin-sixth.component';
+import { InformationComponent } from './shared/layout/information/information.component';
 
 export function playerFactory() {
   return import('lottie-web');
@@ -59,6 +60,7 @@ export function playerFactory() {
     JsonAminFourthComponent,
     JsonAminFifthComponent,
     JsonAminSixthComponent,
+    InformationComponent,
   ],
   imports: [
     BrowserModule,

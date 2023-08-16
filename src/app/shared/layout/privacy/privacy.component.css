@@ -31,3 +31,9 @@
 .privacy_text_block_text--mobile{
     display: none;
 }
+.privacy_text_block_title{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+}
+

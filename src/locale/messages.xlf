@@ -6,11 +6,11 @@
         <source>We do</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">20</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">72</context>
+          <context context-type="linenumber">73</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
@@ -21,11 +21,11 @@
         <source>Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">74</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -36,11 +36,11 @@
         <source>Quote</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/quotation/quotation.component.html</context>
@@ -51,11 +51,11 @@
         <source>Tracking</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">23</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">76</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -66,11 +66,11 @@
         <source>Our story</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">77</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -81,11 +81,11 @@
         <source>FAQ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -96,39 +96,46 @@
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="173101900787004043" datatype="html">
         <source>Terms of Conditions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">129</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3387422732252707037" datatype="html">
+        <source>GDPR</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">131</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6447983112718925436" datatype="html">
         <source>For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">134</context>
+          <context context-type="linenumber">136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8797830656463947414" datatype="html">
         <source> This website exclusively utilizes essential functional and analytical cookies while abstaining from the usage of marketing trackers. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">152,154</context>
+          <context context-type="linenumber">154,156</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2827984212740060090" datatype="html">
         <source>Read more</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">157</context>
+          <context context-type="linenumber">159</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1109117195472260452" datatype="html">
@@ -1538,6 +1545,832 @@
           <context context-type="linenumber">93</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="77347993439859946" datatype="html">
+        <source> General forwarding Terms and Conditions </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">4,6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2911475154635714945" datatype="html">
+        <source> These General Forwarding Terms and Conditions (hereinafter referred to as &quot;GFC&quot;) of the companyWE-DEL s.r.o., ID No.: 192 03 462, with registered office at Aviatická 1092/8, Ruzyně, 161 00Praha 6, registered in the Commercial Register kept at the Municipal Court in Prague under the registration number C 383004 (hereinafter referred to as &quot;Forwarder&quot;), regulate in accordance with the provisions of § 1751(1) of Act No. 89/2012 Coll, Civil Code, as amended (hereinafter referred to as the &quot;CC&quot;) in conjunction with the provisions of § 2471 et seq. of the CC, the mutual rights and obligations of the Freight Forwarder (as the Freight Forwarder) and its customers (as the Principal) (hereinafter referred to as the &quot;Principal&quot;) arising in connection with or on the basis of freight forwarding contracts (hereinafter referred to as the &quot;Freight Forwarding Contract&quot; or the &quot;FFC&quot;) concluded in the course of the Freight Forwarder&apos;s business between the Freight Forwarder and the Principal. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6187657982924663468" datatype="html">
+        <source> These T&amp;C apply to cases where the person of the Principal who intends to conclude a Forwarding Contract with the Forwarder is a legal person or a person who acts in the course of concluding the T&amp;C in the course of his/her business activity or in the course of his/her independent exercise of his/her profession. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2280421609807146729" datatype="html">
+        <source>Download PDF</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8508969430286683882" datatype="html">
+        <source> 1. Introductory provisions </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5634897792070874177" datatype="html">
+        <source>1.1 By the Forwarding Agreement, the Forwarder undertakes to arrange for the transport (hereinafter referred to as &quot;Transport&quot;) of the agreed consignment (i.e. the item that has been handed over by the Principal for the provision of the forwarding service under the GTC) (hereinafter referred to as &quot;Shipment&quot;) from the place specified in the GTC (hereinafter referred to as &quot;Place of Handover&quot;) to another place specified in the GTC (hereinafter referred to as &quot;Destination&quot;), by a non-transportation company selected by the Sender under the PO (who shall, for the account of the Principal, transport the Shipment from the Place of Delivery to the Destination on the terms and conditions set out in the PO) (hereinafter referred to as &quot;Carrier&quot;), or procure or perform the acts related to such carriage and agreed in the PO, and the Principal agrees to pay the Sender a fee (hereinafter referred to as &quot;Fee&quot;) in respect thereof.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2597978171159147252" datatype="html">
+        <source>1.2 These T&amp;C form an integral part of any Forwarding Contract, whether made orally or by email, in writing or by implication, pursuant to which the Forwarder undertakes to arrange for the carriage of the Shipment and the Principal undertakes to pay the Forwarder the Fee. These T&amp;Cs thus bind the relationship arising between the Sender and the Principal in arranging the Carriage of Shipments. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7702021622779438352" datatype="html">
+        <source>1.3 Arrangements deviating from the GTC may be negotiated in the Forwarding Agreement. In accordance with Section 1751(1) of the CC, the provisions of the GTC shall prevail over the provisions of the GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="189440459456365" datatype="html">
+        <source>1.4 The Sender may change or supplement the wording of these GTC. However, this provision shall not affect the rights and obligations arising during the period of validity of the previous version of the GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3440093438017633246" datatype="html">
+        <source> 2. Conclusion of the Forwarding Agreement </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">39,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7434492954587283189" datatype="html">
+        <source>I. specification of the Principal;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2542576842916438517" datatype="html">
+        <source>2.1 The Forwarding Contract between the Forwarder and the Principal will normally be concluded electronically on the basis of an Order Form (hereinafter referred to as the &quot;Form&quot;), a general specimen of which may be provided by the Forwarder to the Principal prior to the conclusion of the Contract, and which the Principal will return (usually by e-mail) to the Forwarder after it has been duly completed (see below). The form completed by the Principal will generally contain the following sub-essentials of the ToR:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6265203885613463806" datatype="html">
+        <source>II. the specification of the Shipment (in particular the weight, size and shape of the Shipment and the nature of its contents);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6522811383124577153" datatype="html">
+        <source>III. the place and time of Delivery of the Shipment to the Sender and/or directly to the Carrier by the Principal;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2174525593494748001" datatype="html">
+        <source>IV. The destination and specification of the recipient of the Shipment;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2121170669326200847" datatype="html">
+        <source>V. contact information of the Principal and the recipient of the Shipment;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="67524550029502307" datatype="html">
+        <source>2.2 If the Form is absent in a particular case, it and the legal and other consequences provided for in this GTC shall be replaced by an e-mail or other form of communication between the Principal and the Sender (hereinafter referred to as &quot;Communication&quot;) containing, in particular, the above described sub-essential elements of the GTC. The Principal shall be fully responsible for the accuracy of all information contained in the Form and/or the Communication, as well as for the accuracy of all information contained in other e-mail and other communications with the Sender. Also, by completing the Form and sending it to the Sender and/or by the Principal&apos;s continuation of the Communication even after the Principal has been presented with these T&amp;Cs by the Sender (even if only electronically), the Principal agrees to these T&amp;Cs as an integral part of the Principal&apos;s requested Shipper Agreement.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1971292372556169803" datatype="html">
+        <source>2.3 If the Sender finds that the Form received by it and completed by the Principal is incomplete and/or vague and/or the information received by it from the Principal in the Communication is incomplete and/or vague, it is entitled to invite the Principal to complete or clarify the Form and/or the Communication. The Sender reserves the right to reject and/or not respond to any Form and/or Communication received by the Sender.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5782217276652233444" datatype="html">
+        <source>2.4 Following the Form completed by the Principal and received by the Freight Forwarder and/or the Communication between the Principal and the Freight Forwarder, the Freight Forwarder shall process the Form and/or the Communication, if applicable, remove its defects and/or deficiencies and/or inadequacies, and deliver to the Principal (usually by e-mail) a draft of, as a rule, the following additional material elements of the Freight Forwarding Agreement (hereinafter referred to as the &quot;Offer&quot;):</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7899321241408480759" datatype="html">
+        <source>I. the place and time of Delivery of the Shipment to the Sender and/or directly to the Carrier by the Principal;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="405524051973948026" datatype="html">
+        <source>II. approximate transit time (i.e. the time likely to be required to deliver the Shipment from the Place of Receipt to the Destination);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3324266570142953232" datatype="html">
+        <source>III. The Remuneration and any other costs of the Carriage (including any VAT);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7789484038902131386" datatype="html">
+        <source>IV. identification of the Carrier who will perform the Carriage;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6200655972780540867" datatype="html">
+        <source>V. the validity of the Offer.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8475503713526249312" datatype="html">
+        <source>2.5 The Offer remains valid at all times for the period specified in the Offer.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2389129292035825194" datatype="html">
+        <source>2.6 The forwarding contract is subsequently concluded at the moment of confirmation of the Offer by the Principal (usually by e-mail). The concluded Forwarding Contract shall be deemed to be executed by the Forwarder at the moment when the Forwarder concludes the relevant contract for the carriage of the Shipment with the Carrier agreed in the ToR. The Sender shall be responsible for the transportation of the Shipment to the Destination only in the cases and in the manner set out below in these GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="477229708305814121" datatype="html">
+        <source>2.7 The terms and conditions of carriage of the Shipment shall be governed by the terms and conditions of carriage of the relevant Carrier. These conditions will be provided by the Sender to the Principal on request.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6021249914927943170" datatype="html">
+        <source>2.8 In the event that:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3110561344431672231" datatype="html">
+        <source>a. The Sender discovers that the information provided by the Principal (primarily, but not exclusively, in the Form and/or Communication) is incorrect and/or incomplete; and/or</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7180888478013076304" datatype="html">
+        <source>b. The Sender has breached any of its obligations set out in these T&amp;Cs and/or obligations under generally applicable law; and/or</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5977200316404152905" datatype="html">
+        <source>c. The Shipment for any reason violates and/or threatens to violate generally binding legal provisions and/or causes the Sender and/or third persons; and/or</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6318767986062697075" datatype="html">
+        <source>d. The Shipment cannot be delivered to the Destination and/or to the recipient designated by the Principal</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8150495914472104998" datatype="html">
+        <source>The shipment cannot be reached;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4885368202922680709" datatype="html">
+        <source>the Sender is entitled to terminate the Covenant without notice. Termination of the PO by the Sender shall not affect the Sender&apos;s right to payment of the Price (see below). In the event of a wrongful termination of the GTC by the Freight Forwarder, the Freight Forwarder shall furthermore be entitled to compensation for damages against the Principal.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3649917168664665438" datatype="html">
+        <source> 3. Rights and obligations of the Principal </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">77,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4419037352771360494" datatype="html">
+        <source>3.1 The Principal is obliged in particular, but not exclusively, to:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2030687002349315700" datatype="html">
+        <source>a. to provide the Sender with complete and correct information about the content and nature of the Shipment, as well as about other facts necessary and decisive for the purpose of concluding the Shipper&apos;s Agreement and the contract of carriage, even before the conclusion of the Contract of Carriage (in particular, but not exclusively, about the weight, type, number of pieces, dimensions, method of packing, non/security of the Shipment, etc.), with the understanding that any consequences of incorrect and incomplete information shall always be borne by the Sender;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6278227483178863485" datatype="html">
+        <source>b. to warn the Sender, prior to the conclusion of the Contract, of the public law and/or customs obligations associated with the Shipment and that the Principal shall be liable to the Sender for all consequences of such omission;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="100576042874029213" datatype="html">
+        <source>c. In particular, to pack the Shipment properly in accordance with these GTC and general customs and regulations;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1102982087157921768" datatype="html">
+        <source>d. ensure the characteristics of the Shipment as agreed upon by the Sender in particular in these GTC;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8820345141970194373" datatype="html">
+        <source>e. in the event that the Shipment is in imminent danger of damage and/or other circumstances threatening or preventing the Shipment have occurred, upon the Sender&apos;s request immediately provide the Sender with any further instructions and/or data and/or documents requested by the Sender;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2104641687280436860" datatype="html">
+        <source>f. pay the agreed Remuneration to the Sender in due and timely manner;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1013395377847310750" datatype="html">
+        <source>g. inform the Sender without undue delay of any fact affecting the Carriage and/or the proper performance of the Sender&apos;s obligations under the GTS;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1505504428012028491" datatype="html">
+        <source>3.2 In particular, the Principal is not entitled to use the Shipment for a purpose that is contrary to the administrative regulations in force in the EU, the USA and/or the Czech Republic, and/or contrary to the laws of the country of destination, and/or contrary to the laws of the countries through which the Shipment will be transported.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3514035726967441165" datatype="html">
+        <source> 4. Packaging and contents of the Shipment as agreed by the Freight forwarder </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">100,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3871908436454422121" datatype="html">
+        <source>A. Packing of the Shipment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3407687992799593375" datatype="html">
+        <source>4.1 The Principal undertakes, depending on the nature of the contents of the Shipment, to pack the Shipment properly before delivery to the Delivery Point, in particular so that:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5687174489857512055" datatype="html">
+        <source>a. The Consignment shall always consist of the number of packages / loads agreed in advance between the Sender and the Principal;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6232742967091075741" datatype="html">
+        <source>b. the packaging complies with general practices and generally applicable laws and regulations;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7156569860045377518" datatype="html">
+        <source>c. the contents of the Shipment were secured against movement;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4509258889509197888" datatype="html">
+        <source>d. the packaging of the Shipment provided adequate protection for the contents of the Shipment (including natural protection from adverse weather conditions and influences, and including natural protection during normal and/or Principal-imposed handling of the Shipment);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5593626605837534991" datatype="html">
+        <source>e. the packaging of the Shipment allows for safe handling of the Shipment;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6792216085793471426" datatype="html">
+        <source>f. the Shipment did not endanger other shipments being transported together, the means of transport used, the Sender&apos;s or Carrier&apos;s storage facilities or the means of mechanised handling;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6511057004457116130" datatype="html">
+        <source>g. The shipment did not endanger the life, health and safety of persons who come into contact with the shipment, allowing for the transport of shipments in layers on the loading area of the transport means, observing elementary caution and professional care;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8394148842259809683" datatype="html">
+        <source>h. the packaging of the Shipment is integral, regular in shape (except in cases agreed in advance with the Principal where an increased level of risk arising from partial loss is agreed);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6513816450608416773" datatype="html">
+        <source>i. the Shipment has been properly marked (at least with the identification data of the Principal; the identification data of the Destination and the Recipient; as well as other data that are desirable to facilitate the handling of the Shipment and/or to eliminate the risk of confusion and/or to prevent damage;);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2823492163652321604" datatype="html">
+        <source>B. Contents of the Shipment</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2910727992126289628" datatype="html">
+        <source>4.2 The Sender understands and the Principal undertakes that the contents of the Shipment shall not (unless otherwise expressly agreed between the Sender and the Principal in the Forwarding Agreement):</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6937876076984145785" datatype="html">
+        <source>a. objects and substances endangering human life or health, such as explosives, weapons, ammunition, rockets, bombs, grenades, combat vehicles, narcotic and psychotropic substances, flammable substances with low flash point, chemical substances and/or chemical preparations, poisons, radioactive substances, corrosives, gases and liquids in pressurized containers, etc;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5600692458629004237" datatype="html">
+        <source>b. Objects and substances of exceptionally high value such as gold, silver, precious stones, precious metals, art objects, collections, banknotes, coins, activated payment and other monetary cards and valuables except for food stamps, mobile phone charging coupons, SIM cards, vignettes, winning lottery tickets and telephone cards of fixed telephone operators, the maximum value of which in one Shipment does not exceed CZK 10,000 (the Principal is obliged to notify the Sender in advance of any value higher than this);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7770870655613245459" datatype="html">
+        <source>c. objects and substances that are easily damaged even if the instructions for special handling of the Shipment are followed, such as alcohol and other precious liquids in glass bottles, etc;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">124</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4229705538420800001" datatype="html">
+        <source>d. items and substances subject to temperature changes, such as perishable goods, medical material (blood samples and derivatives), live plants, etc.;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4004801238295110472" datatype="html">
+        <source>e. live animals and organisms, plants, human and animal remains, etc;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6859809201049530587" datatype="html">
+        <source>f. meat and meat products, spirits, tobacco products;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27544149980510518" datatype="html">
+        <source>g. other articles and substances which, by their nature, require special vehicle arrangements or special conditions for carriage under the applicable regulations (such as bulk substrates, etc.);</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">128</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7588089374905402324" datatype="html">
+        <source>4.3 The Principal shall inform third parties who may be forwarding the Shipment for Carriage of the above mentioned packaging and content characteristics and shall ensure that all Shipments forwarded for Carriage under the Shipper Agreement comply with the above mentioned packaging and content characteristics. The Principal shall be liable for failure to comply with this obligation in the same manner as if the Principal had handed over the Shipment for Carriage.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">129</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2271879142125600144" datatype="html">
+        <source>4.4 Consignments with a total value exceeding CZK 500,000 may be transported only by individual written agreement between the Sender and the Principal, whereby the Principal must specify the type of goods to be transported and their actual value/price in the Form and/or in the Communication when transporting such Consignments. For the carriage of Shipments whose value/price is higher than 500.000, - CZK, the Sender strongly recommends that the Principal himself or through the Sender, insures the Shipment for its full actual price.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1643158640627252646" datatype="html">
+        <source> 5. Rights and Obligations of the Freight forwarder </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">136,138</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6907867860187040722" datatype="html">
+        <source>5.1 Freight forwarder:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">145</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4624137958431157388" datatype="html">
+        <source>a. arrange the Carriage with professional care and in negotiating the method and terms of Carriage in the best interests of the Principal under the Shipper&apos;s Contract;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6024707973120354167" datatype="html">
+        <source>b. arrange for insurance of the Shipment only if expressly agreed with the Principal in the Forwarding Agreement (the Forwarder is not entitled and/or obliged to treat a mere indication of the price/value of the Shipment as an instruction from the Principal to insure the Shipment). If insurance of the Shipment is expressly agreed in the PO, the Sender shall insure the Shipment according to the insurance conditions customary in the place of performance. If an insured event occurs, the Freight Forwarder shall fulfil its obligations to the Principal by assigning its claims against the insurance company to the Principal;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">147</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5433626051698910831" datatype="html">
+        <source>c. is not obliged to review and/or supplement the information provided by the Principal, unless this is expressly agreed in the ToR;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4439344221164956887" datatype="html">
+        <source>d. is entitled to exercise its lien and/or retention over the Shipment for the purpose of securing all its claims and demands against the Principal arising out of and/or in connection with the Form and/or the Communication and/or the PO;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3158728479113852222" datatype="html">
+        <source>e. act in its sole discretion in preserving the interests of the Principal, in particular in the choice of means of transport and route, if it has not received sufficient and/or practicable instructions from the Principal;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6301124198697532662" datatype="html">
+        <source>f. be entitled to carry out the Carriage of the Shipment itself, provided that such carriage does not contravene the provisions of the GTC (if the Sender carries out the Carriage of the Shipment itself, it is responsible for the proper carriage of the Shipment in its capacity as Carrier).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3457624223351201538" datatype="html">
+        <source> 6. Remuneration and transport costs </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">157,159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3932583382017855702" datatype="html">
+        <source>6.1 The Principal agrees to pay the Freight Forwarder the Fee agreed in the Forwarding Agreement and all costs incurred by the Freight Forwarder in arranging the Carriage of the Shipment such as freight, duties, taxes, insurance and other charges (hereinafter referred to as &quot;Carriage Charges&quot;).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="826468896169627615" datatype="html">
+        <source>6.2 The Remuneration and the Carriage Charges shall always be paid by the Principal to the Forwarder jointly in the form of the Forwarder&apos;s price (the &quot;Price&quot;) without distinction as to the specific proportion of the Remuneration and the Carriage Charges unless otherwise agreed in a particular case. The amount of the Price will be agreed in each individual case of the Shipment in the Forwarding Agreement.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">167</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="659270471218203936" datatype="html">
+        <source>6.3 Unless otherwise agreed in a particular case, the Price is always expressed exclusive of VAT.Therefore, VAT at the statutory rate will always be added to the Price agreed in the PO if the relevant performance is subject to such tax.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="454750190287641789" datatype="html">
+        <source>6.4 The Price shall be unilaterally increased by the Sender in the event of unforeseen delays in the transport of the Shipment (e.g. unsuccessful arrival, return journey, etc.).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="351874165524156459" datatype="html">
+        <source>6.5 The Sender&apos;s right against the Principal to payment of the Price shall arise for the Sender at the time of conclusion of the Forwarding Agreement. The Freight Forwarder shall always invoice the Principal for the Price before the Shipment is transported by means of a proper tax document (usually sent to the Principal by e-mail) with a maximum due date of 30 days.The Freight Forwarder reserves the right to commence performance under the GTC only after prior payment of the Price by the Customer to the Freight Forwarder in accordance with the issued tax document. If the Principal fails to make proper and timely payment of the Price in accordance with the issued tax invoice, the Principal shall have the right to withdraw from the PO in its entirety.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5170717204042383232" datatype="html">
+        <source>6.6 In the event of delay by the Principal in payment of the Price, the Sender shall be entitled to a contractual penalty of 0.5% of the amount due for each (even commenced) day of delay. Any right of the Sender to payment of the contractual penalty pursuant to the preceding sentence shall not affect any right of the Sender to compensation for damages incurred by the Sender as a result of the breach of the Principal&apos;s obligation to which the contractual penalty relates.Any withdrawal of the Sender from the GTC shall not affect the right of the Sender to payment of the contractual penalty pursuant to the first sentence of this paragraph.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2404727459207895740" datatype="html">
+        <source>6.7 The Principal acknowledges that the Price is always calculated by the Sender on the basis of the information and data provided by the Principal in the Form and/or in the Communication and related e-mail or other communication with the Sender. In the event that the information and/or data provided by the Principal in the Form and/or in the Communication is found to be inaccurate, incomplete or false (e.g. the weight, dimensions, shape or type and content of the Shipment, etc. ) and/or in the event that the Sender breaches any of its obligations set out in these GTC and/or any other legally binding regulations and/or in the event that the Sender and/or the Carrier incurs additional costs in connection with the Carriage of the Shipment as a result of such information and data and/or breach of such obligations (including, for exampleThe Principal undertakes to fully reimburse the Sender for such additional costs and at the same time to pay to the Sender the additional (usual) Remuneration assessed by the Sender in respect of such new circumstances of the Carriage, upon notice from the Sender to the Principal, with such additional costs and such additional Remuneration due within 5 working days of the date of delivery of such notice to the Sender. The Principal agrees that such additional costs and/or additional Remuneration may not be notified by the Sender prior to the performance of the Carriage (in particular in view of the nature and character of the Carriage).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3458800024359716511" datatype="html">
+        <source> 7. Defects, liability for damages </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">178,180</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4571467973786333309" datatype="html">
+        <source>7.1 The Principal shall ensure that the person receiving the Shipment at the Destination immediately inspects the contents and condition of the Shipment. If the contents of the Shipment have been degraded by the Shipment, this must be pointed out already upon receipt of the Shipment and the condition must be duly recorded (in particular by taking photographs).The Principal must deliver and forward the notification of the degradation of the Shipment, including the relevant documentation and photographs, to the Sender (usually by e-mail) at the latest within 5 working days from the date of receipt of the Shipment by the recipient. If the Sender fails to do so, the Sender loses its rights against the Sender in this respect.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">187</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1158882660149134211" datatype="html">
+        <source>7.2 In the event of defective performance of the GI by the Sender, the Principal shall be entitled to claim the relevant defects from the Sender (usually by e-mail) within 5 working days of their discovery at the latest. If the Principal fails to do so, the Principal loses its rights against the Freight Forwarder in this respect.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">188</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2474384525344673932" datatype="html">
+        <source>7.3 The Principal shall be liable for any damage incurred by the Sender or third parties as a result of a breach of the Principal&apos;s obligations under these GTC and/or the Forwarding Agreement, in particular, but not exclusively, as a result of a breach of the Principal&apos;s obligation to provide the Sender with correct and complete information about the contents of the Shipment and its nature, as well as about other facts necessary and/or required for the conclusion of the GTC and/or the contract of carriage and/or the procurement and/or performance of the Carriage of the Shipment.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5200699457671373744" datatype="html">
+        <source>7.4 The Sender shall be liable to the Principal for any damage caused by a breach of the Sender&apos;s obligations set out in these GTC and/or the GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">190</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6631485706501762095" datatype="html">
+        <source>7.5 The Sender is only liable to the Principal for liabilities and damages arising in connection with the Carriage of the Shipment if the Sender carries out the Carriage of the Shipment himself/herself and/or if the Sender does not designate to the Principal the Carrier with whom the Sender arranges the Carriage of the Shipment. From the moment the Freight Forwarder identifies to the Principal the Carrier with whom the Freight Forwarder arranges for the Shipment to be transported, the Principal shall not be entitled to enforce against the Freight Forwarder any rights and claims for performance of the obligation under the related contract for the carriage of the Shipment and/or for compensation for damages, in full compliance with § 2482 CC in conjunction with § 2461 CC. In the event of any such claims by the Principal against the Carrier (upon designation of the Carrier by the Forwarder), the Forwarder shall assign the related rights (against the Carrier) to the Principal, if possible.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">191</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5478696678366087716" datatype="html">
+        <source>7.6 In cases where the Freight Forwarder is liable to the Principal for damages, the Freight Forwarder shall only be liable for actual damage to the Shipment during the procurement of the Carriage.Actual damage means the amount by which the value of the Shipment is reduced as a result of the damage event. The Freight Forwarder shall not be liable to the Principal for any loss of profit or other consequential damages which may arise in direct or indirect connection with the procurement of the Carriage of the Shipment, nor for any damages suffered by the Principal or third parties in direct or indirect connection with the Carriage of the Shipment.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1627565342446051302" datatype="html">
+        <source>7.7 The Sender shall at all times be exonerated from any liability for damage to the received Shipment, in particular, but not exclusively, if it proves that damage to the received Shipment has been caused:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">193</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5818372932667779297" datatype="html">
+        <source>a. by the Principal, Carrier, consignee or owner of the Shipment or any third party;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">194</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="503701688090230638" datatype="html">
+        <source>b. the defect or inherent nature of the Shipment, including normal wastage;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9176534613032092116" datatype="html">
+        <source>c. a breach of the Principal&apos;s obligations set out in these GTC and/or the GTC;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">196</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8414293093526415073" datatype="html">
+        <source>d. defective packaging of the Shipment;</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">197</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8464509644726604426" datatype="html">
+        <source>7.8 Furthermore, the Sender shall be exempt from liability for damage to the received Shipment, in particular, but not exclusively, if the damage to the Shipment could not have been prevented even with the exercise of professional care customary in the freight forwarding industry.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">198</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6842523853379030335" datatype="html">
+        <source> 8. Export control and sanctions legislation </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">204,206</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7560234600222697528" datatype="html">
+        <source>8.1 The Sender will not transport Shipments that violate export control laws.The Principal is responsible for compliance with all export control and sanctions legislation of the country of origin, transit and delivery and of the sanctioned persons or companies in those countries (including, but not limited to, the US, the Czech Republic, the European Union and the UN and any other potentially affected countries).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">213</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3774793355717278595" datatype="html">
+        <source>8.2 The Principal is responsible for obtaining all export, transit and import licenses and permits for the transportation of the Shipment/commodity being shipped by it (including any authorizations for the shipment of dual-use items).</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">214</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1729657844291188981" datatype="html">
+        <source>8.3 The Principal declares that it is aware of all civil and criminal penalties for failure to provide all necessary documentation, licenses and permits and for providing inaccurate, misleading or false information or for violating laws regulating import and export of the EU, US, Czech Republic and other countries concerned.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5252786422899484882" datatype="html">
+        <source>8.4 The Principal further represents and agrees that the Principal or any party involved in the Transportation is not on the sanctions lists of the EU, US, Czech Republic and other countries affected by the Transportation as defined in paragraph 8.1 of this Article of these GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">216</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6014544525160553745" datatype="html">
+        <source>8.5 The Sender shall not be liable to the Principal for any loss or expense, including penalties and the cost of seizure or destruction of the Shipment, if the Principal or its business partner fails to comply with any export control, sanctions or customs regulations. The Principal shall also be liable for all reasonable costs incurred by the Sender in failing to comply with the above.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4100596540292877574" datatype="html">
+        <source> 9. GDPR </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">223,225</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5871987622961411858" datatype="html">
+        <source>9.1 The Principal agrees that the Sender, within the meaning of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27.04. 2016, on the protection of natural persons with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (General Data Protection Regulation) (hereinafter referred to as &quot;GDPR&quot;), to process, collect and store the Principal&apos;s personal data provided by the Principal in the Form, in the Communication, in the Forwarding Agreement, as well as in the framework of any communication between the Principal and the Forwarder, as well as other personal data necessary for the purposes of the provision of the Forwarder&apos;s Transport services to the Principal. Such personal data will be processed and stored by the Freight Forwarder in the Freight Forwarder&apos;s client register solely for the purpose of fulfilling the Freight Forwarder&apos;s obligations under the GTC and/or for the purpose of protecting the Freight Forwarder&apos;s rights.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">232</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5809092109839538246" datatype="html">
+        <source>9.2 If the Principal is a person whose personal data is protected by the GDPR and if the Principal requests information from the Freight Forwarder about the processing of his personal data, the Freight Forwarder shall provide the Principal with such information without undue delay in accordance with the GDPR. In the event that such Principal discovers inaccuracies in the data processed by the Freight Forwarder, the Principal is entitled to request that the Freight Forwarder make a correction.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">233</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3812901945843572108" datatype="html">
+        <source>9.3 The Principal grants consent under this Article of these GTC for the duration of the contractual relationship between the Freight Forwarder and the Principal established by the GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6504973849613757525" datatype="html">
+        <source>9.4 The Principal undertakes to ensure that the recipient of the Shipment consents to the processing of the personal data of such recipient by the Sender and the Carrier in accordance with the GDPR to the extent necessary for the Sender to properly perform its obligations under the GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5183503454009649744" datatype="html">
+        <source>9.5 The Freight Forwarder undertakes to treat the data of data subjects which it receives from the Principal for the purpose of performing transport or related services, and which are in the nature of personal data, in accordance with the applicable legislation of the Czech Republic and the EU and not to use them for any other purpose than for the performance of the GTS for the benefit of the data subject.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">236</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2210030791732449625" datatype="html">
+        <source>9.6 The parties to the PSC agree that the Principal (or a person related to it within the scope of this PSC, respectively) shall not be entitled to use the Data. The Principal, or any person related to the Principal or his/her nominee, may be contacted by the Principal in the event of a marketing or promotional event, offer of business cooperation, competition, announcement or enquiry regarding current cooperation or other announcement or business communication, whether by personal, telephone, written or electronic or other form of contact and the Principal consents to the use of his/her contact details for the Principal&apos;s marketing purposes.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">237</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="757762973083190925" datatype="html">
+        <source> 10. Final provisions </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">243,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2515788334222220212" datatype="html">
+        <source>10.1 If the relationship established by the Forwarding Agreement, even if this relationship contains an international (foreign) element, is governed by Czech law, to the exclusion of collision rules of private international law. Any disputes arising between the Sender and the Principal in connection with these GTC and/or the GTC shall be settled by the courts of the Czech Republic having jurisdiction in the matter and place.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">252</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3561239151976358087" datatype="html">
+        <source>10.2 The Principal assumes the risk of a change of circumstances in connection with the GTC within the meaning of Section 1765(2) CC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">253</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="986878730111651234" datatype="html">
+        <source>10.3 The Freight Forwarder shall be entitled to make unilateral changes to these GTC. The Freight Forwarder shall notify the Principal of the proposed change to these GTC in writing, by fax or e-mail, as a rule at least 10 working days before the effective date of the proposed change to the GTC. In the event that the Customer does not notify the Sender in writing or by e-mail no later than 1 business day before the effective date of the proposed changes to the T&amp;Cs of his/her disagreement with the proposed change to the T&amp;Cs and/or continues to order Shipments from the Sender after the effective date of the proposed changes to the T&amp;Cs, the Customer shall be deemed to have agreed to the proposed changes to the T&amp;Cs.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">254</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61159939478708430" datatype="html">
+        <source>10.4 In the event that the Principal does not agree to the changes to these GTCs in accordance with the preceding paragraph, the Principal shall be entitled to withdraw from the GTC.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">255</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4682974485135436852" datatype="html">
+        <source>10.5 If any provision of these T&amp;C is or becomes invalid or ineffective, the invalid provision shall be replaced by a provision whose meaning is as close as possible to the invalid provision. The invalidity or ineffectiveness of one provision shall not affect the validity of the other provisions.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">256</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5581140932867919558" datatype="html">
+        <source>10.6 Contact details of the Sender: delivery address: Aviatická 1092/8, Ruzyně, 16100 Prague 6; e-mail address: vojtech.holeka@we-del.cz ; telephone +420 727 893 073.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">257</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4005080995928285651" datatype="html">
+        <source>10.7 This version of the GTC shall enter into force on 2.5.2023.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">258</context>
+        </context-group>
+      </trans-unit>
+      <!-- <trans-unit id="7861019357820485286" datatype="html">
+        <source>Translated with www.DeepL.com/Translator (free version)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
+          <context context-type="linenumber">259</context>
+        </context-group>
+      </trans-unit> -->
       <trans-unit id="1805549528633330541" datatype="html">
         <source> GDPR Personal data privacy </source>
         <context-group purpose="location">

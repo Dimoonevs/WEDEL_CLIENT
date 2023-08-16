@@ -1,0 +1,122 @@
+.information_block{
+    padding-top: 148px;
+    margin-bottom: 80px;
+}
+.information_block_top{
+    position: relative;
+}
+.information_block_top_title{
+    font-size: 26px;
+    line-height: 30px; 
+    margin-bottom: 32px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+.last_text{
+    margin-bottom: 40px;
+}
+.information_block_top_botton_block{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text_block{
+    margin-bottom: 15px;
+}
+.help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text_block_last{
+    margin-bottom: -15px;
+}
+.help_card_content_toggles_toggle_questions{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 24px;
+    background: #537399;
+    border-radius: 4px ;
+    transition: .5s;
+}
+.help_card_content_toggles_toggle_questions_text{
+    font-weight: 700;
+    color: #FBFBFB;
+}
+.help_card_content_toggles_toggle_questions_img{
+    display: flex;
+    align-items: center;
+}
+.help_card_content_toggles_toggle .help_card_content_toggles_toggle_questions_img img{
+    transition: .5s;
+}
+.help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_questions_img img{
+    transform: rotate(180deg);
+}
+.help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_questions{
+    border-radius: 4px 4px 0px 0px;
+}
+.help_card_content_toggles_toggle_text{
+    background: #EFF3F6;
+    border-radius: 0px 0px 4px 4px;
+    max-height: 0;
+    opacity: 0;
+    transition: .5s ;
+    padding: 0 24px;
+}
+.help_card_content_toggles_toggle_wrapper{
+    cursor: pointer;
+    position: relative;
+    z-index: 9999;
+    
+}
+.help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text{
+    max-height: 100%;
+    opacity: 1;
+    transition: .5s;
+    padding: 24px; 
+}
+.help_card_content_toggles_toggle{
+    margin: 24px 0;
+}
+.help_card_content_toggles_title{
+    text-align: center;
+}
+.help_card_content_toggles_bottom_text{
+    position: relative;
+    padding-left: 8px;
+    margin-bottom: 48px;
+}
+.help_card_content_toggles_bottom_text::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 4px;
+    height: 4px;
+    background-color: #456080; 
+    border-radius: 50%;
+} 
+.mb-15{
+    margin-bottom: 15px;
+}
+.info_description{
+    padding: 24px;
+    border-radius: 4px;
+    -webkit-background: rgba(230, 235, 241, 0.50);
+    background: rgba(230, 235, 241, 0.50);
+    margin-bottom: 8px; 
+}
+.help_card_info{
+    background-color: #FBFBFB;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 80px 0;
+}
+.bottom_toogle_owerflow{
+    overflow: hidden;
+}
+.wrapper_info{
+    max-width: 1030px;
+    margin: 0 auto; 
+    padding: 0px 16px; 
+}
