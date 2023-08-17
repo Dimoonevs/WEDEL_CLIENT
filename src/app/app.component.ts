@@ -204,18 +204,24 @@ export class AppComponent {
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    const externalSiteUrl = 'cookies'; // Замените на нужную ссылку
-    const newTab = window.open(externalSiteUrl, '_blank');
+    const externalSiteUrl = this.router.serializeUrl(
+      this.router.createUrlTree(['cookies'])
+    );
+    window.open(externalSiteUrl, '_blank');
     this.closeCookies()
   }
   routeToPrivacy(){
-    const externalSiteUrl = 'privacy'; // Замените на нужную ссылку
-    const newTab = window.open(externalSiteUrl, '_blank');
+    const externalSiteUrl = this.router.serializeUrl(
+      this.router.createUrlTree(['privacy'])
+    );
+    window.open(externalSiteUrl, '_blank');
     
   }
   routeToGDPR(){
-    const externalSiteUrl = 'GDPR/'; // Замените на нужную ссылку
-    const newTab = window.open(externalSiteUrl, '_blank');
+    const externalSiteUrl = this.router.serializeUrl(
+      this.router.createUrlTree(['GDPR'])
+    );
+    window.open(externalSiteUrl, '_blank');
     
   }
   loadingBiforeLoadAllPage(){
