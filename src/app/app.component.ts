@@ -204,35 +204,19 @@ export class AppComponent {
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    if(this.lenguege === "en-US"){
-      const externalSiteUrl = 'https://we-del.cz/en-US/cookies/'; // Замените на нужную ссылку
-      const newTab = window.open(externalSiteUrl, '_blank');
-    }
-    else{
-      const externalSiteUrl = 'https://we-del.cz/cs/cookies/'; // Замените на нужную ссылку
-      const newTab = window.open(externalSiteUrl, '_blank');
-    }
+    const externalSiteUrl = 'cookies'; // Замените на нужную ссылку
+    const newTab = window.open(externalSiteUrl, '_blank');
     this.closeCookies()
   }
   routeToPrivacy(){
-    if(this.lenguege === "en-US"){
-      const externalSiteUrl = 'https://we-del.cz/en-US/privacy/'; // Замените на нужную ссылку
-      const newTab = window.open(externalSiteUrl, '_blank');
-    }
-    else{
-      const externalSiteUrl = 'https://we-del.cz/cs/privacy/'; // Замените на нужную ссылку
-      const newTab = window.open(externalSiteUrl, '_blank');
-    }
+    const externalSiteUrl = 'privacy'; // Замените на нужную ссылку
+    const newTab = window.open(externalSiteUrl, '_blank');
+    
   }
   routeToGDPR(){
-    if(this.lenguege === "en-US"){
-      const externalSiteUrl = 'https://we-del.cz/en-US/GDPR/'; // Замените на нужную ссылку
-      const newTab = window.open(externalSiteUrl, '_blank');
-    }
-    else{
-      const externalSiteUrl = 'https://we-del.cz/cs/GDPR/'; // Замените на нужную ссылку
-      const newTab = window.open(externalSiteUrl, '_blank');
-    }
+    const externalSiteUrl = 'GDPR/'; // Замените на нужную ссылку
+    const newTab = window.open(externalSiteUrl, '_blank');
+    
   }
   loadingBiforeLoadAllPage(){
     const loadDiv = document.querySelector(".loading") as HTMLElement;
