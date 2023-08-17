@@ -26,6 +26,7 @@ export class AppComponent {
   shapeColor = "#ECECED";
   showCookiesSettings = false;
   isLoading = false;
+  htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
 
   isDarkTrue():boolean{
     return this.isDark;
@@ -113,8 +114,7 @@ export class AppComponent {
     }
 
 
-    const htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
-    const lang = htmlElement.getAttribute('lang');
+    const lang = this.htmlElement.getAttribute('lang');
     this.lenguege = lang;
     this.activeRoute.queryParams.subscribe((params: Params) => {
       if(params['contact']){
@@ -204,17 +204,35 @@ export class AppComponent {
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    const newTab = window.open('/cookies', '_blank');
-    newTab?.focus();
+    if(this.lenguege === "en-US"){
+      const externalSiteUrl = 'https://we-del.cz/en-US/cookies/'; // Замените на нужную ссылку
+      const newTab = window.open(externalSiteUrl, '_blank');
+    }
+    else{
+      const externalSiteUrl = 'https://we-del.cz/cs/cookies/'; // Замените на нужную ссылку
+      const newTab = window.open(externalSiteUrl, '_blank');
+    }
     this.closeCookies()
   }
   routeToPrivacy(){
-    const newTab = window.open('/privacy', '_blank');
-    newTab?.focus();
+    if(this.lenguege === "en-US"){
+      const externalSiteUrl = 'https://we-del.cz/en-US/privacy/'; // Замените на нужную ссылку
+      const newTab = window.open(externalSiteUrl, '_blank');
+    }
+    else{
+      const externalSiteUrl = 'https://we-del.cz/cs/privacy/'; // Замените на нужную ссылку
+      const newTab = window.open(externalSiteUrl, '_blank');
+    }
   }
   routeToGDPR(){
-    const newTab = window.open('/GDPR', '_blank');
-    newTab?.focus();
+    if(this.lenguege === "en-US"){
+      const externalSiteUrl = 'https://we-del.cz/en-US/GDPR/'; // Замените на нужную ссылку
+      const newTab = window.open(externalSiteUrl, '_blank');
+    }
+    else{
+      const externalSiteUrl = 'https://we-del.cz/cs/GDPR/'; // Замените на нужную ссылку
+      const newTab = window.open(externalSiteUrl, '_blank');
+    }
   }
   loadingBiforeLoadAllPage(){
     const loadDiv = document.querySelector(".loading") as HTMLElement;
