@@ -31,7 +31,7 @@
                 <div class="all_select">
                     <div class="all_select_text" *ngFor="let localetion of items">
                         <span class="text span_get" [ngClass]="{'all_select_text_active': lenguege === localetion.leng}">
-                           <a href="/{{localetion.code}}/">{{localetion.locale}}</a>
+                            <a [attr.href]="lenguege !== localetion.leng ? '/' + localetion.code + '/' : null">{{localetion.locale}}</a>
                         </span>
                     </div>
                 </div>

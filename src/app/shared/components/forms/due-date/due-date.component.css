@@ -98,12 +98,12 @@ caption{
     align-items: center;
     cursor: pointer;
 }
-.calendar_top_img img{
-    padding: 14px;
+.calendar_top_img svg{
+    /* padding: 14px; */
     border-radius: 3.6px;
     transition: .5s;
 }
-.calendar_top_img:hover img{
+.calendar_top_img:hover svg{
     background: rgba(106, 109, 112, 0.16);
 }
 .calendar_top_date{

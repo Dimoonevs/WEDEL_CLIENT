@@ -22,7 +22,7 @@ export class JsonAminFirstComponent {
     this.anim.play()
     setTimeout(()=>{
       this.anim.stop()
-    },2000)
+    },1500)
   }
 
 }

@@ -47,12 +47,15 @@
     .img_inpu_country img{
         width: 100%;
     }
+}
+@media(min-width: 2086px){
     .calendar_table td{
         width: 54px;
         height: 54px;
     }
-}
-@media(min-width: 2086px){
+    .text_day {
+        margin: 0 4px;
+    }
     button{
         height: auto;
     }
@@ -242,9 +245,9 @@
     .form_request_a_call_all_input{
         width: 400px;
     }
-    .all_botom_select_options--focuse{
+    /* .all_botom_select_options--focuse{
         width: 562px;
-    }
+    } */
     .all_botom_select_options_codes--footer{
         width: 509px;
     }
@@ -260,5 +263,7 @@
     .img_inpu_country--focus{
         top: 64px;
     }
-
+    .all_select_text{
+        margin: 0 4px;
+    }
 }
