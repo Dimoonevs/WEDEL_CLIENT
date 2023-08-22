@@ -207,24 +207,24 @@ export class AppComponent {
     // const externalSiteUrl = this.router.serializeUrl(
     //   this.router.createUrlTree(['cookies'])
     // );
-    // window.open("https://we-del.cz/" + this.lenguege + "/cookies", '_blank');
-    this.router.navigate(['cookies'])
+    window.open("https://we-del.cz/" + this.lenguege + "/cookies", '_blank');
+    // this.router.navigate(['cookies'])
     this.closeCookies()
   }
   routeToPrivacy(){
     // const externalSiteUrl = this.router.serializeUrl(
     //   this.router.createUrlTree(['privacy'])
     // );
-    // window.open("https://we-del.cz/" + this.lenguege + "/privacy", '_blank');
-    this.router.navigate(['privacy'])
+    window.open("https://we-del.cz/" + this.lenguege + "/privacy", '_blank');
+    // this.router.navigate(['privacy'])
     
   }
   routeToGDPR(){
     // const externalSiteUrl = this.router.serializeUrl(
     //   this.router.createUrlTree(['GDPR'])
     // );
-    // window.open("https://we-del.cz/" + this.lenguege + "/GDPR", '_blank');
-    this.router.navigate(['GDPR'])
+    window.open("https://we-del.cz/" + this.lenguege + "/GDPR", '_blank');
+    // this.router.navigate(['GDPR'])
     
   }
   loadingBiforeLoadAllPage(){
