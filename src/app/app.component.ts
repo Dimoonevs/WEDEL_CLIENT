@@ -43,8 +43,8 @@ export class AppComponent {
   width = 100;
   item = "assets/img/GB.svg"
   items=[
-    {id:1, locale: 'EN', code: "en-US", leng: 'en-US'},
-    {id:2, locale:'CZ', code: "cs", leng: 'cs'}
+    {id:1, locale: 'EN', code: "en", leng: 'en'},
+    {id:2, locale:'CZ', code: "cz", leng: 'cz'}
   ]
   
   constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
