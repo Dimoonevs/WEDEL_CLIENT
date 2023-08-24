@@ -9,7 +9,7 @@ const routes: Routes = [
   {path: "", component: HomeComponent},
   {path: 'cookies', component: CookiesComponent},
   {path: "GDPR", component: PrivacyComponent},
-  {path: "privacy", component: InformationComponent},
+  {path: "terms-and-conditions", component: InformationComponent},
 ];
 
 @NgModule({

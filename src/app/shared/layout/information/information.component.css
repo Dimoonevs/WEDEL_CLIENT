@@ -60,6 +60,7 @@
     opacity: 0;
     transition: .5s ;
     padding: 0 24px;
+    line-height: .1px;
 }
 .help_card_content_toggles_toggle_wrapper{
     cursor: pointer;
@@ -72,6 +73,7 @@
     opacity: 1;
     transition: .5s;
     padding: 24px; 
+    line-height: 20px;
 }
 .help_card_content_toggles_toggle{
     margin: 24px 0;

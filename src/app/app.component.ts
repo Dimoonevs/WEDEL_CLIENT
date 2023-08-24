@@ -215,7 +215,7 @@ export class AppComponent {
     // const externalSiteUrl = this.router.serializeUrl(
     //   this.router.createUrlTree(['privacy'])
     // );
-    window.open("https://we-del.cz/" + this.lenguege + "/privacy", '_blank');
+    window.open("https://we-del.cz/" + this.lenguege + "/terms-and-conditions", '_blank');
     // this.router.navigate(['privacy'])
     
   }
