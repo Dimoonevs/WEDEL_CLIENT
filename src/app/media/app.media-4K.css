@@ -1,5 +1,5 @@
 @media(min-width: 1653px){
-    .wrapper{
+    /* .wrapper{
         max-width: 1373px;
     }
     .wrapper-header{
@@ -30,9 +30,11 @@
     .lh{
         line-height: 12px;
     }
+    */
     .tailored_img .img svg{
         width: 1100px;
     }
+    /*
     .all_top_block_text-message{
         width: 243px !important;
     }
@@ -46,10 +48,10 @@
     }
     .img_inpu_country img{
         width: 100%;
-    }
+    } */
 }
 @media(min-width: 2086px){
-    .calendar_table td{
+    /* .calendar_table td{
         width: 54px;
         height: 54px;
     }
@@ -125,10 +127,16 @@
         font-size: 53px;
         line-height: 71px;
     }
+    */
     .tailored_img .img svg{
+        /* width: 1435px; */
         width: 1292px;
         height: 685px;
     }
+    .arrage{
+        margin-top: 417px;
+    }
+    /*
     .arrage{
         margin-top: 336px;
     }
@@ -245,9 +253,9 @@
     .form_request_a_call_all_input{
         width: 400px;
     }
-    /* .all_botom_select_options--focuse{
+     .all_botom_select_options--focuse{
         width: 562px;
-    } */
+    } 
     .all_botom_select_options_codes--footer{
         width: 509px;
     }
@@ -265,5 +273,5 @@
     }
     .all_select_text{
         margin: 0 4px;
-    }
+    } */
 }
