@@ -424,6 +424,12 @@
 .dark .all_select_text_active .text:hover{
     background: none !important;
 }
+.dark .currency_select{
+    background: rgba(106, 109, 112, 0.05) !important;
+}
+.dark .phone_code_bg{
+    background: rgba(106, 109, 112, 0.05) !important;
+}
 
 /* Quote */
 

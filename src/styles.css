@@ -44,6 +44,7 @@
     font-family: inherit;
   }
   
+  
   input::-ms-clear {
     -webkit-display: none;
     display: none;
@@ -413,7 +414,8 @@ button:disabled{
 }
 .previous_step{
   margin-right: 16px;
-  background: rgba(102, 135, 173, 0.16);
+  background: rgba(106, 109, 112, 0.16);
+
   color: #2E3134 !important;
   max-width: 138px;
 }
@@ -660,6 +662,12 @@ button:disabled{
   left: 0;
   opacity: 1;
   transition: opacity 0.5s ease-in-out 0.5s, left 0.5s ease-in-out 0.5s;
+}
+.currency_select{
+  background-color: #FFF;
+}
+.phone_code_bg{
+  background-color: #FFF;
 }
 @media (max-width: 839px) {
   .owl-dots {

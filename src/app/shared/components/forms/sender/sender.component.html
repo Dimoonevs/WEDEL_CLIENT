@@ -4,7 +4,7 @@
     <div class="all_top">
         <div class="all_top_block">
             <label for="Company" class="all_top_block_text text text_gray" i18n>Company name<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div> </label>
-            <input type="text" [ngClass]="{'input_error': _company.invalid && (_company.touched || _company.dirty)}" [(ngModel)]="company" id="Company" name="Company" class="all_top_block_inp text text_gray" formControlName="Company">
+            <input autocomplete="off" type="text" [ngClass]="{'input_error': _company.invalid && (_company.touched || _company.dirty)}" [(ngModel)]="company" id="Company" name="Company" class="all_top_block_inp text text_gray" formControlName="Company">
             <div *ngIf="_company.invalid && (_company.touched || _company.dirty)">
                 <div class="text_error text text_gray" *ngIf="_company.errors?.required" i18n>
                     This field is required. 
@@ -60,7 +60,7 @@
         </div>
         <div class="all_top_block">
             <label for="City" class="all_top_block_text text text_gray" i18n>City<div class="all_top_block_text_curcle" ><div class="all_top_block_text-message text three" >This field is required</div></div> </label>
-            <input type="text" [ngClass]="{'input_error': _city.invalid && (_city.touched || _city.dirty)}" [(ngModel)]="city" name="City" class="all_top_block_inp text text_gray" formControlName="City">
+            <input autocomplete="off" type="text" [ngClass]="{'input_error': _city.invalid && (_city.touched || _city.dirty)}" [(ngModel)]="city" name="City" class="all_top_block_inp text text_gray" formControlName="City">
             <div *ngIf="_city.invalid && (_city.touched || _city.dirty)">
                 <div class="text_error text text_gray" *ngIf="_city.errors?.required" i18n>
                     This field is required.
@@ -74,7 +74,7 @@
         </div>
         <div class="all_top_block">
             <label for="Postal" class="all_top_block_text text text_gray" i18n>Postal code<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text four">This field is required</div></div> </label>
-            <input type="text" [ngClass]="{'input_error': _postal.invalid && (_postal.touched || _postal.dirty)}" [(ngModel)]="postal" name="Postal" class="all_top_block_inp text text_gray" formControlName="Postal">
+            <input autocomplete="off" type="text" [ngClass]="{'input_error': _postal.invalid && (_postal.touched || _postal.dirty)}" [(ngModel)]="postal" name="Postal" class="all_top_block_inp text text_gray" formControlName="Postal">
             <div *ngIf="_postal.invalid && (_postal.touched || _postal.dirty)">
                 <div class="text_error text text_gray" *ngIf="_postal.errors?.required" i18n>
                     This field is required.
@@ -88,7 +88,7 @@
         </div>
     </div>
     <label for="Street" class="all_top_block_text text text_gray"i18n>Street<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text fiive">This field is required</div></div> </label>
-    <input type="text" [ngClass]="{'input_error': _street.invalid && (_street.touched || _street.dirty)}" [(ngModel)]="street" name="Street" class="all_top_block_inp sender_top_block_inp_street text text_gray" formControlName="Street">
+    <input autocomplete="off" type="text" [ngClass]="{'input_error': _street.invalid && (_street.touched || _street.dirty)}" [(ngModel)]="street" name="Street" class="all_top_block_inp sender_top_block_inp_street text text_gray" formControlName="Street">
     <div *ngIf="_street.invalid && (_street.touched || _street.dirty)">
         <div class="text_error text mt-24" *ngIf="_street.errors?.required" i18n>
             This field is required.
@@ -103,7 +103,7 @@
         <div class="all_top_block sender_botom_block">
             <label for="Contact" class="all_top_block_text text text_gray" i18n>Phone number<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text six">This field is required</div> </div></label>
             <div class="phone all_top_block_phone sender_block_rel_for_phone_code">
-                <div [ngClass]="{'input_error_for_phone_code': _contact.invalid && (_contact.touched || _contact.dirty)}" class="all_botom_select sender_select_phone_code all_top_block_phone_code">
+                <div [ngClass]="{'input_error_for_phone_code': _contact.invalid && (_contact.touched || _contact.dirty)}" class="all_botom_select sender_select_phone_code all_top_block_phone_code phone_code_bg">
                     <div class="all_botom_select_selected text"(click)="toogleActiveForSlectOptionPhone()" >{{phoneCode}}</div>
                     <div class="all_img_selected_phone" (click)="toogleActiveForSlectOptionPhone()" >
                         <img src="assets/img/input_simvol.svg" alt="">
@@ -114,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                <input [ngClass]="{'input_error': _contact.invalid && (_contact.touched || _contact.dirty)}" (focus)="onFocusNumber()" (blur)="onFocusNumber()" type="phone" [(ngModel)]="contacts" name="Contact" class="all_top_block_inp all_top_block_inp_phone text text_gray" formControlName="Contact" [mask]="phoneMask">
+                <input autocomplete="off" [ngClass]="{'input_error': _contact.invalid && (_contact.touched || _contact.dirty)}" (focus)="onFocusNumber()" (blur)="onFocusNumber()" type="phone" [(ngModel)]="contacts" name="Contact" class="all_top_block_inp all_top_block_inp_phone text text_gray" formControlName="Contact" [mask]="phoneMask">
             </div>
             <div *ngIf="_contact.invalid && (_contact.touched || _contact.dirty)">
                 <div class="text_error text text_gray" *ngIf="_contact.errors?.required" i18n>
@@ -130,8 +130,8 @@
         <div class="all_top_block sender_botom_block">
             <label for="Budget" class="all_top_block_text text text_gray" i18n>Budget</label>
             <div class="all_botom_block_select">
-                <input type="text" [(ngModel)]="buget" name="Budget" class="all_top_block_inp text text_gray" formControlName="Budget">
-                <div class="all_botom_select">
+                <input autocomplete="off" type="text" [(ngModel)]="buget" name="Budget" class="all_top_block_inp text text_gray" formControlName="Budget">
+                <div class="all_botom_select currency_select">
                     <div class="all_botom_select_selected text" (click)="toogleActiveForSlectOption()">{{valueCurrency}}</div>
                     <div class="all_img_selected" (click)="toogleActiveForSlectOption()">
                         <img src="assets/img/input_simvol.svg" alt="">

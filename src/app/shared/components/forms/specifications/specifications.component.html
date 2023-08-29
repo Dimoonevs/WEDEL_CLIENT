@@ -134,7 +134,7 @@
             <label for="Value" class="all_top_block_text text text_gray" i18n>Total value<div class="all_top_block_text_curcle"><div class="all_top_block_text-message text one">This field is required</div></div></label>
             <div class="all_botom_block_select">
                 <input [ngClass]="{'input_error': getControlOther('Value').invalid && (getControlOther('Value').touched || getControlOther('Value').dirty)}" [(ngModel)]="totalValue" type="text" name="Value" class="all_top_block_inp text text_gray" formControlName="Value">
-                <div class="all_botom_select">
+                <div class="all_botom_select currency_select">
                     <div class="all_botom_select_selected text" (click)="toogleActiveForSlectOption()">{{valueBuget}}</div>
                     <div class="all_img_selected" (click)="toogleActiveForSlectOption()">
                         <img src="assets/img/input_simvol.svg" alt="">
