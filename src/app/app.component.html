@@ -118,7 +118,7 @@
             </div>
         </div>
     </header>
-    <div class="container" (mousemove)="onMouseMove($event)" (mouseout)="outMouseMove()">
+    <div class="container" (click)="closeAllOpeningPopup()" (mousemove)="onMouseMove($event)" (mouseout)="outMouseMove()">
     <div id="particles-js" [ngClass]="{'active': isActiveBg}" ></div>
     </div>
     <router-outlet></router-outlet>

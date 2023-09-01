@@ -248,17 +248,26 @@ export class AppComponent {
     
   }
 
-  // closeAllOpeningPopup(){
-  //   let phone = document.querySelector(".all_botom_select_options--focuse")
-  //   setTimeout(()=>{
-  //     if(phone != null){
-  //       // phone.classList.remove("all_botom_select_options--focuse")
-  //       console.log(true)
-  //     }
-  //   },500)
+  closeAllOpeningPopup(){
+    let phone = document.querySelector(".all_botom_select_options--focuse")
+    let phoneImg = document.querySelector(".all_img_selected_phone");
+    let currency = document.querySelector(".currency")
+    let currencyImg = document.querySelector(".all_img_selected")
+    let countryContainer = document.querySelector(".county_container")
+    let countryImg = document.querySelector(".img_inpu_country")
+    let footerImg = document.querySelector(".footer_img_number")
+  
+    phone?.classList.remove("all_botom_select_options--focuse")
+    phoneImg?.classList.remove("all_img_selected--active")
+    currency?.classList.remove("all_botom_select_options--focuse")
+    currencyImg?.classList.remove("all_img_selected--active")
+    countryContainer?.classList.remove("country--focus")
+    countryImg?.classList.remove("img_inpu_country--focus")
+    footerImg?.classList.remove("rotate_block")
+    
 
     
-  // }
+  }
 }
 
 

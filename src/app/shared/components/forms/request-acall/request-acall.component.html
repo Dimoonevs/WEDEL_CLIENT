@@ -3,7 +3,7 @@
         <div class="footer_select_item all_botom_select sender_select_phone_code all_top_block_phone_code">
             <div class="all_botom_select_selected text" (click)="toggleSelectItem()">{{countryCode}}</div>
             <div class="all_img_selected_phone" (click)="toggleSelectItem()">
-                <img src="assets/img/input_simvol.svg" alt="" [ngClass]="{'rotate_block':isActiveSelect}">
+                <img class="footer_img_number" src="assets/img/input_simvol.svg" alt="" [ngClass]="{'rotate_block':isActiveSelect}">
             </div>
         </div>
         <div class="all_botom_select_options_codes_container all_botom_select_options_codes--footer" [ngClass]="{'all_botom_select_options--focuse':isActiveSelect}">
