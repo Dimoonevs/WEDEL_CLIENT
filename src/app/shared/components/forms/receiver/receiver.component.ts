@@ -155,11 +155,13 @@ export class ReceiverComponent {
     this.codeCallingIsActive = false
   }
   addFocuse(){
-    const inputCountry = document.querySelector('.county_container')
-    const inputImg = document.querySelector('.img_inpu_country')
-    inputCountry?.classList.add("country--focus")
-    inputImg?.classList.add("img_inpu_country--focus")
-    this.countryInpIsActive = true;
+    if (!this.countryInpIsActive){
+      const inputCountry = document.querySelector('.county_container')
+      const inputImg = document.querySelector('.img_inpu_country')
+      inputCountry?.classList.add("country--focus")
+      inputImg?.classList.add("img_inpu_country--focus")
+      this.countryInpIsActive = true;
+    }
 
     const select = document.querySelector('.all_botom_select_options_codes_container')
     const img = document.querySelector(".all_img_selected_phone")

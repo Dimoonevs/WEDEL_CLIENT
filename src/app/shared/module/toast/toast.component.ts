@@ -27,7 +27,7 @@ export class ToastComponent {
  
     setTimeout(() => {
       this.closeToast()
-    },5000)
+    },10000)
   }
 
   closeToast() {

@@ -4,6 +4,7 @@ import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
 import { FormService } from './shared/service/form.service';
 import { AnimationService } from './shared/service/animation.service';
+import { timeout } from 'rxjs';
 
 declare var particlesJS: any;
 
@@ -246,6 +247,18 @@ export class AppComponent {
     
     
   }
+
+  // closeAllOpeningPopup(){
+  //   let phone = document.querySelector(".all_botom_select_options--focuse")
+  //   setTimeout(()=>{
+  //     if(phone != null){
+  //       // phone.classList.remove("all_botom_select_options--focuse")
+  //       console.log(true)
+  //     }
+  //   },500)
+
+    
+  // }
 }
 
 

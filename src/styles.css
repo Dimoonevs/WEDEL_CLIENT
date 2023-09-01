@@ -295,7 +295,7 @@ button:disabled{
   position: absolute;
   top: 44px;
   left: 0;
-  padding: 8px;
+  padding: 0 6px;
   background: #FFFFFF;
   box-shadow: 0px 1px 10px 2px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
@@ -321,11 +321,11 @@ button:disabled{
   display: block;
 }
 .all_botom_select_options .option{
-  padding: 11px 8px;
+  padding: 11px 14px;
   border-radius: 3.2px;
   transition: .5s;
   cursor: default;
-  margin: 2px 0;
+  margin: 6px 0;
   text-align: center;
 }
 .all_botom_select_options .option:hover{
@@ -407,6 +407,9 @@ button:disabled{
   border-radius: 2.8px;
   color: #456080;
 }
+.all_select_text_active span{
+  color: #456080;
+}
 .button_submit_next_step{
   display: flex;
   margin-top: 16px;
@@ -444,7 +447,7 @@ button:disabled{
 .all_top_block_phone_code{
   border-radius:  3.6px 0 0 3.6px ;
   border-right: 0.5px;
-  width: 98px;
+  /* width: 98px; */
 }
 .all_top_block_phone_code .all_botom_select_selected{
   margin-right: 10px;
@@ -712,3 +715,7 @@ footer a{
 .mb_texarea{
   margin-bottom: 24px;
 }
+
+/* .all_top_block_phone {
+  z-index: 99999;
+} */

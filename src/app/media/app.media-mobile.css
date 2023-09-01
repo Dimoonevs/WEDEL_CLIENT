@@ -99,6 +99,9 @@
     .content_rightnav{
         display: none;
     }
+    .dispaly_flex{
+        display: flex;
+    }
     .content_rightnav_mobile{
         display: block;
         margin: -16px 0;

@@ -5,7 +5,7 @@
             <div class="calendar_top_provision calendar_top_img" (click)="lessNowMinth()"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                 <path d="M11.9947 7.3503L9.01969 10.5441C8.77469 10.8066 8.77469 11.2091 9.01969 11.4628L11.9947 14.6566C12.4147 15.1028 13.1672 14.8141 13.1672 14.1928V7.8053C13.1672 7.1928 12.4147 6.8953 11.9947 7.34155V7.3503Z" fill="#090C10"/>
                 </svg></div>
-            <caption class="text calendar_top_date" (click)="changeCalendarChoise()">{{currentMonth | date:'MMMM' | titlecase}} {{currentMonth | date:'y'}}</caption>
+            <caption class="text calendar_top_date" (click)="changeCalendarChoise()">{{currentMonthOfString}} {{currentYer}}</caption>
             <div class="calendar_top_next calendar_top_img" (click)="nextNowMinth()"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
                 <path d="M11.9947 7.3503L9.01969 10.5441C8.77469 10.8066 8.77469 11.2091 9.01969 11.4628L11.9947 14.6566C12.4147 15.1028 13.1672 14.8141 13.1672 14.1928V7.8053C13.1672 7.1928 12.4147 6.8953 11.9947 7.34155V7.3503Z" fill="#090C10"/>
                 </svg></div>
@@ -48,6 +48,6 @@
 </div>
 
 <label for="Goods" class="all_top_block_text date_top_block_text_textarea text text_gray" i18n>Note</label>
-<textarea [(ngModel)]="description" name="Goods" id="" [value]="description" class="mb_texarea all_top_block_inp text date_top_block_textarea data_text_ara"></textarea>
+<textarea autocomplete="off" [(ngModel)]="description" name="Goods" id="" [value]="description" class="mb_texarea all_top_block_inp text date_top_block_textarea data_text_ara"></textarea>
 
 <div class="button_submit_next_step"><button class="previous_step text"(click)="previousStep()" i18n>Previous step</button><button class="next_step text" type="submit" (click)="nextStep()" i18n>Next step</button></div>

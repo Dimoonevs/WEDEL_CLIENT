@@ -19,7 +19,7 @@ export class InformationComponent {
     const mobile = document.querySelector(".mobile")
     const cookies = document.querySelector('.cookies')
     
-    toggleLengAndTheme?.classList.add('none_elem')
+    toggleLengAndTheme?.classList.add('dispaly_flex')
     burger?.classList.add("none_elem")
     mobile?.classList.add("none_elem")
     cookies?.classList.add('none_elem')
@@ -35,7 +35,7 @@ export class InformationComponent {
     classHelpToggleBlocke[index].classList.toggle('help_card_content_toggles_toggle--active')
   }
   downloadPDF(){
-    if(this.lang === "en-US"){
+    if(this.lang === "en"){
       const pdfUrl = 'assets/pdf/WE-DEL_General forwarding Terms and Conditions.pdf'; // Замените на фактический URL вашего PDF-файла
       const fileName = 'WE-DEL_General forwarding Terms and Conditions.pdf'; // Задайте имя для скачиваемого файла
 
@@ -45,7 +45,7 @@ export class InformationComponent {
       link.download = fileName;
       link.click();
     }
-    if(this.lang === 'cs'){
+    if(this.lang === 'cz'){
       const pdfUrl = "assets/pdf/WE-DEL_Vseobecne zasilatelske podminky.pdf";       
       const fileName = 'WE-DEL_Vseobecne zasilatelske podminky.pdf'; 
 

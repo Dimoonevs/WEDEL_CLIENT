@@ -22,7 +22,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
-.help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text_block{
+.help_card_content_toggles_toggle_text_block{
     margin-bottom: 15px;
 }
 .help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text_block_last{
@@ -60,7 +60,7 @@
     opacity: 0;
     transition: .5s ;
     padding: 0 24px;
-    line-height: .1px;
+    /* line-height: .1px; */
 }
 .help_card_content_toggles_toggle_wrapper{
     cursor: pointer;
@@ -69,11 +69,11 @@
     
 }
 .help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text{
-    max-height: 100%;
+    max-height: 1500px;
     opacity: 1;
     transition: .5s;
     padding: 24px; 
-    line-height: 20px;
+    /* line-height: 20px; */
 }
 .help_card_content_toggles_toggle{
     margin: 24px 0;

@@ -222,6 +222,7 @@
     color: #D9DADC !important;
 }
 
+
 /* Story */
 
 /* FAQ */
@@ -430,6 +431,18 @@
 .dark .phone_code_bg{
     background: rgba(106, 109, 112, 0.05) !important;
 }
+.dark .params_add{
+    color: #157b3b !important;
+}
+.dark .params_remove{
+    color: #b10f0f !important;
+}
+.dark .all_block_text{
+    color: #B4B6B8 !important;
+}
+.dark .summary_blocks-all{
+    border-bottom: 1px solid #8E9295 !important;
+}
 
 /* Quote */
 
@@ -504,10 +517,20 @@
 
 /* Data */
 .dark .calendar_text{
-    background: #414447 !important;
+    background: #6687ad26!important;
 }
 .dark .calendar_choice_month--none{
     background: #414447 !important;
+}
+
+
+.dark .contact_card_links_block_button:hover{
+    background-color: rgba(102, 135, 173, 0.36) !important;
+    
+}
+.dark .contact_card_links_block_button:active{
+    background-color: rgba(102, 135, 173, 0.46) !important;
+    
 }
 
 

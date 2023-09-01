@@ -15,7 +15,7 @@ export class CookiesComponent {
     const mobile = document.querySelector(".mobile")
     const cookies = document.querySelector('.cookies')
     
-    toggleLengAndTheme?.classList.add('none_elem')
+    toggleLengAndTheme?.classList.add('dispaly_flex')
     burger?.classList.add("none_elem")
     mobile?.classList.add("none_elem")
     cookies?.classList.add('none_elem')

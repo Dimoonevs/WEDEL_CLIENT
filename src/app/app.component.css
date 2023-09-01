@@ -283,6 +283,10 @@ footer{
 }
 .footer_select_item{
     max-height: 40px;
+    max-width: 84px;
+}
+.block_all_blocks_add_close_opening_popup{
+    z-index: 99;
 }
 
 /* footer */

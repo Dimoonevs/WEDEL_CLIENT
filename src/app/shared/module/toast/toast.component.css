@@ -29,6 +29,7 @@
   
 .toast-content {
     flex-grow: 1;
+    padding-right: 15px;
 }
 .toast-content .text{
     color: #FBFBFB;
@@ -39,4 +40,5 @@
   
 .toast-close {
     cursor: pointer;
+    align-self: flex-start;
 } 

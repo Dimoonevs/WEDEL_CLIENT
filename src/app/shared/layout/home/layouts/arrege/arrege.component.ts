@@ -67,6 +67,7 @@ showText(id:number){
  prevSlide() {
   if (this.carousel) {
     this.carousel.previous();
+    this.carousel.options.autoplayTimeout = 10000
   }
   
 }
@@ -74,6 +75,7 @@ showText(id:number){
 nextSlide() {
   if (this.carousel) {
     this.carousel.next();
+    this.carousel.options.autoplayTimeout = 10000
   }
 }
 

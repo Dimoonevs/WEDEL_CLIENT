@@ -161,7 +161,7 @@
       </trans-unit>
       <trans-unit id="7416185334584191302" datatype="html">
         <source> For any questions or inquiries, please email us using the form below. We always ready to assist you promptly. </source>
-        <target>V případě jakýchkoliv dotazů či podmětů se s námi nebváhejte spojit skrze formulář níže.Jsme vždy připraveni Vám co nejdříve odpovědět.</target>
+        <target>V případě jakýchkoliv dotazů či podmětů se s námi nebváhejte spojit skrze formulář níže. Jsme vždy připraveni Vám co nejdříve odpovědět.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
           <context context-type="linenumber">5,7</context>
@@ -964,7 +964,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="2602990819240694008" datatype="html">
-        <source>Finidsh</source>
+        <source>Send</source>
         <target>Odeslat</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
@@ -1403,140 +1403,12 @@
           <context context-type="linenumber">5765,5767</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="312745038600451045" datatype="html">
-        <source>Individual care instead of</source>
-        <target>Individuální péče namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5796</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2805458397817519196" datatype="html">
-        <source>Consulting with the aim of</source>
-        <target>Poradenství s cílem ušetřit náklady namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5800</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5508591364768375953" datatype="html">
-        <source>An entrepreneurial approach instead of </source>
-        <target>Podnikatelský přístup namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5804</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5369623719796446392" datatype="html">
-        <source>Business partnership instead of</source>
-        <target>Obchodní partnerství namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5808</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4084689416360723520" datatype="html">
-        <source>Single point of contact instead of</source>
-        <target>Jednotný kontakt namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5812</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6804387723796490295" datatype="html">
-        <source>Transparent fixed price instead of</source>
-        <target>Transparentní neměnná cena namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5816</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6600648507806246664" datatype="html">
-        <source>Agile approach instead of</source>
-        <target>Agilní přístup, kde bude třeba namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5820</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2021666287748716229" datatype="html">
-        <source>Individual service instead of</source>
-        <target>Individuální služba namísto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5824</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4499233733301691521" datatype="html">
-        <source>instead of an individual price list</source>
-        <target>namísto individuálního ceníku</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5635</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4464214253517449903" datatype="html">
-        <source>instead of an employee approach</source>
-        <target>namísto přístupu zaměstnance</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5643</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6100453655451258067" datatype="html">
-        <source>instead of a customer-supplier relationship</source>
-        <target>namísto vztahu zákazník-dodavatel</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5647</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2891671028066525973" datatype="html">
-        <source>instead of communication with several departments</source>
-        <target>namísto komunikace s několika odděleními</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5651</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8813530758009418612" datatype="html">
-        <source>instead of non-transparent surcharges</source>
-        <target>namísto netransparentních příplatků</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5655</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5845581746576026367" datatype="html">
-        <source>instead of blindly following the given process</source>
-        <target>namísto následování předem daného procesu</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5659</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="3387422732252707037" datatype="html">
         <source>GDPR</source>
         <target>Ochrana osobních údajů</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">130</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7178351833638169138" datatype="html">
-        <source>instead of depersonalizing and transferring part of the process to the customer</source>
-        <target>namísto odosobnění a přenesení části procesu na zákazníka</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5663</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7166250228636502224" datatype="html">
-        <source>instead of simply solving the request</source>
-        <target>namísto prostého řešení požadavku</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5639</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2556347949191696149" datatype="html">
@@ -2801,6 +2673,134 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">147,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5698371188176706891" datatype="html">
+        <source>Individual care </source>
+        <target>Individuální péče</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5634</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4499233733301691521" datatype="html">
+        <source>instead of an individual price list</source>
+        <target>namísto individuálního ceníku</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5635</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="773241846208642758" datatype="html">
+        <source>Consulting with the aim of saving costs</source>
+        <target>Poradenství s cílem ušetřit náklady</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5638</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7166250228636502224" datatype="html">
+        <source>instead of simply solving the request</source>
+        <target>namísto prostého řešení požadavku</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5639</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7482601542717731279" datatype="html">
+        <source>An entrepreneurial approach </source>
+        <target>Podnikatelský přístup</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5642</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4464214253517449903" datatype="html">
+        <source>instead of an employee approach</source>
+        <target>namísto přístupu zaměstnance</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5643</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="746144357376601544" datatype="html">
+        <source>Business partnership </source>
+        <target>Obchodní partnerství</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5646</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6100453655451258067" datatype="html">
+        <source>instead of a customer-supplier relationship</source>
+        <target>namísto vztahu zákazník-dodavatel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5647</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4336334269048297001" datatype="html">
+        <source>Single point of contact </source>
+        <target>Jednotný kontakt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5650</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2891671028066525973" datatype="html">
+        <source>instead of communication with several departments</source>
+        <target>namísto komunikace s několika odděleními</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5651</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4788495880208354688" datatype="html">
+        <source>Transparent fixed price </source>
+        <target>Transparentní neměnná cena</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5654</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8813530758009418612" datatype="html">
+        <source>instead of non-transparent surcharges</source>
+        <target>namísto netransparentních příplatků</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5655</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2693329767377601969" datatype="html">
+        <source>Agile approach </source>
+        <target>Agilní přístup, kde bude třeba</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5658</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5845581746576026367" datatype="html">
+        <source>instead of blindly following the given process</source>
+        <target>namísto následování předem daného procesu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5659</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1290326964986301753" datatype="html">
+        <source>Individual service </source>
+        <target>Individuální služba</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5662</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7178351833638169138" datatype="html">
+        <source>instead of depersonalizing and transferring part of the process to the customer</source>
+        <target>namísto odosobnění a přenesení části procesu na zákazníka</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5663</context>
         </context-group>
       </trans-unit>
       <!-- <trans-unit id="7861019357820485286" datatype="html">

@@ -11,13 +11,58 @@ export class DueDateComponent {
   selected= this.formService.getDateSelected();
   description = this.formService.getDateDescription()
   currentMonth: Date;
+  currentMonthOfString = "";
   weekDays: string[] = [$localize`Su`, $localize`Mo`, $localize`Tu`, $localize`We`, $localize`Th`, $localize`Fr`, $localize`Sa`];
   calendar: { day: number | null, isCurrentDay: boolean, date: Date | null}[][] = [];
   selectedDate: Date | null = null;
   monthForChoise: string[] =[$localize`Jan`, $localize`Feb`, $localize`Mar`, $localize`Apr`, $localize`May`, $localize`Jun`, $localize`Jul`, $localize`Aug`, $localize`Sept`, $localize`Oct`, $localize`Nov`, $localize`Dec`]
   calendarChoise = false;
+  currentYer : any;
 
   ngOnInit(): void {
+    this.selectMonthAndYers()
+  }
+  selectMonthAndYers(){
+    let numMonth = this.currentMonth.getMonth() +1
+    switch (numMonth) {
+        case 1 :
+          this.currentMonthOfString = this.monthForChoise[0];
+          break;
+        case 2 :
+          this.currentMonthOfString = this.monthForChoise[1];
+          break;
+        case 3 :
+          this.currentMonthOfString = this.monthForChoise[2];
+          break;
+        case 4 :
+          this.currentMonthOfString = this.monthForChoise[3];
+          break;
+        case 5 :
+          this.currentMonthOfString = this.monthForChoise[4];
+          break;
+        case 6 :
+          this.currentMonthOfString = this.monthForChoise[5];
+          break;
+        case 7 :
+          this.currentMonthOfString = this.monthForChoise[6];
+          break;
+        case 8 :
+          this.currentMonthOfString = this.monthForChoise[7];
+          break;
+        case 9 :
+          this.currentMonthOfString = this.monthForChoise[8];
+          break;
+        case 10 :
+          this.currentMonthOfString = this.monthForChoise[9];
+          break;
+        case 11 :
+          this.currentMonthOfString = this.monthForChoise[10];
+          break;
+        case 12 :
+          this.currentMonthOfString = this.monthForChoise[11];
+          break;
+    }
+    this.currentYer = this.currentMonth.getFullYear();
   }
   
   constructor(private homeComponent: QuotationComponent, private formService: FormService) {
@@ -89,11 +134,13 @@ export class DueDateComponent {
     if(this.currentMonth > currentMonth){
       this.currentMonth = new Date(this.currentMonth.getFullYear(), this.currentMonth.getMonth() - 1);
       this.generateCalendar()
+      this.selectMonthAndYers()
     }
   }
   nextNowMinth(){
     this.currentMonth = new Date(this.currentMonth.getFullYear(), this.currentMonth.getMonth() + 1);
     this.generateCalendar()
+    this.selectMonthAndYers()
   }
   choiseMonth(i:number, y: number){
     const nowDate = new Date()
@@ -102,6 +149,7 @@ export class DueDateComponent {
       this.currentMonth = choiseMonth
       this.changeCalendarChoise()
     }
+    this.selectMonthAndYers()
   }
   changeCalendarChoise(){
     this.calendarChoise = !this.calendarChoise;

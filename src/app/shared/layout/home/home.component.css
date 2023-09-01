@@ -360,7 +360,7 @@
     transition: .5s;
 }
 .contact_card_links_block_button:hover{
-    background: rgba(102, 135, 173, 0.16);
+    background: rgba(102, 135, 173, 0.20);
 }
 .contact_card_links_block_button:active{
     background: rgba(102, 135, 173, 0.26);
