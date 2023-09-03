@@ -158,7 +158,7 @@ export class HomeComponent implements OnInit {
     hideText?.classList.toggle("story_card_text--active")
   }
   location(){
-    window.location.href = "https://we-del.logitudeworld.com/login";
+    window.open("https://we-del.logitudeworld.com/login", "_blank");
   }
   
 
