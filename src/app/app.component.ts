@@ -2,9 +2,9 @@ import { Component, ElementRef, HostListener } from '@angular/core';
 import { ActivatedRoute, NavigationExtras, Params, Router } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
-import { FormService } from './shared/service/form.service';
 import { AnimationService } from './shared/service/animation.service';
 import { timeout } from 'rxjs';
+import { Angulartics2GoogleAnalytics } from 'angulartics2';
 
 declare var particlesJS: any;
 
@@ -48,7 +48,7 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cz", leng: 'cz'}
   ]
   
-  constructor(private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
+  constructor(angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics,private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
   }

@@ -31,6 +31,7 @@ import { JsonAminFourthComponent } from './shared/components/json/json-amin-four
 import { JsonAminFifthComponent } from './shared/components/json/json-amin-fifth/json-amin-fifth.component';
 import { JsonAminSixthComponent } from './shared/components/json/json-amin-sixth/json-amin-sixth.component';
 import { InformationComponent } from './shared/layout/information/information.component';
+import { Angulartics2Module, Angulartics2GoogleAnalytics } from 'angulartics2';
 
 export function playerFactory() {
   return import('lottie-web');
@@ -70,7 +71,8 @@ export function playerFactory() {
     ReactiveFormsModule,
     OwlModule,
     NgxMaskModule.forRoot(),
-    LottieModule.forRoot({ player: playerFactory })
+    LottieModule.forRoot({ player: playerFactory }),
+    Angulartics2Module.forRoot()
     
   ],
   providers: [
