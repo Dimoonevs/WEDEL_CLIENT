@@ -3,8 +3,7 @@ import { ActivatedRoute, NavigationExtras, Params, Router } from '@angular/route
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
 import { AnimationService } from './shared/service/animation.service';
-import { timeout } from 'rxjs';
-import { Angulartics2GoogleAnalytics } from 'angulartics2';
+import { TimeService } from './shared/service/TimeService';
 
 declare var particlesJS: any;
 
@@ -48,7 +47,7 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cz", leng: 'cz'}
   ]
   
-  constructor(angulartics2GoogleAnalytics: Angulartics2GoogleAnalytics,private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
+  constructor(private timeService: TimeService, private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
   }
@@ -108,6 +107,8 @@ export class AppComponent {
     },4800)
   }
   ngOnInit(): void {
+    // this.scheduleFunctionBasedOnTime();
+
     this.loadingSequenceLoop()
     this.loadParticales()
     if(!this.service.myVariable){
@@ -134,6 +135,24 @@ export class AppComponent {
       bodyElement?.classList.add('dark')
     }
   }
+
+  scheduleFunctionBasedOnTime(): void {
+    const currentHour = 15
+    if (currentHour <= 6 || currentHour >= 17){
+      if(localStorage.getItem('isDark') == null){
+        this.isDarkFunc()
+        console.log("SDSDD")
+        localStorage.setItem('isDark', JSON.stringify(null));
+      }
+    } else {
+      if(localStorage.getItem('isDark') == null){
+        this.isLightFunc()
+        console.log("SDSDD")
+        localStorage.setItem('isDark', JSON.stringify(null));
+      }
+    }
+  }
+
   toggelItem(){
     this.isActive = true
   }
