@@ -12,8 +12,8 @@
 }
 .stepper_swg_text_all{
     position: absolute;
-    left: 8px;
-    top: 14px;
+    left: 6px;
+    top: 12px;
     display: flex;
 }
 .stepper_swg_text_all_light{
@@ -161,7 +161,7 @@
     color: #1A2430;
 }
 .stepper_text_title{
-    margin-bottom: 12px;
+    margin-bottom: 4px;
 }
 .text{
     font-size: 14px;

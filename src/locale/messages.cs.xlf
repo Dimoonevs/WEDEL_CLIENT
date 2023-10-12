@@ -987,12 +987,12 @@
           <context context-type="linenumber">5421</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7574928322989891940" datatype="html">
-        <source>Our specialization is air and ground transportation, and our services are adapted to these modes of transportation. If you order an import service, we will arrange the entire transport for you through our network of proven local expert partners who are members of the WCA (the largest global alliance of independent carriers) or JcTrans forwarders alliances. We handle export shipments from our Prague office through direct contact with airlines or their local representatives. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
-        <target>Naší hlavní specializací je letecká přeprava. Přepravu importních zásilek zařídíme skrze prověřenou síť místního experních partnerů, kteří jsou všichni členové WCA (největší aliance nezávislých zasilatelů), či JcTrans. Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště skrze přímý styk s aerolinkami, či jejich lokálními prodejními kanály. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
+      <trans-unit id="8172338162458743340" datatype="html">
+        <source>Our signature service? Air transportation. If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
+        <target>Naš signaturní servis? Letecká přeprava. Přepravu importních zásilek zařídíme skrze lety prověřenou síť místního experních partnerů fungujících dle standardů mezinárodní letecké asociace a aliance WCA.Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště či jiných evropských letišt. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5422,5424</context>
+          <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
+          <context context-type="linenumber">10,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6454560856380138406" datatype="html">
@@ -1083,20 +1083,28 @@
           <context context-type="linenumber">5458</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1610695009466153865" datatype="html">
-        <source>We will be happy to arrange for you preparation of shipment according to the IATA Dangerous goods regulation and then transport it via air to your desired location.</source>
-        <target>Rádi pro Vás zajistíme přípravu zásilke dle regulí IATA Dangerous goods a poté zásilku doručíme letecky či po zemi do Vámi požadované destinace.</target>
+      <trans-unit id="6819776507882942358" datatype="html">
+        <source>We will be happy to arrange for you preparation of shipment according to the IATA Dangerous goods regulation and then transport it to your desired location.</source>
+        <target>Rádi pro Vás zajistíme přípravu zásilky dle regulí IATA Dangerous goods a poté zásilku doručíme do Vámi požadované destinace.</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5459</context>
+          <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4196971271772547892" datatype="html">
-        <source>Give us the time frame by which you need your shipment to arrive and leave the worries to us.</source>
-        <target>Dejte nám časový rámec do kdy zásilku potřebujete a starosti nechte na nás.</target>
+      <trans-unit id="3208990487356209663" datatype="html">
+        <source> Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
+        <target>Naší vizí je pomoci zejména malým a středním firmám zajištěním komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit to nejdůležitější. Náklady. Čas. Nervy.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5493</context>
+          <context context-type="linenumber">5547,5549</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8351552738640271944" datatype="html">
+        <source>&quot;Give us the time frame by which you need your shipment to arrive and leave the worries to us.&quot;</source>
+        <target>&quot;Dejte nám časový rámec do kdy zásilku potřebujete a starosti nechte na nás.&quot; řádkování</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5425</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6609486527251769897" datatype="html">
@@ -1123,9 +1131,9 @@
           <context context-type="linenumber">5554,5556</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3519986166834284512" datatype="html">
-        <source>Request a quote</source>
-        <target>Poptat cenu</target>
+      <trans-unit id="3064350297390043064" datatype="html">
+        <source>Request a solution</source>
+        <target>Poptat řešení</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">10</context>
@@ -1143,20 +1151,112 @@
           <context context-type="linenumber">5509</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5717557116933302515" datatype="html">
-        <source> SMART air service offers the optimal ratio between transit time and price for imports from China. </source>
-        <target>Letecký servis Smart nabízí optimální poměr mezi transitní časem a cempi pro importy z Číny.</target>
+      <trans-unit id="8502462614636252537" datatype="html">
+        <source> SMART air service offers the optimal ratio between transit time and price for imports from China, USA and South Korea. </source>
+        <target>Letecký servis Smart nabízí optimální poměr mezi transitní časem a cenou pro importy z Číny, USA a Jižní Koreji.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5507,5509</context>
+          <context context-type="linenumber">5439,5441</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4854608890639392528" datatype="html">
-        <source>Our signature import service currently available on the route China – Czech Republic offering excellent value for money on a consolidated route from China 2* per week. The specific schedule can be found in the table below:</source>
-        <target>Náš servis Smart, fungující aktuálně pro letecké importy na trase Čína - Česká Republika, nabízí exceletní poměr cena:hodnota  na konsolidované lince z Číny s odletem ve středu a v neděli . Specifické časování servisu můžete vidět na tabulce níže:</target>
+      <trans-unit id="8202460126163154457" datatype="html">
+        <source>Our signature import service currently available on the route China, USA. South Korea – Czech Republic offering excellent value for money on a consolidated route 2 times per week. The specific schedule can be found in the table below:</source>
+        <target>Náš servis Smart, nabízí exceletní poměr cena:hodnota  na konsolidované lince z Číny, USA a Jižní Koreji s odletem ve středu a v neděli . Specifické časování servisu můžete vidět na tabulce níže:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5510</context>
+          <context context-type="linenumber">5442</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1212257460397572482" datatype="html">
+        <source>Flight</source>
+        <target>Let</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8798932904948432529" datatype="html">
+        <source>Wednesday</source>
+        <target>Středa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5456</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6950140976689343775" datatype="html">
+        <source>Sunday</source>
+        <target>Neděle</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7372755454773589030" datatype="html">
+        <source>Delivery</source>
+        <target>Doručení</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5462</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7700354664426169205" datatype="html">
+        <source>Thursday/Friday</source>
+        <target>Čtvrtek/Pátek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5465</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="763443134230395397" datatype="html">
+        <source>Monday/Tuesday</source>
+        <target>Pondělí/Úterý</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5466</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8843092531392861528" datatype="html">
+        <source>Deadline – pick up</source>
+        <target>Uzáverka vyzvednutí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3730139500618908668" datatype="html">
+        <source>Friday</source>
+        <target>Pátek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5474</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9176037901730521018" datatype="html">
+        <source>Tuesday</source>
+        <target>Úterý</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5475</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2384778567569698945" datatype="html">
+        <source>Deadline – order</source>
+        <target>Užáverka objednávek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5471</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1830554030016307335" datatype="html">
+        <source>Saturday</source>
+        <target>Sobota</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5483</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5496474715763673489" datatype="html">
@@ -1277,18 +1377,18 @@
       </trans-unit>
       <trans-unit id="5819173161100100666" datatype="html">
         <source> We don&apos;t want a world full of corporations where we become just passive recipients of the decision which international corporation to choose despite all of them has the same services wrapped in a different marketing package. Big corporations are usually doing services for another big corporations and small and medium enterprises are not getting service with the same quality and price. With this vision, we decided to found WE-DEL. Small and medium-sized enterprises are the healthy backbone of our economy, yet their share of GDP in the Czech Republic is below the level of the EU28. To a certain extent, this is also due to the fact that the mentioned enterprises encounter barriers from the large players from various sectors in the market. We want to change that! </source>
-        <target>Naší vizí je pomoci zejména malým a středním firmám skrze nabídku komplexních přepravních služeb, které pomohou mým obchodním partnerům šetřit náklady, čas a nervy. Malé a střední podniky jsou zdravou páteří naší ekonomiky, přesto jejich podíl na HDP v ČR se nachází pod úrovní EU28. Z určité části je to také tím, že zmíněné podniky narážejí na bariéry ze strany velkých hráčů z rozličných odvětví na trhu. Ti nabízí malým a středním firmám služby, které nemají stejnou úroveň kvality a ceny jako pro velké podniky, ač jsou zabaleny do pohledného marketingového pozlátka. Chceme to změnit!</target>
+        <target>Malé a střední podniky jsou zdravou páteří naší ekonomiky, přesto jejich podíl na HDP v ČR se nachází pod úrovní EU28. Z určité části je to také tím, že zmíněné podniky narážejí na bariéry ze strany velkých hráčů z rozličných odvětví na trhu. Ti nabízí malým a středním firmám služby, které nemají stejnou úroveň kvality a ceny jako pro velké podniky, ač jsou zabaleny do pohledného marketingového pozlátka. Chceme to změnit!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5714,5716</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3208990487356209663" datatype="html">
-        <source> Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
-        <target>Naší vizí je pomoci zejména malým a středním podnikům skrze komplexní nabídku přepravních služeb, které pomohou našim obchodním partnerům šetřit peníze, čas a nervy.</target>
+      <trans-unit id="5558377968017548690" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. Costs. Time. Nerves. </source>
+        <target>Naší vizí je pomoci zejména malým a středním firmám zajištěním komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit to nejdůležitější. Náklady. Čas. Nervy.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5717,5719</context>
+          <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4993469915381526082" datatype="html">
@@ -2665,14 +2765,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/information/information.component.html</context>
           <context context-type="linenumber">258</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4802250253063736707" datatype="html">
-        <source> We use cookies </source>
-        <target>Používáme cookies</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">147,149</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5698371188176706891" datatype="html">

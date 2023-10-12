@@ -156,6 +156,24 @@ export class HomeComponent implements OnInit {
     this.IsShowText = !this.IsShowText;
     hideBlocke?.classList.toggle("story_card--active")
     hideText?.classList.toggle("story_card_text--active")
+    if(!this.IsShowText){
+        this.scrollTo('story')
+    }
+  }
+  scrollToStory(ele: string){
+    const targetBlock = document.querySelector('.'+ele);
+    if (targetBlock) {
+      let scrollTopOffset = 0;
+      if(window.innerWidth >= 2086){
+        scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 120;
+      }else{
+        scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 90;
+      }
+      window.scrollTo({
+        top: scrollTopOffset,
+        behavior: 'smooth'
+      });
+    }
   }
   location(){
     window.open("https://we-del.logitudeworld.com/login", "_blank");

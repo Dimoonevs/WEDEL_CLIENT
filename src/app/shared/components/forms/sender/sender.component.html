@@ -22,6 +22,18 @@
             <input type="text" (click)="addFocuse()"  [(ngModel)]="valueCountry" autocomplete="off" name="Country" class="all_top_block_inp all_top_block_inp_country text text_gray" (keyup)="onKeay(valueCountry)"  formControlName="Country">
             <div class="county_container">
                 <div id="country" class="country">
+                    <div class="preloader_content" [ngClass]="{'none_elem' : isLoadCountryInput }">
+                        <div class="preloader_content_block">
+                        </div>
+                        <div class="preloader_content_block">
+                        </div>
+                        <div class="preloader_content_block">
+                        </div>
+                        <div class="preloader_content_block">
+                        </div>
+                        <div class="preloader_content_block">
+                        </div>
+                    </div>
                     <div class="span_country" *ngFor="let country of countries">
                         <div class="text text_country" [ngClass]="{'text_country-selected' : valueCountry === country }" *ngIf="country !== 'Belarus' 
                         && country !== 'Cuba' 
@@ -53,7 +65,10 @@
                         || country === 'Syria'
                         || country === 'Somalia'
                         || country === 'Sudan'
-                        || country === 'South Sudan'">{{country}}</div>
+                        || country === 'South Sudan'">
+                       
+                        {{country}}
+                    </div>
                     </div>
                 </div>
             </div>
@@ -110,6 +125,18 @@
                     </div>
                     <div class="all_botom_select_options_codes_container">
                         <div class="all_botom_select_options_codes phone_botom_select_options_codes ">
+                            <div class="preloader_content" [ngClass]="{'none_elem' : isLoadCallingCode }">
+                                <div class="preloader_content_block">
+                                </div>
+                                <div class="preloader_content_block">
+                                </div>
+                                <div class="preloader_content_block">
+                                </div>
+                                <div class="preloader_content_block">
+                                </div>
+                                <div class="preloader_content_block">
+                                </div>
+                            </div>
                             <div *ngFor="let country of countries; let i = index" class="option text"(click)="valuePhone(callingCode[i], i)" [ngClass]="{'option--active': phoneCode === callingCode[i]}"><div class="phone_code_country_name">{{country}}</div><div class="phone_code_country_code">{{callingCode[i]}}</div></div>
                         </div>
                     </div>

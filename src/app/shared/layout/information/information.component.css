@@ -122,3 +122,8 @@
     margin: 0 auto; 
     padding: 0px 16px; 
 }
+@media (max-width: 755px) {
+    .help_card_info{
+        padding: 40px 0;
+    }
+}

@@ -33,6 +33,8 @@ export class SenderComponent {
   phoneCode = this.formService.getSenderPhoneCode();
   digitCode = this.formService.getSenderDigitCode();
   searchCountryReq!: SearchCountryReq;
+  isLoadCountryInput = true
+  isLoadCallingCode = true
   phoneMask = '000 000 000'
 
   onVisible() {
@@ -41,6 +43,7 @@ export class SenderComponent {
   }
 
   ngOnInit(){
+    
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -146,6 +149,7 @@ export class SenderComponent {
           this.callingCode.push(countryAndCallingCode.data[i].callingCode);
           this.digitsAfterCode.push(countryAndCallingCode.data[i].digitsAfterCode);
         }
+        this.isLoadCallingCode = true
       }
     )
 
@@ -157,6 +161,7 @@ export class SenderComponent {
         for(let i = 0; i < countryAndCallingCode.data.length; i++){
           this.countries.push(countryAndCallingCode.data[i].country);
         }
+        this.isLoadCountryInput = true
       }
     )
   }

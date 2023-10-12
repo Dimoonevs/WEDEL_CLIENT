@@ -31,7 +31,7 @@ import { JsonAminFourthComponent } from './shared/components/json/json-amin-four
 import { JsonAminFifthComponent } from './shared/components/json/json-amin-fifth/json-amin-fifth.component';
 import { JsonAminSixthComponent } from './shared/components/json/json-amin-sixth/json-amin-sixth.component';
 import { InformationComponent } from './shared/layout/information/information.component';
-import { NgxGoogleAnalyticsModule, NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
+import { NgxGoogleAnalyticsRouterModule } from 'ngx-google-analytics';
 
 export function playerFactory() {
   return import('lottie-web');
@@ -72,14 +72,23 @@ export function playerFactory() {
     OwlModule,
     NgxMaskModule.forRoot(),
     LottieModule.forRoot({ player: playerFactory }),
-    NgxGoogleAnalyticsModule.forRoot('G-07R27XBE9Z'),
+    // NgxGoogleAnalyticsModule.forRoot('G-07R27XBE9Z'),
     NgxGoogleAnalyticsRouterModule
     
   ],
   providers: [
     {provide: MAT_DATE_LOCALE, useValue: 'en-GB'},
-    { provide: ToastComponent, useClass: ToastComponent }
+    {provide: ToastComponent, useClass: ToastComponent }
   ],
   bootstrap: [AppComponent, HomeComponent]
 })
-export class AppModule { }
+export class AppModule { 
+  constructor(){
+    const enableAnalytics = localStorage.getItem('enableAnalytics');
+    if (enableAnalytics) {
+      import('ngx-google-analytics').then(module => {
+        module.NgxGoogleAnalyticsModule.forRoot('G-07R27XBE9Z');
+      });
+    }
+  }
+}

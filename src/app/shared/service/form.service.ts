@@ -13,7 +13,7 @@ export class FormService{
     senderStreet!: string;
     senderContacts!: string;
     senderBuget!: string;
-    senderPhoneCode = "+420";
+    senderPhoneCode = "+420"; 
     senderDigitCode = 9;
 
     setSenderDigitCode(num:number){

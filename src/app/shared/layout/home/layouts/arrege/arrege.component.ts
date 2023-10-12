@@ -14,6 +14,7 @@ IsShowTextThree = false
 ngAfterViewInit(): void {
   this.toggleCartContentCarusel();
 }
+
 carouselOptions = {
   loop: true,
   items: 1,
@@ -28,12 +29,6 @@ onCarouselInitialized() {
   }
 }
 showText(id:number){
-  // this.IsShowText = !this.IsShowText;
-  // const serviceText = document.querySelectorAll('.arrage_cards_card')
-  // for(let i =0; i < serviceText.length; i++){
-  //   console.log(serviceText)
-  //   serviceText[i].classList.toggle('arrage_cards_card--active')
-  // }
   switch (id){
     case 1:
       {

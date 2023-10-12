@@ -6,11 +6,11 @@
         <source>We do</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">74</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
@@ -21,11 +21,11 @@
         <source>Services</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">22</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">74</context>
+          <context context-type="linenumber">75</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -36,11 +36,11 @@
         <source>Quote</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">23</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">75</context>
+          <context context-type="linenumber">76</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/quotation/quotation.component.html</context>
@@ -51,11 +51,11 @@
         <source>Tracking</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">24</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">77</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -66,11 +66,11 @@
         <source>Our story</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">78</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -81,11 +81,11 @@
         <source>FAQ</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">79</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
@@ -96,53 +96,32 @@
         <source>Contact</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">27</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="173101900787004043" datatype="html">
         <source>Terms of Conditions</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">130</context>
+          <context context-type="linenumber">131</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3387422732252707037" datatype="html">
         <source>GDPR</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">131</context>
+          <context context-type="linenumber">132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6447983112718925436" datatype="html">
         <source>For any questions or inquiries, please send us request for call. We always ready to assist you promptly.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">136</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4802250253063736707" datatype="html">
-        <source> We use cookies </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">147,149</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8797830656463947414" datatype="html">
-        <source> This website exclusively utilizes essential functional and analytical cookies while abstaining from the usage of marketing trackers. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">154,156</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2827984212740060090" datatype="html">
-        <source>Read more</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">159</context>
+          <context context-type="linenumber">137</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1109117195472260452" datatype="html">
@@ -207,19 +186,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">65,67</context>
+          <context context-type="linenumber">80,82</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">79,81</context>
+          <context context-type="linenumber">94,96</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">93,95</context>
+          <context context-type="linenumber">108,110</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">120,122</context>
+          <context context-type="linenumber">147,149</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
@@ -285,6 +264,10 @@
           <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
+          <context context-type="linenumber">283</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="4388879716045736175" datatype="html">
         <source>Note</source>
@@ -324,7 +307,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">153</context>
+          <context context-type="linenumber">180</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
@@ -335,133 +318,133 @@
         <source>Su</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4197236438302165051" datatype="html">
         <source>Mo</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6034455877220674404" datatype="html">
         <source>Tu</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3221670730445125135" datatype="html">
         <source>We</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="772466829681972216" datatype="html">
         <source>Th</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8598262708800132669" datatype="html">
         <source>Fr</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="569007902695332072" datatype="html">
         <source>Sa</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7595747576974676670" datatype="html">
         <source>Jan</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4916040996255005712" datatype="html">
         <source>Feb</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6438827956918137617" datatype="html">
         <source>Mar</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5507326650332881991" datatype="html">
         <source>Apr</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8469692700277617405" datatype="html">
         <source>May</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2113470244260512015" datatype="html">
         <source>Jun</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="53176888553719239" datatype="html">
         <source>Jul</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5648574669404659458" datatype="html">
         <source>Aug</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8008220216521768133" datatype="html">
         <source>Sept</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6207754626941051341" datatype="html">
         <source>Oct</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8269261039058575292" datatype="html">
         <source>Nov</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7777579586760423636" datatype="html">
         <source>Dec</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.ts</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="479402440720134924" datatype="html">
@@ -494,7 +477,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5471941518357146105" datatype="html">
@@ -505,7 +488,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">76</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6297500517822371102" datatype="html">
@@ -516,7 +499,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">90</context>
+          <context context-type="linenumber">105</context>
         </context-group>
       </trans-unit>
       <trans-unit id="846378314224453021" datatype="html">
@@ -537,14 +520,14 @@
         <source>Phone number<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text six&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">104</context>
+          <context context-type="linenumber">119</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6885844978916799621" datatype="html">
         <source>Budget</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">131</context>
+          <context context-type="linenumber">158</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2136484458544397346" datatype="html">
@@ -876,13 +859,6 @@
           <context context-type="linenumber">273,275</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2602990819240694008" datatype="html">
-        <source>Send</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/components/forms/summary/summary.component.html</context>
-          <context context-type="linenumber">283</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="6051194839731750587" datatype="html">
         <source>Shipment ID<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text fiive&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
@@ -953,15 +929,15 @@
           <context context-type="linenumber">49,51</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6700732310668574063" datatype="html">
-        <source> Our vision is to help especially small and medium – sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
+      <trans-unit id="5558377968017548690" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. Costs. Time. Nerves. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">7,9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3519986166834284512" datatype="html">
-        <source>Request a quote</source>
+      <trans-unit id="3064350297390043064" datatype="html">
+        <source>Request a solution</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">10</context>
@@ -979,8 +955,8 @@
           <context context-type="linenumber">5509</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4196971271772547892" datatype="html">
-        <source>Give us the time frame by which you need your shipment to arrive and leave the worries to us.</source>
+      <trans-unit id="8351552738640271944" datatype="html">
+        <source>&quot;Give us the time frame by which you need your shipment to arrive and leave the worries to us.&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5425</context>
@@ -993,18 +969,99 @@
           <context context-type="linenumber">5426</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5717557116933302515" datatype="html">
-        <source> SMART air service offers the optimal ratio between transit time and price for imports from China. </source>
+      <trans-unit id="8502462614636252537" datatype="html">
+        <source> SMART air service offers the optimal ratio between transit time and price for imports from China, USA and South Korea. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5439,5441</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4854608890639392528" datatype="html">
-        <source>Our signature import service currently available on the route China – Czech Republic offering excellent value for money on a consolidated route from China 2* per week. The specific schedule can be found in the table below:</source>
+      <trans-unit id="8202460126163154457" datatype="html">
+        <source>Our signature import service currently available on the route China, USA. South Korea – Czech Republic offering excellent value for money on a consolidated route 2 times per week. The specific schedule can be found in the table below:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5442</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1212257460397572482" datatype="html">
+        <source>Flight</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8798932904948432529" datatype="html">
+        <source>Wednesday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5456</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6950140976689343775" datatype="html">
+        <source>Sunday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7372755454773589030" datatype="html">
+        <source>Delivery</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5462</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7700354664426169205" datatype="html">
+        <source>Thursday/Friday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5465</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="763443134230395397" datatype="html">
+        <source>Monday/Tuesday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5466</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2384778567569698945" datatype="html">
+        <source>Deadline – order</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5471</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3730139500618908668" datatype="html">
+        <source>Friday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5474</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9176037901730521018" datatype="html">
+        <source>Tuesday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5475</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8843092531392861528" datatype="html">
+        <source>Deadline – pick up</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1830554030016307335" datatype="html">
+        <source>Saturday</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5483</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5496474715763673489" datatype="html">
@@ -1406,8 +1463,8 @@
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7574928322989891940" datatype="html">
-        <source>Our specialization is air and ground transportation, and our services are adapted to these modes of transportation. If you order an import service, we will arrange the entire transport for you through our network of proven local expert partners who are members of the WCA (the largest global alliance of independent carriers) or JcTrans forwarders alliances. We handle export shipments from our Prague office through direct contact with airlines or their local representatives. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
+      <trans-unit id="8172338162458743340" datatype="html">
+        <source>Our signature service? Air transportation. If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
           <context context-type="linenumber">10,12</context>
@@ -1490,8 +1547,8 @@
           <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1610695009466153865" datatype="html">
-        <source>We will be happy to arrange for you preparation of shipment according to the IATA Dangerous goods regulation and then transport it via air to your desired location.</source>
+      <trans-unit id="6819776507882942358" datatype="html">
+        <source>We will be happy to arrange for you preparation of shipment according to the IATA Dangerous goods regulation and then transport it to your desired location.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
           <context context-type="linenumber">49</context>

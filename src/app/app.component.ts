@@ -1,4 +1,4 @@
-import { Component, ElementRef, HostListener } from '@angular/core';
+import { Component, ElementRef, HostListener, Renderer2 } from '@angular/core';
 import { ActivatedRoute, NavigationExtras, Params, Router } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
@@ -27,6 +27,8 @@ export class AppComponent {
   showCookiesSettings = false;
   isLoading = false;
   htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
+  isButtonDisabled = false
+  enableAnalytics = true
 
   isDarkTrue():boolean{
     return this.isDark;
@@ -47,7 +49,9 @@ export class AppComponent {
     {id:2, locale:'CZ', code: "cz", leng: 'cz'}
   ]
   
-  constructor(private timeService: TimeService, private http: HttpClient, private router :Router, private elRef: ElementRef, private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
+  constructor(private renderer: Renderer2, private timeService: TimeService, 
+    private http: HttpClient, private router :Router, private elRef: ElementRef, 
+    private activeRoute: ActivatedRoute, private toast: ToastComponent, private service:AnimationService){
     const storedIsDark = localStorage.getItem('isDark');
     this.isDark = storedIsDark ? JSON.parse(storedIsDark) : false;
   }
@@ -101,18 +105,17 @@ export class AppComponent {
     }
   }
   showCookies(){
-    const cookies = document.querySelector(".cookies")
+    const cookies = document.querySelector(".cookies_wrapper")
     setTimeout(() =>{
-      cookies?.classList.add("cookies_active")
+      cookies?.classList.remove("none_elem")
     },4800)
   }
   ngOnInit(): void {
-    // this.scheduleFunctionBasedOnTime();
-
     this.loadingSequenceLoop()
     this.loadParticales()
+    console.log(this.service.myVariable)
     if(!this.service.myVariable){
-      this.showCookies()
+      this.showCookies();
     }
 
 
@@ -219,32 +222,21 @@ export class AppComponent {
   }
   closeCookies(){
     this.showCookiesSettings = true
-    const cookies = document.querySelector('.cookies')
-    cookies?.classList.remove("cookies_active")
+    const cookies = document.querySelector('.cookies_wrapper')
+    cookies?.classList.add("none_elem")
+    this.service.setTrueIsCkecked()
   }
   routeToCookies(){
     this.showCookiesSettings = true
-    // const externalSiteUrl = this.router.serializeUrl(
-    //   this.router.createUrlTree(['cookies'])
-    // );
     window.open("https://we-del.cz/" + this.lenguege + "/cookies", '_blank');
-    // this.router.navigate(['cookies'])
     this.closeCookies()
   }
   routeToPrivacy(){
-    // const externalSiteUrl = this.router.serializeUrl(
-    //   this.router.createUrlTree(['privacy'])
-    // );
     window.open("https://we-del.cz/" + this.lenguege + "/terms-and-conditions", '_blank');
-    // this.router.navigate(['privacy'])
     
   }
   routeToGDPR(){
-    // const externalSiteUrl = this.router.serializeUrl(
-    //   this.router.createUrlTree(['GDPR'])
-    // );
     window.open("https://we-del.cz/" + this.lenguege + "/GDPR", '_blank');
-    // this.router.navigate(['GDPR'])
     
   }
   loadingBiforeLoadAllPage(){
@@ -286,6 +278,46 @@ export class AppComponent {
     
 
     
+  }
+  toogleSetupCookies(){
+    let setupCookies = document.querySelector(".cookies_setup_wrapper")
+    setupCookies?.classList.toggle("none_elem")
+  }
+  toogleSelectedCookies(name: string, i: any){
+    if(name === "necessary"){
+      let necessafyes = document.querySelectorAll(".cookies_setup_body_select_value_necessary")
+      if(!necessafyes[i].classList.contains("cookies_setup_body_select_value_necessary--active")){
+        for(let i = 0; i < necessafyes.length; i++){
+          necessafyes[i].classList.toggle("cookies_setup_body_select_value_necessary--active")
+        }
+      }
+
+    }else{
+      let analyticales = document.querySelectorAll(".cookies_setup_body_select_value_analytical")
+      if(!analyticales[i].classList.contains("cookies_setup_body_select_value_analytical--active")){
+        for(let i = 0; i < analyticales.length; i++){
+          analyticales[i].classList.toggle("cookies_setup_body_select_value_analytical--active")
+        }
+      }
+    }
+    this.buttonDisabledForSelectedCookies()
+  }
+  buttonDisabledForSelectedCookies(){
+    let necessary = document.querySelector(".cookies_setup_body_select_value_necessary--active")
+    if(necessary?.textContent === "Off"){
+      this.isButtonDisabled = true
+    }else{
+      this.isButtonDisabled = false
+    }
+  }
+  toggleAnalitycs(){
+    let analyticale = document.querySelector(".cookies_setup_body_select_value_analytical--active")
+    if (analyticale?.textContent === "Off") {
+      localStorage.setItem('enableAnalytics', 'false');
+    } else {
+      localStorage.setItem('enableAnalytics', 'true');
+    }
+    this.toogleSetupCookies()
   }
 }
 

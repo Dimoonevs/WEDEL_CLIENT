@@ -20,8 +20,8 @@ export class AnimationService {
     }, 800);
   }
 
-  get myVariable(): boolean {
-    return this._myVariable;
+  get myVariable(): any {
+    return localStorage.getItem('myVariable');
   }
   setTrueIsCkecked(){
     const savedValue = localStorage.getItem('myVariable');

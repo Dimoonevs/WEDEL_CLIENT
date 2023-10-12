@@ -116,7 +116,20 @@
     }
 }
 @media (max-width: 939px) {
-    
+
+    .services_cards_card_content_texts_tabled::-webkit-scrollbar {
+        height: 4px;
+    }
+      
+    .services_cards_card_content_texts_tabled::-webkit-scrollbar-track {
+        background: #FFFFFF;
+        border-radius: 4px;
+    }
+      
+    .services_cards_card_content_texts_tabled::-webkit-scrollbar-thumb {
+        background: #456080;
+        border-radius: 4px;
+    }  
     .summary_sender_info{
         width: 100%;
     }
@@ -168,10 +181,16 @@
     .tracking_content{
         padding: 48px 0;
     }
+    .contact{
+        margin-bottom: 79px;
+    }
     .contact_card{
         height: auto;
-        padding: 25px 24px;
+        padding: 64px 0;
         flex-direction: column;
+    }
+    .form_contact{
+        background: none;
     }
     .contact_card_links{
         box-shadow: none;
@@ -180,6 +199,11 @@
         background: linear-gradient(124.98deg, rgba(255, 255, 255, 0.55) 11.72%, rgba(255, 255, 255, 0.21) 89.81%);
         box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
         backdrop-filter: blur(20px);
+        width: 100%;
+        max-width: none;
+    }
+    .contact_card_links_block{
+        max-width: none;
     }
     .form_contact{
         max-width: none;
@@ -211,7 +235,9 @@
         max-width: none;
         margin: 0;
     }
-
+    .help_card{
+        padding: 40px 0;
+    }
 }
 @media (max-width: 839px) {
     .wrapper_arrage{
@@ -259,7 +285,7 @@
     }
     .arrage_cards_card_button{
         display: flex;
-        max-height: 40px;
+        max-height: 48px;
         margin-top: 24px;
         max-width: 100% ;
         justify-content: center;
@@ -279,19 +305,28 @@
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 3;
     }
+    .arrage_cards_card_text:nth-child(1){
+        padding: 48px 24px;
+    }
+    .arrage_cards_card_sc .arrage_cards_card_text{
+        padding: 48px 24px;
+    }
+    .arrage_cards_card_th .arrage_cards_card_text{
+        padding: 48px 24px;
+    }
     .owl-dots {
         margin-top: 16px;
     }
     .custom-navigation{
         display: none;
     }
+    .img{
+        width: 100%;
+    }
     .tailored_content{
         padding-top: 319px;
         max-width: 557px;
     }
-    /* .tailored .wrapper{
-        justify-content: center;
-    } */
     .tailored .img:nth-child(1){
         display: none;
     }
@@ -412,26 +447,13 @@
         width: 57px;
         height: 100%;
         border-radius: 3.6px;
-        left: 0;
+        left: -1px;
         transform: scaleX(-1);
         opacity: 0;
         transition: .5s;
     }
     .active_shadow{
         opacity: 1;
-    }
-    .services_cards_card_content_texts_tabled::-webkit-scrollbar {
-        height: 4px;
-    }
-      
-    .services_cards_card_content_texts_tabled::-webkit-scrollbar-track {
-        background: #FFFFFF;
-        border-radius: 4px;
-    }
-      
-    .services_cards_card_content_texts_tabled::-webkit-scrollbar-thumb {
-        background: #456080;
-        border-radius: 4px;
     }
     
 }
@@ -452,7 +474,7 @@
         top: 51px;
     }
     .img_inpu_country--focus{
-        top: 45px;
+        top: 43px;
     }
     .all_top_block_inp{
         height: 48px;
@@ -584,6 +606,9 @@
     /* .img{
         top: 97px;
     } */
+    .wrapper_arrage_cards_card_text_ul_li{
+        flex-direction: column;
+    }
     .logo svg{
         width: 136px;
         height: 28px;
@@ -653,12 +678,16 @@
         margin-top: 24px;
 
     }
+    .contact_card{
+        padding: 32px 0;
+    }
     .contact_card_links{
         max-width: 100%;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-radius: 0;
     }
     .cookies{
         left: 1224px;
@@ -724,7 +753,6 @@
         padding: 24px 0;
     }
     .form_contact{
-        padding: 0;
         background: none;
     }
     .text_title{
@@ -784,13 +812,46 @@
     .title_for_story{
         font-size: 20px;
         line-height: 24px;
-        margin-bottom: 28px;
+        margin-bottom: 0px;
+    }
+    .story_card_values{
+        margin: 28px 0;
     }
     .services_cards_card{
         margin: 40px 0;
     }
     .sender_text_top{
         padding: 16px;
+    }
+    .arrage_cards_card_text:nth-child(1){
+        padding: 24px;
+    }
+    .arrage_cards_card_sc .arrage_cards_card_text{
+        padding: 24px;
+    }
+    .arrage_cards_card_th .arrage_cards_card_text{
+        padding: 24px;
+    }
+    .story_card_manifesto_card{
+        padding: 0 0 109px
+    }
+    .cookies_wrapper{
+        align-items: flex-end;
+    }
+    .cookies_setup_wrapper{
+        align-items: flex-end;
+    }
+    .cookies_setup{
+        border-radius: 4px 4px 0px 0px;
+    }
+    .cookies_bottom{
+        flex-direction: column-reverse;
+    }
+    .cookies_bottom button{
+        margin-right: 0;
+    }
+    .cookies_bottom button:nth-child(2){
+        margin-bottom: 12px;
     }
 }
 @media(max-width: 562px){
@@ -922,5 +983,18 @@
 @media (max-width: 428px){
     .arrage_cards_card_img{
         max-width: 272px !important;
+    }
+}
+
+@media (max-height: 756px){
+    .mobile_content_nav li{
+        padding: 9px 0;
+        margin: 9px 0;
+    }
+}
+@media (max-height: 601px){
+    .mobile_content_nav li{
+        padding: 5px 0;
+        margin: 5px 0;
     }
 }
