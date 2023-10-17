@@ -34,8 +34,7 @@ export class ReceiverComponent {
 
 
   ngOnInit(){
-    this.getCountryAndCallingCodeAnddigits()
-    
+    this.getCountryAndCallingCodeAnddigitsThenLoader()
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -137,7 +136,7 @@ export class ReceiverComponent {
       const inputImg = document.querySelector('.img_inpu_country')
       inputCountry?.classList.add("country--focus")
       inputImg?.classList.add("img_inpu_country--focus")
-      this.countries = []
+      // this.countries = []
       this.getCountryAndCallingCodeAnddigits()
       this.countryInpIsActive = true;
     }else{
@@ -145,7 +144,7 @@ export class ReceiverComponent {
       const inputImg = document.querySelector('.img_inpu_country')
       inputCountry?.classList.remove("country--focus")
       inputImg?.classList.remove("img_inpu_country--focus")
-      this.countries = []
+      // this.countries = []
       this.countryInpIsActive = false;
     }
     const select = document.querySelector('.all_botom_select_options_codes_container')
@@ -160,6 +159,7 @@ export class ReceiverComponent {
       const inputImg = document.querySelector('.img_inpu_country')
       inputCountry?.classList.add("country--focus")
       inputImg?.classList.add("img_inpu_country--focus")
+      this.getCountryAndCallingCodeAnddigits()
       this.countryInpIsActive = true;
     }
 
@@ -176,10 +176,11 @@ export class ReceiverComponent {
     inputCountry?.classList.remove("country--focus")
     inputImg?.classList.remove("img_inpu_country--focus")
     this.valueCountry = country
+    this.countries = []
     this.slectValue(country)
   }
 
-  getCountryAndCallingCodeAnddigits(){
+  getCountryAndCallingCodeAnddigitsThenLoader(){
     this.quotionController.getAllCountryAndCallingCode().subscribe(
       (countryAndCallingCode: CountryAndCallingCodeReq) => {
         for(let i = 0; i < countryAndCallingCode.data.length; i++){
@@ -189,17 +190,21 @@ export class ReceiverComponent {
         }
       }
     )
+    console.log("Allery form loading")
+  }
+  getCountryAndCallingCodeAnddigits(){
+    if (this.countries.length == 0 || this.callingCode.length == 0 || this.digitCode == 0){
+      console.log(this.countries.length)
+      this.getCountryAndCallingCodeAnddigitsThenLoader()
+    }
 
   }
   getCountry(){
-    this.countries = []
-    this.quotionController.getAllCountryAndCallingCode().subscribe(
-      (countryAndCallingCode: CountryAndCallingCodeReq) => {
-        for(let i = 0; i < countryAndCallingCode.data.length; i++){
-          this.countries.push(countryAndCallingCode.data[i].country);
-        }
-      }
-    )
+    if (this.countries.length == 0 || this.callingCode.length == 0 || this.digitCode == 0){
+      this.countries = []
+      this.getCountryAndCallingCodeAnddigitsThenLoader()
+    }
+    
   }
 
   submitSender(){
@@ -251,7 +256,8 @@ export class ReceiverComponent {
     this.formService.setReceiverDigitCode(this.digitsAfterCode[i])
     this.digitCode = this.formService.getReceiverDigitCode();
     this.toogleActiveForSlectOptionPhone()
-    
+    this.countries = []
+    this.getCountryAndCallingCodeAnddigitsThenLoader()
     this.getPattern();
     this.cdr.detectChanges();
   }

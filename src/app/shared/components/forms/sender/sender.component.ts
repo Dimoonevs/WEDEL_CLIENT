@@ -43,7 +43,7 @@ export class SenderComponent {
   }
 
   ngOnInit(){
-    
+    this.getCountryAndCallingCodeAnddigitsThenLoader()
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -140,8 +140,7 @@ export class SenderComponent {
   get _budget(){
     return this.senderForm.get("Budget")
   }
-
-  getCountryAndCallingCodeAnddigits(){
+  getCountryAndCallingCodeAnddigitsThenLoader(){
     this.quotionController.getAllCountryAndCallingCode().subscribe(
       (countryAndCallingCode: CountryAndCallingCodeReq) => {
         for(let i = 0; i < countryAndCallingCode.data.length; i++){
@@ -152,18 +151,21 @@ export class SenderComponent {
         this.isLoadCallingCode = true
       }
     )
+    console.log("Allery form loading")
+  }
+  getCountryAndCallingCodeAnddigits(){
+    if (this.countries.length == 0 || this.callingCode.length == 0 || this.digitCode == 0){
+      console.log(this.countries.length)
+      this.getCountryAndCallingCodeAnddigitsThenLoader()
+    }
 
   }
   getCountry(){
-    this.countries = []
-    this.quotionController.getAllCountryAndCallingCode().subscribe(
-      (countryAndCallingCode: CountryAndCallingCodeReq) => {
-        for(let i = 0; i < countryAndCallingCode.data.length; i++){
-          this.countries.push(countryAndCallingCode.data[i].country);
-        }
-        this.isLoadCountryInput = true
-      }
-    )
+    if (this.countries.length == 0 || this.callingCode.length == 0 || this.digitCode == 0){
+      this.countries = []
+      this.getCountryAndCallingCodeAnddigitsThenLoader()
+    }
+    
   }
   searchCode(leter: string){
     this.callingCode = []
@@ -200,7 +202,7 @@ export class SenderComponent {
       const inputImg = document.querySelector('.img_inpu_country')
       inputCountry?.classList.add("country--focus")
       inputImg?.classList.add("img_inpu_country--focus")
-      this.countries = []
+      // this.countries = []
       this.getCountryAndCallingCodeAnddigits()
       this.countryInpIsActive = true;
     }else{
@@ -208,7 +210,7 @@ export class SenderComponent {
       const inputImg = document.querySelector('.img_inpu_country')
       inputCountry?.classList.remove("country--focus")
       inputImg?.classList.remove("img_inpu_country--focus")
-      this.countries = []
+      // this.countries = []
       this.countryInpIsActive = false;
     }
     const select = document.querySelector('.all_botom_select_options_codes_container')
@@ -223,7 +225,7 @@ export class SenderComponent {
       const inputImg = document.querySelector('.img_inpu_country')
       inputCountry?.classList.add("country--focus")
       inputImg?.classList.add("img_inpu_country--focus")
-      this.countries = []
+      // this.countries = []
       this.getCountryAndCallingCodeAnddigits()
       this.countryInpIsActive = true;
     }
@@ -242,6 +244,7 @@ export class SenderComponent {
     inputCountry?.classList.remove("country--focus")
     inputImg?.classList.remove("img_inpu_country--focus")
     this.valueCountry = country
+    this.countries = []
     this.getCountry()
   }
   selectValueBudget(str:string){
@@ -292,7 +295,8 @@ export class SenderComponent {
     this.formService.setSenderDigitCode(this.digitsAfterCode[i])
     this.digitCode = this.formService.getSenderDigitCode();
     this.toogleActiveForSlectOptionPhone()
-    
+    this.countries = []
+    this.getCountryAndCallingCodeAnddigitsThenLoader()
     this.getPattern();
     this.cdr.detectChanges();
   }

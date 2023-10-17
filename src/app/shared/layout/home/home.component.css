@@ -448,6 +448,7 @@
 }
 .story_card_values_cards_card_text{
     margin-bottom: 44px;
+    flex: 1 1 auto;
 }
 .story_card_values_cards_card_img{
     display: flex;

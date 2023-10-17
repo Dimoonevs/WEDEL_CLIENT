@@ -1101,7 +1101,7 @@
       </trans-unit>
       <trans-unit id="8351552738640271944" datatype="html">
         <source>&quot;Give us the time frame by which you need your shipment to arrive and leave the worries to us.&quot;</source>
-        <target>&quot;Dejte nám časový rámec do kdy zásilku potřebujete a starosti nechte na nás.&quot; řádkování</target>
+        <target>&quot;Dejte nám časový rámec do kdy zásilku potřebujete a starosti nechte na nás.&quot;</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5425</context>

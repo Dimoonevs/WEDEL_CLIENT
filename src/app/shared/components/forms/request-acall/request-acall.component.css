@@ -35,8 +35,13 @@ form{
     width: 305px;
 }
 .input_form{
+    
     position: relative;
     display: flex;
+    align-items: center;
+}
+.all_botom_select{
+    align-self: center;
 }
 .option{
     display: flex;

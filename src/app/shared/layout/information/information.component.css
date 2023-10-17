@@ -69,7 +69,7 @@
     
 }
 .help_card_content_toggles_toggle--active .help_card_content_toggles_toggle_text{
-    max-height: 1500px;
+    max-height: 21500px;
     opacity: 1;
     transition: .5s;
     padding: 24px; 

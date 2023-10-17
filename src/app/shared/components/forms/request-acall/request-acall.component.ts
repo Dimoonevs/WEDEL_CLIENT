@@ -29,6 +29,9 @@ export class RequestACallComponent {
 
     })
   }
+  ngOnInit(){
+    this.getCountryAndCallingCodeAnddigitsThenLoader()
+  }
 
   get _phone(){
     return this.requestACallForm.get("Phone")
@@ -55,17 +58,22 @@ export class RequestACallComponent {
   toggleSelectItem(){
     this.isActiveSelect = !this.isActiveSelect
     if(this.isActiveSelect){
-      this.callingCode = []
-      this.countries = []
-      this.digitsAfterCode = []
-      this.quotionController.getAllCountryAndCallingCode().subscribe((countries:CountryAndCallingCodeReq)=>{
-        for(let i = 0; i < countries.data.length; i++){
-          this.countries.push(countries.data[i].country);
-          this.callingCode.push(countries.data[i].callingCode);
-          this.digitsAfterCode.push(countries.data[i].digitsAfterCode)
-        }
-      })
+      if (this.countries.length == 0 || this.callingCode.length == 0 || this.digitCode == 0){
+        this.getCountryAndCallingCodeAnddigitsThenLoader()
+      }
     }
+  }
+  getCountryAndCallingCodeAnddigitsThenLoader(){
+    this.quotionController.getAllCountryAndCallingCode().subscribe(
+      (countryAndCallingCode: CountryAndCallingCodeReq) => {
+        for(let i = 0; i < countryAndCallingCode.data.length; i++){
+          this.countries.push(countryAndCallingCode.data[i].country);
+          this.callingCode.push(countryAndCallingCode.data[i].callingCode);
+          this.digitsAfterCode.push(countryAndCallingCode.data[i].digitsAfterCode);
+        }
+      }
+    )
+    console.log("Allery form loading")
   }
 
   @HostListener('window:keydown', ['$event'])
@@ -88,9 +96,10 @@ export class RequestACallComponent {
     })
   }
   getPhoneCode(code: string, number:number){
-    this.isActiveSelect = !this.isActiveSelect
     this.countryCode = code;
     this.digitCode = number;
+    this.countries = []
+    this.toggleSelectItem()
     this.getPattern()
   }
 
