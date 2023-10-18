@@ -717,8 +717,25 @@ button:disabled{
 .arrage_cards_card--active .arrage_cards_card_button img{
   transform: rotate(180deg);
 }
+.arrage_cards_card_button .hide {
+  display: none;
+}
+.arrage_cards_card_button .show{
+  display: block;
+}
+.arrage_cards_card--active .arrage_cards_card_button .hide {
+  display: block;
+}
+.arrage_cards_card--active .arrage_cards_card_button .show{
+  display: none;
+}
 
-
+.last_block{
+  border-bottom: none !important;
+}
+.dark .last_block{
+  border-bottom: none !important;
+}
 .none_elem{
   display: none !important;
 }
@@ -748,3 +765,7 @@ footer a{
 /* .all_top_block_phone {
   z-index: 99999;
 } */
+
+.dark .text_error{
+  color: #F7A2A2 !important;
+}

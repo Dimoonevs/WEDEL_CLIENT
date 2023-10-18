@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, NgZone, Renderer2, ViewChild } from '@angular/core';
 import { OwlCarousel } from 'ngx-owl-carousel';
 
 @Component({
@@ -7,6 +7,9 @@ import { OwlCarousel } from 'ngx-owl-carousel';
   styleUrls: ['./arrege.component.css','../../../../../media/app.media-mobile.css', '../../../../../media/app.media-4K.css']
 })
 export class ArregeComponent {
+
+  constructor(private el: ElementRef, private renderer: Renderer2) {}
+
   @ViewChild(OwlCarousel)carousel!: OwlCarousel;
 IsShowTextOne = false;
 IsShowTextTwo = false;
@@ -15,6 +18,8 @@ ngAfterViewInit(): void {
   this.toggleCartContentCarusel();
 }
 
+
+
 carouselOptions = {
   loop: true,
   items: 1,
@@ -22,11 +27,21 @@ carouselOptions = {
   autoplayTimeout: 10000,
   autoplayHoverPause: true,
   dots: true,
-  nav: false
+  nav: false,
+  onChanged: this.onSlideChanged
 };
+
+onSlideChanged(event: any) {
+  let activeCard = document.querySelectorAll(".arrage_cards_card")
+    activeCard.forEach(card =>{
+      card.classList.remove("arrage_cards_card--active")
+  })
+  this.IsShowTextOne = false;
+  this.IsShowTextTwo = false;
+  this.IsShowTextThree = false
+}
 onCarouselInitialized() {
-  if (this.carousel) {
-  }
+  
 }
 showText(id:number){
   switch (id){

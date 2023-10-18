@@ -44,13 +44,15 @@
     margin-right: 24px;  
 }
 .params_add{
-    background-color: rgba(21, 123, 59, 0.08);
+    background: rgba(30, 172, 82, 0.16);
     color: #157B3B;
     width: 100%;
+    max-height: 40px;
 }
 .params_remove{
-    background-color: rgba(177, 15, 15, 0.08);
+    background: rgba(236, 33, 33, 0.16);
     color: #B10F0F;
+    max-height: 40px;
 }
 .bottom_spec{
     align-items: center;

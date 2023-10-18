@@ -29,7 +29,7 @@ setCurrencyForm(data:string){
   if(this.currentForm === "specifications" || this.currentForm === "data" || this.currentForm === "receiver" || this.currentForm === "summary" ){
     this.progress.classList.add("quotation_block_progress-done_sender")
     this.progressTextSpec.classList.add("quotation_block_progress_curcle_text_active")
-  }else if(this.currentForm !== "specifications" && this.currentForm !== "data" && this.currentForm !== "receiver" ){
+  }else if(this.currentForm !== "specifications" && this.currentForm !== "data" && this.currentForm !== "receiver" && this.currentForm !== "summary" ){
     this.progress.classList.remove("quotation_block_progress-done_sender")
     this.progressTextSpec.classList.remove("quotation_block_progress_curcle_text_active")
   }
@@ -45,7 +45,6 @@ setCurrencyForm(data:string){
   if(this.currentForm === "receiver" || this.currentForm === "summary" ){
     this.progress.classList.add("quotation_block_progress-done_sender")
     this.progress.classList.add("quotation_block_progress-done_specifications")
-    this.progressTextSpec.classList.add("quotation_block_progress_curcle_text_active")
     this.progress.classList.add("quotation_block_progress-done_date")
   }else if(this.currentForm !== "receiver" && this.currentForm !== "summary"){
     this.progress.classList.remove("quotation_block_progress-done_date")

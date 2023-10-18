@@ -61,7 +61,7 @@
     background: rgba(251, 251, 251, 0.10) !important;
 }
 .dark .all_select_text_active{
-    background: #537399 !important;
+    background: rgba(83, 115, 153, 0.50) !important;
 }
 .dark .all_select_text_active:hover{
     background: #537399 !important;
@@ -264,6 +264,12 @@
 
 /* Quote */
 
+.dark .text_block_summary_img svg path{
+    fill: #ececed!important;
+}
+.dark .previous_step{
+    background: rgba(102, 135, 173, 0.16) !important;
+}
 .dark .calendar_top_img svg path{
     fill: #ECECED !important;
 }
@@ -312,9 +318,7 @@
 .dark .input_error{
     border: 1px solid #F37373 !important;
 }
-.dark .text_error{
-    color: #F7A2A2 !important;
-}
+
 .dark .all_top_block_inp:focus{
     border: 1px solid #809BBA !important;
 }
