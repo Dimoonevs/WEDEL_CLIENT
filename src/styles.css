@@ -132,6 +132,7 @@ body{
     background:-webkit-linear-gradient(270deg, #B3C3D6 0%, rgba(179, 195, 214, 0) 93.69%);
     background:linear-gradient(270deg, #B3C3D6 0%, rgba(179, 195, 214, 0) 93.69%);
     position: relative; 
+    overflow-x: hidden;
 }
 .wrapper{
   max-width: 1240px; 
