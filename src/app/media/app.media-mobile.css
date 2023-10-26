@@ -429,7 +429,7 @@
     }
     .services_cards_card_content_texts_tabled_shadow{
         position: absolute;
-        right: -1;
+        right: -1px;
         top: 3px;
         bottom: 0;
         background: linear-gradient(270deg, #EFF3F6 0%, rgba(239, 243, 246, 0.00) 100%);
