@@ -1,5 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 @import 'theme-mode.css';
 
 
@@ -88,7 +90,7 @@
 .text{
     font-family: 'Rubik',  sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     line-height: 22px;
     transition: .5s;
@@ -166,7 +168,7 @@ button{
     width: 100%;
     max-width: 200px;
     line-height: 10px !important;
-    height: 48px;
+    height: 40px;
 }
 
 
@@ -253,14 +255,15 @@ button:disabled{
 .all_top_block_text-message{
   position: absolute;
   left: 17px;
-  top: -16px;
+  top: -12px;
   width: 174px;
   background: #FFFFFF;
   border-radius: 2.3px;
-  padding: 8px;
-  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.381);
+  padding: 4px 8px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.15);
   z-index: 999;
   display: none;
+  font-style: italic;
 }
 .all_top_block_text-message::before{
   content: '';
@@ -270,7 +273,7 @@ button:disabled{
   background: #ffffff;
   position: absolute;
   left: -5px;
-  top: 13px;
+  top: 8px;
 }
 .all_botom_block_select{
   display: flex;

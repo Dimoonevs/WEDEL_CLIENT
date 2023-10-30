@@ -142,60 +142,7 @@
 
     <app-toast></app-toast>
     <!-- none_elem -->
-    <div class="cookies_wrapper none_elem">
-        <div class="cookies">
-            <div class="cookies_texts">
-                <div class="cookies_texts_title">
-                    <div class="cookies_texts_title_text text white_text">
-                        We value your privacy
-                    </div>
-                </div>
-                <div class="cookies_texts_text text white_text">
-                    Our website only uses functional and analytical cookies. 
-                    These are necessary website to work properly and for us to improve your browsing experience. 
-                    <a class="cookies_texts_text_link" (click)="routeToCookies()">Read more about cookies</a>
-                </div>
-            </div>
-            <div class="cookies_bottom">
-                <button class="text" (click)="toogleSetupCookies()">Customize</button>
-                <button class="text cookies_bottom_white" (click)="closeCookies()">Accept</button>
-            </div>
-
-        </div>
-    </div>
-    <div class="cookies_setup_wrapper none_elem">
-        <div class="cookies_setup">
-            <div class="cookies_setup_top"> 
-                <div class="cookies_setup_top_title cookies_setup_title_text text">Cookies setup</div>  
-                <div class="cookies_setup_top_img" (click)="toogleSetupCookies()">
-                    <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M4.70937 3.99612L6.87604 1.82945C7.06938 1.63612 7.06938 1.31612 6.87604 1.12278C6.68271 0.92945 6.36271 0.92945 6.16937 1.12278L4.00271 3.28945L1.83604 1.12278C1.64271 0.92945 1.32271 0.92945 1.12938 1.12278C0.936042 1.31612 0.936042 1.63612 1.12938 1.82945L3.29604 3.99612L1.12938 6.16278C0.936042 6.35612 0.936042 6.67612 1.12938 6.86945C1.22938 6.96945 1.35604 7.01612 1.48271 7.01612C1.60937 7.01612 1.73604 6.96945 1.83604 6.86945L4.00271 4.70278L6.16937 6.86945C6.26937 6.96945 6.39604 7.01612 6.52271 7.01612C6.64937 7.01612 6.77604 6.96945 6.87604 6.86945C7.06938 6.67612 7.06938 6.35612 6.87604 6.16278L4.70937 3.99612Z" fill="#6A6D70"/>
-                    </svg>
-                </div>
-            </div>
-            <div  class="cookies_setup_body">
-                <div  class="cookies_setup_body_texts">
-                    <div  class="cookies_setup_body_texts_title cookies_texts_title_text text"> Necessary </div>
-                    <div  class="cookies_setup_body_texts_text text"> These cookies are necessary so the web will work properly. </div>
-                </div>
-                <div  class="cookies_setup_body_select">
-                    <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_necessary text cookies_setup_body_select_value_necessary--active" (click)="toogleSelectedCookies('necessary', 0)">On</div>
-                    <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_necessary text" (click)="toogleSelectedCookies('necessary',1)">Off</div>
-                </div>
-                <div  class="cookies_setup_body_texts">
-                    <div  class="cookies_setup_body_texts_title cookies_texts_title_text text"> Analytical </div>
-                    <div  class="cookies_setup_body_texts_text text"> These cookies are helping us to understand how do you use a webpage. Having information about your experience we can improve our webpage for your better experience. </div>
-                </div>
-                <div  class="cookies_setup_body_select">
-                    <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_analytical text cookies_setup_body_select_value_analytical--active" (click)="toogleSelectedCookies('analytical',0)">On</div>
-                    <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_analytical text" (click)="toogleSelectedCookies('analytical',1)">Off</div>
-                </div>
-            </div>
-            <div class="cookies_setup_button">
-                <button class="text cookies_setup_button_value" [disabled]="isButtonDisabled" (click)="toggleAnalitycs()">Confirm</button>
-            </div>
-        </div>
-    </div>
+    
     
 
     <div class="loading">

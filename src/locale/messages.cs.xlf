@@ -169,7 +169,7 @@
       </trans-unit>
       <trans-unit id="5764668911316503383" datatype="html">
         <source>Name<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot; &gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text two&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
-        <target>Jméno<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné.<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <target>Jméno<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>Toto pole je povinné<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/contact/contact.component.html</context>
           <context context-type="linenumber">8</context>
@@ -329,7 +329,7 @@
       </trans-unit>
       <trans-unit id="168761137939271501" datatype="html">
         <source>Next step</source>
-        <target>Následující krok</target>
+        <target>Další krok</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/due-date/due-date.component.html</context>
           <context context-type="linenumber">49</context>
@@ -989,7 +989,7 @@
       </trans-unit>
       <trans-unit id="8172338162458743340" datatype="html">
         <source>Our signature service? Air transportation. If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
-        <target>Naš signaturní servis? Letecká přeprava. Přepravu importních zásilek zařídíme skrze lety prověřenou síť místního experních partnerů fungujících dle standardů mezinárodní letecké asociace a aliance WCA.Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště či jiných evropských letišt. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
+        <target>Naš signaturní servis? Letecká přeprava. Přepravu importních zásilek zařídíme skrze lety prověřenou síť místního experních partnerů fungujících dle standardů mezinárodní letecké asociace a aliance WCA. Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště či jiných evropských letišt. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
           <context context-type="linenumber">10,12</context>
@@ -1089,14 +1089,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
           <context context-type="linenumber">49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3208990487356209663" datatype="html">
-        <source> Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
-        <target>Naší vizí je pomoci zejména malým a středním firmám zajištěním komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit to nejdůležitější. Náklady. Čas. Nervy.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5547,5549</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8351552738640271944" datatype="html">
@@ -1219,14 +1211,6 @@
           <context context-type="linenumber">5466</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8843092531392861528" datatype="html">
-        <source>Deadline – pick up</source>
-        <target>Uzáverka vyzvednutí</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5480</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="3730139500618908668" datatype="html">
         <source>Friday</source>
         <target>Pátek</target>
@@ -1243,12 +1227,20 @@
           <context context-type="linenumber">5475</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2384778567569698945" datatype="html">
-        <source>Deadline – order</source>
+      <trans-unit id="1044723083147085340" datatype="html">
+        <source>Deadline – order CN</source>
         <target>Užáverka objednávek</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5471</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1244905350157131818" datatype="html">
+        <source>Deadline – pick up CN</source>
+        <target>Uzáverka vyzvednutí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5480</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1830554030016307335" datatype="html">
@@ -1301,7 +1293,7 @@
       </trans-unit>
       <trans-unit id="2274143764873340059" datatype="html">
         <source>We will be very happy if you turn to us with confidence with your request for transport services.</source>
-        <target>To povede k maximální utilizaci nákladního vozu a jako neméně příjemný bonus i k co nejmenšímu zatížení životního prostředí.</target>
+        <target>To povede k maximální utilizaci nákladního vozu, či letadla a jako neméně příjemný bonus i k co nejmenšímu zatížení životního prostředí.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5566</context>
@@ -1389,6 +1381,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">7,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5547,5549</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4993469915381526082" datatype="html">

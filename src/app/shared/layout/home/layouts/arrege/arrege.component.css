@@ -46,16 +46,20 @@
 }
 .arrage_cards_card{
     min-height: 536px;
-    margin: 0 25px;
+    margin: 9px 25px;
 }
 .wrapper_arrage_cards_card_text_ul_li{
     display: flex;
     justify-content: space-between;
 
 }
+.wrapper_arrage_cards_card_text_ul_li ul {
+    margin: -12px 0;
+}
 .wrapper_arrage_cards_card_text_ul_li li{
     position: relative;
     padding-left: 10px;
+    margin: 12px 0;
 }
 .wrapper_arrage_cards_card_text_ul_li li::before{
     content: '';
@@ -93,7 +97,7 @@
 .custom_button{
     position: absolute;
     left: -35px;
-    top: 238px;
+    top: 252px;
     cursor: pointer;
     height: 40px;
     width: 40px;

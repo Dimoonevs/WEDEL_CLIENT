@@ -239,6 +239,15 @@
         padding: 40px 0;
     }
 }
+@media (max-width: 887px){
+    .services_cards_card_content_texts_tabled{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    .services_cards_card_content_texts_tabled table{
+        min-width: 203px;
+    }
+}
 @media (max-width: 839px) {
     .wrapper_arrage{
         max-width: 693px; 
@@ -256,15 +265,15 @@
     }
     .arrage_cards_card_fs{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_fs.svg') 0 0/cover no-repeat;
+        background: url('src/assets/img/bg_service_fs.svg') 0 0/auto auto;
     }
     .arrage_cards_card_sc{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_sc.svg') 0 0/cover no-repeat;
+        background: url('src/assets/img/bg_service_sc.svg') 0 0/auto auto;
     }
     .arrage_cards_card_th{
         padding: 24px 0; 
-        background: url('src/assets/img/bg_service_th.svg') 0 0/cover no-repeat;
+        background: url('src/assets/img/bg_service_th.svg') 0 0/auto auto;
     }
     
     .arrage_cards_card_text{
@@ -407,13 +416,7 @@
     }
 }
 @media (max-width: 818px) {
-    .services_cards_card_content_texts_tabled{
-        overflow-x: scroll;
-        flex-wrap: nowrap;
-    }
-    .services_cards_card_content_texts_tabled table{
-        min-width: 203px;
-    }
+   
 }
 @media (max-width: 751px){
     .top_params{
@@ -606,8 +609,20 @@
     /* .img{
         top: 97px;
     } */
+    button{
+        height: 48px;
+    }
+    .contact_card_links_block_button{
+        padding: 13px 0;
+    }
+    .mobile_content_nav ul{
+        margin-bottom: 48px;
+    }
     .wrapper_arrage_cards_card_text_ul_li{
         flex-direction: column;
+    }
+    .wrapper_arrage_cards_card_text_ul_li ul:nth-child(1){
+        margin-bottom: -2px;
     }
     .logo svg{
         width: 136px;
@@ -996,9 +1011,27 @@
         margin: 9px 0;
     }
 }
-@media (max-height: 601px){
+@media (max-height: 687px){
     .mobile_content_nav li{
         padding: 5px 0;
         margin: 5px 0;
+    }
+    .mobile_content_nav ul{
+        margin-bottom: 20px;
+    }
+}
+@media (max-height: 573px){
+    .mobile_content_nav li{
+        padding: 4px 0;
+        margin: 4px 0;
+    }
+    .mobile_content_nav ul{
+        margin-bottom: 15px;
+    }
+}
+@media (max-height: 507px){
+    .mobile_content_nav li{
+        padding: 2px 0;
+        margin: 4px 0;
     }
 }

@@ -17,6 +17,19 @@ export class HomeComponent implements OnInit {
   isAnimationPlaying = false;
   IsShowText = false;
   animationProgress = 0;
+  showCookiesSettings = false;
+  lenguege!: string;
+  htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
+  isButtonDisabled = false
+  enableAnalytics = false
+
+
+
+  closeCookies(){
+    this.showCookiesSettings = true
+    const cookies = document.querySelector('.cookies_wrapper')
+    cookies?.classList.add("none_elem")
+  }
  
 
 
@@ -106,6 +119,7 @@ export class HomeComponent implements OnInit {
     this.pathMobile = document.querySelectorAll('.mobile_curcile')
     this.darkPaths = document.querySelectorAll('.dark_curcile')
     this.darkPathMobile = document.querySelectorAll('.mobile_dark_curcile')
+    
 
     setInterval(() => {
       this.animationService.blinkPaths(this.paths, this.currentIndexLight);
@@ -128,6 +142,11 @@ export class HomeComponent implements OnInit {
     }, 800);
   
     this.pathMethod();
+
+    this.showCookies();
+
+    const lang = this.htmlElement.getAttribute('lang');
+    this.lenguege = lang;
   }
 
   pathMethod() {
@@ -178,6 +197,69 @@ export class HomeComponent implements OnInit {
   location(){
     window.open("https://we-del.logitudeworld.com/login", "_blank");
   }
+
+  showCookies(){
+    const cookies = document.querySelector(".cookies_wrapper")
+      setTimeout(() =>{
+        cookies?.classList.remove("none_elem")
+      },4800)
+  }
   
+  routeToCookies(){
+    window.open("https://we-del.cz/" + this.lenguege + "/cookies", '_blank');
+  }
+  toogleSetupCookies(){
+    let setupCookies = document.querySelector(".cookies_setup_wrapper")
+    setupCookies?.classList.toggle("none_elem")
+  }
+
+  toogleSelectedCookies(name: string, i: any){
+    if(name === "necessary"){
+      let necessafyes = document.querySelectorAll(".cookies_setup_body_select_value_necessary")
+      if(!necessafyes[i].classList.contains("cookies_setup_body_select_value_necessary--active")){
+        for(let i = 0; i < necessafyes.length; i++){
+          necessafyes[i].classList.toggle("cookies_setup_body_select_value_necessary--active")
+        }
+      }
+
+    }else{
+      let analyticales = document.querySelectorAll(".cookies_setup_body_select_value_analytical")
+      if(!analyticales[i].classList.contains("cookies_setup_body_select_value_analytical--active")){
+        for(let i = 0; i < analyticales.length; i++){
+          analyticales[i].classList.toggle("cookies_setup_body_select_value_analytical--active")
+        }
+      }
+    }
+    this.buttonDisabledForSelectedCookies()
+  }
+  buttonDisabledForSelectedCookies(){
+    let necessary = document.querySelector(".cookies_setup_body_select_value_necessary--active")
+    if(necessary?.textContent === "Off"){
+      this.isButtonDisabled = true
+    }else{
+      this.isButtonDisabled = false
+    }
+  }
+  toggleAnalitycs(){
+    let analyticale = document.querySelector(".cookies_setup_body_select_value_analytical--active")
+    if (analyticale?.textContent === "Off") {
+      localStorage.setItem('enableAnalytics', 'false');
+    } else {
+      localStorage.setItem('enableAnalytics', 'true');
+    }
+    this.toogleSetupCookies()
+    this.closeCookies()
+  }
+
+  closeCookiesAndSetDefauld(){
+    this.showCookiesSettings = true
+    const cookies = document.querySelector('.cookies_wrapper')
+    cookies?.classList.add("none_elem")
+    let storage = localStorage.getItem("enableAnalytics")
+    console.log(storage)
+    if (storage === null){
+      localStorage.setItem('enableAnalytics', 'true');
+    }
+  }
 
 }

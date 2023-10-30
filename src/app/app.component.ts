@@ -1,5 +1,5 @@
 import { Component, ElementRef, HostListener, Renderer2 } from '@angular/core';
-import { ActivatedRoute, NavigationExtras, Params, Router } from '@angular/router';
+import { ActivatedRoute, NavigationExtras, Params, Router, Routes } from '@angular/router';
 import { ToastComponent } from './shared/module/toast/toast.component';
 import { HttpClient } from '@angular/common/http';
 import { AnimationService } from './shared/service/animation.service';
@@ -24,11 +24,9 @@ export class AppComponent {
   sizeMin = 2;
   colorValue = "#ECECED";
   shapeColor = "#ECECED";
-  showCookiesSettings = false;
   isLoading = false;
   htmlElement = this.elRef.nativeElement.ownerDocument.documentElement;
-  isButtonDisabled = false
-  enableAnalytics = true
+  
 
   isDarkTrue():boolean{
     return this.isDark;
@@ -104,19 +102,11 @@ export class AppComponent {
       }, i * delayBetweenRepetitions);
     }
   }
-  showCookies(){
-    const cookies = document.querySelector(".cookies_wrapper")
-    setTimeout(() =>{
-      cookies?.classList.remove("none_elem")
-    },4800)
-  }
+  
   ngOnInit(): void {
     this.loadingSequenceLoop()
     this.loadParticales()
-    console.log(this.service.myVariable)
-    if(!this.service.myVariable){
-      this.showCookies();
-    }
+    
 
 
     const lang = this.htmlElement.getAttribute('lang');
@@ -220,17 +210,8 @@ export class AppComponent {
       },200)
     }
   }
-  closeCookies(){
-    this.showCookiesSettings = true
-    const cookies = document.querySelector('.cookies_wrapper')
-    cookies?.classList.add("none_elem")
-    this.service.setTrueIsCkecked()
-  }
-  routeToCookies(){
-    this.showCookiesSettings = true
-    window.open("https://we-del.cz/" + this.lenguege + "/cookies", '_blank');
-    this.closeCookies()
-  }
+  
+  
   routeToPrivacy(){
     window.open("https://we-del.cz/" + this.lenguege + "/terms-and-conditions", '_blank');
     
@@ -258,6 +239,9 @@ export class AppComponent {
     
     
   }
+  routeToCookies(){
+    window.open("https://we-del.cz/" + this.lenguege + "/cookies", '_blank');
+  }
 
   closeAllOpeningPopup(){
     let phone = document.querySelector(".all_botom_select_options--focuse")
@@ -279,46 +263,8 @@ export class AppComponent {
 
     
   }
-  toogleSetupCookies(){
-    let setupCookies = document.querySelector(".cookies_setup_wrapper")
-    setupCookies?.classList.toggle("none_elem")
-  }
-  toogleSelectedCookies(name: string, i: any){
-    if(name === "necessary"){
-      let necessafyes = document.querySelectorAll(".cookies_setup_body_select_value_necessary")
-      if(!necessafyes[i].classList.contains("cookies_setup_body_select_value_necessary--active")){
-        for(let i = 0; i < necessafyes.length; i++){
-          necessafyes[i].classList.toggle("cookies_setup_body_select_value_necessary--active")
-        }
-      }
-
-    }else{
-      let analyticales = document.querySelectorAll(".cookies_setup_body_select_value_analytical")
-      if(!analyticales[i].classList.contains("cookies_setup_body_select_value_analytical--active")){
-        for(let i = 0; i < analyticales.length; i++){
-          analyticales[i].classList.toggle("cookies_setup_body_select_value_analytical--active")
-        }
-      }
-    }
-    this.buttonDisabledForSelectedCookies()
-  }
-  buttonDisabledForSelectedCookies(){
-    let necessary = document.querySelector(".cookies_setup_body_select_value_necessary--active")
-    if(necessary?.textContent === "Off"){
-      this.isButtonDisabled = true
-    }else{
-      this.isButtonDisabled = false
-    }
-  }
-  toggleAnalitycs(){
-    let analyticale = document.querySelector(".cookies_setup_body_select_value_analytical--active")
-    if (analyticale?.textContent === "Off") {
-      localStorage.setItem('enableAnalytics', 'false');
-    } else {
-      localStorage.setItem('enableAnalytics', 'true');
-    }
-    this.toogleSetupCookies()
-  }
+  
+  
 }
 
 

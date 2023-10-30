@@ -5442,12 +5442,12 @@
                             <div class="services_cards_card_content_texts_text services_cards_card_content_texts_text--mb text" i18n>Our signature import service currently available on the route China, USA. South Korea – Czech Republic offering excellent value for money on a consolidated route 2 times per week. The specific schedule can be found in the table below:</div>
                             <div class="services_cards_card_content_texts_tabled_contanier">
                                 <div class="services_cards_card_content_texts_tabled_shadow active_shadow">
-    
+                                    
                                 </div>
                                 <div class="services_cards_card_content_texts_tabled_shadow_end">
 
                                 </div>
-                                <div class="services_cards_card_content_texts_tabled" (scroll)="onScroll($event)">
+                                <div class="services_cards_card_content_texts_tabled" mCustomScrollbar (scroll)="onScroll($event)">
                                     <table>
                                         <tr>
                                             <th class="text"i18n>Flight</th>
@@ -5468,7 +5468,7 @@
                                     </table>
                                     <table>
                                         <tr>
-                                            <th class="text services_cards_card_content_texts_tabled_custom_order" i18n>Deadline – order</th>
+                                            <th class="text services_cards_card_content_texts_tabled_custom_order" i18n>Deadline – order CN</th>
                                         </tr>
                                         <tr>
                                             <td class="text"i18n>Friday</td>
@@ -5477,7 +5477,7 @@
                                     </table>
                                     <table>
                                         <tr>
-                                            <th class="text services_cards_card_content_texts_tabled_custom_pick"i18n>Deadline – pick up</th>
+                                            <th class="text services_cards_card_content_texts_tabled_custom_pick"i18n>Deadline – pick up CN</th>
                                         </tr>
                                         <tr>
                                             <td class="text"i18n>Saturday</td>
@@ -5545,7 +5545,7 @@
                     We don't want a world full of corporations where we become just passive recipients of the decision which international corporation to choose despite all of them has the same services wrapped in a different marketing package. Big corporations are usually doing services for another big corporations and small and medium enterprises are not getting service with the same quality and price. With this vision, we decided to found WE-DEL. Small and medium-sized enterprises are the healthy backbone of our economy, yet their share of GDP in the Czech Republic is below the level of the EU28. To a certain extent, this is also due to the fact that the mentioned enterprises encounter barriers from the large players from various sectors in the market. We want to change that!
                 </div>
                 <div class="story_card_text text" i18n>
-                    Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves.
+                    Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. Costs. Time. Nerves.
                 </div>
                 <div class="story_card_values">
                     <div class="story_card_values_title title_for_story" i18n>
@@ -5818,6 +5818,62 @@
                     </div>
                 </div>
             <app-contact></app-contact>
+        </div>
+    </div>
+</div>
+
+
+<div class="cookies_wrapper none_elem">
+    <div class="cookies">
+        <div class="cookies_texts">
+            <div class="cookies_texts_title">
+                <div class="cookies_texts_title_text text white_text">
+                    We value your privacy
+                </div>
+            </div>
+            <div class="cookies_texts_text text white_text">
+                Our website only uses functional and analytical cookies. 
+                These are necessary website to work properly and for us to improve your browsing experience. 
+                <a class="cookies_texts_text_link" (click)="routeToCookies()">Read more about cookies</a>
+            </div>
+        </div>
+        <div class="cookies_bottom">
+            <button class="text" (click)="toogleSetupCookies()">Customize</button>
+            <button class="text cookies_bottom_white" (click)="closeCookiesAndSetDefauld()">Accept</button>
+        </div>
+
+    </div>
+</div>
+<div class="cookies_setup_wrapper none_elem">
+    <div class="cookies_setup">
+        <div class="cookies_setup_top"> 
+            <div class="cookies_setup_top_title cookies_setup_title_text text">Cookies setup</div>  
+            <div class="cookies_setup_top_img" (click)="toogleSetupCookies()">
+                <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.70937 3.99612L6.87604 1.82945C7.06938 1.63612 7.06938 1.31612 6.87604 1.12278C6.68271 0.92945 6.36271 0.92945 6.16937 1.12278L4.00271 3.28945L1.83604 1.12278C1.64271 0.92945 1.32271 0.92945 1.12938 1.12278C0.936042 1.31612 0.936042 1.63612 1.12938 1.82945L3.29604 3.99612L1.12938 6.16278C0.936042 6.35612 0.936042 6.67612 1.12938 6.86945C1.22938 6.96945 1.35604 7.01612 1.48271 7.01612C1.60937 7.01612 1.73604 6.96945 1.83604 6.86945L4.00271 4.70278L6.16937 6.86945C6.26937 6.96945 6.39604 7.01612 6.52271 7.01612C6.64937 7.01612 6.77604 6.96945 6.87604 6.86945C7.06938 6.67612 7.06938 6.35612 6.87604 6.16278L4.70937 3.99612Z" fill="#6A6D70"/>
+                </svg>
+            </div>
+        </div>
+        <div  class="cookies_setup_body">
+            <div  class="cookies_setup_body_texts">
+                <div  class="cookies_setup_body_texts_title cookies_texts_title_text text"> Necessary </div>
+                <div  class="cookies_setup_body_texts_text text"> These cookies are necessary so the web will work properly. </div>
+            </div>
+            <div  class="cookies_setup_body_select">
+                <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_necessary text cookies_setup_body_select_value_necessary--active" (click)="toogleSelectedCookies('necessary', 0)">On</div>
+                <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_necessary text" (click)="toogleSelectedCookies('necessary',1)">Off</div>
+            </div>
+            <div  class="cookies_setup_body_texts">
+                <div  class="cookies_setup_body_texts_title cookies_texts_title_text text"> Analytical </div>
+                <div  class="cookies_setup_body_texts_text text"> These cookies are helping us to understand how do you use a webpage. Having information about your experience we can improve our webpage for your better experience. </div>
+            </div>
+            <div  class="cookies_setup_body_select">
+                <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_analytical text cookies_setup_body_select_value_analytical--active" (click)="toogleSelectedCookies('analytical',0)">On</div>
+                <div  class="cookies_setup_body_select_value cookies_setup_body_select_value_analytical text" (click)="toogleSelectedCookies('analytical',1)">Off</div>
+            </div>
+        </div>
+        <div class="cookies_setup_button">
+            <button class="text cookies_setup_button_value" [disabled]="isButtonDisabled" (click)="toggleAnalitycs()">Accept</button>
         </div>
     </div>
 </div>

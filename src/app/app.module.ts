@@ -72,7 +72,6 @@ export function playerFactory() {
     OwlModule,
     NgxMaskModule.forRoot(),
     LottieModule.forRoot({ player: playerFactory }),
-    // NgxGoogleAnalyticsModule.forRoot('G-07R27XBE9Z'),
     NgxGoogleAnalyticsRouterModule
     
   ],
@@ -85,10 +84,12 @@ export function playerFactory() {
 export class AppModule { 
   constructor(){
     const enableAnalytics = localStorage.getItem('enableAnalytics');
-    if (enableAnalytics) {
-      import('ngx-google-analytics').then(module => {
-        module.NgxGoogleAnalyticsModule.forRoot('G-07R27XBE9Z');
-      });
+    if (enableAnalytics!== null){
+      if (enableAnalytics) {
+        import('ngx-google-analytics').then(module => {
+          module.NgxGoogleAnalyticsModule.forRoot('G-07R27XBE9Z');
+        });
+      }
     }
   }
 }

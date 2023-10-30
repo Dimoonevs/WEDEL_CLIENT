@@ -935,6 +935,10 @@
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">7,9</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5547,5549</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="3064350297390043064" datatype="html">
         <source>Request a solution</source>
@@ -1029,8 +1033,8 @@
           <context context-type="linenumber">5466</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2384778567569698945" datatype="html">
-        <source>Deadline – order</source>
+      <trans-unit id="1044723083147085340" datatype="html">
+        <source>Deadline – order CN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5471</context>
@@ -1050,8 +1054,8 @@
           <context context-type="linenumber">5475</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8843092531392861528" datatype="html">
-        <source>Deadline – pick up</source>
+      <trans-unit id="1244905350157131818" datatype="html">
+        <source>Deadline – pick up CN</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5480</context>
@@ -1125,13 +1129,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5544,5546</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3208990487356209663" datatype="html">
-        <source> Our vision is to help especially small and medium-sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5547,5549</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4993469915381526082" datatype="html">
