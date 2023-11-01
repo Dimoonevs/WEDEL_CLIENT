@@ -14,7 +14,9 @@
             <div class="img_inpu_country"><img src="assets/img/input_simvol.svg" alt="" (click)="toggleFocuse()"></div>
             <input (keyup)="onKeay(valueCountry)" [(ngModel)]="valueCountry" type="text" (click)="addFocuse()" [(ngModel)]="valueCountry" autocomplete="off" name="Country" class="all_top_block_inp all_top_block_inp_country text text_gray"  formControlName="Country">
             <div class="county_container">
-                <div id="country" class="country">
+                <div class="county_container_shadow_start"></div>
+                <div class="county_container_shadow_end active_shadow"></div>
+                <div id="country" class="country" (scroll)="onScroll($event, 'county')">
                     <div class="span_country" *ngFor="let country of countries">
                         <div class="text text_country" [ngClass]="{'text_country-selected' : valueCountry === country }" *ngIf="country !== 'Belarus' 
                         && country !== 'Cuba' 
@@ -92,7 +94,9 @@
                         <img src="assets/img/input_simvol.svg" alt="">
                     </div>
                     <div class="all_botom_select_options_codes_container">
-                        <div class="all_botom_select_options_codes phone_botom_select_options_codes ">
+                        <div class="all_botom_select_options_codes phone_botom_select_options_codes " (scroll)="onScroll($event, 'phone')">
+                            <div class="phone_container_shadow_start"></div>
+                            <div class="phone_container_shadow_end active_shadow"></div>
                             <div *ngFor="let country of countries; let i = index" class="option text"(click)="valuePhone(callingCode[i], i)" [ngClass]="{'option--active': phoneCode === callingCode[i]}"><div class="phone_code_country_name">{{country}}</div><div class="phone_code_country_code">{{callingCode[i]}}</div></div>
                         </div>
                     </div>

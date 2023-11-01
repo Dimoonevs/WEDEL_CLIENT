@@ -609,6 +609,9 @@
     /* .img{
         top: 97px;
     } */
+    .text{
+        font-size: 16px;
+    }
     button{
         height: 48px;
     }

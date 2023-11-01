@@ -641,8 +641,10 @@
     display: flex;
     justify-content: space-between;
 }
+.cookies_bottom button:nth-child(1){
+    margin-right: 8px;
+}
 .cookies_bottom button{
-    /* width: 100%; */
     max-width: none;
 }
 .cookies_bottom button:hover{

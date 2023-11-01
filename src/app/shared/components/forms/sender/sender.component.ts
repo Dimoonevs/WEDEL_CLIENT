@@ -44,6 +44,50 @@ export class SenderComponent {
 
   ngOnInit(){
     this.getCountryAndCallingCodeAnddigitsThenLoader()
+    // this.countries = [
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem",
+    //   "lorem"
+    // ]
+  }
+
+  onScroll(event: Event, s: string) {
+    const shadow = document.querySelector("."+s+"_container_shadow_start")
+    const shadowEnd = document.querySelector('.'+s+'_container_shadow_end')
+    const element = event.target as HTMLElement;
+    let scrollPositionOfTop = element.scrollTop
+    if(scrollPositionOfTop > 44 || scrollPositionOfTop < 9027){
+      shadow?.classList.remove("active_shadow")
+      shadowEnd?.classList.remove("active_shadow")
+      shadow?.classList.add("active_shadow")
+      shadowEnd?.classList.add("active_shadow")
+    } 
+    if (scrollPositionOfTop <= 44){
+      shadow?.classList.remove("active_shadow")
+      shadowEnd?.classList.remove("active_shadow")
+      shadowEnd?.classList.add("active_shadow")
+    }
+    if (scrollPositionOfTop >= 9027){
+      shadow?.classList.remove("active_shadow")
+      shadowEnd?.classList.remove("active_shadow")
+      shadow?.classList.add("active_shadow")
+    }
   }
 
   @HostListener('window:keydown', ['$event'])
