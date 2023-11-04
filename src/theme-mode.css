@@ -450,6 +450,12 @@
 .dark .summary_blocks-all{
     border-bottom: 1px solid #8E9295 !important;
 }
+.dark .county_container_shadow_start{
+    background: linear-gradient(359deg,#414447 0%,#41444700 100%) !important;
+}
+.dark .county_container_shadow_end{
+    background: linear-gradient(180deg,#414447 0%,#41444700 100%) !important;
+}
 
 /* Quote */
 
