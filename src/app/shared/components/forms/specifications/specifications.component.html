@@ -99,10 +99,10 @@
             <span class="text text_gray all_top_block_text" i18n>Goods type</span>
             <div class="all_select border_for_select" >
                 <div class="all_select_text" [ngClass]="{'all_select_text_active': isActive}" (click)="onToggleActive()">
-                    <span class="text text_gray"  [ngClass]="{'span_get': isActive}" i18n>General cargo</span>
+                    <span class="text text_gray"  i18n>General cargo</span>
                 </div>
                 <div class="all_select_text" [ngClass]="{'all_select_text_active': !isActive}" (click)="onToggleActive()">
-                    <span class="text text_gray"  [ngClass]="{'span_get': !isActive}" i18n>Dangerous goods</span>
+                    <span class="text text_gray" i18n>Dangerous goods</span>
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                     <span class="text text_gray"  i18n>Yes</span>
                 </div>
                 <div class="all_select_text" [ngClass]="{'all_select_text_active': !isActiveStackable}" (click)="onToggleActiveStackable()">
-                    <span class="text text_gray"  i18n>NO</span>
+                    <span class="text text_gray"  i18n>No</span>
                 </div>
             </div>
         </div>

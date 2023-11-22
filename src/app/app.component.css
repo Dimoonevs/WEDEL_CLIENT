@@ -8,6 +8,9 @@
     justify-content:space-between;
     align-items: center;
 }
+.logo{
+    cursor: pointer;
+}
 header{
     background-color: #FBFBFB;
 }

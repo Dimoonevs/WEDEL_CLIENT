@@ -124,7 +124,9 @@ export class DueDateComponent {
     this.formService.setDateDescription(this.description)
   }
   nextStep(){
+    
     // console.log(this.selectedDate?.getFullYear() + '-' + this._to2Git(this.selectedDate!.getMonth() + 1) + '-' + this._to2Git(this.selectedDate!.getDate()))
+    this.formService.scrollTop()
     this.homeComponent.setCurrencyForm('receiver')
     this.formService.setDateSelected(this.selectedDate!);
     this.formService.setDateDescription(this.description)

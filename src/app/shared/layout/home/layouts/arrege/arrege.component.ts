@@ -23,9 +23,9 @@ ngAfterViewInit(): void {
 carouselOptions = {
   loop: true,
   items: 1,
-  autoplay: true,
-  autoplayTimeout: 10000,
-  autoplayHoverPause: true,
+  autoplay: false,
+  // autoplayTimeout: 10000,
+  autoplayHoverPause: false,
   dots: true,
   nav: false,
   onChanged: this.onSlideChanged

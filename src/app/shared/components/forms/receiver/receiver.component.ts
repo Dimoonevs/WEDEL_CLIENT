@@ -209,6 +209,7 @@ export class ReceiverComponent {
 
   submitSender(){
     this.saveForm()
+    this.formService.scrollTop()
     this.homeComponent.setCurrencyForm("summary")
   }
   previousStep(){

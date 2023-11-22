@@ -614,7 +614,11 @@
     border-radius: 4px;
     padding: 24px;
     z-index: 999999;
-    transition: .5s;
+    transition: .2s;
+}
+.cookies_back{
+    transform: scale(0.95);
+    margin-top: -320px;
 }
 /* .cookies_active{
     right: 24px;
@@ -659,6 +663,7 @@
 }
 .cookies_texts_title_text{
     font-weight: 500;
+    font-size: 16px;
 }
 .cookies_texts_text{
     font-size: 14px;
@@ -702,7 +707,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px;
+    padding: 16px 24px;
     border-bottom: 1px solid var(--neutral-200, #D9DADC);
     margin-bottom: 24px;
 }
@@ -712,9 +717,6 @@
 .cookies_setup_top_img{
     padding: 7px;
     cursor: pointer;
-}
-.cookies_texts_title_text{
-    margin-bottom: 16px;
 }
 .cookies_setup_title_text{
     font-weight: 500;

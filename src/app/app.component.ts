@@ -180,6 +180,12 @@ export class AppComponent {
       });
     }
   }
+  scrollTop(){
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
   
   isDarkFunc(){

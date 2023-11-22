@@ -695,8 +695,8 @@
           <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6466969409681865142" datatype="html">
-        <source>NO</source>
+      <trans-unit id="3542042671420335679" datatype="html">
+        <source>No</source>
         <target>Ne</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
@@ -987,9 +987,9 @@
           <context context-type="linenumber">5421</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8172338162458743340" datatype="html">
-        <source>Our signature service? Air transportation. If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
-        <target>Naš signaturní servis? Letecká přeprava. Přepravu importních zásilek zařídíme skrze lety prověřenou síť místního experních partnerů fungujících dle standardů mezinárodní letecké asociace a aliance WCA. Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště či jiných evropských letišt. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
+      <trans-unit id="6890932340764525083" datatype="html">
+        <source>Our signature service? Air transportation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
+        <target>Naš signaturní servis? Letecká přeprava. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu importních zásilek zařídíme skrze lety prověřenou síť místního experních partnerů fungujících dle standardů mezinárodní letecké asociace a aliance WCA. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Exportní zásilky pro Vás rádi odbavíme z naší kanceláře nedaleko Pražského letiště či jiných evropských letišt. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Přepravu dovedeme nabídnout v těchto módech letecké přepravy:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
           <context context-type="linenumber">10,12</context>
@@ -1375,13 +1375,9 @@
           <context context-type="linenumber">5714,5716</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5558377968017548690" datatype="html">
-        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. Costs. Time. Nerves. </source>
-        <target>Naší vizí je pomoci zejména malým a středním firmám zajištěním komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit to nejdůležitější. Náklady. Čas. Nervy.</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">7,9</context>
-        </context-group>
+      <trans-unit id="2246195280786407931" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Costs. Time. Nerves. </source>
+        <target>Naší vizí je pomoci zejména malým a středním firmám zajištěním komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit to nejdůležitější. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Náklady. Čas. Nervy.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5547,5549</context>
@@ -1619,9 +1615,9 @@
           <context context-type="linenumber">5977</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6700732310668574063" datatype="html">
-        <source> Our vision is to help especially small and medium – sized companies by offering comprehensive transport services that will help our business partners save costs, time and nerves. </source>
-        <target>Naší vizí je pomoci zejména malým a středním firmám skrze nabídku komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit náklady, čas a nervy.</target>
+      <trans-unit id="1676714806563224472" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Costs. Time. Nerves. </source>
+        <target>Naší vizí je pomoci zejména malým a středním firmám zajištěním komplexních přepravních služeb, které pomohou naším obchodním partnerům šetřit to nejdůležitější. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Náklady. Čas. Nervy.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">7,9</context>

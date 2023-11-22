@@ -166,19 +166,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">58,60</context>
+          <context context-type="linenumber">60,62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">67,69</context>
+          <context context-type="linenumber">69,71</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">81,83</context>
+          <context context-type="linenumber">83,85</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">109,111</context>
+          <context context-type="linenumber">113,115</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
@@ -186,19 +186,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">80,82</context>
+          <context context-type="linenumber">70,72</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">94,96</context>
+          <context context-type="linenumber">84,86</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">108,110</context>
+          <context context-type="linenumber">98,100</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">147,149</context>
+          <context context-type="linenumber">127,129</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
@@ -241,7 +241,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">87</context>
+          <context context-type="linenumber">89</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3880995733449643115" datatype="html">
@@ -284,7 +284,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">124</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
@@ -303,11 +303,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">120</context>
+          <context context-type="linenumber">124</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">180</context>
+          <context context-type="linenumber">160</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
@@ -473,40 +473,40 @@
         <source>City<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">57</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">77</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5471941518357146105" datatype="html">
         <source>Postal code<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">64</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6297500517822371102" datatype="html">
         <source>Street<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">80</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">105</context>
+          <context context-type="linenumber">95</context>
         </context-group>
       </trans-unit>
       <trans-unit id="846378314224453021" datatype="html">
         <source>Email address <x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text one&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/receiver/receiver.component.html</context>
-          <context context-type="linenumber">104</context>
+          <context context-type="linenumber">108</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8064600913232758009" datatype="html">
@@ -520,14 +520,14 @@
         <source>Phone number<x id="START_TAG_DIV_1" ctype="x-div_1" equiv-text="&lt;div class=&quot;all_top_block_text_curcle&quot;&gt;"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;all_top_block_text-message text six&quot;&gt;"/>This field is required<x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">119</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6885844978916799621" datatype="html">
         <source>Budget</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/sender/sender.component.html</context>
-          <context context-type="linenumber">158</context>
+          <context context-type="linenumber">138</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2136484458544397346" datatype="html">
@@ -621,8 +621,8 @@
           <context context-type="linenumber">113</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6466969409681865142" datatype="html">
-        <source>NO</source>
+      <trans-unit id="3542042671420335679" datatype="html">
+        <source>No</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/components/forms/specifications/specifications.component.html</context>
           <context context-type="linenumber">116</context>
@@ -929,15 +929,11 @@
           <context context-type="linenumber">49,51</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5558377968017548690" datatype="html">
-        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. Costs. Time. Nerves. </source>
+      <trans-unit id="1676714806563224472" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Costs. Time. Nerves. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">7,9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
-          <context context-type="linenumber">5547,5549</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3064350297390043064" datatype="html">
@@ -1129,6 +1125,13 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
           <context context-type="linenumber">5544,5546</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2246195280786407931" datatype="html">
+        <source> Our vision is to help especially small and medium – sized companies by arranging comprehensive transport services that will help our business partners save what matters the most. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Costs. Time. Nerves. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/layout/home/home.component.html</context>
+          <context context-type="linenumber">5547,5549</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4993469915381526082" datatype="html">
@@ -1460,8 +1463,8 @@
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8172338162458743340" datatype="html">
-        <source>Our signature service? Air transportation. If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
+      <trans-unit id="6890932340764525083" datatype="html">
+        <source>Our signature service? Air transportation. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> If you order an import service, we will arrange the transport through our network of local expert partners proven over years which are operating in accordance with IATA and WCA. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We will hapilly handle export shipments from our Prague office or different europian airports. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> We can offer transportation in following modes: </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/layout/home/layouts/arrege/arrege.component.html</context>
           <context context-type="linenumber">10,12</context>

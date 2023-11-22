@@ -268,8 +268,8 @@ export class FormService{
     }
 
 
-    allLink = "https://we-del.cz:8443/api/v1/form/";
-    // allLink = "http://localhost:8080/api/v1/form/";
+    // allLink = "https://we-del.cz:8443/api/v1/form/";
+    allLink = "http://localhost:8080/api/v1/form/";
     getAllLink():string{
       return this.allLink;
     }
@@ -327,6 +327,22 @@ export class FormService{
     }
     setRequestACallDigitCode(digitCode: number){
       this.requestACallDigitCode = digitCode;
+    }
+
+    scrollTop(){
+      let targetBlock = document.querySelector(".quotation_title")
+      if (targetBlock) {
+        let scrollTopOffset = 0;
+        if(window.innerWidth >= 2086){
+          scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 120;
+        }else{
+          scrollTopOffset = targetBlock.getBoundingClientRect().top + window.pageYOffset - 90;
+        }
+        window.scrollTo({
+          top: scrollTopOffset,
+          behavior: 'smooth'
+        });
+      }
     }
 
 }

@@ -223,9 +223,9 @@ export class SenderComponent {
       }
     })
   }
-
   submitSender(){
     this.saveForm()
+    this.formService.scrollTop()
     this.homeComponent.setCurrencyForm("specifications")
   }
   addActive(numb: string){

@@ -5,20 +5,20 @@ import { HomeComponent } from 'src/app/shared/layout/home/home.component';
 import { QuotationComponent } from 'src/app/shared/layout/home/layouts/quotation/quotation.component';
 import { FormService } from 'src/app/shared/service/form.service';
 
-function asyncValidatorFunction(control: AbstractControl): Promise<any> {
-  return new Promise((resolve) => {
-    const fieldValue = control.value;
-    const onlyNumbers = /[0-9.]+$/.test(fieldValue); 
+// function asyncValidatorFunction(control: AbstractControl): Promise<any> {
+//   return new Promise((resolve) => {
+//     const fieldValue = control.value;
+//     const onlyNumbers = /[0-9.]+$/.test(fieldValue); 
     
-    setTimeout(() =>{
-    if (onlyNumbers) {
-      resolve(null);
-    } else {
-      resolve({ onlyNumbers: true });
-    }
-  },200)
-  });
-}
+//     setTimeout(() =>{
+//     if (onlyNumbers) {
+//       resolve(null);
+//     } else {
+//       resolve({ onlyNumbers: true });
+//     }
+//   },200)
+//   });
+// }
 
 @Component({
   selector: 'app-specifications',
@@ -112,10 +112,14 @@ export class SpecificationsComponent {
       Goods:['', [
         Validators.required
       ]],
-      Width0: ['', Validators.required, asyncValidatorFunction],
-      Length0: ['', Validators.required, asyncValidatorFunction],
-      Height0: ['', Validators.required, asyncValidatorFunction],
-      Quantity0: ['', Validators.required, asyncValidatorFunction,]
+      // Width0: ['', Validators.required, asyncValidatorFunction],
+      // Length0: ['', Validators.required, asyncValidatorFunction],
+      // Height0: ['', Validators.required, asyncValidatorFunction],
+      // Quantity0: ['', Validators.required, asyncValidatorFunction,]
+      Width0: ['',],
+      Length0: [''],
+      Height0: [''],
+      Quantity0: ['']
     })
   }
 
@@ -132,9 +136,11 @@ export class SpecificationsComponent {
     this.homeComponent.setCurrencyForm("sender")
     this.saveForm()
   }
+  
   submitSender(){
     this.saveForm()
-    console.log("width: " + this.formService.getSpecBoxesWidth() + "; \nlength: " + this.formService.getSpecBoxesLength()+ "; \nheight: " + this.formService.getSpecBoxesHeight() + "; \nquantity: " + this.formService.getSpecBoxesQuantity());
+    // console.log("width: " + this.formService.getSpecBoxesWidth() + "; \nlength: " + this.formService.getSpecBoxesLength()+ "; \nheight: " + this.formService.getSpecBoxesHeight() + "; \nquantity: " + this.formService.getSpecBoxesQuantity());
+    this.formService.scrollTop()
     this.homeComponent.setCurrencyForm("date")
   } 
   saveForm(){
@@ -167,11 +173,17 @@ export class SpecificationsComponent {
       this.specificationsForm.removeControl(`Length${i}`);
       this.specificationsForm.removeControl(`Quantity${i}`);
     };
+    // for(let i = 0; i < this.boxes.length; i++){
+    //   this.specificationsForm.addControl(`Width${i}`, this.fb.control(this.width[i], [Validators.required], [asyncValidatorFunction]));
+    //   this.specificationsForm.addControl(`Height${i}`, this.fb.control(this.height[i], [Validators.required], [asyncValidatorFunction]));
+    //   this.specificationsForm.addControl(`Length${i}`, this.fb.control(this.length[i], [Validators.required], [asyncValidatorFunction]));
+    //   this.specificationsForm.addControl(`Quantity${i}`, this.fb.control(this.quantity[i], [Validators.required], [asyncValidatorFunction]));
+    // };
     for(let i = 0; i < this.boxes.length; i++){
-      this.specificationsForm.addControl(`Width${i}`, this.fb.control(this.width[i], [Validators.required], [asyncValidatorFunction]));
-      this.specificationsForm.addControl(`Height${i}`, this.fb.control(this.height[i], [Validators.required], [asyncValidatorFunction]));
-      this.specificationsForm.addControl(`Length${i}`, this.fb.control(this.length[i], [Validators.required], [asyncValidatorFunction]));
-      this.specificationsForm.addControl(`Quantity${i}`, this.fb.control(this.quantity[i], [Validators.required], [asyncValidatorFunction]));
+      this.specificationsForm.addControl(`Width${i}`, this.fb.control(this.width[i]));
+      this.specificationsForm.addControl(`Height${i}`, this.fb.control(this.height[i]));
+      this.specificationsForm.addControl(`Length${i}`, this.fb.control(this.length[i]));
+      this.specificationsForm.addControl(`Quantity${i}`, this.fb.control(this.quantity[i]));
     };
     
   }

@@ -776,8 +776,8 @@ footer a{
 
 .county_container_shadow_start{
   position: absolute;
-  width: 96%;
-  height: 57px;
+  width: 90%;
+  height: 16px;
   top: 5px;
   transform: rotate(180deg);
   background: linear-gradient(359deg,#FFF 0%,rgba(239,243,246,0) 100%);
@@ -785,8 +785,8 @@ footer a{
 }
 .county_container_shadow_end{
   position: absolute;
-  width: 96%;
-  height: 35px;
+  width: 90%;
+  height: 16px;
   bottom: 0;
   transform: rotate(180deg);
   background: linear-gradient(180deg,#FFF 0%,rgba(255,255,255,0) 100%);
@@ -795,7 +795,7 @@ footer a{
 .phone_container_shadow_start{
   position: absolute;
   width: 90%;
-  height: 57px;
+  height: 16px;
   top: 5px;
   transform: rotate(180deg);
   background: linear-gradient(359deg,#FFF 0%,rgba(239,243,246,0) 100%);
@@ -804,7 +804,7 @@ footer a{
 .phone_container_shadow_end{
   position: absolute;
   width: 90%;
-  height: 35px;
+  height: 16px;
   bottom: 0;
   transform: rotate(180deg);
   background: linear-gradient(180deg,#FFF 0%,rgba(255,255,255,0) 100%);

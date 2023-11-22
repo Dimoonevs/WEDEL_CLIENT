@@ -456,6 +456,12 @@
 .dark .county_container_shadow_end{
     background: linear-gradient(180deg,#414447 0%,#41444700 100%) !important;
 }
+.dark .phone_container_shadow_start{
+    background: linear-gradient(359deg,#414447 0%,#41444700 100%) !important;
+}
+.dark .phone_container_shadow_end{
+    background: linear-gradient(180deg,#414447 0%,#41444700 100%) !important;
+}
 
 /* Quote */
 
@@ -580,33 +586,6 @@
 }
 
 
-
-@media (max-width: 839px){
-    .dark .img:nth-child(2){
-        display: none !important;
-    }
-    .dark .img:nth-child(3){
-        display: none !important;
-    }
-    .dark .img:nth-child(4){
-        display: block !important;
-    }
-    .dark .arrage_cards_card_fs{
-        background: url('src/assets/img/we_do_mobile_dark_fs_th.svg') 100% !important;
-    }
-    .dark .arrage_cards_card_sc{
-        background: url('src/assets/img/we_do_mobile_dark_sc.svg') 100% !important;
-    }
-    .dark .arrage_cards_card_th{
-        background: url('src/assets/img/we_do_mobile_dark_fs_th.svg') 100% !important;
-    }
-    .dark .arrage_cards_card .arrage_cards_card_dark_img{
-        display: block !important;
-    }
-    .dark .arrage_cards_card .arrage_cards_card_light_img{
-        display: none !important;
-    }
-}
 @media(min-width: 1653px){
     .arrage_cards_card_fs{
         background: url('src/assets/img/new_bg_card_fs_nbs.svg') 0 0/cover    no-repeat;
@@ -628,6 +607,32 @@
         background: url('src/assets/img/dark_card_we_do_th.svg') 0 0/cover   no-repeat;
     }
 }
+@media (max-width: 839px){
+    .dark .img:nth-child(2){
+        display: none !important;
+    }
+    .dark .img:nth-child(3){
+        display: none !important;
+    }
+    .dark .img:nth-child(4){
+        display: block !important;
+    }
+    .dark .arrage_cards_card_fs{
+        background: url('src/assets/img/we_do_mobile_dark_fs_th.svg') -363px -634px/auto auto no-repeat !important;
+    }
+    .dark .arrage_cards_card_sc{
+        background: url('src/assets/img/we_do_mobile_dark_sc.svg') -363px -634px/auto auto no-repeat !important;
+    }
+    .dark .arrage_cards_card_th{
+        background: url('src/assets/img/we_do_mobile_dark_fs_th.svg') -363px -634px/auto auto no-repeat !important;
+    }
+    .dark .arrage_cards_card .arrage_cards_card_dark_img{
+        display: block !important;
+    }
+    .dark .arrage_cards_card .arrage_cards_card_light_img{
+        display: none !important;
+    }
+}
 @media (max-width: 939px){
     .dark .form_contact{
         background: none !important;
@@ -636,3 +641,8 @@
 /* .dark .sleceted_header{
     background: rgba(251,251,251,.1)!important;
 } */
+@media (max-width: 939px){
+    .dark .all_select_text:hover{
+        background: rgba(83,115,153,.5)!important;
+    }
+}

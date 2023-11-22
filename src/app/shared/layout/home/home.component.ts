@@ -210,7 +210,9 @@ export class HomeComponent implements OnInit {
   }
   toogleSetupCookies(){
     let setupCookies = document.querySelector(".cookies_setup_wrapper")
+    let cookies = document.querySelector(".cookies")
     setupCookies?.classList.toggle("none_elem")
+    cookies?.classList.toggle("cookies_back")
   }
 
   toogleSelectedCookies(name: string, i: any){
