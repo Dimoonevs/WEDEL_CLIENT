@@ -371,6 +371,11 @@ button:disabled{
 }
 .quotation .all_select{
   width: 100%;
+  background: white;
+}
+.dark .quotation .all_select {
+  width: 100%;
+  background: rgba(106, 109, 112, 0.05);
 }
 .specification_custom_block--as{
   width: 116px;

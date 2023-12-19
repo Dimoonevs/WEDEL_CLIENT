@@ -74,7 +74,13 @@ export class DueDateComponent {
     return ('00' + n).slice(-2)
   }
   selectDate(date: Date | null): void {
-    this.selectedDate = date;
+    let currentDate = new Date()
+    if (date != null && date >= currentDate) {
+      this.selectedDate = date;
+    }
+    
+    
+    
   }
   generateCalendar(): void {
     const year = this.currentMonth.getFullYear();
@@ -147,6 +153,13 @@ export class DueDateComponent {
   choiseMonth(i:number, y: number){
     const nowDate = new Date()
     const choiseMonth = new Date(y, i)
+    // console.log(nowDate.getMonth())
+    // console.log(choiseMonth.getMonth())
+    // console.log(nowDate.getFullYear())
+    // console.log(choiseMonth.getFullYear())
+    // let oneMonth = new Date(0, 1, 0, 0, 0, 0, 0)
+    nowDate.setMonth(nowDate.getMonth() - 1)
+    
     if(choiseMonth > nowDate){
       this.currentMonth = choiseMonth
       this.changeCalendarChoise()

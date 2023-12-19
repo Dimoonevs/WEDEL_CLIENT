@@ -190,7 +190,6 @@ export class ReceiverComponent {
         }
       }
     )
-    console.log("Allery form loading")
   }
   getCountryAndCallingCodeAnddigits(){
     if (this.countries.length == 0 || this.callingCode.length == 0 || this.digitCode == 0){
